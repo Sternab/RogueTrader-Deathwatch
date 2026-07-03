@@ -81,7 +81,7 @@ namespace DeathwatchMod
                     MarineDoll.DollAvatar = avatar;   // cache for live chapter re-texture on flip
                     var anim = avatar.Animator;
                     var ees = avatar.EquipmentEntities;
-                    DeathwatchModMain.Log("[DollRig] post-UpdateDoll: animatorChild=" +
+                    DeathwatchModMain.LogDebug("[DollRig] post-UpdateDoll: animatorChild=" +
                         (anim == null ? "NULL" : anim.gameObject.name) +
                         " skeleton=" + (avatar.Skeleton == null ? "NULL" : avatar.Skeleton.name) +
                         " EEcount=" + (ees == null ? -1 : ees.Count) +
@@ -138,7 +138,7 @@ namespace DeathwatchMod
             originalAvatar.AtlasData = src.AtlasData;
             s_patched = true;
 
-            DeathwatchModMain.Log("[DollRig] CreateAvatar prefix: marine AnimatorPrefab=" +
+            DeathwatchModMain.LogDebug("[DollRig] CreateAvatar prefix: marine AnimatorPrefab=" +
                 (src.AnimatorPrefab == null ? "NULL" : src.AnimatorPrefab.name) +
                 " Skeleton=" + (src.Skeleton == null ? "NULL" : src.Skeleton.name) + ".");
         }

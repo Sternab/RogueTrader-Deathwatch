@@ -22,8 +22,15 @@ namespace DeathwatchMod
         // (This is the REAL Result blocker; the later "disposed unit" spam is just teardown fallout.)
         // Owlcat-proper fix = give the Spacemarine race a name list. We clone the Human entries (Imperial
         // human names suit Astartes) for every Gender/Mode. Read-time, idempotent, global.
+        // One-shot flags: the blueprint edits below persist for the game's lifetime, but the methods run from
+        // the NewGameRoot.StoryCampaigns getter, which fires repeatedly. Set true only on the confirmed-done
+        // paths, so the reflection + Linq scan runs once and a not-yet-loaded first call still retries.
+        private static bool s_marineNamesReady;
+        private static bool s_ulfarVoiceReady;
+
         internal static void EnsureMarineNames()
         {
+            if (s_marineNamesReady) return;
             try
             {
                 var root = BlueprintRoot.Instance;
@@ -35,7 +42,7 @@ namespace DeathwatchMod
 
                 var list = field.GetValue(pcn) as System.Collections.Generic.List<PregenCharacterNameList>;
                 if (list == null) return;
-                if (list.Any(e => e != null && e.Race == Kingmaker.Blueprints.Race.Spacemarine)) return; // already added
+                if (list.Any(e => e != null && e.Race == Kingmaker.Blueprints.Race.Spacemarine)) { s_marineNamesReady = true; return; } // already added
 
                 var humans = list.Where(e => e != null && e.Race == Kingmaker.Blueprints.Race.Human).ToList();
                 int added = 0;
@@ -50,6 +57,7 @@ namespace DeathwatchMod
                     });
                     added++;
                 }
+                s_marineNamesReady = true;
                 DeathwatchModMain.Log("[Names] Added " + added + " Spacemarine name list(s) (cloned from Human).");
             }
             catch (Exception e) { DeathwatchModMain.Log("[Names][ERR] EnsureMarineNames: " + e); }
@@ -80,17 +88,19 @@ namespace DeathwatchMod
         // no event name is hardcoded and a game patch to Ulfar's barks cannot silently break the preview.
         private static void EnsureUlfarPreviewSound()
         {
+            if (s_ulfarVoiceReady) return;
             var asks = ResourcesLibrary.BlueprintsCache.Load("3ea153cb4f714f1798572e89c7cbd1e9") as BlueprintUnitAsksList;
             if (asks == null) { DeathwatchModMain.Log("[Voices][ERR] Ulfar_Barks blueprint not found."); return; }
             UnitAsksComponent comp = null;
             foreach (var c in asks.ComponentsArray) { comp = c as UnitAsksComponent; if (comp != null) break; }
             if (comp == null) { DeathwatchModMain.Log("[Voices][ERR] Ulfar_Barks has no UnitAsksComponent."); return; }
-            if (!string.IsNullOrEmpty(comp.PreviewSound)) return;   // already set (idempotent; or a future game fix)
+            if (!string.IsNullOrEmpty(comp.PreviewSound)) { s_ulfarVoiceReady = true; return; }   // already set (idempotent; or a future game fix)
 
             var entries = comp.Selected != null ? comp.Selected.Entries : null;
             string ev = (entries != null && entries.Length > 0 && entries[0] != null) ? entries[0].AkEvent : null;
             if (string.IsNullOrEmpty(ev)) { DeathwatchModMain.Log("[Voices][ERR] Ulfar_Barks has no Selected bark to use as a preview."); return; }
             comp.PreviewSound = ev;
+            s_ulfarVoiceReady = true;
             DeathwatchModMain.Log("[Voices] Ulfar chargen voice: preview sound set to " + ev + ".");
         }
 

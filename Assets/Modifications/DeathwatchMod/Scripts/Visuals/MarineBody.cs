@@ -29,7 +29,7 @@ namespace DeathwatchMod
                 if (!string.IsNullOrEmpty(cv.PauldronEEGuid))
                     ch.AddEquipmentEntities(new[] { new Kingmaker.ResourceLinks.EquipmentEntityLink { AssetId = cv.PauldronEEGuid } }, false);
                 ch.IsDirty = true;
-                DeathwatchModMain.Log("[Pauldron] preview pauldron EE -> " + (cv.PauldronEEGuid ?? "none(base)") + ".");
+                DeathwatchModMain.LogDebug("[Pauldron] preview pauldron EE -> " + (cv.PauldronEEGuid ?? "none(base)") + ".");
             }
             catch (Exception e) { DeathwatchModMain.Log("[Pauldron][ERR] ApplyMarinePauldron: " + e); }
         }

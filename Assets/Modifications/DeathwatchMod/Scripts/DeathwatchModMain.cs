@@ -147,6 +147,15 @@ namespace DeathwatchMod
                 Modification.Logger.Log("[Deathwatch] " + msg);
         }
 
+        // Verbose developer diagnostics (rig/EE dumps, per-flip traces) are off by default so a released
+        // install stays quiet; flip to true when reproducing a rendering issue. Low-volume milestone lines
+        // ([Init], [Tile], errors) stay on Log() so a user's bug report still shows the useful trace.
+        internal static bool VerboseLogging;
+        public static void LogDebug(string msg)
+        {
+            if (VerboseLogging) Log(msg);
+        }
+
         // Mod-localized UI string: keys live in Localization\enGB.json (loaded into the game's current pack by
         // the OwlcatModification loader). Falls back to the English default if the pack has no entry (pack not
         // loaded yet / missing key), so player-facing labels can never render blank.
