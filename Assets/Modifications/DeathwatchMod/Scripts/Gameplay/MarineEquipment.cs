@@ -17,10 +17,11 @@ namespace DeathwatchMod
     // CreateManifestAndSettings.cs), honoured at runtime by the required MicroPatches. Once a build confirms
     // this patch's [PruneDeadEEs] line never fires across area transitions, delete this whole class.
     //
-    // INVISIBLE-MARINE FIX + SELF-HEAL (vanilla engine lifecycle flaw). On an area/cutscene transition the engine
-    // unloads asset bundles via Bundle.Unload(true), which DESTROYS the shared EquipmentEntity assets a unit's
-    // worn gear loaded by reference -- the mod's single-bundle EEs (chapter pauldron, custom helmet) are exactly
-    // what fires this, because the mod bundle is in no area's dependency list. The live body's
+    // INVISIBLE-MARINE FIX + SELF-HEAL (engine bundle-lifecycle interaction). BundlesLoadService REFERENCE-COUNTS
+    // loaded bundles (BundleData.RequestCount); when the last requester releases a bundle and the count hits 0 it
+    // is Bundle.Unload(true)'d (BundlesLoadService.cs:199), which DESTROYS its assets. The mod's content bundle
+    // (custom EEs: chapter pauldron, helmet) is only transiently requested, so on a transition nothing holds a
+    // request on it and it unloads -- the root-cause fix above keeps a permanent request on it. The live body's
     // Character.EquippedItemsEntities / EquipmentEntities still strong-reference the corpses (the lists are only
     // appended on equip), and UpdateCharacter() reads e.name on them -- a destroyed Unity object passes the
     // != null fake-null guard yet throws NRE on .name, unwinding the whole build (invisible marine). Probing

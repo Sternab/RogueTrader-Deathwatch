@@ -74,12 +74,14 @@ namespace OwlcatModification.Editor.Build.Tasks
             #endregion
 
             #region Deathwatch
-            // Keep the mod's custom-EE bundle (<Target>_content) resident. It is in no area's dependency
-            // graph, so on an area/cutscene transition the loader unloads it and the EquipmentEntities are
-            // destroyed (invisible marine / wrong-chapter pauldron). Make the persistent
-            // <Target>_BlueprintDirectReferences bundle depend on it so the loader keeps it loaded for the
-            // session. REQUIRES MicroPatches at runtime: vanilla OMM's own mod bundle-dependency loading is
-            // incomplete, and its OwlModDirectReferenceBundleDependenciesFix patch is what honours this.
+            // Keep the mod's custom-EE bundle (<Target>_content) resident. BundlesLoadService reference-counts
+            // bundles (BundleData.RequestCount) and Unload(true)'s one when its count hits 0; the content bundle
+            // is only transiently requested, so on an area/cutscene transition it drops to 0 and unloads,
+            // destroying the EquipmentEntities (invisible marine / wrong-chapter pauldron). Make the persistent
+            // <Target>_BlueprintDirectReferences bundle DEPEND on it: BundlesLoadService.LoadDependencies then
+            // holds a request on it while the persistent bundle is loaded, so its RequestCount never reaches 0.
+            // REQUIRES MicroPatches at runtime: it completes OMM's own mod bundle-dependency resolution (its
+            // OwlModDirectReferenceBundleDependenciesFix patch) so this declared dependency is actually honoured.
             {
                 var deps = m_ModificationSettings.Settings.BundleDependencies.BundleToDependencies;
                 var refBundle = deps.Keys.FirstOrDefault(k => k.EndsWith("_BlueprintDirectReferences"));
