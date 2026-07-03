@@ -19,8 +19,8 @@ MonoBehaviour:
     Description: Create and play a Deathwatch Space Marine in the base campaign.
       A fully converted character creator (Chapter, Speciality, Deed of Renown, Burden
       of Service), full-size armoured Astartes with per-Chapter heraldry, custom
-      voices, and an Astartes arsenal. Saves containing a marine require this mod;
-      saves without one are unaffected.
+      voices, and an Astartes arsenal. Requires the Infinite Museion DLC. Saves
+      containing a marine require this mod; saves without one are unaffected.
     Author: Sternab
     Repository: 
     HomePage: 

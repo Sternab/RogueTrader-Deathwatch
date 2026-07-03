@@ -15,8 +15,10 @@ in the base campaign.
 ## Requirements
 
 - Warhammer 40,000: Rogue Trader (current patch).
-- No other mods required. DLC ownership is not required as far as testing shows (the mod reuses assets
-  that ship with the base install); if anything renders wrong on a no-DLC install, please report it.
+- **The Infinite Museion story DLC.** The Deathwatch armour, helmet and related assets this mod is
+  built around are that DLC's content, so owning it is a requirement of using this mod. Please support
+  Owlcat and Games Workshop by owning the content you play with.
+- No other mods required.
 
 ## Installation
 
