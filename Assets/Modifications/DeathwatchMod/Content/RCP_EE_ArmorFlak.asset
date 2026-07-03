@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1166898237, guid: dc02cf7d53edc6949bc969aa0a28f014, type: 3}
+  m_Name: RCP_EE_ArmorFlak
+  m_EditorClassIdentifier: 
+  IndexPairs:
+  - Name: 'CR_Armor_Gray0 : CR_Armor_Black'
+    PrimaryIndex: 0
+    SecondaryIndex: 8
+  - Name: CR_Black
+    PrimaryIndex: 14
+    SecondaryIndex: 60
+  - Name: CR_Red1
+    PrimaryIndex: 11
+    SecondaryIndex: 34
+  - Name: CR_Red2
+    PrimaryIndex: 12
+    SecondaryIndex: 15
+  - Name: CR_Orange1
+    PrimaryIndex: 16
+    SecondaryIndex: 42
+  - Name: CR_Orange2
+    PrimaryIndex: 17
+    SecondaryIndex: 47
+  - Name: CR_Yellow1
+    PrimaryIndex: 23
+    SecondaryIndex: 44
+  - Name: CR_Yellow2
+    PrimaryIndex: 24
+    SecondaryIndex: 2
+  - Name: CR_Green1
+    PrimaryIndex: 29
+    SecondaryIndex: 60
+  - Name: CR_Green2
+    PrimaryIndex: 31
+    SecondaryIndex: 62
+  - Name: "\u0421R_Chorda"
+    PrimaryIndex: 35
+    SecondaryIndex: 54
+  - Name: CR_Green4
+    PrimaryIndex: 36
+    SecondaryIndex: 55
+  - Name: CR_Blue1
+    PrimaryIndex: 40
+    SecondaryIndex: 19
+  - Name: CR_Blue2
+    PrimaryIndex: 41
+    SecondaryIndex: 65
+  - Name: CR_Blue3
+    PrimaryIndex: 46
+    SecondaryIndex: 56
+  - Name: CR_Blue4
+    PrimaryIndex: 47
+    SecondaryIndex: 36
+  - Name: CR_Violet1
+    PrimaryIndex: 53
+    SecondaryIndex: 41
+  - Name: CR_Violet2
+    PrimaryIndex: 54
+    SecondaryIndex: 18
+  - Name: 'CR_Armor_Cyan3 : CR_Armor_Brown6'
+    PrimaryIndex: 42
+    SecondaryIndex: 68
+  - Name: 'CR_Armor_Cyan6 : CR_Armor_Red2'
+    PrimaryIndex: 44
+    SecondaryIndex: 11
+  PrimaryIndex: -1
+  SecondaryIndex: -1

@@ -1,0 +1,201 @@
+{
+  "AssetId": "54787d5b3495488493df14b3797b7fdf",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_HW_AddFacts$ImperialWorld",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "Deathwatch M-2: grant ImperialWorld_Homeworld so its +10 attribute child-phase prereq is met.",
+        "m_Facts": [
+          "!bp_927671f69b384423af7c5faa1fa1dbd5"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$AddFacts$DW_AstartesBaseline",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "Deathwatch: grants the shared DW_AstartesBaseline umbrella feature (ba5e11ae..., the single source of truth for the 13-fact Astartes baseline; AddFacts applies nested facts transitively). Replaces the 13-fact list previously pasted verbatim into all 10 chapters.",
+        "m_Facts": [
+          "!bp_ba5e11aead0f4c6e8f2d3a1b7c9e0f42"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "1cc0a2001d424bb8b1e30329f0f8693d, AddKingmakerEquipmentEntity",
+        "name": "$AddKingmakerEquipmentEntity$DW_WhiteScars_armour",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_EquipmentEntity": "!bp_07cfd04378c4f4147418f3852f0ae418"
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$54787d5b3495488493df14b3797b7fdf-000000000001",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerAgility",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$54787d5b3495488493df14b3797b7fdf-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerPerception",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$54787d5b3495488493df14b3797b7fdf-000000000003",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillAthletics",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Chapter: White Scars (ChargenHomeworld). No prerequisites.",
+    "m_DisplayName": {
+      "m_Key": "91199928-5ef0-4f9d-975a-ea099a9f2bbe",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "cd33523e-bd25-4a60-82d2-f087372b1cb5",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "CharacteristicBonus, Homeworld",
+      "MainGroup": "Homeworld"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

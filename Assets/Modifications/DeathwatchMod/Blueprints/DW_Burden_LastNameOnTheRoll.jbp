@@ -1,0 +1,119 @@
+{
+  "AssetId": "9851baa56eaa486eb7700fda81e13f64",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$9851baa56eaa486eb7700fda81e13f64-000000000001",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillAwareness",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$9851baa56eaa486eb7700fda81e13f64-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerFellowship",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": -5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Burden: The Last Name on the Roll (ChargenDarkestHour). No prerequisites.",
+    "m_DisplayName": {
+      "m_Key": "abe232e5-1b94-4f05-bdfa-f99150ad9feb",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "5060a5db-7618-4abf-bbcf-a5aee742fcd7",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "Debuff",
+      "MainGroup": "Debuff"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

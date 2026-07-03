@@ -1,0 +1,81 @@
+{
+  "AssetId": "ba5e11aead0f4c6e8f2d3a1b7c9e0f42",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$AddFacts$DW_AstartesBaseline_Facts",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Comment": "Deathwatch: the SINGLE source of truth for the 13-fact Astartes baseline (AstartesPhysiology statline + Bolter/Plasma/Melta/Flame/PowerArmour proficiencies + AP increase + SpaceMarine_Protection + SpaceMarineImmunity + BlackCarapace + SwiftHunter + the two Adeptus Astartes equipment-gating facts). Each DW_Chapter_* grants THIS feature; AddFacts applies nested facts transitively (Owlcat umbrella pattern, e.g. JaeFeatureList). Was previously a byte-identical 13-fact list pasted into all 10 chapter blueprints.",
+        "m_Facts": [
+          "!bp_7d77a9579dd3ad5515e428edad844594",
+          "!bp_19673fbc918241c6add6710025f67058",
+          "!bp_dddb6710ce25490e98608a2c07fbfc51",
+          "!bp_2818d76d82b341adb2b792ed52f4c203",
+          "!bp_fc6d24dc538f45dc97f10f8b6486c043",
+          "!bp_5069a24051354e50a663da0125e19b02",
+          "!bp_064ce50cc4fa448a9e4c71c874301309",
+          "!bp_35d391c624b34b1e9f19c493005158a1",
+          "!bp_e4ca8c3dfa934776a624dfd5e7726374",
+          "!bp_a45e159c80c64bd388ee31533451f778",
+          "!bp_c0649956290f4ca6be345541ef440c9a",
+          "!bp_950565a69d144391897cdc0024747755",
+          "!bp_affa5fdded7e404b910b990f5d344a8c"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Deathwatch: shared Astartes baseline umbrella feature, granted by all 10 DW_Chapter_* features.",
+    "m_DisplayName": {
+      "m_Key": "ba5e11ae-0001-4000-8000-000000000001",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "ba5e11ae-0002-4000-8000-000000000002",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

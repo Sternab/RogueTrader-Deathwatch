@@ -1,0 +1,119 @@
+{
+  "AssetId": "eb44334bd56f4e48ab9066b3b3786d0b",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$eb44334bd56f4e48ab9066b3b3786d0b-000000000001",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerWeaponSkill",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$eb44334bd56f4e48ab9066b3b3786d0b-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillPersuasion",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Deed: Oath Kept in Ash (ChargenMomentOfTriumph). No prerequisites.",
+    "m_DisplayName": {
+      "m_Key": "008ba2cd-059c-456c-864b-9c70dc2dbf30",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "70cdd68c-8c67-4f1b-a3fd-4b09b798f660",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "HeroicAct",
+      "MainGroup": "HeroicAct"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

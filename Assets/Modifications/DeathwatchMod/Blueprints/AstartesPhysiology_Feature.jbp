@@ -1,0 +1,118 @@
+{
+  "AssetId": "7d77a9579dd3ad5515e428edad844594",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "WarhammerWeaponSkill",
+        "Value": 10
+      },
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000003",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "WarhammerBallisticSkill",
+        "Value": 10
+      },
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000004",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "WarhammerStrength",
+        "Value": 15
+      },
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000005",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "WarhammerToughness",
+        "Value": 15
+      },
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000006",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "WarhammerWillpower",
+        "Value": 10
+      },
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000007",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "WarhammerPerception",
+        "Value": 5
+      },
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000008",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "SkillAthletics",
+        "Value": 10
+      },
+      {
+        "$type": "a2844c135c0324e439072bd3cc2f9260, AddStatBonus",
+        "name": "$AddStatBonus$a1f00000-0000-0000-0000-000000000009",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Descriptor": "Racial",
+        "Stat": "HitPoints",
+        "Value": 15
+      },
+      {
+        "$type": "b1bd63be736e4001b4fd57a2c26cda42, TwoHandedWeaponsInOneHand",
+        "name": "$TwoHandedWeaponsInOneHand$a1f00000-0000-0000-0000-00000000000a",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Comment": "Deathwatch: hold the two-handed psyker Staff one-handed in the OFF hand and animate it as a native marine one-handed-melee style. The marine's COMPLETE off-hand melee sets (CombatIdle + CombatWalk + OffHandAttack) are Fencing / BrutalOneHanded / Knife / Fist; TwoHandedHammer has an attack but NO idle (=T-pose). Currently BrutalOneHanded (swap m_TargetAnimationStyle to Fencing/Knife to taste). Grounded native clips, no custom FBX.",
+        "m_SlotRestriction": "Secondary",
+        "m_SourceAnimationStyles": [ "Staff" ],
+        "m_TargetAnimationStyle": "BrutalOneHanded"
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Deathwatch: Astartes Physiology baseline statline (Large + characteristic/skill/wounds bonuses)",
+    "m_DisplayName": { "m_Key": "d5f34d8a-e396-425c-806f-a877dc65c683", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "m_Description": { "m_Key": "d3271785-3e5c-4593-a6a0-3f186e945fa8", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": { "Composition": "And", "List": [] },
+    "FeatureTypes": [],
+    "TalentIconInfo": { "AllGroups": 0, "MainGroup": 0 },
+    "m_Acronym": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": { "ShadowDeleted": false }
+}

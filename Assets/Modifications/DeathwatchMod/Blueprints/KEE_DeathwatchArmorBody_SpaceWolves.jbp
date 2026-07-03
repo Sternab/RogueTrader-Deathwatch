@@ -1,0 +1,26 @@
+{
+  "AssetId": "16cfeced3a9340958ae5bdfe5c0678cd",
+  "Data": {
+    "$type": "856d2f6e26e25c04fad05a1429d1b579, KingmakerEquipmentEntity",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Space Wolf WORN-armour KEE: power armour (a6b3fde3) + backpack (28df2710) + Space Wolf pauldron overlay (466362ab, Layer 201). Worn by DeathwatchArmor_SpaceWolves_Item so the chapter pauldron rides the EQUIPPED armour -- shows when worn, comes off when removed. NO helmet (head-slot item only). Clone of KEE_DeathwatchArmorBody (dea7c0de..02) + the chapter pauldron.",
+    "m_MaleArray": [
+      { "AssetId": "a6b3fde39450d1045896d92fe76fc489" },
+      { "AssetId": "28df2710412911b4fbc25637560b9053" },
+      { "AssetId": "466362ab9c226c04c86cd26ee8616a6d" }
+    ],
+    "m_FemaleArray": [
+      { "AssetId": "a6b3fde39450d1045896d92fe76fc489" },
+      { "AssetId": "28df2710412911b4fbc25637560b9053" },
+      { "AssetId": "466362ab9c226c04c86cd26ee8616a6d" }
+    ],
+    "m_RaceDependent": false,
+    "m_RaceDependentArrays": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

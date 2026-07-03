@@ -1,0 +1,412 @@
+﻿{
+  "strings": {
+    "DW.Chargen.MarineTileName": {
+      "Offset": 0,
+      "Text": "Custom Space Marine"
+    },
+    "DW.Chargen.Phase.Homeworld": {
+      "Offset": 0,
+      "Text": "Chapter"
+    },
+    "DW.Chargen.Phase.Occupation": {
+      "Offset": 0,
+      "Text": "Speciality"
+    },
+    "DW.Chargen.Phase.MomentOfTriumph": {
+      "Offset": 0,
+      "Text": "Deed of Renown"
+    },
+    "DW.Chargen.Phase.DarkestHour": {
+      "Offset": 0,
+      "Text": "Burden of Service"
+    },
+    "d5f34d8a-e396-425c-806f-a877dc65c683": {
+      "Offset": 0,
+      "Text": "Astartes Physiology"
+    },
+    "dea7c0de-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Deathwatch Armour"
+    },
+    "dea7c0de-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "Deathwatch Helmet"
+    },
+    "ba5e11ae-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Adeptus Astartes"
+    },
+    "ba5e11ae-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "The full inheritance of a Space Marine: superhuman physiology, mastery of bolt, plasma, melta and flame weapons, power armour training, and the transhuman resilience of the Adeptus Astartes."
+    },
+    "3ea153cb-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Ulfar"
+    },
+    "e4ca8c3d-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Adeptus Astartes Resilience"
+    },
+    "e4ca8c3d-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "An Astartes is proof against the terrors of the warp and the disabling tricks of lesser foes: immune to Warp-born fear, never knocked prone, and resistant to control effects."
+    },
+    "d3271785-3e5c-4593-a6a0-3f186e945fa8": {
+      "Offset": 0,
+      "Text": "Your body is the work of the Emperor's design and your Chapter's long discipline. Ossmodula hardened bone, implanted organs, black carapace, and decades of hypno-indoctrination have made you more than human. You are newly sworn to this Watch Station, but you do not enter its service as a mortal soldier."
+    },
+    "5d599268-87fb-4b3c-8087-d1c5e9032ac0": {
+      "Offset": 0,
+      "Text": "Ultramarines"
+    },
+    "1189a61c-754b-45df-9e0e-ab491e56688c": {
+      "Offset": 0,
+      "Text": "The Ultramarines carry the weight of Roboute Guilliman's example into every theatre of war. They prize order, adaptability, and command under pressure. In the Deathwatch, such a Battle-Brother often becomes the fixed point around which less predictable allies can rally."
+    },
+    "87cc5491-7588-42e5-b74e-c4f87e5913ea": {
+      "Offset": 0,
+      "Text": "Xenos Bane"
+    },
+    "bf01f9fd-d320-43fd-9884-19bc056562cb": {
+      "Offset": 0,
+      "Text": "Your kill tally includes a strain, brood, or warband whose name is marked for destruction in the Watch Station's archives. You know the alien by scent, spoor, and failure pattern."
+    },
+    "7a707354-8719-43c4-ac63-d03c35c2f80f": {
+      "Offset": 0,
+      "Text": "Oath of Silence"
+    },
+    "8852fbd6-4a73-4b2d-9eb6-90b010c2f023": {
+      "Offset": 0,
+      "Text": "Some part of your record is sealed by command of the Watch. You obey without protest, but silence has made a fortress of your manner."
+    },
+    "3bbd6f41-c077-4e50-b688-38eee6534297": {
+      "Offset": 0,
+      "Text": "Blood Angels"
+    },
+    "ed9853f7-5c28-4f52-988e-d4bbc2ebd3da": {
+      "Offset": 0,
+      "Text": "The sons of Sanguinius are warriors of terrible grace, noble in bearing and swift to wrath when blood is spilled. In the Deathwatch, a Blood Angel brings beauty, discipline, and a hunger for close battle that must be mastered as much as unleashed."
+    },
+    "90e4c477-ac14-4f4c-9655-210056524774": {
+      "Offset": 0,
+      "Text": "Dark Angels"
+    },
+    "13025d74-f91e-44e0-8bb0-c6913f501f10": {
+      "Offset": 0,
+      "Text": "The Dark Angels keep their own counsel even among sworn brothers. They are relentless hunters, grim custodians of ancient shame, and masters of patient war. In the Deathwatch, their silence is often mistaken for distrust, until the quarry is found and the sentence is carried out."
+    },
+    "330b27d7-68ff-4c25-9ddd-34283a6cde47": {
+      "Offset": 0,
+      "Text": "Black Templars"
+    },
+    "5f7b0cb0-efdd-451e-8b75-fdf8a3f1f5f9": {
+      "Offset": 0,
+      "Text": "The Black Templars wage the Emperor's wars as an endless crusade. Their faith is iron, their hatred of the witch absolute, and their answer to doubt is the blade. In the Deathwatch, they are fearsome assault warriors whose fervour must be aimed with care."
+    },
+    "91199928-5ef0-4f9d-975a-ea099a9f2bbe": {
+      "Offset": 0,
+      "Text": "White Scars"
+    },
+    "cd33523e-bd25-4a60-82d2-f087372b1cb5": {
+      "Offset": 0,
+      "Text": "The White Scars strike as a storm front, swift, laughing, and gone before the foe can answer. Their sons favour movement, sudden violence, and the freedom of the open kill zone. In the Deathwatch, a White Scar is often first to find the enemy's weak flank."
+    },
+    "dd58a7ab-d596-40f1-b3be-48ce902a23f5": {
+      "Offset": 0,
+      "Text": "Iron Hands"
+    },
+    "d7555140-195e-49ad-9a1b-29864c39958a": {
+      "Offset": 0,
+      "Text": "The Iron Hands regard frailty as a debt to be paid in iron. Their warriors are cold, exacting, and pitiless toward weakness in themselves most of all. In the Deathwatch, their discipline and machine lore are invaluable, though seldom comforting."
+    },
+    "c5deaa9c-4396-4e6f-ad33-1f8b8dd78537": {
+      "Offset": 0,
+      "Text": "Space Wolves"
+    },
+    "2eacc5a9-446c-437f-8c03-eeafdbdabdc4": {
+      "Offset": 0,
+      "Text": "The Space Wolves are hunters, oath-keepers, and warriors of fierce instinct. They bring a pack's loyalty and a predator's sense for weakness. In the Deathwatch, their wild manner hides a proven eye for battlefield truth."
+    },
+    "6d220250-e299-4dcf-a4a4-94e34f362217": {
+      "Offset": 0,
+      "Text": "Imperial Fists"
+    },
+    "00a11ea6-b41e-4381-b58f-ccff453b88a8": {
+      "Offset": 0,
+      "Text": "The Imperial Fists are the wall that does not break. They endure, fortify, and answer impossible odds with colder resolve. In the Deathwatch, an Imperial Fist is trusted to hold the line when the line has ceased to exist."
+    },
+    "0be5b487-edf3-4b6b-a442-c54c729f8660": {
+      "Offset": 0,
+      "Text": "Raven Guard"
+    },
+    "89e3279b-6c6c-4f96-8e45-9243f676dd7a": {
+      "Offset": 0,
+      "Text": "The Raven Guard wage war through patience, silence, and sudden execution. They know that a single cut in the right place can spare a thousand lesser blows. In the Deathwatch, they are scouts, assassins, and hunters of command nodes."
+    },
+    "d50786f7-efc5-45b4-9c2e-460491c15507": {
+      "Offset": 0,
+      "Text": "Salamanders"
+    },
+    "b5551238-d256-4db3-a54c-3e498ec1cdf9": {
+      "Offset": 0,
+      "Text": "The Salamanders are artisans of war and guardians of those the Imperium would otherwise spend without thought. They endure flame, pain, and loss with solemn dignity. In the Deathwatch, their wrath burns hottest when the helpless stand behind them."
+    },
+    "b46f48f9-af4f-4e2c-959f-0823caedbe67": {
+      "Offset": 0,
+      "Text": "Assault Marine"
+    },
+    "5bbea062-8ba3-41fb-9c96-489e090b15c2": {
+      "Offset": 0,
+      "Text": "You are the blade at the moment of impact. Whether descending on jump pack fire or crossing a breach under withering fire, your duty is to close with the enemy and break them where they stand."
+    },
+    "f4253843-7538-41ad-8322-4e3d6e25de55": {
+      "Offset": 0,
+      "Text": "Apothecary"
+    },
+    "22d64e29-b961-4b67-8f8b-4ae0b1af9324": {
+      "Offset": 0,
+      "Text": "You preserve the gene-seed of the Chapter and the lives of those who bear it. Your hands know both mercy and execution, for a fallen Battle-Brother is never merely a casualty."
+    },
+    "37a7f13c-ddb7-4fe2-939f-f018ccc7f7e6": {
+      "Offset": 0,
+      "Text": "Devastator Marine"
+    },
+    "ca3c6843-8ef5-4229-9af1-f11b6c555229": {
+      "Offset": 0,
+      "Text": "You are the kill-team's wrath made sustained and methodical. Where others advance, you anchor the field, measure the range, and reduce the foe by fire and shell."
+    },
+    "738eb6ec-92ea-4ea7-8d5e-c67a92c22a55": {
+      "Offset": 0,
+      "Text": "Tactical Marine"
+    },
+    "986bd49b-64d6-4fd0-88c4-0c945cbae674": {
+      "Offset": 0,
+      "Text": "You are trained to answer any theatre of war. Bolter, blade, breach, command, and counterattack all fall within your charge. In the kill-team, you are the Battle-Brother who makes separate strengths act as one."
+    },
+    "7d83d5a6-b6ab-408d-84e6-de70ff4e3f77": {
+      "Offset": 0,
+      "Text": "Techmarine"
+    },
+    "2a5af241-87f4-4a15-be40-2dbd770ce8ba": {
+      "Offset": 0,
+      "Text": "You have been entrusted to the mysteries of the Machine Cult without ceasing to be a son of your Chapter. Armour, weapon, gate, and engine answer to your rites when lesser hands would only profane them."
+    },
+    "d8703ddd-097f-420c-a7fb-475fe9148fc7": {
+      "Offset": 0,
+      "Text": "Librarian"
+    },
+    "584ccc88-70ac-4ec2-a9e0-af12dcf1da8c": {
+      "Offset": 0,
+      "Text": "You bear the perilous gift of the psyker under the strictures of Chapter, Librarius, and Watch. Your mind is a weapon and a gate, and every use of it is an oath renewed against damnation."
+    },
+    "9a3353a2-0a20-4c79-a61f-ab7fb29441c6": {
+      "Offset": 0,
+      "Text": "Held the Breach"
+    },
+    "8dbf1dce-9a75-4b91-8288-fe69db49061a": {
+      "Offset": 0,
+      "Text": "You stood where retreat would have doomed the line. Bodies broke against your armour until the passage was choked with the dead and the living could advance behind you."
+    },
+    "f0854202-d6ab-4009-931f-1119f5cf24a7": {
+      "Offset": 0,
+      "Text": "Severed the Synapse"
+    },
+    "ba03394b-76f4-4d24-a126-c4f28a799334": {
+      "Offset": 0,
+      "Text": "You identified the command beast, witch-node, or officer strain and cut it from the host. The enemy lived, but its will died first."
+    },
+    "03a0b023-eda8-49d5-90b8-764f7ef01f4f": {
+      "Offset": 0,
+      "Text": "Relic Recovered"
+    },
+    "ac6af487-1c4d-4e5a-a62d-b6000a1ebd96": {
+      "Offset": 0,
+      "Text": "You returned a weapon, helm, standard, or gene-vault fragment from ground declared lost. The object was not merely saved. It was judged worthy of blood."
+    },
+    "43c6edd6-1857-4cfc-9760-6a187b322ab1": {
+      "Offset": 0,
+      "Text": "Witchfire Quenched"
+    },
+    "33c0bab1-ae81-461f-8692-8f0fbb889e38": {
+      "Offset": 0,
+      "Text": "A psyker, sorcerer, or warp-touched abomination met your denial and failed to pass it. You have seen the veil strain and did not look away."
+    },
+    "23aafc81-69c1-4315-8fe6-9fce5093261c": {
+      "Offset": 0,
+      "Text": "Decapitation Strike"
+    },
+    "19afe91b-42ba-42d6-b7f5-5eb706962adc": {
+      "Offset": 0,
+      "Text": "You were part of a strike that ended a war by ending its master. The memory is clean: entry, target, confirmation, extraction."
+    },
+    "8202f84d-7019-4505-92c2-b3e19a8a5712": {
+      "Offset": 0,
+      "Text": "Last Brother Standing"
+    },
+    "2296045d-2409-411f-869a-86f2a048ba69": {
+      "Offset": 0,
+      "Text": "Your squad was broken around you, yet the mission order was fulfilled. The Watch does not honour survival. It honours what survival was spent to achieve."
+    },
+    "008ba2cd-059c-456c-864b-9c70dc2dbf30": {
+      "Offset": 0,
+      "Text": "Oath Kept in Ash"
+    },
+    "70cdd68c-8c67-4f1b-a3fd-4b09b798f660": {
+      "Offset": 0,
+      "Text": "You swore an objective would be taken before dawn, and dawn found you wounded among the embers with the oath complete. Such records are brief. They do not need ornament."
+    },
+    "abe232e5-1b94-4f05-bdfa-f99150ad9feb": {
+      "Offset": 0,
+      "Text": "The Last Name on the Roll"
+    },
+    "5060a5db-7618-4abf-bbcf-a5aee742fcd7": {
+      "Offset": 0,
+      "Text": "You returned alone from a deployment whose names are still spoken in the Reclusiam. You do not waste the lives of brothers, because you have heard what follows waste."
+    },
+    "0e922d6f-6832-40f6-b5e3-87711c58a058": {
+      "Offset": 0,
+      "Text": "Gene-Seed Debt"
+    },
+    "16ea80e6-7bb7-45f9-ae9d-4acb4fdedc1e": {
+      "Offset": 0,
+      "Text": "You failed to recover what should never have been lost, or paid too much to recover it. Since that day, every fallen brother is a charge placed in your hands."
+    },
+    "8225d0dd-29c3-4c41-addb-a4904b86b1aa": {
+      "Offset": 0,
+      "Text": "Censure of the Watch"
+    },
+    "97d494ed-e377-4c7e-8a0c-b16ab513ad72": {
+      "Offset": 0,
+      "Text": "Your deed was necessary, but not clean. The Watch did not cast you out. It marked the record and placed you where necessity is common."
+    },
+    "c8369e8f-bbc5-4aa6-9d65-d69d4cb328b1": {
+      "Offset": 0,
+      "Text": "Scar of the Warp"
+    },
+    "364efb41-2a61-4df7-aae6-7d8c5ff8150b": {
+      "Offset": 0,
+      "Text": "The immaterium touched the mission and left a sign upon your memory. You know the taste of false voices and the cost of hesitation."
+    },
+    "69250695-69c6-4b3a-86ed-20c01c765da4": {
+      "Offset": 0,
+      "Text": "The Beast Within"
+    },
+    "aa3569c0-f6bf-431a-ade1-61a332894ab0": {
+      "Offset": 0,
+      "Text": "Something in battle answers too quickly when blood is near. Discipline holds it in check, but discipline is not the same as peace."
+    },
+    "ae6224a8-453d-476e-a4e7-fcbc6d5318bd": {
+      "Offset": 0,
+      "Text": "Machine Debt"
+    },
+    "73d0d015-2342-4b17-8acf-d4d032e63bd4": {
+      "Offset": 0,
+      "Text": "Armour, weapon, or sacred engine failed under your charge, and the price was paid in lives. You have learned to listen when the machine spirit gives warning."
+    },
+    "5ad0c63c-9dac-43c2-bbdd-451f108fb639": {
+      "Offset": 0,
+      "Text": "Broken Chain of Command"
+    },
+    "acd792b3-38ad-4100-86ff-e4c57ee34ab2": {
+      "Offset": 0,
+      "Text": "Orders failed, vox died, and command passed to you in the space between one heartbeat and the next. Victory followed, but so did scrutiny."
+    },
+    "92104d53-5868-4822-be1d-03e8658c685d": {
+      "Offset": 0,
+      "Text": "Deathwatch Ultramarine Mark VII \"Aquila Armour\""
+    },
+    "0bcf575a-f67c-4641-a723-aa7b9b1141cf": {
+      "Offset": 0,
+      "Text": "Armour of a son of Guilliman, repainted in the black of the Long Vigil. Its bearer fights by the Codex Astartes, lending the Deathwatch the measured precision of the XIII."
+    },
+    "d60d05ab-958e-4ff3-95df-b9d2bd5f25a5": {
+      "Offset": 0,
+      "Text": "Deathwatch Black Templar Mark VII \"Aquila Armour\""
+    },
+    "65cd65a4-64e6-47da-8756-c8500148493e": {
+      "Offset": 0,
+      "Text": "Armour of a Sword Brother, crusade-oaths chained across its black ceramite. Its wearer carries the unquenchable zeal of the Eternal Crusade into the hunt."
+    },
+    "a8163d91-e25e-4382-a9cb-60196055330a": {
+      "Offset": 0,
+      "Text": "Deathwatch Dark Angel Mark VII \"Aquila Armour\""
+    },
+    "23e1907d-6355-4078-8d3a-ef2727c201db": {
+      "Offset": 0,
+      "Text": "Armour of the First Legion, worn by one of the Unforgiven. Its bearer keeps his own counsel and his Chapter's secrets, watchful even among kill-team brothers."
+    },
+    "9246cdbe-9e76-439b-96c3-4f553a0eb2e1": {
+      "Offset": 0,
+      "Text": "Deathwatch Imperial Fist Mark VII \"Aquila Armour\""
+    },
+    "e9fc4a79-904f-4e31-b651-b52ea8bad690": {
+      "Offset": 0,
+      "Text": "Siege-scarred armour of a son of Dorn, proof against punishment few could endure. Its wearer holds the line where others would break."
+    },
+    "4a1a9c0b-fa3f-46e2-aed1-a977d3e0c5d1": {
+      "Offset": 0,
+      "Text": "Deathwatch Iron Hand Mark VII \"Aquila Armour\""
+    },
+    "6f1be1fe-2630-40d7-97e9-de074c03324d": {
+      "Offset": 0,
+      "Text": "Augmetic-laced armour of a son of Manus, flesh given over to the certainty of iron. Its bearer counts weakness a thing to be cut away."
+    },
+    "3d5c7e42-6ddf-419d-bb52-cff57ee8dda5": {
+      "Offset": 0,
+      "Text": "Deathwatch Raven Guard Mark VII \"Aquila Armour\""
+    },
+    "2f9f8500-8896-4b12-bd62-a11fcdbc4b2a": {
+      "Offset": 0,
+      "Text": "Lightened armour of a son of Corax, built for the strike from shadow. Its wearer is gone before the enemy knows he was there."
+    },
+    "ddcb65ec-d73b-4fa9-9c92-092ccc9f06ad": {
+      "Offset": 0,
+      "Text": "Deathwatch Salamander Mark VII \"Aquila Armour\""
+    },
+    "8e4a756b-9d49-47af-9429-bece85d10db2": {
+      "Offset": 0,
+      "Text": "Fire-blackened armour of a son of Vulkan, forged by a hand that never abandons the innocent. Its bearer answers the xenos with flame."
+    },
+    "a68ee514-c0be-4133-8a3b-a031e9e87b6d": {
+      "Offset": 0,
+      "Text": "Deathwatch Space Wolf Mark VII \"Aquila Armour\""
+    },
+    "15c27f0d-346c-42a4-b2c8-a31532bfb521": {
+      "Offset": 0,
+      "Text": "Trophy-hung armour of a son of Russ, heavy with the reek of Fenris. Its wearer hunts with a wildness the Codex could never tame."
+    },
+    "71864722-62b1-4d8d-9f81-aa9348cc9b27": {
+      "Offset": 0,
+      "Text": "Deathwatch White Scar Mark VII \"Aquila Armour\""
+    },
+    "ddc770cd-ac20-4f8a-b821-8d166f5cf018": {
+      "Offset": 0,
+      "Text": "Swift armour of a son of the Khan, made for the lightning strike. Its bearer runs down prey that thinks itself already escaped."
+    },
+    "e16a4b73-a567-4c50-a920-439736de17c0": {
+      "Offset": 0,
+      "Text": "Deathwatch Blood Angel Mark VII \"Aquila Armour\""
+    },
+    "093a661a-a97b-431a-a69e-fbd7c3d5ff34": {
+      "Offset": 0,
+      "Text": "Noble armour of a son of Sanguinius, beautiful and terrible alike. Its bearer masters the Red Thirst, turning the curse of his blood into a weapon."
+    },
+    "28f8fb11-0cb5-4ba1-8cb6-a3e5de49689c": {
+      "Offset": 0,
+      "Text": "Suppressing Fire"
+    },
+    "2d6a152c-5b69-4320-88c1-4b9333fba2aa": {
+      "Offset": 0,
+      "Text": "Rate of Fire is increased for heavy ranged weapons (bolt, melta, plasma, and flame), and increased further when firing from cover."
+    },
+    "6b97b316-fb4b-4bbf-857b-5939227b0816": {
+      "Offset": 0,
+      "Text": "Space Marine"
+    },
+    "40b5edcb-829b-4181-99f6-44ea18c79da4": {
+      "Offset": 0,
+      "Text": "Apothecary"
+    }
+  }
+}

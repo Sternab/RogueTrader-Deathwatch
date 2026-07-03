@@ -1,0 +1,90 @@
+{
+  "AssetId": "225fc3af09194f9fbcecc49abb93554b",
+  "Data": {
+    "$type": "579ddce9e6b6d8e44b05e0715cc66741, BlueprintItemArmor",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Black Templar Deathwatch power armour. Per-chapter worn item: visual = KEE_DeathwatchArmorBody_BlackTemplars (power armour + backpack + Black Templar pauldron). Equipped on the committed Black Templar marine by the CompleteCharGen hook, so the chapter pauldron rides the armour. Clone of DeathwatchArmor_Item (26ad42d8).",
+    "m_DisplayName": {
+      "m_Key": "d60d05ab-958e-4ff3-95df-b9d2bd5f25a5",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "65cd65a4-64e6-47da-8756-c8500148493e",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "",
+      "fileid": 0
+    },
+    "m_FlavorText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedNameText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Armours",
+    "m_Rarity": "Pattern",
+    "m_Tag": "None",
+    "m_IsNotable": false,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 20,
+    "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_EquipmentEntity": "!bp_31f46f8a58884864aa86f52fee3b1262",
+    "m_EquipmentEntityAlternatives": [],
+    "m_ForcedRampColorPresetIndex": 0,
+    "m_Type": "!bp_befc6d221bed4b019245ff828822c3eb",
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 65,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 6,
+    "m_VisualParameters": {
+      "m_SoundSwitch": {
+        "Value": "Metal",
+        "Group": "BodyType"
+      },
+      "m_InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "m_AnimationFoleySound": "ArmorPowerMediumMovement",
+      "m_OverrideMissEffect": null
+    },
+    "m_Enchantments": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

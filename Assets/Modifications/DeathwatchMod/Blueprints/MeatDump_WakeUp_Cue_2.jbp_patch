@@ -1,0 +1,101 @@
+{
+  "TargetGuid": "d7c178f942e64faebc7518eb79f7823f",
+  "FieldOverrides": [],
+  "ArrayPatches": [
+    {
+      "OperationType": 8,
+      "Value": {
+        "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+        "name": "$AddItemToPlayer$4f0e66491d7f46978576b9946413b476",
+        "m_ItemToGive": "!bp_d6d65832c72148e1b3b224f7d8c652ad",
+        "Silent": false,
+        "Quantity": 1,
+        "Identify": true,
+        "Equip": false,
+        "EquipOn": null,
+        "PreferredWeaponSet": 0,
+        "m_Hand": "Any",
+        "ForceEquip": false,
+        "ErrorIfDidNotEquip": true
+      },
+      "TargetValue": null,
+      "FieldName": "OnShow.Actions"
+    },
+    {
+      "OperationType": 5,
+      "Value": {
+        "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+        "name": "$Conditional$dw-astartes-meatdump-gear",
+        "Comment": "Deathwatch: Astartes wake with lore gear (bolt pistol + combat knife); humans get the vanilla ZanniPistol.",
+        "ConditionsChecker": {
+          "Operation": "And",
+          "Conditions": [
+            {
+              "$type": "f310985bf2724df4a97b165f74b806e8, HasFact",
+              "name": "$HasFact$dw-astartes-physiology-check",
+              "Not": false,
+              "Unit": {
+                "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+                "name": "$PlayerCharacter$dw-main-character"
+              },
+              "m_Fact": "!bp_7d77a9579dd3ad5515e428edad844594"
+            }
+          ]
+        },
+        "IfTrue": {
+          "Actions": [
+            {
+              "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+              "name": "$AddItemToPlayer$dw-astartes-boltpistol",
+              "m_ItemToGive": "!bp_5e1bae4c2c7e4bd99411173f8dbe74f0",
+              "Silent": false,
+              "Quantity": 1,
+              "Identify": true,
+              "Equip": true,
+              "EquipOn": null,
+              "PreferredWeaponSet": 1,
+              "m_Hand": "Primary",
+              "ForceEquip": true,
+              "ErrorIfDidNotEquip": true
+            },
+            {
+              "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+              "name": "$AddItemToPlayer$dw-astartes-combatknife",
+              "m_ItemToGive": "!bp_88de523b22324c0b84373ac545f344cb",
+              "Silent": false,
+              "Quantity": 1,
+              "Identify": true,
+              "Equip": true,
+              "EquipOn": null,
+              "PreferredWeaponSet": 1,
+              "m_Hand": "Secondary",
+              "ForceEquip": true,
+              "ErrorIfDidNotEquip": true
+            }
+          ]
+        },
+        "IfFalse": {
+          "Actions": [
+            {
+              "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+              "name": "$AddItemToPlayer$dw-human-zannipistol",
+              "m_ItemToGive": "!bp_d6d65832c72148e1b3b224f7d8c652ad",
+              "Silent": false,
+              "Quantity": 1,
+              "Identify": true,
+              "Equip": false,
+              "EquipOn": null,
+              "PreferredWeaponSet": 0,
+              "m_Hand": "Any",
+              "ForceEquip": false,
+              "ErrorIfDidNotEquip": true
+            }
+          ]
+        }
+      },
+      "TargetValue": null,
+      "FieldName": "OnShow.Actions"
+    }
+  ],
+  "ComponentsPatches": []
+}

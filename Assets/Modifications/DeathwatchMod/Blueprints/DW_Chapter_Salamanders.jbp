@@ -1,0 +1,290 @@
+{
+  "AssetId": "29576f957088476287bd9d11b7586726",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_HW_AddFacts$a3d2b9ea-4e36-4985-9f1b-e75e2fdee05d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_56513668e80d49c1ac337b170b863d45"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_HW_AddFeaturesToLevelUp$723ee0dc-b6e7-449a-b24b-25a543833b02",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_838681f4b3bd43af946a2fd6830df12b",
+          "!bp_8d4d3a30aba54421912a4d966f68713b",
+          "!bp_6ee56b90ea554830b83d2331bceeb3b8",
+          "!bp_bc8a2fc656e94d5b9d78c6bd344495e0",
+          "!bp_fa5b541a1e024827a9a29f0bc1f831cb"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_HW_AddFeaturesToLevelUp$6c8421bc-2e63-4c00-a2fe-543bac0432e8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_838681f4b3bd43af946a2fd6830df12b",
+          "!bp_8d4d3a30aba54421912a4d966f68713b",
+          "!bp_6ee56b90ea554830b83d2331bceeb3b8",
+          "!bp_bc8a2fc656e94d5b9d78c6bd344495e0",
+          "!bp_fa5b541a1e024827a9a29f0bc1f831cb"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_HW_AddFeaturesToLevelUp$307c9e7a-7bf2-46e8-a120-ba318433d3a0",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_838681f4b3bd43af946a2fd6830df12b",
+          "!bp_8d4d3a30aba54421912a4d966f68713b",
+          "!bp_6ee56b90ea554830b83d2331bceeb3b8",
+          "!bp_bc8a2fc656e94d5b9d78c6bd344495e0",
+          "!bp_fa5b541a1e024827a9a29f0bc1f831cb"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_HW_AddFeaturesToLevelUp$7cfa228b-9f66-40e6-abb3-bd9a0a0cda66",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_838681f4b3bd43af946a2fd6830df12b",
+          "!bp_8d4d3a30aba54421912a4d966f68713b",
+          "!bp_6ee56b90ea554830b83d2331bceeb3b8",
+          "!bp_bc8a2fc656e94d5b9d78c6bd344495e0",
+          "!bp_fa5b541a1e024827a9a29f0bc1f831cb"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_HW_AddFeaturesToLevelUp$60d64584-ff60-4285-9c50-a9bc24865132",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_838681f4b3bd43af946a2fd6830df12b",
+          "!bp_8d4d3a30aba54421912a4d966f68713b",
+          "!bp_6ee56b90ea554830b83d2331bceeb3b8",
+          "!bp_bc8a2fc656e94d5b9d78c6bd344495e0",
+          "!bp_fa5b541a1e024827a9a29f0bc1f831cb"
+        ]
+      },
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$AddFacts$DW_AstartesBaseline",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "Deathwatch: grants the shared DW_AstartesBaseline umbrella feature (ba5e11ae..., the single source of truth for the 13-fact Astartes baseline; AddFacts applies nested facts transitively). Replaces the 13-fact list previously pasted verbatim into all 10 chapters.",
+        "m_Facts": [
+          "!bp_ba5e11aead0f4c6e8f2d3a1b7c9e0f42"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "1cc0a2001d424bb8b1e30329f0f8693d, AddKingmakerEquipmentEntity",
+        "name": "$AddKingmakerEquipmentEntity$DW_Salamanders_armour",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_EquipmentEntity": "!bp_07cfd04378c4f4147418f3852f0ae418"
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$29576f957088476287bd9d11b7586726-000000000001",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerToughness",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$29576f957088476287bd9d11b7586726-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerFellowship",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$29576f957088476287bd9d11b7586726-000000000003",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillTechUse",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Chapter: Salamanders (ChargenHomeworld). No prerequisites.",
+    "m_DisplayName": {
+      "m_Key": "d50786f7-efc5-45b4-9c2e-460491c15507",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "b5551238-d256-4db3-a54c-3e498ec1cdf9",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "CharacteristicBonus, Homeworld",
+      "MainGroup": "Homeworld"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

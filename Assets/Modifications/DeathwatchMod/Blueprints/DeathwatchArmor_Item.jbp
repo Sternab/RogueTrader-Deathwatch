@@ -1,0 +1,90 @@
+{
+  "AssetId": "26ad42d8d5665d606a55ffb7fdf0f681",
+  "Data": {
+    "$type": "579ddce9e6b6d8e44b05e0715cc66741, BlueprintItemArmor",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Deathwatch power armour (base, no chapter pauldron) - visual = KEE_DeathwatchArmorBody (body+backpack, NO helmet; the full armour+helmet feature-EE is KEE_DeathwatchArmor on the chapter features).",
+    "m_DisplayName": {
+      "m_Key": "dea7c0de-0001-4000-8000-000000000001",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "",
+      "fileid": 0
+    },
+    "m_FlavorText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedNameText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Armours",
+    "m_Rarity": "Pattern",
+    "m_Tag": "None",
+    "m_IsNotable": false,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 20,
+    "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_EquipmentEntity": "!bp_dea7c0de00224033804455667788aa02",
+    "m_EquipmentEntityAlternatives": [],
+    "m_ForcedRampColorPresetIndex": 0,
+    "m_Type": "!bp_befc6d221bed4b019245ff828822c3eb",
+    "m_OverrideDamageAbsorption": true,
+    "m_DamageAbsorption": 65,
+    "m_OverrideDamageDeflection": true,
+    "m_DamageDeflection": 6,
+    "m_VisualParameters": {
+      "m_SoundSwitch": {
+        "Value": "Metal",
+        "Group": "BodyType"
+      },
+      "m_InventoryEquipSound": "UI_INV_PowerArmour_Equip_Play",
+      "m_InventoryPutSound": "UI_INV_PowerArmour_Put_Play",
+      "m_InventoryTakeSound": "UI_INV_PowerArmour_Take_Play",
+      "m_AnimationFoleySound": "ArmorPowerMediumMovement",
+      "m_OverrideMissEffect": null
+    },
+    "m_Enchantments": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

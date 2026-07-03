@@ -1,0 +1,22 @@
+{
+  "AssetId": "dea7c0de00114022803344556677ee01",
+  "Data": {
+    "$type": "856d2f6e26e25c04fad05a1429d1b579, KingmakerEquipmentEntity",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Deathwatch helmet-only KEE for the optional head-slot item DeathwatchHelmet_Item (bdc4a907). EE-ROUTE TEST 2026-06-27: repointed from the vanilla shared SM helmet EE 29f3a430 to the custom mod EE_DeathwatchHelmet (3a17136f, HH_SpaceMarine3 FBX RendererPrefab) to validate per-instance custom EEs. If the marine renders NO helmet, the mod EE GUID is not resolving at runtime (asset-registration issue), not a mesh problem.",
+    "m_MaleArray": [
+      { "AssetId": "3a17136f7468aa94e98796828373fdd0" }
+    ],
+    "m_FemaleArray": [
+      { "AssetId": "3a17136f7468aa94e98796828373fdd0" }
+    ],
+    "m_RaceDependent": false,
+    "m_RaceDependentArrays": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

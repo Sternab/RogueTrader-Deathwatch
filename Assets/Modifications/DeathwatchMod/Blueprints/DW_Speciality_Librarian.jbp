@@ -1,0 +1,412 @@
+{
+  "AssetId": "8e283ed69c0d4f569a2cb0e7963362d7",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_PSY_AddFacts$d75ae2e6-8e7a-4603-a948-5c565b793923",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_Facts": [
+          "!bp_8ec7af173e174f269460f11528828bb0"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$796af199-5cd9-4175-9b91-40ef8dd5d411",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_3d0bf78f300a4c618d0f8f2f8f38d429",
+          "!bp_222a60a6bf4c442289378b037c186fde",
+          "!bp_92e05f1a6eb34c44b39353f67bf56601",
+          "!bp_d6a82ff97f524294b8323ce50c100a48",
+          "!bp_5f569e5e1dbe4271aa3b22f3cbf69e8c",
+          "!bp_aae32c4d49544102a03df15f18d48adc",
+          "!bp_f8963dfa805e4acb9063a66416c683aa",
+          "!bp_0618c379e430483bab1a17b2de559bc5",
+          "!bp_152d8edf303f4142a49f8b625757d168",
+          "!bp_2f6272c8f22e4532830b19ae53978505",
+          "!bp_6404b6b08a064695a2abf838cfada6f2",
+          "!bp_f403445daae54d8787a91a93480169c7",
+          "!bp_d90301a8393f49149882c774ed73b1a3",
+          "!bp_f92bf6d353374502953387488d2ba3e2"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$73ea990e-10fa-4d79-983b-0acb8f7f06d9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "ActiveAbility",
+        "m_Features": [
+          "!bp_196d258a786c42e68eb4a468efb0089e",
+          "!bp_5fa599e5cffc4bab93d6b07f68e0e6ba",
+          "!bp_c074bd8a210743f48cbb536e3c7c677f",
+          "!bp_b4d60f6a91b94d02840a58fd9df863cd",
+          "!bp_a6a38016b90148878593d977d96b8264"
+        ]
+      },
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_PSY_AddFacts$f752c2de-5763-4ec7-af1c-c7920c2b7ba3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_Facts": [
+          "!bp_511f7b772a894c16a3150236abb8cf0f"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$8bb1439f-3d9d-492a-ace7-c3fb36578295",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "ChargenPsyker",
+        "m_Features": [
+          "!bp_89473c8809654dcfa003d1c1e6399c70",
+          "!bp_c06c977585be4dea87cce167188ab68c",
+          "!bp_18647a9ed2ea4d98b950cfb8cae7c91a",
+          "!bp_8ecd0d7d642e4e73a40e02ad781bfafa",
+          "!bp_3bc17e7685f343a39b6a800f7f95a623"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$208b7baa-4f55-48f0-bb37-7a7ad5a2c319",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_3d0bf78f300a4c618d0f8f2f8f38d429",
+          "!bp_222a60a6bf4c442289378b037c186fde",
+          "!bp_92e05f1a6eb34c44b39353f67bf56601",
+          "!bp_d6a82ff97f524294b8323ce50c100a48",
+          "!bp_5f569e5e1dbe4271aa3b22f3cbf69e8c",
+          "!bp_aae32c4d49544102a03df15f18d48adc",
+          "!bp_f8963dfa805e4acb9063a66416c683aa",
+          "!bp_0618c379e430483bab1a17b2de559bc5",
+          "!bp_152d8edf303f4142a49f8b625757d168",
+          "!bp_2f6272c8f22e4532830b19ae53978505",
+          "!bp_6404b6b08a064695a2abf838cfada6f2",
+          "!bp_f403445daae54d8787a91a93480169c7",
+          "!bp_d90301a8393f49149882c774ed73b1a3",
+          "!bp_f92bf6d353374502953387488d2ba3e2"
+        ]
+      },
+      {
+        "$type": "2f54dfbdcdce4761bcfd711b2409c34b, AddStringToFactDescription",
+        "name": "$DW_PSY_AddStringToFactDescription$06e38194-5928-40ce-a603-7ad177056493",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_AdditionalString": {
+          "m_Key": "",
+          "m_OwnerString": "",
+          "m_OwnerPropertyPath": "",
+          "m_JsonPath": "",
+          "Shared": {
+            "assetguid": "c2e201a050b73c349a90d31a8ad5c93a",
+            "stringkey": "4b8653d9-102a-46bf-8268-0488ac5f6500"
+          }
+        },
+        "JunctionType": "AfterNewString"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$5476522e-2b7e-4cc4-b908-ef5cd8f8e0da",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_3d0bf78f300a4c618d0f8f2f8f38d429",
+          "!bp_222a60a6bf4c442289378b037c186fde",
+          "!bp_92e05f1a6eb34c44b39353f67bf56601",
+          "!bp_d6a82ff97f524294b8323ce50c100a48",
+          "!bp_5f569e5e1dbe4271aa3b22f3cbf69e8c",
+          "!bp_aae32c4d49544102a03df15f18d48adc",
+          "!bp_f8963dfa805e4acb9063a66416c683aa",
+          "!bp_0618c379e430483bab1a17b2de559bc5",
+          "!bp_152d8edf303f4142a49f8b625757d168",
+          "!bp_2f6272c8f22e4532830b19ae53978505",
+          "!bp_6404b6b08a064695a2abf838cfada6f2",
+          "!bp_f403445daae54d8787a91a93480169c7",
+          "!bp_d90301a8393f49149882c774ed73b1a3",
+          "!bp_f92bf6d353374502953387488d2ba3e2"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$3b7de272-2f8f-4c45-8d7a-80c6890a62c5",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_3d0bf78f300a4c618d0f8f2f8f38d429",
+          "!bp_222a60a6bf4c442289378b037c186fde",
+          "!bp_92e05f1a6eb34c44b39353f67bf56601",
+          "!bp_d6a82ff97f524294b8323ce50c100a48",
+          "!bp_5f569e5e1dbe4271aa3b22f3cbf69e8c",
+          "!bp_aae32c4d49544102a03df15f18d48adc",
+          "!bp_f8963dfa805e4acb9063a66416c683aa",
+          "!bp_0618c379e430483bab1a17b2de559bc5",
+          "!bp_152d8edf303f4142a49f8b625757d168",
+          "!bp_2f6272c8f22e4532830b19ae53978505",
+          "!bp_6404b6b08a064695a2abf838cfada6f2",
+          "!bp_f403445daae54d8787a91a93480169c7",
+          "!bp_d90301a8393f49149882c774ed73b1a3",
+          "!bp_f92bf6d353374502953387488d2ba3e2"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$e24f1591-8d6d-4687-87c5-ec69d537c807",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_3d0bf78f300a4c618d0f8f2f8f38d429",
+          "!bp_222a60a6bf4c442289378b037c186fde",
+          "!bp_92e05f1a6eb34c44b39353f67bf56601",
+          "!bp_d6a82ff97f524294b8323ce50c100a48",
+          "!bp_5f569e5e1dbe4271aa3b22f3cbf69e8c",
+          "!bp_aae32c4d49544102a03df15f18d48adc",
+          "!bp_f8963dfa805e4acb9063a66416c683aa",
+          "!bp_0618c379e430483bab1a17b2de559bc5",
+          "!bp_152d8edf303f4142a49f8b625757d168",
+          "!bp_2f6272c8f22e4532830b19ae53978505",
+          "!bp_6404b6b08a064695a2abf838cfada6f2",
+          "!bp_f403445daae54d8787a91a93480169c7",
+          "!bp_d90301a8393f49149882c774ed73b1a3",
+          "!bp_f92bf6d353374502953387488d2ba3e2"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$01956e74-44d3-4508-b6fe-cbe75650f311",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerAbility",
+        "m_Features": [
+          "!bp_196d258a786c42e68eb4a468efb0089e",
+          "!bp_5fa599e5cffc4bab93d6b07f68e0e6ba",
+          "!bp_c074bd8a210743f48cbb536e3c7c677f",
+          "!bp_b4d60f6a91b94d02840a58fd9df863cd",
+          "!bp_a6a38016b90148878593d977d96b8264"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$b4df2261-cb86-4826-95e6-53d8672ae471",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerAbility",
+        "m_Features": [
+          "!bp_196d258a786c42e68eb4a468efb0089e",
+          "!bp_5fa599e5cffc4bab93d6b07f68e0e6ba",
+          "!bp_c074bd8a210743f48cbb536e3c7c677f",
+          "!bp_b4d60f6a91b94d02840a58fd9df863cd",
+          "!bp_a6a38016b90148878593d977d96b8264"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_PSY_AddFeaturesToLevelUp$36a74c2f-9661-45ef-8957-cab1c511884e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerAbility",
+        "m_Features": [
+          "!bp_196d258a786c42e68eb4a468efb0089e",
+          "!bp_5fa599e5cffc4bab93d6b07f68e0e6ba",
+          "!bp_c074bd8a210743f48cbb536e3c7c677f",
+          "!bp_b4d60f6a91b94d02840a58fd9df863cd",
+          "!bp_a6a38016b90148878593d977d96b8264"
+        ]
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$8e283ed69c0d4f569a2cb0e7963362d7-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillLoreWarp",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$8e283ed69c0d4f569a2cb0e7963362d7-000000000003",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerWillpower",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Speciality: Librarian (ChargenOccupation). Black Templars cannot pick Librarian (PrerequisiteFact Not BlackTemplars d02ff6ea).",
+    "m_DisplayName": {
+      "m_Key": "d8703ddd-097f-420c-a7fb-475fe9148fc7",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "584ccc88-70ac-4ec2-a9e0-af12dcf1da8c",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": [
+        {
+          "$type": "40a1bdb738834fb69a296a2677235b35, PrerequisiteFact",
+          "name": "$PrerequisiteFact$DW-Librarian-NotBlackTemplars",
+          "Not": true,
+          "m_Fact": "!bp_d02ff6ea509442b3b0b2e97c23b267b3",
+          "MinRank": 0
+        }
+      ]
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "Occupation",
+      "MainGroup": "Occupation"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

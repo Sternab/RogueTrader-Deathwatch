@@ -1,0 +1,245 @@
+{
+  "AssetId": "1ecda642d54c491a96ebf767cb12d7fb",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_OCC_AddFacts$d75ae2e6-8e7a-4603-a948-5c565b793923",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_33638b28fa5e49748f4a7a5eed5ec035"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_OCC_AddFacts$de5979a1-52f0-478e-8ca7-201f8df363cf",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_171462027afe4bc6be83799f44fa9995"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$1669fee2-7be3-4f8b-98f9-f1249ceb59ad",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_94b7a24311684783b34e0c53c41c58cf",
+          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
+          "!bp_c5acfe1f0e02491cb86047de9b200e48",
+          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
+          "!bp_825a60180393428a96e4008a0579afe7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$53d0bc34-3c17-4bd1-ab96-79a07a902e81",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_94b7a24311684783b34e0c53c41c58cf",
+          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
+          "!bp_c5acfe1f0e02491cb86047de9b200e48",
+          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
+          "!bp_825a60180393428a96e4008a0579afe7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$6c78c82d-44c6-4263-add6-96ecf9589d30",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_94b7a24311684783b34e0c53c41c58cf",
+          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
+          "!bp_c5acfe1f0e02491cb86047de9b200e48",
+          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
+          "!bp_825a60180393428a96e4008a0579afe7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$583067bf-1812-484e-8207-19c5dc107052",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_94b7a24311684783b34e0c53c41c58cf",
+          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
+          "!bp_c5acfe1f0e02491cb86047de9b200e48",
+          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
+          "!bp_825a60180393428a96e4008a0579afe7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$e56d91ba-a459-4ce4-957d-f8717ce0b2cb",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_94b7a24311684783b34e0c53c41c58cf",
+          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
+          "!bp_c5acfe1f0e02491cb86047de9b200e48",
+          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
+          "!bp_825a60180393428a96e4008a0579afe7"
+        ]
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$1ecda642d54c491a96ebf767cb12d7fb-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerFellowship",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$1ecda642d54c491a96ebf767cb12d7fb-000000000003",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillLoreImperium",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Speciality: Tactical Marine (ChargenOccupation). No prerequisites.",
+    "m_DisplayName": {
+      "m_Key": "738eb6ec-92ea-4ea7-8d5e-c67a92c22a55",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "986bd49b-64d6-4fd0-88c4-0c945cbae674",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "Occupation",
+      "MainGroup": "Occupation"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "TargetGuid": "e4ca8c3dfa934776a624dfd5e7726374",
+  "FieldOverrides": [
+    {
+      "FieldValue": "e4ca8c3d-0001-4000-8000-000000000001",
+      "FieldName": "m_DisplayName.m_Key"
+    },
+    {
+      "FieldValue": "e4ca8c3d-0002-4000-8000-000000000002",
+      "FieldName": "m_Description.m_Key"
+    }
+  ],
+  "ArrayPatches": [],
+  "ComponentsPatches": []
+}

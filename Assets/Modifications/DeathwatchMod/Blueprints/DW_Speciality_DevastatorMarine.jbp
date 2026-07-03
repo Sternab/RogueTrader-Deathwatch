@@ -1,0 +1,194 @@
+{
+  "AssetId": "6109110b5f3242828a3104f4b1180556",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_OCC_AddFacts$d75ae2e6-8e7a-4603-a948-5c565b793923",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_e6a279ca5979435fbb0d39d9d60d7f8a"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$1669fee2-7be3-4f8b-98f9-f1249ceb59ad",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_5285cce7ae36415c8cd09211ad6869fa",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_92857aad95f14b4d9bb9575e7c3f626a"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$f34015af-59fb-452e-862e-463cb809e625",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_5285cce7ae36415c8cd09211ad6869fa",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_92857aad95f14b4d9bb9575e7c3f626a"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$bd221775-d430-4c48-94a0-15629ca27a78",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_5285cce7ae36415c8cd09211ad6869fa",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_92857aad95f14b4d9bb9575e7c3f626a"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$833b8a32-77d4-4b29-8bfb-0c5bea0988bf",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_5285cce7ae36415c8cd09211ad6869fa",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_92857aad95f14b4d9bb9575e7c3f626a"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$ef9798c8-a1f2-4b94-b563-fc5151387ce1",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_5285cce7ae36415c8cd09211ad6869fa",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_92857aad95f14b4d9bb9575e7c3f626a"
+        ]
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$6109110b5f3242828a3104f4b1180556-000000000003",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillDemolition",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Speciality: Devastator Marine (ChargenOccupation). No prerequisites.",
+    "m_DisplayName": {
+      "m_Key": "37a7f13c-ddb7-4fe2-939f-f018ccc7f7e6",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "ca3c6843-8ef5-4229-9af1-f11b6c555229",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "Occupation",
+      "MainGroup": "Occupation"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

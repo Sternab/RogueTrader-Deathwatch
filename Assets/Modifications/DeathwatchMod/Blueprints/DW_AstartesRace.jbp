@@ -1,0 +1,1267 @@
+{
+  "AssetId": "2302e1d517f847e6aef04c8c4a24d598",
+  "Data": {
+    "$type": "9a3d49fbb9d4c174d8ec1090679fe3e3, BlueprintRace",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Playable Astartes race (Deathwatch, Option RACE). Clone of HumanRace with marine RaceId/Size/preset/physiology.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": true,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": true,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false,
+    "SoundKey": "Human",
+    "RaceId": "Spacemarine",
+    "SelectableRaceStat": true,
+    "Size": "Medium",
+    "m_Features": [
+      "!bp_7d77a9579dd3ad5515e428edad844594"
+    ],
+    "m_Presets": [
+      "!bp_d68a2e2af8c0df3aaed55e6ad4910ddc"
+    ],
+    "MaleOptions": {
+      "Heads": [
+        {
+          "AssetId": "dc1548e59149dc54d87144395bf7c703"
+        },
+        {
+          "AssetId": "bfb4f14842767a64ba36173ceaacfa4a"
+        },
+        {
+          "AssetId": "d1ecd2a4af8a9204f8163bba4605259c"
+        }
+      ],
+      "Eyebrows": [
+        {
+          "AssetId": "438083f13e35e7c459b6af5b66d73163"
+        },
+        {
+          "AssetId": "815e454998ab73d40bca57f50670aa9c"
+        },
+        {
+          "AssetId": "852cc23da017eed4281d40f0825801ef"
+        },
+        {
+          "AssetId": "5b1bf668a79cef941adea8f49940acae"
+        },
+        {
+          "AssetId": "909dc87b58ff45949b5d367b8d320b0d"
+        },
+        {
+          "AssetId": "27980e12687e7e644b678fd96f888c97"
+        },
+        {
+          "AssetId": "9044ca6920aefbb4aa827eb6e1954e49"
+        },
+        {
+          "AssetId": "35c4482d628835b4e92023a6019380c2"
+        },
+        {
+          "AssetId": "b4de4e827ab59d547b323c92c76e79e6"
+        },
+        {
+          "AssetId": "d2987399c4f547d4287b085a16ed4b35"
+        },
+        {
+          "AssetId": "80027fc757ad11d4e825f1f800f04124"
+        },
+        {
+          "AssetId": "8c5e129c53bce2441809ac6d84993b9c"
+        },
+        {
+          "AssetId": "4141a226b15bf624aac5b69dfd35c779"
+        },
+        {
+          "AssetId": "5c6b60b1fb7f28c439a9515e37c5151a"
+        },
+        {
+          "AssetId": "7d4beaa3b8cf4be4aaabe75f5589a4ec"
+        },
+        {
+          "AssetId": "9206b881bfb919b4d8f2689b56a959bf"
+        },
+        {
+          "AssetId": "cf5f43ce0a7cb7b47b849ec3516b2138"
+        },
+        {
+          "AssetId": "1477454b990fa154ca4ebe73c775ca1e"
+        },
+        {
+          "AssetId": "373ce60a988969c4fa173d8bc55bfbd4"
+        },
+        {
+          "AssetId": "6b8494e04ae946747a3756058aefb41a"
+        },
+        {
+          "AssetId": "f720ff20b35dad1468bc0effa5fab2e1"
+        },
+        {
+          "AssetId": "1d5a6dce8dd22254b9aa75d5c5e5aaa0"
+        },
+        {
+          "AssetId": "0a7949bc7b64ac5449807f80a87453d0"
+        },
+        {
+          "AssetId": "68ad859bc24ff1340b87cfaf55690885"
+        },
+        {
+          "AssetId": "8937f242044147b408a072d99df9f1c4"
+        }
+      ],
+      "Hair": [
+        {
+          "AssetId": "9ab7d309e86b5fc458dae0567c032a1d"
+        },
+        {
+          "AssetId": "b4d1bb829e38d7c4e82027f739cf7bbf"
+        },
+        {
+          "AssetId": "ddf168d39b9102d4197a3312c1581976"
+        },
+        {
+          "AssetId": "1a1c09435e6c6854d8ca633b8e44f0eb"
+        },
+        {
+          "AssetId": "2227fffd879d7514294e0dcbba668011"
+        },
+        {
+          "AssetId": "e0b247930f81cec4c8b041e3491b57cc"
+        },
+        {
+          "AssetId": "def666224ba24df4e954c03049b29a53"
+        },
+        {
+          "AssetId": "acdcfd7609f88ae49833e4f10656190e"
+        },
+        {
+          "AssetId": "329cf540a8faed64284c067bace8bbc9"
+        },
+        {
+          "AssetId": "a2c3218e63539a44e81cc445f2661df8"
+        },
+        {
+          "AssetId": "7b66800183f30934499f8690956fc2c9"
+        },
+        {
+          "AssetId": "f068bc1fa04e36743adccea49b28d40b"
+        },
+        {
+          "AssetId": "7e499d0408e81f545989c7379225756d"
+        },
+        {
+          "AssetId": "0954b35a3bd16114b819ed608b92e94a"
+        },
+        {
+          "AssetId": "303578a648d8d344b8d3a9a94fe24d5a"
+        },
+        {
+          "AssetId": "739bcec114cc0974bbe60990afc9f8fd"
+        },
+        {
+          "AssetId": "609143dbf7607f6419babaf5748b82dc"
+        },
+        {
+          "AssetId": "222890293b0f66145a400eae3432868d"
+        },
+        {
+          "AssetId": "128110ed2a1f2f2438f690b1850149d7"
+        },
+        {
+          "AssetId": "a224d77fbaf9fde4193f8bd8573deb4e"
+        },
+        {
+          "AssetId": "6d7eb0fed0ed7544894591fd4940c497"
+        },
+        {
+          "AssetId": "3e8243f28b1b52844b3bc3cea6b46216"
+        },
+        {
+          "AssetId": "687dad1faa224bb45b7c7b1f31cbcd58"
+        },
+        {
+          "AssetId": "91f68d442316f3e4d93fe686b22655a3"
+        },
+        {
+          "AssetId": "96e1c4e123e299c4b8c5142ed01f40dc"
+        },
+        {
+          "AssetId": "3bbe170a58f73ce418335322ba0fef6b"
+        },
+        {
+          "AssetId": "779f80431909012448c1a42ef9a4d441"
+        },
+        {
+          "AssetId": "e79bc1bf086d2bc428033bf062d188e9"
+        },
+        {
+          "AssetId": "dee99acf015396349ad62f76a84028ae"
+        },
+        {
+          "AssetId": "9d919622f0963244aad9f603433113b3"
+        },
+        {
+          "AssetId": "21ed7fad9aa235045981b8a648f1ce3a"
+        },
+        {
+          "AssetId": "18c72950de21f22429a19fc1dbcb072d"
+        }
+      ],
+      "Beards": [
+        {
+          "AssetId": "a2501602f5952384bb555ddfcb6fbe17"
+        },
+        {
+          "AssetId": "f3b0295019c3a674583e6189cc3e99dc"
+        },
+        {
+          "AssetId": "e2216e3822f431a4d832ad28884db6dc"
+        },
+        {
+          "AssetId": "540a424d8a2c3a849bd7fbe0504e0f36"
+        },
+        {
+          "AssetId": "578fce5e49db8f74696d43ff630bdd93"
+        },
+        {
+          "AssetId": "06ce1a2d84f7ff2438916103751d565b"
+        },
+        {
+          "AssetId": "a7b45e988928aef4c880f07fa5de24d9"
+        },
+        {
+          "AssetId": "9ade94eb99fc1e648a5c8cf4bf112433"
+        },
+        {
+          "AssetId": "a15837893083fd14f8dd1d7a28eb5b08"
+        },
+        {
+          "AssetId": "421b8410aa692c545b1a8d20017b3c7b"
+        },
+        {
+          "AssetId": "f85698be4da78fb46abd5d159f5a5328"
+        },
+        {
+          "AssetId": "a6db66ee24fcbed45ba327acac99a7b7"
+        },
+        {
+          "AssetId": "11d3eaad8e5ddb94bab1ff6525723dc4"
+        },
+        {
+          "AssetId": "7161a101d71707845a12540b9bad07de"
+        },
+        {
+          "AssetId": "372ace9cdb7b74a49aa143a28a5a3dd8"
+        },
+        {
+          "AssetId": "1bec3a2b554ef5447906f26126108dcf"
+        },
+        {
+          "AssetId": "0ee6384c07bbb7347ac94b84d95e42a6"
+        },
+        {
+          "AssetId": "3e3470ba52d2ca24aaa7070318a03d77"
+        },
+        {
+          "AssetId": "e5f8dced91cb3e440b2f57df74d22cd4"
+        },
+        {
+          "AssetId": "37335873fb751fd4d9bc55005afe010c"
+        },
+        {
+          "AssetId": "d6d6532f753456844968f97a2a2aa402"
+        },
+        {
+          "AssetId": "29d745f70e291cd418b8ffec638125c0"
+        },
+        {
+          "AssetId": "b3461c3413949194cafa8ef1d6873f5a"
+        },
+        {
+          "AssetId": "a0bf88dfa2fe22845b12b0e734a5f661"
+        },
+        {
+          "AssetId": "4fde52fe82602fd47823739b2f6dca88"
+        },
+        {
+          "AssetId": "dc4da8223c325cf4e8aa30ec5b89f59f"
+        },
+        {
+          "AssetId": "1b0143b8a518a51489b337f97a320787"
+        },
+        {
+          "AssetId": "3f738fc2a18709c479641b080c84934f"
+        },
+        {
+          "AssetId": "3fca50e49fcc5594286c26112d44944e"
+        },
+        {
+          "AssetId": "b9cda879c8c54ae45ab3f7a7c6be2fb9"
+        },
+        {
+          "AssetId": "8b9adb238652e3a4dae4b964de63e42b"
+        },
+        {
+          "AssetId": "376e62ef9b3d3134baa0df4c5ad71036"
+        },
+        {
+          "AssetId": "355646fbb4dac5847946820c7d612542"
+        },
+        {
+          "AssetId": "fdb1789cbad943f498a0fc665332c018"
+        },
+        {
+          "AssetId": "ba6a4e60a7008234c922f71050cfed14"
+        },
+        {
+          "AssetId": "47726523e47651e47870dcc1448454dc"
+        },
+        {
+          "AssetId": "e5ea6ef374927574092bd8ff536738a3"
+        },
+        {
+          "AssetId": "1dd37b079b4fac94a8ff6142aa1f2e00"
+        },
+        {
+          "AssetId": "1d0a358c172acef43aea7f19983cc408"
+        },
+        {
+          "AssetId": "bc8dadef9d5982d4b800f2eca8eef7d8"
+        },
+        {
+          "AssetId": "f67200ee2104d634e869536335366966"
+        },
+        {
+          "AssetId": "4d026920aac97f04088bb1e798d598b5"
+        }
+      ],
+      "Horns": [],
+      "Ports": [
+        {
+          "AssetId": "286d22f455394644cbde419896415eb7"
+        },
+        {
+          "AssetId": "787a01644568b3f498539524d536b1a1"
+        },
+        {
+          "AssetId": "a3b7c596b9c54f04381d02ab6b31de08"
+        },
+        {
+          "AssetId": "fefbba4b34464ce4fa69ec7fbfdbb9a6"
+        },
+        {
+          "AssetId": "6f293962000eebe46a8b56c41ab3f189"
+        },
+        {
+          "AssetId": "f1bb0c2a293bd9b4bab9707d4b92807f"
+        },
+        {
+          "AssetId": "a2d18319aec909348afb7c6165863f9d"
+        },
+        {
+          "AssetId": "d12b1380df76b0042834c58e9a02ef54"
+        },
+        {
+          "AssetId": "986f4d4bcdd017145a7b26f918f1900e"
+        },
+        {
+          "AssetId": "dbf97aff883b6c94ea661f12ef53a375"
+        },
+        {
+          "AssetId": "d2357b25ac2515b48877b2e3b3c697e2"
+        },
+        {
+          "AssetId": "1ede4901f1c13dc448f6b31e2d4a8646"
+        },
+        {
+          "AssetId": "9b6f24b2c784ea3488ad2ab7023acfe4"
+        },
+        {
+          "AssetId": "ef712dd2e84c5ff418c94ecfdd5a9437"
+        },
+        {
+          "AssetId": "c0ea2d633b50c74499fb2853f1d1eede"
+        },
+        {
+          "AssetId": "f88782361a61395469659577cae457c2"
+        },
+        {
+          "AssetId": "f75b703adb0cdd84796ca9d0507a1801"
+        },
+        {
+          "AssetId": "f2aadc5d0874a9246b9b3a244249727c"
+        },
+        {
+          "AssetId": "392e794bb8cbe094a81f7ef16dc4f7aa"
+        },
+        {
+          "AssetId": "e6af4a839331fa544bb94c0188ccded7"
+        },
+        {
+          "AssetId": "7cdd1ceab8930ff43bb3c464baef7b09"
+        },
+        {
+          "AssetId": "1b3cf18581527f54fa9548774c1ed207"
+        },
+        {
+          "AssetId": "ea86ecdf8a558364ba3039113264ba57"
+        },
+        {
+          "AssetId": "5ae57813848ef9242986879745dd852f"
+        },
+        {
+          "AssetId": "4b4001051987df641ad348292073cbf4"
+        },
+        {
+          "AssetId": "c99b51d75ded1ea41bffb1f2065ffa69"
+        },
+        {
+          "AssetId": "4e9ad9a4477dd6c49b885638cdebef24"
+        },
+        {
+          "AssetId": "ea911e1867ea4eb4eb5860da24ba191a"
+        },
+        {
+          "AssetId": "3502ed423f3c55c49b0117f8fc696f10"
+        },
+        {
+          "AssetId": "3ecdcdc7d364bea40a5c58a6f49ac179"
+        },
+        {
+          "AssetId": "eec8aad3f10c6e34fa8b70a63063cc83"
+        },
+        {
+          "AssetId": "4b4d01c4c84737449b4f71550368d7e8"
+        },
+        {
+          "AssetId": "09a22919d2ce4e945aada6caba74ec43"
+        },
+        {
+          "AssetId": "99e9b0ac6f5a01e4aa2f95e2581dde3a"
+        },
+        {
+          "AssetId": "71791fbe77b5c474ea741a45ea9376f5"
+        },
+        {
+          "AssetId": "e3ef774d32e82674c9c755bc9f9c2dcd"
+        },
+        {
+          "AssetId": "681b3840e9c112044b8dea3358a7a1a8"
+        },
+        {
+          "AssetId": "ed4e17847c31d2b4294528cc268cec8d"
+        },
+        {
+          "AssetId": "4f2c9dceeeb369b42983935c074d7858"
+        },
+        {
+          "AssetId": "de4c13f7456ac0f4f8dfd03d9f8c48c0"
+        },
+        {
+          "AssetId": "5ebe4410b46576643be90c0e495f7fe6"
+        },
+        {
+          "AssetId": "b1dcdc3e8606bfa489823ba8d53a65ad"
+        },
+        {
+          "AssetId": "be58d2469c6c87549a2af5b185c32cdd"
+        },
+        {
+          "AssetId": "6c9a6a6152ee2864b8a8ed29a7a3e0b0"
+        },
+        {
+          "AssetId": "835f007dc435c3647a4aa8067b714800"
+        }
+      ],
+      "NavigatorMutations": [
+        {
+          "AssetId": "0256b50f3056b3d499a58cf338c06b2d"
+        },
+        {
+          "AssetId": "1eacec889b1f7b443b10c79fb43441e1"
+        },
+        {
+          "AssetId": "03f526a5ac13bfd429542779f4be6782"
+        }
+      ],
+      "TailSkinColors": [],
+      "Scars": [
+        {
+          "AssetId": "eb6f305ad75310644af3e70f92f63a42"
+        },
+        {
+          "AssetId": "a5ca51e7555561244b8748e9bf59b547"
+        },
+        {
+          "AssetId": "e1e93a58ccaeff142beae04e1b2fb335"
+        },
+        {
+          "AssetId": "ad6620c117b51c248ba6e84e35f8a99e"
+        },
+        {
+          "AssetId": "ddd29be09c769fc439df2eb77ccb51e3"
+        },
+        {
+          "AssetId": "086b3689fee1f2c4da07fa81dc629042"
+        },
+        {
+          "AssetId": "80e467dc7375fe44fbd2a1d56491b568"
+        },
+        {
+          "AssetId": "05b71490f884562488188960945e0dc6"
+        },
+        {
+          "AssetId": "68539e29d8433274b9e358810a38db1c"
+        },
+        {
+          "AssetId": "c58de03b3925aa24f99448a2ed9ec7d4"
+        },
+        {
+          "AssetId": "509891ef6ae4ac948a071265969457af"
+        },
+        {
+          "AssetId": "cc730ba9067d95b46ae9032cee77f42b"
+        },
+        {
+          "AssetId": "46b9553104b17364ebc7c1126772f015"
+        },
+        {
+          "AssetId": "2821d383a108f794e81ce77b5a1b8809"
+        },
+        {
+          "AssetId": "10a384879a5ecc34da696a8cceb89472"
+        },
+        {
+          "AssetId": "7156bb49dc69f4547a6cdad7444526b1"
+        }
+      ],
+      "Tattoos": [
+        {
+          "AssetId": "af16548ddcf09fe46938dd09e47abf42"
+        },
+        {
+          "AssetId": "09c73908e0c87134e9f26d54c2f2bf29"
+        },
+        {
+          "AssetId": "e06593cdd9069554597f1d954f65f073"
+        },
+        {
+          "AssetId": "396987263b241d54a88e09edecd8682d"
+        },
+        {
+          "AssetId": "042955fc884fdfd4ca550960d5f2cd09"
+        },
+        {
+          "AssetId": "49605264cd1932549836f1c690a6a1c4"
+        },
+        {
+          "AssetId": "2ca47c21d1d013b42b1e89502cde33da"
+        },
+        {
+          "AssetId": "cf3bd29fb7fa96d4b86bd9902ad15b22"
+        },
+        {
+          "AssetId": "ff57104f40534404cb466f8846c6a7a5"
+        },
+        {
+          "AssetId": "cd0d48245e2271340ba7a4320014d3d0"
+        },
+        {
+          "AssetId": "b42a38152570f844fbbd60d9de2558c2"
+        },
+        {
+          "AssetId": "2e725fd7339a57e469c59676d6a3d34d"
+        },
+        {
+          "AssetId": "cdfdaeb6ebf43674695dd06fe22004ed"
+        },
+        {
+          "AssetId": "e7f479c18913cf8498f2e46ba455a6a1"
+        },
+        {
+          "AssetId": "d749af347d617b84db897e572db50442"
+        },
+        {
+          "AssetId": "6082d2c1d81053b4a9631c420a41c854"
+        },
+        {
+          "AssetId": "cfa4967890df74c4eb65f7466c52bef8"
+        },
+        {
+          "AssetId": "89b284b07d88298468a5284a24a2b966"
+        },
+        {
+          "AssetId": "1fbfb7bd67605e94088ee05bde6886eb"
+        },
+        {
+          "AssetId": "b20ed195b38b3bc43963304700b4439c"
+        },
+        {
+          "AssetId": "0ac0390845904c14484346c96cd7c51e"
+        },
+        {
+          "AssetId": "0fe410331d4420a47b424dea097de99b"
+        },
+        {
+          "AssetId": "c749c35b0fe769c40b554aa73f9a8ce2"
+        },
+        {
+          "AssetId": "4f85e5f61fabebd40ab3fbaabe7cb9a2"
+        },
+        {
+          "AssetId": "46d46635374307c4899432f518ab2572"
+        },
+        {
+          "AssetId": "9b9cb8bea0148d44a8157845cbde8f0d"
+        },
+        {
+          "AssetId": "0937caa0a39c9e74796dcc776762a11f"
+        },
+        {
+          "AssetId": "4c21c37d7870ce948894a28db7b1eef7"
+        },
+        {
+          "AssetId": "023852d723ea81a41a3f8eab1f10e553"
+        },
+        {
+          "AssetId": "72bf948d05e000140bddedc07787e304"
+        },
+        {
+          "AssetId": "a2766f573acca8243851030a393694e5"
+        },
+        {
+          "AssetId": "c88ef68af4eaa2144ab2c86f79853fa0"
+        },
+        {
+          "AssetId": "7f8c59bf234d83c46b1f0c5988be3f10"
+        },
+        {
+          "AssetId": "ef431f17f41e0604b9c21dd601edca2b"
+        },
+        {
+          "AssetId": "68b061d32c54edd46b3891470f822d3e"
+        },
+        {
+          "AssetId": "0b80c15962c5f6440bf59faaf44aa42f"
+        },
+        {
+          "AssetId": "d4ac367d919f7b9418dc2fd4d1e53dca"
+        }
+      ]
+    },
+    "FemaleOptions": {
+      "Heads": [
+        {
+          "AssetId": "955d295f316232945a33332f4970268f"
+        },
+        {
+          "AssetId": "ac6621158d563ba4fbcb48615fda5a04"
+        },
+        {
+          "AssetId": "4eb36a0368ebab245abba3b241741297"
+        },
+        {
+          "AssetId": "60775ed07a2325d4ca383f3042ad98e6"
+        },
+        {
+          "AssetId": "bdfdb816f4f674047b1df9a18f370eb5"
+        },
+        {
+          "AssetId": "97c2b5e24651ffa42afe3f68d7b90fb2"
+        },
+        {
+          "AssetId": "bd66ebefcd554354197d8a045560f452"
+        },
+        {
+          "AssetId": "04850a79ffc01f7448e0d6722802a16e"
+        },
+        {
+          "AssetId": "bd12a90c9e74f6b4caa4157eab76db85"
+        },
+        {
+          "AssetId": "b2e9da828ace196478251ccd95cb8432"
+        },
+        {
+          "AssetId": "cb40a5570a264004294093a26a9a882f"
+        },
+        {
+          "AssetId": "2f44dcfbd8a92b54fb3b7b8da5b2a22d"
+        },
+        {
+          "AssetId": "15ff262c93d2d7c4bac4aef0a69bb6ef"
+        },
+        {
+          "AssetId": "c8177f04348524647a960dadd600ca93"
+        },
+        {
+          "AssetId": "4302afb2eec49814ba6160de37a44bf1"
+        },
+        {
+          "AssetId": "178a6dac1e7be2a4ba7abd4e4509e71d"
+        }
+      ],
+      "Eyebrows": [
+        {
+          "AssetId": "438083f13e35e7c459b6af5b66d73163"
+        },
+        {
+          "AssetId": "815e454998ab73d40bca57f50670aa9c"
+        },
+        {
+          "AssetId": "852cc23da017eed4281d40f0825801ef"
+        },
+        {
+          "AssetId": "5b1bf668a79cef941adea8f49940acae"
+        },
+        {
+          "AssetId": "909dc87b58ff45949b5d367b8d320b0d"
+        },
+        {
+          "AssetId": "27980e12687e7e644b678fd96f888c97"
+        },
+        {
+          "AssetId": "9044ca6920aefbb4aa827eb6e1954e49"
+        },
+        {
+          "AssetId": "35c4482d628835b4e92023a6019380c2"
+        },
+        {
+          "AssetId": "b4de4e827ab59d547b323c92c76e79e6"
+        },
+        {
+          "AssetId": "d2987399c4f547d4287b085a16ed4b35"
+        },
+        {
+          "AssetId": "80027fc757ad11d4e825f1f800f04124"
+        },
+        {
+          "AssetId": "8c5e129c53bce2441809ac6d84993b9c"
+        },
+        {
+          "AssetId": "4141a226b15bf624aac5b69dfd35c779"
+        },
+        {
+          "AssetId": "5c6b60b1fb7f28c439a9515e37c5151a"
+        },
+        {
+          "AssetId": "7d4beaa3b8cf4be4aaabe75f5589a4ec"
+        },
+        {
+          "AssetId": "9206b881bfb919b4d8f2689b56a959bf"
+        },
+        {
+          "AssetId": "cf5f43ce0a7cb7b47b849ec3516b2138"
+        },
+        {
+          "AssetId": "1477454b990fa154ca4ebe73c775ca1e"
+        },
+        {
+          "AssetId": "373ce60a988969c4fa173d8bc55bfbd4"
+        },
+        {
+          "AssetId": "6b8494e04ae946747a3756058aefb41a"
+        },
+        {
+          "AssetId": "f720ff20b35dad1468bc0effa5fab2e1"
+        },
+        {
+          "AssetId": "1d5a6dce8dd22254b9aa75d5c5e5aaa0"
+        },
+        {
+          "AssetId": "0a7949bc7b64ac5449807f80a87453d0"
+        },
+        {
+          "AssetId": "68ad859bc24ff1340b87cfaf55690885"
+        },
+        {
+          "AssetId": "8937f242044147b408a072d99df9f1c4"
+        }
+      ],
+      "Hair": [
+        {
+          "AssetId": "c8cbc97fc47014949a2275309fbe915b"
+        },
+        {
+          "AssetId": "7709e5f38fb90814888406e3409b66a7"
+        },
+        {
+          "AssetId": "fc3fc0e45a70a0e42b6aed10baf794f0"
+        },
+        {
+          "AssetId": "d4d1a7937435fe54a889bc3522984205"
+        },
+        {
+          "AssetId": "c5fe313db252dc94bb88ece2b458d11e"
+        },
+        {
+          "AssetId": "c229d194613b246449ea3a57bb615681"
+        },
+        {
+          "AssetId": "dd5e95f3ecb87f84aa464816e5091c22"
+        },
+        {
+          "AssetId": "d621bfa80647a9940b4983fd865ac09b"
+        },
+        {
+          "AssetId": "fb79b0f415a030f4b9983e61b7d480fa"
+        },
+        {
+          "AssetId": "16befdf0bdb05424891138d02a718848"
+        },
+        {
+          "AssetId": "30d504db6b8cbe94dbc82d2437c8b468"
+        },
+        {
+          "AssetId": "f32da5106fa223844b88c426e36b5821"
+        },
+        {
+          "AssetId": "3fa56cc5d206ca142bde8f93ad089a02"
+        },
+        {
+          "AssetId": "a7848ed746958e74ab7e9549dd4db16c"
+        },
+        {
+          "AssetId": "aab3ebed24151df4b94cf19b8be802b0"
+        },
+        {
+          "AssetId": "1f19aaaa1870e2b4b8bd99d36211ddf6"
+        },
+        {
+          "AssetId": "fc8f60bd01b2ce442a3024d31c7045c5"
+        },
+        {
+          "AssetId": "45b2fcc9954ae2a43ad69ecda5b14554"
+        },
+        {
+          "AssetId": "04c3eb6d7570d8d49b686516b7c4a4f8"
+        },
+        {
+          "AssetId": "ccb1ed90ab279774784def930aae9c8a"
+        },
+        {
+          "AssetId": "b40cf766b28e512438678fc9e2aa34f1"
+        },
+        {
+          "AssetId": "779458079f7718c4bb960d9cef195339"
+        },
+        {
+          "AssetId": "81e19da8d4c00f84f97d01b811ffed41"
+        },
+        {
+          "AssetId": "24d545a94391be64398837648ebe937e"
+        },
+        {
+          "AssetId": "32cc04b004ef44b408f230bf9a5e59af"
+        },
+        {
+          "AssetId": "2e6bea3c275696842b0171fe598c9a55"
+        },
+        {
+          "AssetId": "535a3df8fc2b3a945814a3eb7f69eaa3"
+        },
+        {
+          "AssetId": "894275909de13b047ab5202d99c0c63b"
+        },
+        {
+          "AssetId": "c6e4f7b41d237ee4a913f0eef7b4df9b"
+        },
+        {
+          "AssetId": "52b5123173c6e324fba8190ca3d1b615"
+        },
+        {
+          "AssetId": "9106730393303b744bb6b51f89e97867"
+        },
+        {
+          "AssetId": "7fec759f6acadfd4f9d4f76ad6dbb845"
+        }
+      ],
+      "Beards": [],
+      "Horns": [],
+      "Ports": [
+        {
+          "AssetId": "286d22f455394644cbde419896415eb7"
+        },
+        {
+          "AssetId": "de3f913836bd5f7428814b7d39c7ab9f"
+        },
+        {
+          "AssetId": "d33842b5cd8556f459e9b40013790b71"
+        },
+        {
+          "AssetId": "63c2e2879e45958498a4f2482a767224"
+        },
+        {
+          "AssetId": "54c0b0bd721911a4fa785548590bbb97"
+        },
+        {
+          "AssetId": "49daf1fd0a4b9c448a0111a214438af5"
+        },
+        {
+          "AssetId": "8c5b64c0142bee94baf778d2b2eb45cf"
+        },
+        {
+          "AssetId": "eb4561916caf19044b0fcf2299a76b5a"
+        },
+        {
+          "AssetId": "bff14c1a847e66a40b0c1c1f1b823b4e"
+        },
+        {
+          "AssetId": "9f924af9ff85aec42b8a135d4afa1b32"
+        },
+        {
+          "AssetId": "817a866b6ffc6da428b7652cf496144a"
+        },
+        {
+          "AssetId": "9ddddde3f7b6ce246af33d2afdb1252c"
+        },
+        {
+          "AssetId": "beb829346d554f04181332c8326702ff"
+        },
+        {
+          "AssetId": "1512d78c28fa0494baf7dbc0f89af373"
+        },
+        {
+          "AssetId": "2e98a4398d92b044a99526ae01fed0d2"
+        },
+        {
+          "AssetId": "077271ea882e097479c0b7fb380e3877"
+        },
+        {
+          "AssetId": "166456f3c432e404e8eb5543926b56a8"
+        },
+        {
+          "AssetId": "61163d3139a89874ab72fd855ebbcb10"
+        },
+        {
+          "AssetId": "b5a6b7b44e9232941a8bf1693909c027"
+        },
+        {
+          "AssetId": "ae0f4972f3b2fab4692b63fa301e37da"
+        },
+        {
+          "AssetId": "fe10112514b39ad499d2235cf45566e2"
+        },
+        {
+          "AssetId": "ec88ddfd22a848e488fe1d27666e28ea"
+        },
+        {
+          "AssetId": "5dac157fa7620ba4d94523efc0d43ac2"
+        },
+        {
+          "AssetId": "a16cd1b76d1ba81438eb01596117c046"
+        },
+        {
+          "AssetId": "6e83f2ac7e1b7c842bbd0a009325e5fc"
+        },
+        {
+          "AssetId": "3a87ad79cec6bc246b5fd847a9444939"
+        },
+        {
+          "AssetId": "a4bee040725a2f0449482dd884d0bc1d"
+        },
+        {
+          "AssetId": "7450f30133e5cc043868963e11057bdd"
+        },
+        {
+          "AssetId": "1ed6e66bdfbd3b5469eb802d36bfd540"
+        },
+        {
+          "AssetId": "e4a8ab79513e7884fbd7a7324b9d71b7"
+        },
+        {
+          "AssetId": "97e2d9cde3418864d8963649a4832e71"
+        },
+        {
+          "AssetId": "319292b9bbc62ab4fb5c95b305cea95d"
+        },
+        {
+          "AssetId": "4e3330f84b15fa14d834b635d1050298"
+        },
+        {
+          "AssetId": "b9771c0e4e76e8c44a0cb92ae0005272"
+        },
+        {
+          "AssetId": "7b5ecf07b933992429769364e27d0046"
+        },
+        {
+          "AssetId": "cadcb685a5a55b74eb99eea8eddda383"
+        },
+        {
+          "AssetId": "15f2ddbe3b1339b4c96567dce7e454ff"
+        },
+        {
+          "AssetId": "280e8bb6101a2254ea1797cfcf07242f"
+        },
+        {
+          "AssetId": "08ec6f09addac564b8a623f882847ff1"
+        },
+        {
+          "AssetId": "9f2945a19aeb9414db85109546a258b2"
+        },
+        {
+          "AssetId": "b01842f6f3b79274c9ce0cbd6e55cb68"
+        },
+        {
+          "AssetId": "95df186ae8bf7c44f8c92ddfd0ec282e"
+        },
+        {
+          "AssetId": "f5200fc9dbfad6547bff3bfaa5ea54c5"
+        },
+        {
+          "AssetId": "e627338de1fd2204aa76c1c16f7a3cd3"
+        }
+      ],
+      "NavigatorMutations": [
+        {
+          "AssetId": "0256b50f3056b3d499a58cf338c06b2d"
+        },
+        {
+          "AssetId": "7c8572e030007a24c9a24a7f1ed3d918"
+        },
+        {
+          "AssetId": "bc1c93ec436a1be4abe940277856f795"
+        }
+      ],
+      "TailSkinColors": [],
+      "Scars": [
+        {
+          "AssetId": "eb6f305ad75310644af3e70f92f63a42"
+        },
+        {
+          "AssetId": "a5ca51e7555561244b8748e9bf59b547"
+        },
+        {
+          "AssetId": "e1e93a58ccaeff142beae04e1b2fb335"
+        },
+        {
+          "AssetId": "ad6620c117b51c248ba6e84e35f8a99e"
+        },
+        {
+          "AssetId": "ddd29be09c769fc439df2eb77ccb51e3"
+        },
+        {
+          "AssetId": "086b3689fee1f2c4da07fa81dc629042"
+        },
+        {
+          "AssetId": "80e467dc7375fe44fbd2a1d56491b568"
+        },
+        {
+          "AssetId": "05b71490f884562488188960945e0dc6"
+        },
+        {
+          "AssetId": "68539e29d8433274b9e358810a38db1c"
+        },
+        {
+          "AssetId": "c58de03b3925aa24f99448a2ed9ec7d4"
+        },
+        {
+          "AssetId": "509891ef6ae4ac948a071265969457af"
+        },
+        {
+          "AssetId": "cc730ba9067d95b46ae9032cee77f42b"
+        },
+        {
+          "AssetId": "46b9553104b17364ebc7c1126772f015"
+        },
+        {
+          "AssetId": "2821d383a108f794e81ce77b5a1b8809"
+        },
+        {
+          "AssetId": "10a384879a5ecc34da696a8cceb89472"
+        },
+        {
+          "AssetId": "7156bb49dc69f4547a6cdad7444526b1"
+        }
+      ],
+      "Tattoos": [
+        {
+          "AssetId": "af16548ddcf09fe46938dd09e47abf42"
+        },
+        {
+          "AssetId": "5714a56f903a5344cafa4b426de9c252"
+        },
+        {
+          "AssetId": "edb9fb57f4ca5c244bcce14ac7a1e82f"
+        },
+        {
+          "AssetId": "d230df83c198bbc4d84c74d06adc567f"
+        },
+        {
+          "AssetId": "f96ccfb6852f5d7448ae6173b64a20db"
+        },
+        {
+          "AssetId": "48a16b41d7582b94bb94c70786baf7cc"
+        },
+        {
+          "AssetId": "eed60192b6b1aae499d6f0849fbfdf90"
+        },
+        {
+          "AssetId": "9c30efb19533dd54d9ecf4f5bf08673b"
+        },
+        {
+          "AssetId": "151b9ec03aa6efb43b62c7eff5afca34"
+        },
+        {
+          "AssetId": "2bf8e66e990223940921d940c6562a92"
+        },
+        {
+          "AssetId": "c642637b89912514e9aca72c65ebbc4d"
+        },
+        {
+          "AssetId": "61c11aa8b0439e24cb5f3148fe1c4c81"
+        },
+        {
+          "AssetId": "50a91cd2355a78740b84bd9f020ff63e"
+        },
+        {
+          "AssetId": "3e909340036c6b14fbbba72a9a9774ce"
+        },
+        {
+          "AssetId": "cb1bebc043c4ac64abd9b389f5913acf"
+        },
+        {
+          "AssetId": "97a09960faf43c5429679dfbf2f4a8ed"
+        },
+        {
+          "AssetId": "b5fe5a9cef09cb44dbd2258f0b8d2b37"
+        },
+        {
+          "AssetId": "7903a2541766e2b4cbc2f997f5aa8052"
+        },
+        {
+          "AssetId": "3a01907fbbd1f2246bb664054f06260a"
+        },
+        {
+          "AssetId": "28ecfbf9ba8408a4380a6d2a5d663d6f"
+        },
+        {
+          "AssetId": "ea5c1c45f7a6f414a9c7bc2cf2600b91"
+        },
+        {
+          "AssetId": "214f5527c1d1bfc46981473defee691d"
+        },
+        {
+          "AssetId": "0721ac7e6a587354fa138327d673bc83"
+        },
+        {
+          "AssetId": "a7d59cf02206c48468e6952b32e9983a"
+        },
+        {
+          "AssetId": "ff17350b4a95df34ab04bee0cfa44eb8"
+        },
+        {
+          "AssetId": "d5db7f425728b314db293f5f317c9c5b"
+        },
+        {
+          "AssetId": "f210e4904c5844d488794cab6217a02c"
+        },
+        {
+          "AssetId": "7458bd758848aa542ac0c41c1515ae79"
+        },
+        {
+          "AssetId": "55987ede81182d742b945eb832971587"
+        },
+        {
+          "AssetId": "1558339e87b1f9b409453ae6ff2d06f2"
+        },
+        {
+          "AssetId": "97fffe246dc2e96418959366af6c6313"
+        },
+        {
+          "AssetId": "1036c5dfd337e6045bc3d63e41193156"
+        },
+        {
+          "AssetId": "07fda07346a98414bb48946017f24b42"
+        },
+        {
+          "AssetId": "dd1d8374b256bee44901636bcb0a5930"
+        },
+        {
+          "AssetId": "55777a4a9de76d84092be8ca111fbd89"
+        },
+        {
+          "AssetId": "a5759745e90cf31408cbdb6e2d3d6f88"
+        },
+        {
+          "AssetId": "a44db7e4bdbf6094ba293db45e02d002"
+        }
+      ]
+    },
+    "MaleSpeedSettings": {
+      "MovementSpeedCoeff": 1.0,
+      "OverrideSlowWalk": true,
+      "SlowWalkCoeff": 2.0,
+      "OverrideSlowWalkNonCombat": true,
+      "SlowWalkNonCombatCoeff": 1.8,
+      "OverrideNormal": true,
+      "NormalCoeff": 0.85,
+      "OverrideNormalNonCombat": true,
+      "NormalNonCombatCoeff": 0.85,
+      "OverrideCharge": true,
+      "ChargeCoeff": 0.5,
+      "OverrideChargeNonCombat": false,
+      "ChargeNonCombatCoeff": 1.0,
+      "OverrideStealth": false,
+      "StealthCoeff": 1.0,
+      "OverrideStealthNonCombat": false,
+      "StealthNonCombatCoeff": 1.0
+    },
+    "FemaleSpeedSettings": {
+      "MovementSpeedCoeff": 1.0,
+      "OverrideSlowWalk": true,
+      "SlowWalkCoeff": 2.1,
+      "OverrideSlowWalkNonCombat": true,
+      "SlowWalkNonCombatCoeff": 1.8,
+      "OverrideNormal": true,
+      "NormalCoeff": 0.87,
+      "OverrideNormalNonCombat": true,
+      "NormalNonCombatCoeff": 0.87,
+      "OverrideCharge": true,
+      "ChargeCoeff": 0.5,
+      "OverrideChargeNonCombat": false,
+      "ChargeNonCombatCoeff": 1.0,
+      "OverrideStealth": false,
+      "StealthCoeff": 1.0,
+      "OverrideStealthNonCombat": false,
+      "StealthNonCombatCoeff": 1.0
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

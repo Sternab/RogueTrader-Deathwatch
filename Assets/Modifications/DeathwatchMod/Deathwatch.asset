@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99c27a98d022a8b499d4a50de5012fad, type: 3}
+  m_Name: Deathwatch
+  m_EditorClassIdentifier: 
+  Manifest:
+    UniqueName: Deathwatch
+    Version: 1.0.0
+    DisplayName: Deathwatch - Play as a Space Marine
+    Description: Create and play a Deathwatch Space Marine in the base campaign.
+      A fully converted character creator (Chapter, Speciality, Deed of Renown, Burden
+      of Service), full-size armoured Astartes with per-Chapter heraldry, custom
+      voices, and an Astartes arsenal. Saves containing a marine require this mod;
+      saves without one are unaffected.
+    Author: Sternab
+    Repository: 
+    HomePage: 
+    Dependencies: []
+  Settings:
+    RelativeThumbnailPath: 
+    WorkshopDescription: 
+    WorkshopId: 

@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Character_Diffuse_Cutout
+  m_Shader: {fileID: 4800000, guid: 222b820ce1ddd0649b7c8cfcf101ee4f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _DOUBLESIDED_ON
+  - _EMISSION
+  - _MASKSMAP
+  - _NORMALMAP
+  - _TRANSLUCENT
+  m_InvalidKeywords:
+  - CUTOUT_ON
+  - DYNAMIC_FX
+  - FOG_OF_WAR_AFFECTED
+  - FOG_OF_WAR_DISSOLVE_ON
+  - PBD_NONE
+  - RIM_LIGHTING_GLOBAL_SHADE_NDOTL
+  - _ALPHATOMASK_OFF
+  - _RIMLIGHTING_OFF
+  - _RIMSHADENDOTL_OFF
+  - _SPECIALPOSTPROCESSFLAG_ON
+  - _VERTEXINTERACTION_OFF
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    Reflection: Cutout
+    RenderType: TransparentCutout
+  disabledShaderPasses:
+  - DistortionVectors
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdditionalAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2.4, y: 2.4}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 71ec65712a4843e4aab4b1abe01b4bb9, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2.4, y: 2.4}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveNoiseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 2.4, y: 2.4}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MasksMap:
+        m_Texture: {fileID: 2800000, guid: b26a5b7d935bb274ab7b50b735297ea9, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PosVatMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RotVatMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AdditionalAlbedoAlphaScale: 1
+    - _AdditionalAlbedoColorClamp: 1
+    - _AdditionalAlbedoColorScale: 1
+    - _AdditionalAlbedoEnabled: 0
+    - _AdditionalAlbedoFactor: 0
+    - _AlphaScale: 1
+    - _AlphaToMask: 0
+    - _Alphatest: 1
+    - _BaseColorBlending: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _ComplexAnimBranchScale: 1
+    - _ComplexAnimEdgeFlutterScale: 1
+    - _ComplexAnimPrimaryFactorScale: 1
+    - _ComplexAnimSecondaryFactorScale: 1
+    - _CullMode: 0
+    - _Cutoff: 0.3
+    - _Cutout: 0.5
+    - _DetailNormalMapScale: 1
+    - _Dissolve: 0
+    - _DissolveColorScale: 1
+    - _DissolveCutout: 1
+    - _DissolveEmission: 1
+    - _DissolveEnabled: 0
+    - _DissolveNoiseScale: 1
+    - _DissolveWidth: 0.146
+    - _Distortion: 1
+    - _DistortionColorFactor: 0.5
+    - _DistortionDoesNotUseAlpha: 1
+    - _DistortionEnabled: 0
+    - _DistortionThicknessScale: 1
+    - _DoubleSided: 1
+    - _DoubleSidedNormalMode: 1
+    - _DstBlend: 0
+    - _DynamicFX: 1
+    - _Emission: 1
+    - _EmissionAlbedoSuppression: 0
+    - _EmissionColorFactor: 0
+    - _EmissionColorScale: 20
+    - _EmissionColorScaleMeta: 1
+    - _EmissionMapUsage: 0
+    - _EnvironmentReflections: 1
+    - _FogInfluence: 0.7
+    - _FogOfWarMaterialFlag: 1
+    - _FoliageInteractionInfluence: 1
+    - _GlobalRim: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GpuSkinning: 0
+    - _GroundColorPower: 1
+    - _IndirectIstancing: 0
+    - _LightmapEmissionFlags: 0
+    - _Metallic: 1
+    - _Mode: 0
+    - _NdotLPower: 1.5
+    - _OccludedObjectClip: 0
+    - _OccludedObjectHighlighting: 0
+    - _OccluderObjectOpacity: 1
+    - _OcclusionProbes: 1
+    - _OcclusionStrength: 1
+    - _P: 1.5
+    - _Parallax: 0.02
+    - _PbdMode: 0
+    - _PbdSkinning: 0
+    - _Pertification: 0
+    - _PertificationColorScale: 1
+    - _Petrification: 0
+    - _PetrificationAlphaScale: 1
+    - _PetrificationColorClamp: 1
+    - _PetrificationColorScale: 1
+    - _PushToCamera: 0
+    - _QueueOffset: 0
+    - _ReceiveDecals: 0
+    - _ReceiveShadows: 1
+    - _RimGlobalPower: 1.4
+    - _RimGlobalShadeNdotL: 0
+    - _RimLighting: 0
+    - _RimPower: 1
+    - _RimShadeNdotL: 0
+    - _Roughness: 1
+    - _SimpleAnimInfluence: 1
+    - _Smoothness: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecialPostprocessFlag: 1
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StencilCompOp: 8
+    - _StencilPassOp: 2
+    - _StencilRef: 2
+    - _StencilZFailOp: 0
+    - _Surface: 0
+    - _Thickness: 0.7
+    - _ThicknessSharpness: 1
+    - _TranslucencyAmbientBumpScale: 1
+    - _TranslucencyAmbientScale: 1
+    - _TranslucencyDistortion: 0.1
+    - _TranslucencyForwardScale: 1
+    - _Translucent: 1
+    - _Type: 1
+    - _UVSec: 0
+    - _UseGroundColor: 0
+    - _VaEdgeFlutter: 0
+    - _VaPrimaryFactor: 0
+    - _VaSecondaryFactor: 0
+    - _VatCurrentFrame: 0
+    - _VatEnabled: 0
+    - _VatLerp: 0
+    - _VatNumOfFrames: 0
+    - _VatPivMax: 0
+    - _VatPivMin: 0
+    - _VatPosMax: 0
+    - _VatPosMin: 0
+    - _VatType: 0
+    - _VertexAnimation: 0
+    - _VertexAnimationEnabled: 0
+    - _VertexAnimationType: 0
+    - _VertexInteraction: 0
+    - _WindScaleForGrass: 1
+    - _WrapDiffuseFactor: 0
+    - _ZTest: 3
+    - _ZWrite: 1
+    m_Colors:
+    - _AdditionalAlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DistortionOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FogOfWarDissolveTex_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _PertificationColor: {r: 1, g: 1, b: 1, a: 1}
+    - _PetrificationColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TranslucencyColor: {r: 0.5568628, g: 0.37647063, b: 0.37647063, a: 1}
+    - _VaFrequencies: {r: 1.975, g: 0.793, b: 0.375, a: 0.193}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

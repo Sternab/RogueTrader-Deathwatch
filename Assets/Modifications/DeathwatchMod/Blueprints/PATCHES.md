@@ -1,0 +1,35 @@
+# Blueprint patches (.jbp_patch)
+
+Edit-patches on **vanilla** blueprints, applied by the game's own blueprint patcher when each target
+blueprint first loads. Registered in `DeathwatchPatches.asset` (`Guid` = target blueprint, `Filename` =
+patch file without extension, `PatchType: 1` = Edit). Log line on apply: `Patching blueprint: <name> (<guid>)`.
+Patch-style mods **compose**: another mod patching the same blueprint is fine in any load order; a mod that
+fully *replaces* one of these blueprints suppresses our edits to it.
+
+| Patch file | Target (name → guid) | What it does |
+|---|---|---|
+| `CharGenRoot_PortraitsAndVoices` | CharGenRoot → `92f5ea9d9306402588dc8418d4a794aa` | Appends the 11 DW portraits to `m_Portraits` and 3 voices (DW Space Marine, DW Apothecary, Ulfar) to `m_Voices`. |
+| `ChargenPsyker_Selection` | SanctionedPsyker_Seelction [sic, Owlcat's typo] → `912495ad4ffc4c4da72819d2602f7976` | Sets the psyker chargen selection's prerequisite `Composition` to **Or** (`1`) and appends a `PrerequisiteFact` for the DW Librarian, so the Librarian qualifies for psyker picks and vanilla humans still do. |
+| `MeatDump_WakeUp_Cue_2` | Ch3 Commorragh wake-up cue → `d7c178f942e64faebc7518eb79f7823f` | Replaces the cue's ZanniPistol give with a `Conditional`: an Astartes main character is given+equipped an Astartes Bolt Pistol + Combat Knife (prevents a weaponless forced fight); humans get the vanilla ZanniPistol unchanged. |
+| `SpaceMarineImmunity_Rename` | SpaceMarineImmunity_Feature → `e4ca8c3dfa934776a624dfd5e7726374` | Sets `m_DisplayName`/`m_Description` loc keys so the otherwise-blank feature renders as "Adeptus Astartes Resilience" in the chargen features grid. |
+| `Ulfar_Barks_ChargenVoice` | Ulfar_Barks → `3ea153cb4f714f1798572e89c7cbd1e9` | Sets a `DisplayName` loc key ("Ulfar") so the voice shows a name in the selector. (Its `PreviewSound` is a component field patches can't reach - set at runtime in `ChargenContent.EnsureUlfarPreviewSound`.) |
+
+## Format notes for modders
+
+- `FieldOverrides`: `FieldName` is a dotted path into the blueprint's fields (e.g. `m_DisplayName.m_Key`).
+- `ArrayPatches.OperationType` (int): `3` InsertAfterElement, `4` InsertBeforeElement, `5` InsertAtBeginning,
+  `6` InsertLast, `8` RemoveElement. (`0` Override / `7` ReplaceElement are **not dispatched** by the game's
+  array patcher - a "replace" must be authored as Remove + Insert, as in `MeatDump_WakeUp_Cue_2`.)
+- `RemoveElement` matches the target element **by its `name` field** (supplied in `Value`); nested objects in
+  `Value` deserialize by their `"$type": "<typeId>, <ClassName>"`.
+- `ComponentsPatches`: `FieldValue` is a *stringified* `{"ComponentValue":{...}}`; only `6` add / `8` remove.
+- In `ChargenPsyker_Selection`, `"FieldValue": 1` on `Prerequisites.Composition` = `Or` (enum ordinal).
+
+## Maintenance invariants
+
+- **MeatDump_WakeUp_Cue_2** removes the vanilla `AddItemToPlayer` by its exact element name
+  (`$AddItemToPlayer$4f0e66491d7f46978576b9946413b476`). If a game update changes that element, the remove
+  aborts (logged: `No item to remove found`) and the insert still runs - humans would then be offered the
+  pistol twice. Re-sync the `Value` block from a fresh blueprint dump if that log line ever appears.
+- One patch file per target GUID: the game's per-mod patch registry is a `Guid → Filename` dictionary, so
+  registering two files for the same target silently keeps only one.

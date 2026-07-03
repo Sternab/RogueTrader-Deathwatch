@@ -1,0 +1,91 @@
+{
+  "TargetGuid": "92f5ea9d9306402588dc8418d4a794aa",
+  "FieldOverrides": [],
+  "ArrayPatches": [
+    {
+      "OperationType": 6,
+      "Value": "!bp_d2ab51bdaa144b9ba9c52fc767af55a0",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_270c45ca7c22471a9a7d627f471530b6",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_feb9c762728b412686b9872e447c0fb1",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_020439c4acb646b391b5bc44cc3922de",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_affdc2f096ae4d7c924fe83e66d9ae97",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_690649836f7b416981cd3710fdf3851e",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_6e3cfa7551f24da7bfae54f845a26359",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_d8baf5359d6942d985e0cceb813656bf",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_28b58a7961854521876d2d44a18839d5",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_f117008833394988aa1da1ba7f47df2b",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_b75d08eec491494ba0ec41f80f2e9f33",
+      "TargetValue": null,
+      "FieldName": "m_Portraits"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_2cc2468184df42e0952936e6743cc0db",
+      "TargetValue": null,
+      "FieldName": "m_Voices"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_540be899796d4705b47af89043558971",
+      "TargetValue": null,
+      "FieldName": "m_Voices"
+    },
+    {
+      "OperationType": 6,
+      "Value": "!bp_3ea153cb4f714f1798572e89c7cbd1e9",
+      "TargetValue": null,
+      "FieldName": "m_Voices"
+    }
+  ],
+  "ComponentsPatches": []
+}

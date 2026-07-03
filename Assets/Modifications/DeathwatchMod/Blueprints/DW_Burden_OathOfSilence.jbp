@@ -1,0 +1,53 @@
+{
+  "AssetId": "2371a2a7d41a4f1abe81ca7c479b4645",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$2371a2a7-0000-0000-0000-000000000001",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Restrictions": { "Property": { "Operation": "Sum", "TargetType": "CurrentEntity", "FailSilentlyIfNoTarget": false, "Getters": [] } },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerWillpower",
+        "Multiplier": 1,
+        "Value": { "ValueType": "Simple", "Value": 10, "ValueRank": "Default", "ValueShared": "Damage", "Property": "None", "m_CustomProperty": null, "PropertyName": "Value1" },
+        "m_ActionsOnAdd": { "Actions": [] }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$2371a2a7-0000-0000-0000-000000000002",
+        "m_Flags": 0,
+        "PrototypeLink": { "guid": "", "name": "" },
+        "m_Overrides": [],
+        "Restrictions": { "Property": { "Operation": "Sum", "TargetType": "CurrentEntity", "FailSilentlyIfNoTarget": false, "Getters": [] } },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerFellowship",
+        "Multiplier": 1,
+        "Value": { "ValueType": "Simple", "Value": -5, "ValueRank": "Default", "ValueShared": "Damage", "Property": "None", "m_CustomProperty": null, "PropertyName": "Value1" },
+        "m_ActionsOnAdd": { "Actions": [] }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Burden of Service: Oath of Silence (ChargenDarkestHour). No prerequisites.",
+    "m_DisplayName": { "m_Key": "7a707354-8719-43c4-ac63-d03c35c2f80f", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "m_Description": { "m_Key": "8852fbd6-4a73-4b2d-9eb6-90b010c2f023", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": { "Composition": "And", "List": [] },
+    "FeatureTypes": [],
+    "TalentIconInfo": { "AllGroups": "Debuff", "MainGroup": "Debuff" },
+    "m_Acronym": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": { "ShadowDeleted": false }
+}

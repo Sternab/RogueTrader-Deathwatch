@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2086151842, guid: dc02cf7d53edc6949bc969aa0a28f014, type: 3}
+  m_Name: EE_Pauldron_RavenGuard
+  m_EditorClassIdentifier: 
+  IsExportEnabled: 0
+  CantBeHiddenByDollRoom: 0
+  ShowAboveAllIgnoreLayer: 0
+  m_RequiresDlc:
+    guid: 
+  Layer: 201
+  m_HideBodyParts: 0
+  ShowLowerMaterials: 0
+  isOnlyRightBP: 0
+  IsAugmentation: 0
+  AugmentationArmSide: 0
+  SkeletonModifiers: []
+  PrimaryColorsProfile: {fileID: 0}
+  SecondaryColorsProfile: {fileID: 0}
+  BakedTextures: {fileID: 0}
+  PreviewTexture: {fileID: 0}
+  ColorPresets: {fileID: 11400000, guid: 38742bc09646f0e4d87aba78d71457bf, type: 2}
+  m_PrimaryRamps: []
+  m_SecondaryRamps: []
+  BodyParts:
+  - m_Type: 65536
+    RendererPrefab: {fileID: 3492076218150150512, guid: 81ecd4757f1148142b5fdbac34d256f8,
+      type: 3}
+    Material: {fileID: 2100000, guid: 5ddcd278c44063a46916f4728c829d89, type: 2}
+    Textures:
+    - ActiveTexture: {fileID: 2800000, guid: 1a2ae7a3df6065f41b6e35d6beb961b0, type: 3}
+      DiffuseTexture: {fileID: 2800000, guid: 1a2ae7a3df6065f41b6e35d6beb961b0, type: 3}
+      NormalTexture: {fileID: 2800000, guid: a9e4749db2a76b14190f510e2b738b4d, type: 2}
+      MaskTexture: {fileID: 2800000, guid: 96c3f72c8096d9743818165cde390204, type: 2}
+      RampShadowTexture: {fileID: 0}
+      DefaultMask1: {fileID: 0}
+      DefaultMask2: {fileID: 0}
+      DiffuseActive: 1
+      NormalActive: 1
+      MaskActive: 1
+      RampShadowActive: 0
+      UseRamp1Mask: 0
+      UseRamp2Mask: 0
+      UseDefaultMask1: 0
+      UseDefaultMask2: 0
+      UseShadowMask: 0
+      Ramps:
+        PrimaryMask: {fileID: 0}
+        PrimaryRamp: {fileID: 0}
+        SecondaryMask: {fileID: 0}
+        SecondaryRamp: {fileID: 0}
+      Channel: 0
+  OutfitParts: []
+  ForcedPrimaryIndex: -1
+  ForcedSecondaryIndex: -1

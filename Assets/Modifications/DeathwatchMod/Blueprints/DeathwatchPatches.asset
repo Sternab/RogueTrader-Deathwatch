@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fe07f61edc4914ac44891e22e1fdf7, type: 3}
+  m_Name: DeathwatchPatches
+  m_EditorClassIdentifier:
+  Entries:
+  - Guid: 912495ad4ffc4c4da72819d2602f7976
+    Filename: ChargenPsyker_Selection
+    PatchType: 1
+  - Guid: 92f5ea9d9306402588dc8418d4a794aa
+    Filename: CharGenRoot_PortraitsAndVoices
+    PatchType: 1
+  - Guid: d7c178f942e64faebc7518eb79f7823f
+    Filename: MeatDump_WakeUp_Cue_2
+    PatchType: 1
+  - Guid: e4ca8c3dfa934776a624dfd5e7726374
+    Filename: SpaceMarineImmunity_Rename
+    PatchType: 1
+  - Guid: 3ea153cb4f714f1798572e89c7cbd1e9
+    Filename: Ulfar_Barks_ChargenVoice
+    PatchType: 1

@@ -1,0 +1,2040 @@
+{
+  "AssetId": "2cc2468184df42e0952936e6743cc0db",
+  "Data": {
+    "$type": "74167fee930157a49b88d49d1689ee9a, BlueprintUnitAsksList",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "95968ed93cfb4dc45b8141526f932ba4, UnitAsksComponent",
+        "name": "$UnitAsksComponent$467c930d-fd9e-43e9-9fe3-4b06d0f5acbd",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "SoundBanks": [
+          "DX_Ask_DWMarine"
+        ],
+        "PreviewSound": "dw_marine_selected_01",
+        "Aggro": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": true,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "Pain": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_pain_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 2.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.4,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 0,
+          "Priority": 10
+        },
+        "Death": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "Unconscious": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_death_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 0,
+          "Priority": 4
+        },
+        "LowHealth": {
+          "Entries": [],
+          "Cooldown": 10.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 0,
+          "Priority": 8
+        },
+        "CriticalHit": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.7,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 1,
+          "Priority": 2
+        },
+        "Order": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_15",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.7,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 1,
+          "Priority": 3
+        },
+        "Selected": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_misc_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_selected_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": true,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "CantDo": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "CheckSuccess": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_check_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_check_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "CheckFail": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_check_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_check_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "Discovery": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_discovery_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "OrderMove": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 10.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.4,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "OrderMoveExploration": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_order_move_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 30.0,
+          "OverrideCooldownOnGamepad": true,
+          "CooldownGamepad": 60.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.3,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": true,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "MomentumAction": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "EnemyDeath": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_01",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_06",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_07",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_09",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_10",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_11",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_12",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_13",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_enemy_death_14",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.7,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 1,
+          "Priority": 1
+        },
+        "PartyMemberUnconscious": {
+          "Entries": [],
+          "Cooldown": 5.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 0,
+          "Priority": 2
+        },
+        "PsychicPhenomena": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "PerilsOfTheWarp": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "HealingAlly": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "BeingHealed": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "EnemyMassDeath": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": true,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 1,
+          "Priority": 0
+        },
+        "ThrowingGrenade": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "FriendlyFire": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": true,
+          "PrioritizationGroup": 0,
+          "Priority": 6
+        },
+        "UsingCombatDrug": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "AggroQuestionHuman": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_05",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": true,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.3,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "AggroQuestionXenos": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_02",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_03",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_04",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            },
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_aggro_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": true,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.3,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "AggroQuestionChaos": {
+          "Entries": [
+            {
+              "Text": null,
+              "AkEvent": "dw_marine_momentum_08",
+              "RandomWeight": 1.0,
+              "ExcludeTime": 2,
+              "m_RequiredFlags": [],
+              "m_ExcludedFlags": []
+            }
+          ],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": true,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 0.3,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "AggroRaceAnswer": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "OutOfAmmo": {
+          "Entries": [],
+          "Cooldown": 0.0,
+          "OverrideCooldownOnGamepad": false,
+          "CooldownGamepad": 0.0,
+          "InterruptOthers": false,
+          "DelayMin": 0.0,
+          "DelayMax": 0.0,
+          "Chance": 1.0,
+          "ShowOnScreen": false,
+          "DoNotPlayWhileAlone": false,
+          "EnablePrioritization": false,
+          "PrioritizationGroup": 0,
+          "Priority": 0
+        },
+        "PartyMemberUnconsciousPersonalized": [],
+        "AnimationBarks": [],
+        "SpaceCombatBarks": {
+          "StartCombatReactionSpaceCombat": {
+            "Entries": [
+              {
+                "Text": null,
+                "AkEvent": "dw_marine_space_combat_01",
+                "RandomWeight": 1.0,
+                "ExcludeTime": 2,
+                "m_RequiredFlags": [],
+                "m_ExcludedFlags": []
+              }
+            ],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "WinCombatReactionSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "MoveOrderSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 0.7,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "FireMacroCannonsSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "LanceFireSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "LaunchTorpedosSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "ShieldSectionIsDownSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "EnemyShieldSectionIsDownSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "LowHealthSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "EnemyDeathSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          },
+          "LowShieldSpaceCombat": {
+            "Entries": [],
+            "Cooldown": 0.0,
+            "OverrideCooldownOnGamepad": false,
+            "CooldownGamepad": 0.0,
+            "InterruptOthers": false,
+            "DelayMin": 0.0,
+            "DelayMax": 0.0,
+            "Chance": 1.0,
+            "ShowOnScreen": false,
+            "DoNotPlayWhileAlone": false,
+            "EnablePrioritization": false,
+            "PrioritizationGroup": 0,
+            "Priority": 0
+          }
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Deathwatch Space Marine chargen voice (auto-generated from bark mapping)",
+    "DisplayName": {
+      "m_Key": "6b97b316-fb4b-4bbf-857b-5939227b0816",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

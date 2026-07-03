@@ -1,0 +1,24 @@
+{
+  "AssetId": "dea7c0de00224033804455667788aa02",
+  "Data": {
+    "$type": "856d2f6e26e25c04fad05a1429d1b579, KingmakerEquipmentEntity",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Deathwatch armour BODY only: power armour EE_ArmorSpaceMarine4 (a6b3fde3) + backpack EE_BackpackSpaceMarine4 (28df2710). NO helmet (29f3a430). Used by the worn DeathwatchArmor_Item so equipping the armour does NOT bring a helmet -- the helmet is the head-slot item only (fixes the ghost-helmet-on-armour-re-equip bug). The full armour+helmet+backpack KEE_DeathwatchArmor (07cfd043) is still the always-on feature-EE for the chargen doll.",
+    "m_MaleArray": [
+      { "AssetId": "a6b3fde39450d1045896d92fe76fc489" },
+      { "AssetId": "28df2710412911b4fbc25637560b9053" }
+    ],
+    "m_FemaleArray": [
+      { "AssetId": "a6b3fde39450d1045896d92fe76fc489" },
+      { "AssetId": "28df2710412911b4fbc25637560b9053" }
+    ],
+    "m_RaceDependent": false,
+    "m_RaceDependentArrays": []
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

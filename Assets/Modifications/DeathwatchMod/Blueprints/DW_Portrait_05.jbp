@@ -1,0 +1,39 @@
+{
+  "AssetId": "affdc2f096ae4d7c924fe83e66d9ae97",
+  "Data": {
+    "$type": "c596f85ac9e041d7a0e73ec01f67c2f4, BlueprintPortrait",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Deathwatch portrait 05",
+    "Data": {
+      "m_PortraitImage": {
+        "AssetId": "5c1c4f7d54ad9e04197f262ad797a7c4"
+      },
+      "m_HalfLengthImage": {
+        "AssetId": "b1d54d53eb0622e489c352829f2e15e2"
+      },
+      "m_FullLengthImage": {
+        "AssetId": "f18790772ad690d4292c9f21d0737ef2"
+      },
+      "m_LoadingImage": {
+        "AssetId": ""
+      },
+      "m_LoadingGlitchImage": {
+        "AssetId": ""
+      },
+      "InterchapterPortraitLink": {
+        "AssetId": "f18790772ad690d4292c9f21d0737ef2"
+      },
+      "PortraitCategory": "None",
+      "IsDefault": false,
+      "InitiativePortrait": false,
+      "FlipFullLengthPortraitInDialog": false
+    },
+    "m_BackupPortrait": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "AssetId": "5812c9cea10f4420b5915c9b0196a83b",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$DW_OCC_AddFacts$d75ae2e6-8e7a-4603-a948-5c565b793923",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_2f973dbd24184ef5bf5240d2512ccf70",
+          "!bp_1afa19d04a904df4a76248b913421352"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$1669fee2-7be3-4f8b-98f9-f1249ceb59ad",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_8379931fea56440192a660288fada89a",
+          "!bp_971073f6852045ca832e54ddc2e19ed4",
+          "!bp_f8ae0b573ad94d52b944f8d40d3d1c14",
+          "!bp_0f90ef08ec7c431ab72977f8344dc7fd",
+          "!bp_3954f643aecd46a78c689f1963f446d7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$00b06dd8-7475-4668-87ea-43aef00c49e5",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_8379931fea56440192a660288fada89a",
+          "!bp_971073f6852045ca832e54ddc2e19ed4",
+          "!bp_f8ae0b573ad94d52b944f8d40d3d1c14",
+          "!bp_0f90ef08ec7c431ab72977f8344dc7fd",
+          "!bp_3954f643aecd46a78c689f1963f446d7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$4019e209-26b4-45b0-a94b-f3ad745fea7a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_8379931fea56440192a660288fada89a",
+          "!bp_971073f6852045ca832e54ddc2e19ed4",
+          "!bp_f8ae0b573ad94d52b944f8d40d3d1c14",
+          "!bp_0f90ef08ec7c431ab72977f8344dc7fd",
+          "!bp_3954f643aecd46a78c689f1963f446d7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$709c0fea-3721-44e9-b43d-3bc74e5c772b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_8379931fea56440192a660288fada89a",
+          "!bp_971073f6852045ca832e54ddc2e19ed4",
+          "!bp_f8ae0b573ad94d52b944f8d40d3d1c14",
+          "!bp_0f90ef08ec7c431ab72977f8344dc7fd",
+          "!bp_3954f643aecd46a78c689f1963f446d7"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$DW_OCC_AddFeaturesToLevelUp$69c6e36f-f1f7-4eff-9e06-380edbf9150c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_8379931fea56440192a660288fada89a",
+          "!bp_971073f6852045ca832e54ddc2e19ed4",
+          "!bp_f8ae0b573ad94d52b944f8d40d3d1c14",
+          "!bp_0f90ef08ec7c431ab72977f8344dc7fd",
+          "!bp_3954f643aecd46a78c689f1963f446d7"
+        ]
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$5812c9cea10f4420b5915c9b0196a83b-000000000001",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "WarhammerIntelligence",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 5,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$5812c9cea10f4420b5915c9b0196a83b-000000000003",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "OriginAdvancement",
+        "Stat": "SkillMedicae",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Speciality: Apothecary (ChargenOccupation). No prerequisites.",
+    "m_DisplayName": {
+      "m_Key": "f4253843-7538-41ad-8322-4e3d6e25de55",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "22d64e29-b961-4b67-8f8b-4ae0b1af9324",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "Occupation",
+      "MainGroup": "Occupation"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

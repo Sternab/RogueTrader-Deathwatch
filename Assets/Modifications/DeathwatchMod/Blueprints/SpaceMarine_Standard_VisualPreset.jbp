@@ -1,0 +1,22 @@
+{
+  "AssetId": "d68a2e2af8c0df3aaed55e6ad4910ddc",
+  "Data": {
+    "$type": "11a828b07c9145c484d200ea9581541a, BlueprintRaceVisualPreset",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Space Marine race visual preset (MaleSpaceMarine skeleton + marine skin) for chargen doll.",
+    "RaceId": "Spacemarine",
+    "MaleSkeleton": {
+      "guid": "ea274426fb236094e9ed8bbfc9627ce2",
+      "fileid": 11400000
+    },
+    "FemaleSkeleton": {
+      "guid": "ea274426fb236094e9ed8bbfc9627ce2",
+      "fileid": 11400000
+    },
+    "m_Skin": "!bp_7e0ddd6d61a5f27352ce9ae0ec028318"
+  },
+  "Meta": { "ShadowDeleted": false }
+}

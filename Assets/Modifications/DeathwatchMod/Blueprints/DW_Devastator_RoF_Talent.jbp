@@ -1,0 +1,431 @@
+{
+  "AssetId": "92857aad95f14b4d9bb9575e7c3f626a",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "28fa403fa7a94a2f9ea361583e66cdb4, WarhammerWeaponStatsModifierInitiator",
+        "name": "$WarhammerWeaponStatsModifierInitiator$9e5a1716-2b02-41dd-840b-8a00b17f22d7",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "BoolAnd",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "ba648cd4033740aa987af4b641d583de, CheckAbilityWeaponFamilyGetter",
+                "name": "$CheckAbilityWeaponFamilyGetter$3ca23bac-7dfc-4760-bcb1-593b87523cc4",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Families": [
+                  "Bolt",
+                  "Melta",
+                  "Plasma",
+                  "Flame"
+                ]
+              }
+            ]
+          }
+        },
+        "Descriptor": "None",
+        "Damage": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "DamageMin": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false
+        },
+        "DamageMax": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false
+        },
+        "Penetration": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "Recoil": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "AdditionalHitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "DodgePenetration": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "MaxDistance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "OptimalDistance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        },
+        "RateOfFire": {
+          "ValueType": "CasterNamedProperty",
+          "Value": 20,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": true,
+          "ModifierType": "PctAdd"
+        },
+        "OverpenetrationFactor": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1",
+          "Enabled": false,
+          "ModifierType": "ValAdd"
+        }
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$02335223-36fc-4bc1-864b-9a70d80ecba0",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
+              "name": "$ConditionalGetter$a828d9f1-653e-49a1-8b6f-a8c2dd8460c9",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Condition": {
+                "Operation": "Eq",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "b9dd49398cf14b469d7fc78f01eb5e85, CoverStatusGetter",
+                    "name": "$CoverStatusGetter$ff4b8ece6d165193aa03ba07f3c24e7d",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    }
+                  },
+                  {
+                    "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                    "name": "$ContextValueGetter$7b4017db87625cd6b8f9f93930bb924e",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Value": {
+                      "ValueType": "Simple",
+                      "Value": 1,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    }
+                  }
+                ]
+              },
+              "True": {
+                "Operation": "Sum",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                    "name": "$ContextValueGetter$93a14fca-d787-4e45-a49f-e27adac90934",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Value": {
+                      "ValueType": "Simple",
+                      "Value": 25,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    }
+                  }
+                ]
+              },
+              "False": {
+                "Operation": "Sum",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
+                    "name": "$ConditionalGetter$18a375df-16f5-48a3-9a27-58659aa1fbf8",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Condition": {
+                      "Operation": "Eq",
+                      "TargetType": "CurrentEntity",
+                      "TargetEvaluator": null,
+                      "FailSilentlyIfNoTarget": false,
+                      "Getters": [
+                        {
+                          "$type": "b9dd49398cf14b469d7fc78f01eb5e85, CoverStatusGetter",
+                          "name": "$CoverStatusGetter$d9dd446d-4c16-4df1-954e-af9c72b442cc",
+                          "Settings": {
+                            "Progression": "AsIs",
+                            "m_CustomProgression": [],
+                            "m_StartLevel": 0,
+                            "m_StepLevel": 0,
+                            "Negate": false,
+                            "Limit": "None",
+                            "Min": 0,
+                            "Max": 0
+                          }
+                        },
+                        {
+                          "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                          "name": "$ContextValueGetter$789ebe91-9a3f-47c0-b7c0-5d81935931f5",
+                          "Settings": {
+                            "Progression": "AsIs",
+                            "m_CustomProgression": [],
+                            "m_StartLevel": 0,
+                            "m_StepLevel": 0,
+                            "Negate": false,
+                            "Limit": "None",
+                            "Min": 0,
+                            "Max": 0
+                          },
+                          "Value": {
+                            "ValueType": "Simple",
+                            "Value": 2,
+                            "ValueRank": "Default",
+                            "ValueShared": "Damage",
+                            "Property": "None",
+                            "m_CustomProperty": null,
+                            "PropertyName": "Value1"
+                          }
+                        }
+                      ]
+                    },
+                    "True": {
+                      "Operation": "Sum",
+                      "TargetType": "CurrentEntity",
+                      "TargetEvaluator": null,
+                      "FailSilentlyIfNoTarget": false,
+                      "Getters": [
+                        {
+                          "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                          "name": "$ContextValueGetter$190b541e-3983-4e0b-b94b-02ed4e42fd87",
+                          "Settings": {
+                            "Progression": "AsIs",
+                            "m_CustomProgression": [],
+                            "m_StartLevel": 0,
+                            "m_StepLevel": 0,
+                            "Negate": false,
+                            "Limit": "None",
+                            "Min": 0,
+                            "Max": 0
+                          },
+                          "Value": {
+                            "ValueType": "Simple",
+                            "Value": 50,
+                            "ValueRank": "Default",
+                            "ValueShared": "Damage",
+                            "Property": "None",
+                            "m_CustomProperty": null,
+                            "PropertyName": "Value1"
+                          }
+                        }
+                      ]
+                    },
+                    "False": {
+                      "Operation": "Sum",
+                      "TargetType": "CurrentEntity",
+                      "TargetEvaluator": null,
+                      "FailSilentlyIfNoTarget": false,
+                      "Getters": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Deathwatch copy of AstraMilitarum_Talent5 (dd8a80be), retargeted from lasguns to the marine's heavy ranged families (Bolt/Melta/Plasma/Flame). Granted to the Devastator in place of the shared lasgun talent, so the vanilla human Astra Militarum origin is untouched. Keeps the original cover-scaled +RoF.",
+    "m_DisplayName": {
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null,
+      "m_Key": "28f8fb11-0cb5-4ba1-8cb6-a3e5de49689c"
+    },
+    "m_Description": {
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null,
+      "m_Key": "2d6a152c-5b69-4320-88c1-4b9333fba2aa"
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Damage, Occupation",
+      "MainGroup": "Occupation"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

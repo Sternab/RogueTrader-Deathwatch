@@ -1,0 +1,20 @@
+{
+  "AssetId": "7e0ddd6d61a5f27352ce9ae0ec028318",
+  "Data": {
+    "$type": "856d2f6e26e25c04fad05a1429d1b579, KingmakerEquipmentEntity",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Space Marine naked-body skin (EE_Body01_M_SM) for the marine race visual preset.",
+    "m_MaleArray": [
+      { "AssetId": "cc6dac73836acc24cbf003696996003c" }
+    ],
+    "m_FemaleArray": [
+      { "AssetId": "cc6dac73836acc24cbf003696996003c" }
+    ],
+    "m_RaceDependent": false,
+    "m_RaceDependentArrays": []
+  },
+  "Meta": { "ShadowDeleted": false }
+}

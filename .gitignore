@@ -1,0 +1,25 @@
+# Whitelist repo: ships ONLY the Deathwatch mod source + its one build-tooling customization.
+# Everything else (the Owlcat template, Unity Library, builds) is intentionally untracked;
+# see README.md "Building from source".
+/*
+!/.gitignore
+!/README.md
+!/DESIGN_NOTES.md
+!/Assets
+/Assets/*
+!/Assets/Modifications
+/Assets/Modifications/*
+!/Assets/Modifications/DeathwatchMod
+!/Assets/Modifications/DeathwatchMod.meta
+!/Assets/Editor
+/Assets/Editor/*
+!/Assets/Editor/Build
+/Assets/Editor/Build/*
+!/Assets/Editor/Build/Tasks
+/Assets/Editor/Build/Tasks/*
+!/Assets/Editor/Build/Tasks/PrepareArtifacts.cs
+!/Assets/Editor/Build/Tasks/PrepareArtifacts.cs.meta
+
+# Auto-generated at build time (PrepareBuild wipes and regenerates it)
+/Assets/Modifications/DeathwatchMod/Generated/
+Generated.meta

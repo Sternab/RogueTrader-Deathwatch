@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2086151842, guid: dc02cf7d53edc6949bc969aa0a28f014, type: 3}
+  m_Name: EE_DeathwatchHelmet
+  m_EditorClassIdentifier: 
+  IsExportEnabled: 0
+  CantBeHiddenByDollRoom: 0
+  ShowAboveAllIgnoreLayer: 0
+  m_RequiresDlc:
+    guid: 
+  Layer: 210
+  m_HideBodyParts: 177215882
+  ShowLowerMaterials: 1
+  isOnlyRightBP: 0
+  IsAugmentation: 0
+  AugmentationArmSide: 0
+  SkeletonModifiers: []
+  PrimaryColorsProfile: {fileID: 0}
+  SecondaryColorsProfile: {fileID: 0}
+  BakedTextures: {fileID: 0}
+  PreviewTexture: {fileID: 0}
+  ColorPresets: {fileID: 0}
+  m_PrimaryRamps: []
+  m_SecondaryRamps: []
+  BodyParts:
+  - m_Type: 256
+    RendererPrefab: {fileID: 919132149155446097, guid: 3564ef8635c30b2418272ff3d1a2f7a3,
+      type: 3}
+    Material: {fileID: 2100000, guid: 5ddcd278c44063a46916f4728c829d89, type: 2}
+    Textures:
+    - ActiveTexture: {fileID: 2800000, guid: 04bd375cf2dbb2f469f64d4d0897a048, type: 3}
+      DiffuseTexture: {fileID: 2800000, guid: 04bd375cf2dbb2f469f64d4d0897a048, type: 3}
+      NormalTexture: {fileID: 2800000, guid: b655dad281419614dae437aa7d758d28, type: 2}
+      MaskTexture: {fileID: 2800000, guid: d6fc87fddd8090945b5a0d022c448afc, type: 2}
+      RampShadowTexture: {fileID: 0}
+      DefaultMask1: {fileID: 0}
+      DefaultMask2: {fileID: 0}
+      DiffuseActive: 1
+      NormalActive: 1
+      MaskActive: 1
+      RampShadowActive: 0
+      UseRamp1Mask: 0
+      UseRamp2Mask: 1
+      UseDefaultMask1: 0
+      UseDefaultMask2: 0
+      UseShadowMask: 0
+      Ramps:
+        PrimaryMask: {fileID: 0}
+        PrimaryRamp: {fileID: 0}
+        SecondaryMask: {fileID: 0}
+        SecondaryRamp: {fileID: 0}
+      Channel: 0
+  OutfitParts: []
+  ForcedPrimaryIndex: -1
+  ForcedSecondaryIndex: -1

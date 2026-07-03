@@ -1,0 +1,24 @@
+{
+  "TargetGuid": "912495ad4ffc4c4da72819d2602f7976",
+  "FieldOverrides": [
+    {
+      "FieldValue": 1,
+      "FieldName": "Prerequisites.Composition"
+    }
+  ],
+  "ArrayPatches": [
+    {
+      "OperationType": 6,
+      "Value": {
+        "$type": "40a1bdb738834fb69a296a2677235b35, PrerequisiteFact",
+        "name": "$PrerequisiteFact$DW-Librarian-Trigger",
+        "Not": false,
+        "m_Fact": "!bp_8e283ed69c0d4f569a2cb0e7963362d7",
+        "MinRank": 0
+      },
+      "TargetValue": null,
+      "FieldName": "Prerequisites.List"
+    }
+  ],
+  "ComponentsPatches": []
+}
