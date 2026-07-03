@@ -398,7 +398,7 @@
     },
     "2d6a152c-5b69-4320-88c1-4b9333fba2aa": {
       "Offset": 0,
-      "Text": "Rate of Fire is increased for heavy ranged weapons (bolt, melta, plasma, and flame), and increased further when firing from cover."
+      "Text": "While in partial {g|Encyclopedia:DetailsOfTheCoverGlossary}cover{/g}, the {g|Encyclopedia:RateOfFire}rate of fire{/g} of your bolt, melta, plasma, and flame weapons is increased by +20% and by +40% while in full cover."
     },
     "6b97b316-fb4b-4bbf-857b-5939227b0816": {
       "Offset": 0,
