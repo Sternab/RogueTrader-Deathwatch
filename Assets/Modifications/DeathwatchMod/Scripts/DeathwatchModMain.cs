@@ -29,6 +29,7 @@
 // =====================================================================================================
 using System;                                     // Exception
 using System.IO;                                  // Path, Directory (mod voice-bank base path)
+using System.Linq;                                // FirstOrDefault (content-bundle lookup)
 using System.Reflection;
 using HarmonyLib;
 using Kingmaker.Modding;                          // OwlcatModification, OwlcatModificationEnterPoint
@@ -163,6 +164,40 @@ namespace DeathwatchMod
                 Log("[Audio] Registered mod bank path " + dir + " (AddBasePath -> " + res + ").");
             }
             catch (Exception e) { LogError("[Audio][ERR] AddBasePath", e); }
+        }
+
+        // === Keep the custom-EE content bundle resident (invisible-marine fix) ===
+        // Our custom EquipmentEntities (helmet + chapter pauldrons) live in the mod's Deathwatch_content bundle.
+        // BundlesLoadService reference-counts bundles (BundleData.RequestCount) and Bundle.Unload(true)'s one when
+        // its count hits 0; nothing else holds the content bundle, so on an area/cutscene transition it drops to 0
+        // and unloads -- DESTROYING the EEs (invisible marine / wrong-chapter pauldron). Take our OWN permanent
+        // request on it and never release: RequestBundle increments the count, so it never reaches 0 (the request
+        // IS the handle -- BundlesLoadService is Game-lifetime and never torn down mid-run). This is the stock
+        // engine API, replacing the old build-task dependency-emulation, and needs no MicroPatches. Called from the
+        // first in-game marine body build (DollData.CreateUnitView) -- well after the service exists and before any
+        // transition could unload the bundle. One-shot: s_contentBundlePinned makes every later call a no-op. Do
+        // NOT use OwlcatModification.LoadBundle (raw LoadFromFile, bypasses the ref count and collides with the
+        // engine's own load of the same file).
+        private static UnityEngine.AssetBundle s_contentBundle;
+        private static bool s_contentBundlePinned;
+        internal static void EnsureContentBundleHeld()
+        {
+            if (s_contentBundlePinned || Modification == null) return;
+            try
+            {
+                var svc = Kingmaker.BundlesLoading.BundlesLoadService.Instance;
+                if (svc == null) return;   // service not registered yet -- retry on the next body build
+                s_contentBundlePinned = true;   // commit to one attempt regardless of outcome -- never spam RequestBundle
+                string name = Modification.Bundles.FirstOrDefault(b => b.EndsWith("_content"));
+                if (string.IsNullOrEmpty(name))
+                {
+                    Log("[Bundle] no _content bundle on the modification; nothing to pin.");
+                    return;
+                }
+                s_contentBundle = svc.RequestBundle(name);
+                Log("[Bundle] pinned " + name + " resident (" + (s_contentBundle != null ? "held" : "RequestBundle returned null") + ").");
+            }
+            catch (Exception e) { LogError("[Bundle][ERR] pin content bundle", e); }
         }
 
         // The OMM LogChannel already tags every line with the mod name ("[... - Deathwatch][Message]:"), so we

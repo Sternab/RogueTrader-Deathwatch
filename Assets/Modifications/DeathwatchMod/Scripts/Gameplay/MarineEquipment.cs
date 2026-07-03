@@ -7,68 +7,9 @@ using Kingmaker.Enums;                            // WeaponClassification
 using Kingmaker.Items;                            // ItemEntity, ItemEntityWeapon
 using Kingmaker.Items.Slots;                      // HandSlot
 using Kingmaker.Mechanics.Entities;               // MechanicEntity
-using Kingmaker.View;                              // UnitEntityView
-using Kingmaker.Visual.CharacterSystem;           // Character, EquipmentEntity
 
 namespace DeathwatchMod
 {
-    // FALLBACK NET (pending removal). The ROOT-CAUSE fix now ships in the build: the mod's <Target>_content
-    // bundle is a keep-resident dependency of the persistent <Target>_BlueprintDirectReferences bundle (see
-    // CreateManifestAndSettings.cs), honoured at runtime by the required MicroPatches. Once a build confirms
-    // this patch's [PruneDeadEEs] line never fires across area transitions, delete this whole class.
-    //
-    // INVISIBLE-MARINE FIX + SELF-HEAL (engine bundle-lifecycle interaction). BundlesLoadService REFERENCE-COUNTS
-    // loaded bundles (BundleData.RequestCount); when the last requester releases a bundle and the count hits 0 it
-    // is Bundle.Unload(true)'d (BundlesLoadService.cs:199), which DESTROYS its assets. The mod's content bundle
-    // (custom EEs: chapter pauldron, helmet) is only transiently requested, so on a transition nothing holds a
-    // request on it and it unloads -- the root-cause fix above keeps a permanent request on it. The live body's
-    // Character.EquippedItemsEntities / EquipmentEntities still strong-reference the corpses (the lists are only
-    // appended on equip), and UpdateCharacter() reads e.name on them -- a destroyed Unity object passes the
-    // != null fake-null guard yet throws NRE on .name, unwinding the whole build (invisible marine). Probing
-    // .name in a try/catch is the only reliable corpse test.
-    // TWO steps, prefixed onto UpdateCharacter:
-    //   1. PRUNE the dead EEs so the render survives (a destroyed EE cannot render anyway).
-    //   2. SELF-HEAL: pruning alone leaves the look degraded (e.g. the chapter pauldron overlay gone -> the base
-    //      spaulder's built-in Blood Angels badge shows). Re-run the engine's own re-dress,
-    //      UnitEntityView.UpdateBodyEquipmentModel(): it walks every body slot and re-adds each equipped item's
-    //      EEs -- reloading the mod bundle on demand -- via the same path as a manual unequip/re-equip.
-    //      AddEquipmentEntity has a Contains guard, so still-alive EEs no-op (idempotent). Doll-room Characters
-    //      have no UnitEntityView; they just get the prune (the doll rebuilds from the healed live body).
-    [HarmonyPatch(typeof(Character), "UpdateCharacter")]
-    internal static class Character_PruneDeadEEs_Patch
-    {
-        private static bool IsDeadEE(EquipmentEntity e)
-        {
-            if (e == null) return true;              // Unity fake-null: cleanly-destroyed / unassigned
-            try { _ = e.name; return false; }        // raw native getter -> NRE if the native object was destroyed
-            catch { return true; }
-        }
-
-        [HarmonyPrefix]
-        private static void Prefix(Character __instance)
-        {
-            try
-            {
-                if (__instance == null) return;
-                int pruned = __instance.EquipmentEntities.RemoveAll(IsDeadEE);
-                pruned += __instance.EquippedItemsEntities.RemoveWhere(IsDeadEE);
-                if (pruned == 0) return;
-
-                var view = __instance.GetComponentInParent<UnitEntityView>();
-                if (view != null && view.EntityData != null)
-                {
-                    view.UpdateBodyEquipmentModel();   // re-adds every equipped item's EEs (idempotent)
-                    DeathwatchModMain.Log("[PruneDeadEEs] pruned " + pruned + " destroyed EE(s) after a bundle unload and re-added the equipped items' EEs on " + view.name + ".");
-                }
-                else
-                {
-                    DeathwatchModMain.Log("[PruneDeadEEs] pruned " + pruned + " destroyed EE(s) on a viewless Character (doll room) -- rebuilds from the live body.");
-                }
-            }
-            catch (Exception e) { DeathwatchModMain.LogError("[PruneDeadEEs][ERR] UpdateCharacter prefix", e); }
-        }
-    }
-
     // A marine's hand rule (HandSlot.IsItemSupported, keyed on CommonSpaceMarineFact) rejects a
     // MELEE 2H weapon in one hand, so a two-handed psyker STAFF bounces with "Wrong slot". The marine has NO complete
     // 2H-melee animation set (TwoHandedHammer has an attack but no idle), so the staff is carried ONE-HANDED in the

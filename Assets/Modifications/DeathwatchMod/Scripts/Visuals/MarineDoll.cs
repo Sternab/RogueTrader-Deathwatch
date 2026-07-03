@@ -177,6 +177,10 @@ namespace DeathwatchMod
                 if (__instance == null || !DeathwatchModMain.IsMarinePreset(__instance.RacePreset)) return;
                 if (__result == null) return;
 
+                // First in-game marine body -> pin our custom-EE content bundle resident so it survives area
+                // transitions (see DeathwatchModMain.EnsureContentBundleHeld). One-shot; later calls no-op.
+                DeathwatchModMain.EnsureContentBundleHeld();
+
                 MarineDoll.EnsureMarineDoll();
                 var src = MarineDoll.MarineDollCharacter;
                 if (src == null) return;
