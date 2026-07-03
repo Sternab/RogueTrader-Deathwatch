@@ -28,6 +28,7 @@
 // asmdef compiles Scripts\ recursively, so PatchAll(assembly) still finds every patch class).
 // =====================================================================================================
 using System;                                     // Exception
+using System.IO;                                  // Path, Directory (mod voice-bank base path)
 using System.Reflection;
 using HarmonyLib;
 using Kingmaker.Modding;                          // OwlcatModification, OwlcatModificationEnterPoint
@@ -125,6 +126,7 @@ namespace DeathwatchMod
         {
             Modification = modification;
             Log("[Init] Enter point reached; bootstrapping Harmony.");
+            RegisterVoiceBankPath(modification);
             var harmony = new Harmony(modification.Manifest.UniqueName);
             try
             {
@@ -139,6 +141,28 @@ namespace DeathwatchMod
                 try { harmony.UnpatchAll(harmony.Id); } catch { /* best effort */ }
                 LogError("[Init][ERR] Harmony patching failed -- game version likely incompatible; Deathwatch disabled itself", e);
             }
+        }
+
+        // Register the mod's Audio folder as a Wwise bank base path so the two DW voice banks (DX_Ask_DWMarine
+        // / DX_Ask_DWApothecary, named by the voice blueprints' SoundBanks[]) resolve from the mod instead of
+        // the game's StreamingAssets. AkSoundEngine.AddBasePath is public (AK.Wwise.Unity.API, referenced) and
+        // purely ADDITIVE -- base paths are never cleared (only AudioFilePackagesSettings adds one), and the Ak
+        // engine is already initialized before the mod enter point runs, so calling once HERE persists through
+        // to the main-menu voice-bank load. No Harmony patch needed. If the Audio folder is absent we no-op.
+        private static void RegisterVoiceBankPath(OwlcatModification modification)
+        {
+            try
+            {
+                string dir = Path.Combine(modification.Path, "Audio");
+                if (!Directory.Exists(dir))
+                {
+                    Log("[Audio] mod Audio folder not found (" + dir + "); DW banks must be in StreamingAssets.");
+                    return;
+                }
+                var res = AkSoundEngine.AddBasePath(dir);
+                Log("[Audio] Registered mod bank path " + dir + " (AddBasePath -> " + res + ").");
+            }
+            catch (Exception e) { LogError("[Audio][ERR] AddBasePath", e); }
         }
 
         // The OMM LogChannel already tags every line with the mod name ("[... - Deathwatch][Message]:"), so we
