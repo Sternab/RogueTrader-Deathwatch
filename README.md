@@ -21,7 +21,7 @@ in the base campaign.
   enabled, only owned.
 - **MicroPatches** (by Microsoftenator). A required dependency: it keeps the mod's custom armour and
   pauldron assets loaded across area transitions. The mod will not load without it. Most Rogue Trader
-  mod setups already have it. Get it from Nexus Mods or the Rogue Trader modding community.
+  mod setups already have it. https://www.nexusmods.com/warhammer40kroguetrader/mods/203
 
 ## Installation
 
