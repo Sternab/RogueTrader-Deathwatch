@@ -30,8 +30,8 @@ namespace DeathwatchMod
                 var owner = __instance != null ? __instance.Owner : null;
                 if (!DeathwatchModMain.IsMarineUnit(owner)) return;   // marine only
                 if (owner.View == null) return;                       // viewless unit (not spawned yet)
-                // NB: UnitViewHandSlotData.VisibleItemBlueprint getter is PRIVATE in the referenced Code.dll (it is
-                // public in the newer decompile -- the two builds drift), so reach the blueprint via the public
+                // NB: UnitViewHandSlotData.VisibleItemBlueprint getter is PRIVATE in the referenced Code.dll (and
+                // also private in the newer decompile), so reach the blueprint via the public
                 // VisibleItem (ItemEntity) -> Blueprint instead.
                 var weapon = __instance.VisibleItem?.Blueprint as BlueprintItemWeapon;
                 if (weapon == null || (weapon.Family != WeaponFamily.Force && weapon.Classification != WeaponClassification.PsykerStaff)) return;     // force weapons + psyker staffs

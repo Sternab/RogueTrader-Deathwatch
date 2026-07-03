@@ -30,7 +30,7 @@ namespace DeathwatchMod
         internal static bool BuildingMarineDoll;
 
         internal static DeathwatchModMain.ChapterVisual? DollChapter;       // detected in UpdateMechanicsEntities, applied in UpdateDoll
-        internal static Character DollAvatar;              // the live chargen doll Character (cached in UpdateDoll), re-textured on chapter flip
+        internal static Character DollAvatar;              // the live chargen doll Character (cached in UpdateDoll), re-badged with the chapter pauldron EE on chapter flip
 
         internal static void EnsureMarineDoll()
         {
@@ -78,7 +78,7 @@ namespace DeathwatchMod
                 var avatar = f != null ? f.GetValue(__instance) as Character : null;
                 if (avatar != null)
                 {
-                    MarineDoll.DollAvatar = avatar;   // cache for live chapter re-texture on flip
+                    MarineDoll.DollAvatar = avatar;   // cache for live chapter pauldron re-badge on flip
                     var anim = avatar.Animator;
                     var ees = avatar.EquipmentEntities;
                     DeathwatchModMain.LogDebug("[DollRig] post-UpdateDoll: animatorChild=" +
@@ -199,9 +199,9 @@ namespace DeathwatchMod
         }
     }
 
-    // CHAPTER-FLIP RE-TEXTURE seam. CharGenDollRoom.UpdateDoll does NOT re-run when the player clicks a
+    // CHAPTER-FLIP RE-BADGE seam. CharGenDollRoom.UpdateDoll does NOT re-run when the player clicks a
     // different chapter (the doll's EE list is unchanged), but DollState.UpdateMechanicsEntities does. So
-    // detect the chosen chapter here and re-apply the pauldron (+ helmet recolour) to the live cached doll
+    // detect the chosen chapter here and re-apply the pauldron to the live cached doll
     // avatar, so the shoulder updates immediately on a chapter switch. Gated to the marine preset.
     [HarmonyPatch(typeof(DollState), "UpdateMechanicsEntities")]
     internal static class DollState_UpdateMechanicsEntities_Patch

@@ -13,9 +13,9 @@ namespace DeathwatchMod
     // A marine's hand rule (HandSlot.IsItemSupported, keyed on CommonSpaceMarineFact) rejects a
     // MELEE 2H weapon in one hand, so a two-handed psyker STAFF bounces with "Wrong slot". The marine has NO complete
     // 2H-melee animation set (TwoHandedHammer has an attack but no idle), so the staff is carried ONE-HANDED in the
-    // OFF hand and animated as the native Fencing style (via the TwoHandedWeaponsInOneHand component on
+    // OFF hand and animated as a native one-handed style (BrutalOneHanded, set by the TwoHandedWeaponsInOneHand component on
     // AstartesPhysiology_Feature). We lift the rejection ONLY for the OFF hand + a Classification==PsykerStaff staff,
-    // so it equips off-hand and plays Fencing/off idle+walk + OffHandAttack Fencing. Other 2H melee stays rejected.
+    // so it equips off-hand and plays that one-handed idle+walk + OffHandAttack. Other 2H melee stays rejected.
     [HarmonyPatch(typeof(HandSlot), nameof(HandSlot.IsItemSupported))]
     internal static class HandSlot_IsItemSupported_LibrarianStaff_Patch
     {
@@ -49,7 +49,7 @@ namespace DeathwatchMod
     // load -- a global change that also unlocked the swords for vanilla Ulfar/Uralon (release-gate catch). Now:
     // allow the equip in a postfix ONLY for this mod's marine (IsMarineUnit = the mod-owned race) on exactly
     // these 16 items; the vanilla exclusion stays intact for everyone else. The DW marine never carries the
-    // restriction's other block-facts (the Scorn/Heretic markers), so a plain allow is safe here.
+    // restriction's other block-facts (the Aeldari/Drukhari armour-proficiency markers), so a plain allow is safe here.
     [HarmonyPatch(typeof(EquipmentRestrictionHasFacts), nameof(EquipmentRestrictionHasFacts.CanBeEquippedBy))]
     internal static class EquipmentRestrictionHasFacts_CanBeEquippedBy_ForceSword_Patch
     {

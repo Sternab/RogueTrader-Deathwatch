@@ -98,7 +98,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch: Astartes Physiology baseline statline (Large + characteristic/skill/wounds bonuses)",
+    "Comment": "Deathwatch: Astartes Physiology baseline statline (characteristic/skill/wounds bonuses). Size stays Medium out of combat (set on DW_AstartesRace); the old always-on ChangeUnitSize(Large) was removed from here, and Large is now applied only in combat by the DW_CombatSize_Large buff. Also carries the off-hand-staff TwoHandedWeaponsInOneHand anim component.",
     "m_DisplayName": { "m_Key": "d5f34d8a-e396-425c-806f-a877dc65c683", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
     "m_Description": { "m_Key": "d3271785-3e5c-4593-a6a0-3f186e945fa8", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
     "m_Icon": null,

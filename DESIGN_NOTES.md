@@ -55,8 +55,8 @@ difference. That would be a far worse outcome for everyone.
   DW portraits and voices vanish); load order cannot fix that.
 - The psyker chargen selection's prerequisite composition becomes **Or**. Modders adding their own
   prerequisites to `SanctionedPsyker_Selection` should account for this.
-- Everything else (dynamic size, weapon scaling, the force-sword allowance, equipment self-healing)
-  applies only to this mod's marine. Vanilla Ulfar/Uralon and other mods' Space Marines are untouched,
+- Everything else (dynamic size, weapon scaling, the force-sword allowance) applies only to this
+  mod's marine. Vanilla Ulfar/Uralon and other mods' Space Marines are untouched,
   including the vanilla rule that keeps force swords off Astartes.
 
 **Save dependence:**

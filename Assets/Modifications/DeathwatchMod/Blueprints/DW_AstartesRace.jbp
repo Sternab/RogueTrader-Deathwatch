@@ -6,7 +6,7 @@
     "m_Overrides": [],
     "Components": [],
     "Author": "Unknown",
-    "Comment": "Playable Astartes race (Deathwatch, Option RACE). Clone of HumanRace with marine RaceId/Size/preset/physiology.",
+    "Comment": "Playable Astartes race (Deathwatch, Option RACE). Clone of HumanRace with marine RaceId/preset/physiology (Size stays Medium, same as HumanRace; the combat-only Large footprint is the separate DW_CombatSize_Large buff).",
     "m_DisplayName": {
       "m_Key": "",
       "m_OwnerString": "",

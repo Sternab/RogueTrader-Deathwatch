@@ -19,9 +19,9 @@ in the base campaign.
   built around are that DLC's content. The mod enforces ownership: without the DLC, the Custom Space
   Marine option does not appear in character creation. The DLC's story content does not need to be
   enabled, only owned.
-- **MicroPatches** (by Microsoftenator). A required dependency: it keeps the mod's custom armour and
-  pauldron assets loaded across area transitions. The mod will not load without it. Most Rogue Trader
-  mod setups already have it. https://www.nexusmods.com/warhammer40kroguetrader/mods/203
+- **MicroPatches** (by Microsoftenator). A required, declared dependency: the game will not load
+  Deathwatch unless MicroPatches is installed **and enabled**. Most Rogue Trader mod setups already
+  have it. https://www.nexusmods.com/warhammer40kroguetrader/mods/203
 
 ## Installation
 
@@ -64,8 +64,8 @@ This repository contains the mod source plus the one customized build-pipeline f
 3. Copy the two customized build-task files from this repository over the template's copies:
    - `Assets/Editor/Build/Tasks/PrepareArtifacts.cs` - ships the mod's `Audio/` folder (the two voice
      soundbanks) with the build; a stock template silently drops it.
-   - `Assets/Editor/Build/Tasks/CreateManifestAndSettings.cs` - wires the mod's content bundle as a
-     keep-resident dependency so the custom armour/pauldron assets are not unloaded on area transitions.
+   - `Assets/Editor/Build/Tasks/CreateManifestAndSettings.cs` - carries the MicroPatches build-task
+     integration (per-bundle dependency recording and the Edit-only patch filter) a stock template lacks.
 4. In Unity: `Assets > Modification Tools > Build`. The built mod and `Deathwatch.zip` appear in
    `Build/`. Copy the zip out immediately: the next build of any mod wipes that folder.
 

@@ -49,7 +49,7 @@ namespace OwlcatModification.Editor.Build.Tasks
 
 			#region MicroPatches
 			// Deathwatch: ship the two DW voice sound banks with the mod. Copy <mod source>\Audio\*.bnk straight
-			// into the built mod's Audio\ folder so the runtime SoundBanksManager_LoadVoiceBanks_ModBankPath_Patch's
+			// into the built mod's Audio\ folder so DeathwatchModMain.RegisterVoiceBankPath's direct (called from Initialize, no Harmony patch)
 			// AkSoundEngine.AddBasePath(Modification.Path\Audio) resolves them. Copied from SOURCE (not an
 			// intermediate output) because .bnk are inert binaries needing no build processing; the helper no-ops
 			// if the Audio folder is absent, so this is safe when the banks aren't present.
