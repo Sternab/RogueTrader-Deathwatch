@@ -56,10 +56,12 @@ namespace DeathwatchMod
     internal static class CharGenPregenPhaseVM_AddMarineTile_Patch
     {
         // HARD DLC REQUIREMENT: the marine's armour/helmet are The Infinite Museion DLC's assets, so the
-        // Custom Space Marine tile only appears when that DLC is owned AND enabled (BlueprintDlc.IsActive =
-        // IsAvailable && IsEnabled, backed by StoreManager.DLCCache -- populated well before the main menu
-        // builds chargen, so it is safe to read here). Checked per phase build, so enabling the DLC takes
-        // effect on the next chargen open. This tile is the single entry point to all marine content.
+        // Custom Space Marine tile only appears when that DLC is OWNED (BlueprintDlc.IsPurchased, the raw
+        // store-ownership check backed by StoreManager.DLCCache -- populated well before the main menu builds
+        // chargen, so it is safe to read here). Deliberately NOT IsActive: a player who owns the DLC but has
+        // its story content DISABLED in the game's DLC manager can still play the marine -- the assets ship in
+        // the shared bundles and load regardless of the enable toggle; ownership is the requirement. This tile
+        // is the single entry point to all marine content.
         private const string InfiniteMuseionDlc_Guid = "30938411c3c64d77b415fbe6d23bbaa0";
         private static bool s_dlcGateLogged;
 
@@ -87,12 +89,12 @@ namespace DeathwatchMod
                     mode != CharGenConfig.CharGenMode.NewCompanion) return;   // player (NewGame) or mercenary (NewCompanion) chargen
 
                 var dlc = ResourcesLibrary.BlueprintsCache.Load(InfiniteMuseionDlc_Guid) as BlueprintDlc;
-                if (dlc == null || !dlc.IsActive)
+                if (dlc == null || !dlc.IsPurchased)
                 {
                     if (!s_dlcGateLogged)
                     {
                         s_dlcGateLogged = true;
-                        DeathwatchModMain.Log("[Tile] The Infinite Museion DLC is not active -- the Custom Space Marine tile is disabled (the mod's armour assets are that DLC's content).");
+                        DeathwatchModMain.Log("[Tile] The Infinite Museion DLC is not owned -- the Custom Space Marine tile is disabled (the mod's armour assets are that DLC's content).");
                     }
                     return;
                 }

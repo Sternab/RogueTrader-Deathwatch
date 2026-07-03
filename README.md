@@ -15,9 +15,10 @@ in the base campaign.
 ## Requirements
 
 - Warhammer 40,000: Rogue Trader (current patch).
-- **The Infinite Museion DLC.** The Deathwatch armour, helmet and related assets this mod is built
-  around are that DLC's content. The mod enforces this: if the DLC is not owned and enabled, the
-  Custom Space Marine option does not appear in character creation.
+- **The Infinite Museion DLC (owned).** The Deathwatch armour, helmet and related assets this mod is
+  built around are that DLC's content. The mod enforces ownership: without the DLC, the Custom Space
+  Marine option does not appear in character creation. The DLC's story content does not need to be
+  enabled, only owned.
 - No other mods required.
 
 ## Installation
