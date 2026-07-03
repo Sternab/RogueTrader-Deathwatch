@@ -1,0 +1,412 @@
+﻿{
+  "strings": {
+    "DW.Chargen.MarineTileName": {
+      "Offset": 0,
+      "Text": "Individueller Space Marine"
+    },
+    "DW.Chargen.Phase.Homeworld": {
+      "Offset": 0,
+      "Text": "Kapitel"
+    },
+    "DW.Chargen.Phase.Occupation": {
+      "Offset": 0,
+      "Text": "Spezialisierung"
+    },
+    "DW.Chargen.Phase.MomentOfTriumph": {
+      "Offset": 0,
+      "Text": "Ruhmestat"
+    },
+    "DW.Chargen.Phase.DarkestHour": {
+      "Offset": 0,
+      "Text": "Bürde des Dienstes"
+    },
+    "d5f34d8a-e396-425c-806f-a877dc65c683": {
+      "Offset": 0,
+      "Text": "Astartes-Physiologie"
+    },
+    "dea7c0de-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Deathwatch-Rüstung"
+    },
+    "dea7c0de-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "Deathwatch-Helm"
+    },
+    "ba5e11ae-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Adeptus Astartes"
+    },
+    "ba5e11ae-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "Das volle Erbe eines Space Marines: übermenschliche Physiologie, Meisterschaft über Bolter-, Plasma-, Melta- und Flammenwaffen, die Ausbildung an der Servorüstung und die transhumane Widerstandskraft des Adeptus Astartes."
+    },
+    "3ea153cb-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Ulfar"
+    },
+    "e4ca8c3d-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Widerstandskraft des Adeptus Astartes"
+    },
+    "e4ca8c3d-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "Ein Astartes ist gefeit gegen die Schrecken des Warp und die lähmenden Tricks geringerer Feinde: immun gegen warpgeborene Furcht, niemals zu Boden geworfen und widerstandsfähig gegen Kontrolleffekte."
+    },
+    "d3271785-3e5c-4593-a6a0-3f186e945fa8": {
+      "Offset": 0,
+      "Text": "Dein Körper ist das Werk des Entwurfs des Kaisers und der langen Disziplin deines Kapitels. Durch die Ossmodula gehärtete Knochen, implantierte Organe, der Schwarze Rückenpanzer und Jahrzehnte der Hypno-Indoktrination haben dich zu mehr als einem Menschen gemacht. Du bist dieser Wachtfeste neu verschworen, doch du trittst in ihren Dienst nicht als sterblicher Soldat."
+    },
+    "5d599268-87fb-4b3c-8087-d1c5e9032ac0": {
+      "Offset": 0,
+      "Text": "Ultramarines"
+    },
+    "1189a61c-754b-45df-9e0e-ab491e56688c": {
+      "Offset": 0,
+      "Text": "Die Ultramarines tragen das Gewicht von Roboute Guillimans Beispiel in jeden Kriegsschauplatz. Sie schätzen Ordnung, Anpassungsfähigkeit und Führung unter Druck. In der Deathwatch wird ein solcher Kampfbruder oft zu dem festen Punkt, um den herum sich weniger berechenbare Verbündete sammeln können."
+    },
+    "87cc5491-7588-42e5-b74e-c4f87e5913ea": {
+      "Offset": 0,
+      "Text": "Fluch der Xenos"
+    },
+    "bf01f9fd-d320-43fd-9884-19bc056562cb": {
+      "Offset": 0,
+      "Text": "Deine Liste der Getöteten umfasst einen Stamm, eine Brut oder eine Kriegsschar, deren Name in den Archiven der Wachtfeste zur Vernichtung gezeichnet ist. Du kennst den Fremdling nach Witterung, Fährte und Fehlermuster."
+    },
+    "7a707354-8719-43c4-ac63-d03c35c2f80f": {
+      "Offset": 0,
+      "Text": "Eid des Schweigens"
+    },
+    "8852fbd6-4a73-4b2d-9eb6-90b010c2f023": {
+      "Offset": 0,
+      "Text": "Ein Teil deiner Chronik ist auf Befehl der Wacht versiegelt. Du gehorchst ohne Widerrede, doch das Schweigen hat dein Wesen zu einer Festung gemacht."
+    },
+    "3bbd6f41-c077-4e50-b688-38eee6534297": {
+      "Offset": 0,
+      "Text": "Blood Angels"
+    },
+    "ed9853f7-5c28-4f52-988e-d4bbc2ebd3da": {
+      "Offset": 0,
+      "Text": "Die Söhne von Sanguinius sind Krieger von schrecklicher Anmut, edel in ihrer Haltung und rasch im Zorn, wenn Blut vergossen wird. In der Deathwatch bringt ein Blood Angel Schönheit, Disziplin und einen Hunger nach dem Nahkampf mit, den er ebenso sehr beherrschen wie entfesseln muss."
+    },
+    "90e4c477-ac14-4f4c-9655-210056524774": {
+      "Offset": 0,
+      "Text": "Dark Angels"
+    },
+    "13025d74-f91e-44e0-8bb0-c6913f501f10": {
+      "Offset": 0,
+      "Text": "Die Dark Angels wahren ihre eigenen Geheimnisse selbst unter verschworenen Brüdern. Sie sind unerbittliche Jäger, grimmige Hüter uralter Schande und Meister des geduldigen Krieges. In der Deathwatch wird ihr Schweigen oft für Misstrauen gehalten – bis die Beute gestellt und das Urteil vollstreckt ist."
+    },
+    "330b27d7-68ff-4c25-9ddd-34283a6cde47": {
+      "Offset": 0,
+      "Text": "Black Templars"
+    },
+    "5f7b0cb0-efdd-451e-8b75-fdf8a3f1f5f9": {
+      "Offset": 0,
+      "Text": "Die Black Templars führen die Kriege des Kaisers als einen endlosen Kreuzzug. Ihr Glaube ist aus Eisen, ihr Hass auf die Hexe absolut, und ihre Antwort auf jeden Zweifel ist die Klinge. In der Deathwatch sind sie furchterregende Sturmkrieger, deren Inbrunst mit Bedacht gelenkt werden muss."
+    },
+    "91199928-5ef0-4f9d-975a-ea099a9f2bbe": {
+      "Offset": 0,
+      "Text": "White Scars"
+    },
+    "cd33523e-bd25-4a60-82d2-f087372b1cb5": {
+      "Offset": 0,
+      "Text": "Die White Scars schlagen zu wie eine Sturmfront – schnell, lachend und wieder fort, ehe der Feind antworten kann. Ihre Söhne bevorzugen Bewegung, jähe Gewalt und die Freiheit der offenen Tötungszone. In der Deathwatch ist ein White Scar oft der Erste, der die verwundbare Flanke des Feindes findet."
+    },
+    "dd58a7ab-d596-40f1-b3be-48ce902a23f5": {
+      "Offset": 0,
+      "Text": "Iron Hands"
+    },
+    "d7555140-195e-49ad-9a1b-29864c39958a": {
+      "Offset": 0,
+      "Text": "Die Iron Hands betrachten Schwäche als eine Schuld, die in Eisen zu begleichen ist. Ihre Krieger sind kalt, unnachgiebig und erbarmungslos gegenüber Schwäche – vor allem der eigenen. In der Deathwatch sind ihre Disziplin und ihr Maschinenwissen von unschätzbarem Wert, wenngleich selten tröstlich."
+    },
+    "c5deaa9c-4396-4e6f-ad33-1f8b8dd78537": {
+      "Offset": 0,
+      "Text": "Space Wolves"
+    },
+    "2eacc5a9-446c-437f-8c03-eeafdbdabdc4": {
+      "Offset": 0,
+      "Text": "Die Space Wolves sind Jäger, Eidwahrer und Krieger von ungestümem Instinkt. Sie bringen die Treue eines Rudels und den Spürsinn eines Raubtiers für jede Schwäche mit. In der Deathwatch verbirgt ihr wildes Gebaren einen erprobten Blick für die Wahrheit des Schlachtfelds."
+    },
+    "6d220250-e299-4dcf-a4a4-94e34f362217": {
+      "Offset": 0,
+      "Text": "Imperial Fists"
+    },
+    "00a11ea6-b41e-4381-b58f-ccff453b88a8": {
+      "Offset": 0,
+      "Text": "Die Imperial Fists sind die Mauer, die nicht bricht. Sie halten stand, verschanzen sich und begegnen aussichtslosen Lagen mit noch kälterer Entschlossenheit. In der Deathwatch vertraut man einem Imperial Fist, die Linie zu halten, wenn die Linie längst zerbrochen ist."
+    },
+    "0be5b487-edf3-4b6b-a442-c54c729f8660": {
+      "Offset": 0,
+      "Text": "Raven Guard"
+    },
+    "89e3279b-6c6c-4f96-8e45-9243f676dd7a": {
+      "Offset": 0,
+      "Text": "Die Raven Guard führen ihren Krieg mit Geduld, Stille und jäher Vollstreckung. Sie wissen, dass ein einziger Schnitt an der rechten Stelle tausend geringere Hiebe ersparen kann. In der Deathwatch sind sie Kundschafter, Meuchler und Jäger von Befehlsknoten."
+    },
+    "d50786f7-efc5-45b4-9c2e-460491c15507": {
+      "Offset": 0,
+      "Text": "Salamanders"
+    },
+    "b5551238-d256-4db3-a54c-3e498ec1cdf9": {
+      "Offset": 0,
+      "Text": "Die Salamanders sind Kunsthandwerker des Krieges und Beschützer jener, die das Imperium sonst achtlos verheizen würde. Flamme, Schmerz und Verlust ertragen sie mit feierlicher Würde. In der Deathwatch brennt ihr Zorn am heißesten, wenn die Wehrlosen hinter ihnen stehen."
+    },
+    "b46f48f9-af4f-4e2c-959f-0823caedbe67": {
+      "Offset": 0,
+      "Text": "Sturmmarine"
+    },
+    "5bbea062-8ba3-41fb-9c96-489e090b15c2": {
+      "Offset": 0,
+      "Text": "Du bist die Klinge im Augenblick des Aufpralls. Ob du im Feuer des Sprungmoduls herabstößt oder unter mörderischem Beschuss eine Bresche durchquerst – deine Pflicht ist es, dem Feind auf den Leib zu rücken und ihn dort zu brechen, wo er steht."
+    },
+    "f4253843-7538-41ad-8322-4e3d6e25de55": {
+      "Offset": 0,
+      "Text": "Apothecarius"
+    },
+    "22d64e29-b961-4b67-8f8b-4ae0b1af9324": {
+      "Offset": 0,
+      "Text": "Du bewahrst die Gensaat des Kapitels und das Leben derer, die sie in sich tragen. Deine Hände kennen sowohl die Gnade als auch die Vollstreckung, denn ein gefallener Kampfbruder ist niemals bloß ein Verlust."
+    },
+    "37a7f13c-ddb7-4fe2-939f-f018ccc7f7e6": {
+      "Offset": 0,
+      "Text": "Devastor-Marine"
+    },
+    "ca3c6843-8ef5-4229-9af1-f11b6c555229": {
+      "Offset": 0,
+      "Text": "Du bist der Zorn des Kill-Teams, ins Beständige und Methodische gewendet. Wo andere vorrücken, verankerst du das Feld, misst die Entfernung und zermalmst den Feind mit Feuer und Granate."
+    },
+    "738eb6ec-92ea-4ea7-8d5e-c67a92c22a55": {
+      "Offset": 0,
+      "Text": "Taktischer Marine"
+    },
+    "986bd49b-64d6-4fd0-88c4-0c945cbae674": {
+      "Offset": 0,
+      "Text": "Du bist darauf gedrillt, jedem Kriegsschauplatz zu begegnen. Bolter, Klinge, Bresche, Führung und Gegenangriff – all das fällt in deine Verantwortung. Im Kill-Team bist du der Kampfbruder, der einzelne Stärken als eine wirken lässt."
+    },
+    "7d83d5a6-b6ab-408d-84e6-de70ff4e3f77": {
+      "Offset": 0,
+      "Text": "Techmarine"
+    },
+    "2a5af241-87f4-4a15-be40-2dbd770ce8ba": {
+      "Offset": 0,
+      "Text": "Man hat dich in die Mysterien des Maschinenkults eingeweiht, ohne dass du aufgehört hättest, ein Sohn deines Kapitels zu sein. Rüstung, Waffe, Tor und Maschine gehorchen deinen Riten, wo geringere Hände sie nur entweihen würden."
+    },
+    "d8703ddd-097f-420c-a7fb-475fe9148fc7": {
+      "Offset": 0,
+      "Text": "Bibliothekar"
+    },
+    "584ccc88-70ac-4ec2-a9e0-af12dcf1da8c": {
+      "Offset": 0,
+      "Text": "Du trägst die gefährliche Gabe des Psykers unter den strengen Auflagen von Kapitel, Librarius und Wacht. Dein Geist ist Waffe und Pforte zugleich, und jede Nutzung ist ein erneuerter Eid wider die Verdammnis."
+    },
+    "9a3353a2-0a20-4c79-a61f-ab7fb29441c6": {
+      "Offset": 0,
+      "Text": "Die Bresche gehalten"
+    },
+    "8dbf1dce-9a75-4b91-8288-fe69db49061a": {
+      "Offset": 0,
+      "Text": "Du standest dort, wo ein Rückzug die Linie besiegelt hätte. Leiber zerschellten an deiner Rüstung, bis der Durchgang von Toten verstopft war und die Lebenden hinter dir vorrücken konnten."
+    },
+    "f0854202-d6ab-4009-931f-1119f5cf24a7": {
+      "Offset": 0,
+      "Text": "Die Synapse durchtrennt"
+    },
+    "ba03394b-76f4-4d24-a126-c4f28a799334": {
+      "Offset": 0,
+      "Text": "Du hast das Leitwesen, den Hexenknoten oder den Offiziersstamm erkannt und aus dem Schwarm herausgeschnitten. Der Feind lebte weiter, doch sein Wille starb zuerst."
+    },
+    "03a0b023-eda8-49d5-90b8-764f7ef01f4f": {
+      "Offset": 0,
+      "Text": "Reliquie geborgen"
+    },
+    "ac6af487-1c4d-4e5a-a62d-b6000a1ebd96": {
+      "Offset": 0,
+      "Text": "Du hast eine Waffe, einen Helm, ein Banner oder ein Fragment eines Gen-Tresors aus verloren geglaubtem Boden zurückgeholt. Der Gegenstand wurde nicht bloß gerettet. Er wurde des Blutes für würdig befunden."
+    },
+    "43c6edd6-1857-4cfc-9760-6a187b322ab1": {
+      "Offset": 0,
+      "Text": "Hexenfeuer gelöscht"
+    },
+    "33c0bab1-ae81-461f-8692-8f0fbb889e38": {
+      "Offset": 0,
+      "Text": "Ein Psyker, Hexer oder eine warpberührte Abscheulichkeit traf auf deine Weigerung und vermochte sie nicht zu überwinden. Du hast den Schleier ächzen sehen und hast den Blick nicht abgewandt."
+    },
+    "23aafc81-69c1-4315-8fe6-9fce5093261c": {
+      "Offset": 0,
+      "Text": "Enthauptungsschlag"
+    },
+    "19afe91b-42ba-42d6-b7f5-5eb706962adc": {
+      "Offset": 0,
+      "Text": "Du warst Teil eines Schlages, der einen Krieg beendete, indem er dessen Herrn beendete. Die Erinnerung ist rein: Eindringen, Ziel, Bestätigung, Extraktion."
+    },
+    "8202f84d-7019-4505-92c2-b3e19a8a5712": {
+      "Offset": 0,
+      "Text": "Letzter überlebender Bruder"
+    },
+    "2296045d-2409-411f-869a-86f2a048ba69": {
+      "Offset": 0,
+      "Text": "Deine Kampfgruppe wurde um dich her zerschlagen, und doch wurde der Auftrag erfüllt. Die Wacht ehrt nicht das Überleben. Sie ehrt, wofür das Überleben verausgabt wurde."
+    },
+    "008ba2cd-059c-456c-864b-9c70dc2dbf30": {
+      "Offset": 0,
+      "Text": "Eid, in Asche gehalten"
+    },
+    "70cdd68c-8c67-4f1b-a3fd-4b09b798f660": {
+      "Offset": 0,
+      "Text": "Du schworst, ein Ziel würde vor Anbruch der Morgendämmerung genommen, und die Morgendämmerung fand dich verwundet inmitten der Glut, den Eid erfüllt. Solche Chroniken sind knapp. Sie brauchen keinen Zierat."
+    },
+    "abe232e5-1b94-4f05-bdfa-f99150ad9feb": {
+      "Offset": 0,
+      "Text": "Der letzte Name auf der Liste"
+    },
+    "5060a5db-7618-4abf-bbcf-a5aee742fcd7": {
+      "Offset": 0,
+      "Text": "Du kehrtest allein von einem Einsatz zurück, dessen Namen im Reclusiam noch immer ausgesprochen werden. Du vergeudest die Leben von Brüdern nicht, denn du hast gehört, was der Vergeudung folgt."
+    },
+    "0e922d6f-6832-40f6-b5e3-87711c58a058": {
+      "Offset": 0,
+      "Text": "Gensaat-Schuld"
+    },
+    "16ea80e6-7bb7-45f9-ae9d-4acb4fdedc1e": {
+      "Offset": 0,
+      "Text": "Du hast versäumt zu bergen, was niemals hätte verloren gehen dürfen, oder zu viel für die Bergung bezahlt. Seit jenem Tag ist jeder gefallene Bruder eine Bürde, die in deine Hände gelegt wird."
+    },
+    "8225d0dd-29c3-4c41-addb-a4904b86b1aa": {
+      "Offset": 0,
+      "Text": "Tadel der Wacht"
+    },
+    "97d494ed-e377-4c7e-8a0c-b16ab513ad72": {
+      "Offset": 0,
+      "Text": "Deine Tat war notwendig, doch nicht rein. Die Wacht hat dich nicht verstoßen. Sie hat die Chronik gezeichnet und dich dorthin gestellt, wo die Notwendigkeit gewöhnlich ist."
+    },
+    "c8369e8f-bbc5-4aa6-9d65-d69d4cb328b1": {
+      "Offset": 0,
+      "Text": "Narbe des Warp"
+    },
+    "364efb41-2a61-4df7-aae6-7d8c5ff8150b": {
+      "Offset": 0,
+      "Text": "Das Immaterium berührte den Einsatz und hinterließ ein Zeichen in deiner Erinnerung. Du kennst den Geschmack falscher Stimmen und den Preis des Zögerns."
+    },
+    "69250695-69c6-4b3a-86ed-20c01c765da4": {
+      "Offset": 0,
+      "Text": "Die Bestie im Innern"
+    },
+    "aa3569c0-f6bf-431a-ade1-61a332894ab0": {
+      "Offset": 0,
+      "Text": "Etwas in der Schlacht antwortet zu rasch, wenn Blut nahe ist. Die Disziplin hält es in Schach, doch Disziplin ist nicht dasselbe wie Frieden."
+    },
+    "ae6224a8-453d-476e-a4e7-fcbc6d5318bd": {
+      "Offset": 0,
+      "Text": "Maschinenschuld"
+    },
+    "73d0d015-2342-4b17-8acf-d4d032e63bd4": {
+      "Offset": 0,
+      "Text": "Rüstung, Waffe oder heilige Maschine versagten unter deiner Aufsicht, und der Preis wurde in Leben bezahlt. Du hast gelernt zu lauschen, wenn der Maschinengeist eine Warnung gibt."
+    },
+    "5ad0c63c-9dac-43c2-bbdd-451f108fb639": {
+      "Offset": 0,
+      "Text": "Zerbrochene Befehlskette"
+    },
+    "acd792b3-38ad-4100-86ff-e4c57ee34ab2": {
+      "Offset": 0,
+      "Text": "Befehle blieben aus, der Vox verstummte, und das Kommando ging in dem Raum zwischen einem Herzschlag und dem nächsten auf dich über. Der Sieg folgte, doch mit ihm die Prüfung deiner Tat."
+    },
+    "92104d53-5868-4822-be1d-03e8658c685d": {
+      "Offset": 0,
+      "Text": "Deathwatch-Ultramarine Mark VII \"Aquila Armour\""
+    },
+    "0bcf575a-f67c-4641-a723-aa7b9b1141cf": {
+      "Offset": 0,
+      "Text": "Rüstung eines Sohnes von Guilliman, umgefärbt in das Schwarz der Langen Wacht. Ihr Träger kämpft nach dem Codex Astartes und leiht der Deathwatch die abgemessene Präzision der XIII."
+    },
+    "d60d05ab-958e-4ff3-95df-b9d2bd5f25a5": {
+      "Offset": 0,
+      "Text": "Deathwatch-Black-Templar Mark VII \"Aquila Armour\""
+    },
+    "65cd65a4-64e6-47da-8756-c8500148493e": {
+      "Offset": 0,
+      "Text": "Rüstung eines Schwertbruders, über deren schwarzes Ceramit die Eide des Kreuzzugs gekettet sind. Ihr Träger trägt den unauslöschlichen Eifer des Ewigen Kreuzzugs in die Jagd."
+    },
+    "a8163d91-e25e-4382-a9cb-60196055330a": {
+      "Offset": 0,
+      "Text": "Deathwatch-Dark-Angel Mark VII \"Aquila Armour\""
+    },
+    "23e1907d-6355-4078-8d3a-ef2727c201db": {
+      "Offset": 0,
+      "Text": "Rüstung der Ersten Legion, getragen von einem der Unvergebenen. Ihr Träger wahrt seine eigenen Geheimnisse und die seines Kapitels, wachsam selbst unter den Brüdern des Kill-Teams."
+    },
+    "9246cdbe-9e76-439b-96c3-4f553a0eb2e1": {
+      "Offset": 0,
+      "Text": "Deathwatch-Imperial-Fist Mark VII \"Aquila Armour\""
+    },
+    "e9fc4a79-904f-4e31-b651-b52ea8bad690": {
+      "Offset": 0,
+      "Text": "Belagerungsvernarbte Rüstung eines Sohnes von Dorn, gefeit gegen eine Züchtigung, die wenige zu ertragen vermöchten. Ihr Träger hält die Linie, wo andere brechen würden."
+    },
+    "4a1a9c0b-fa3f-46e2-aed1-a977d3e0c5d1": {
+      "Offset": 0,
+      "Text": "Deathwatch-Iron-Hand Mark VII \"Aquila Armour\""
+    },
+    "6f1be1fe-2630-40d7-97e9-de074c03324d": {
+      "Offset": 0,
+      "Text": "Augmetik-durchzogene Rüstung eines Sohnes von Manus, dessen Fleisch der Gewissheit des Eisens überantwortet wurde. Ihr Träger erachtet Schwäche als etwas, das herauszuschneiden ist."
+    },
+    "3d5c7e42-6ddf-419d-bb52-cff57ee8dda5": {
+      "Offset": 0,
+      "Text": "Deathwatch-Raven-Guard Mark VII \"Aquila Armour\""
+    },
+    "2f9f8500-8896-4b12-bd62-a11fcdbc4b2a": {
+      "Offset": 0,
+      "Text": "Erleichterte Rüstung eines Sohnes von Corax, geschaffen für den Schlag aus dem Schatten. Ihr Träger ist fort, ehe der Feind weiß, dass er je da war."
+    },
+    "ddcb65ec-d73b-4fa9-9c92-092ccc9f06ad": {
+      "Offset": 0,
+      "Text": "Deathwatch-Salamander Mark VII \"Aquila Armour\""
+    },
+    "8e4a756b-9d49-47af-9429-bece85d10db2": {
+      "Offset": 0,
+      "Text": "Feuergeschwärzte Rüstung eines Sohnes von Vulkan, geschmiedet von einer Hand, die die Unschuldigen niemals im Stich lässt. Ihr Träger antwortet den Xenos mit Flamme."
+    },
+    "a68ee514-c0be-4133-8a3b-a031e9e87b6d": {
+      "Offset": 0,
+      "Text": "Deathwatch-Space-Wolf Mark VII \"Aquila Armour\""
+    },
+    "15c27f0d-346c-42a4-b2c8-a31532bfb521": {
+      "Offset": 0,
+      "Text": "Trophäenbehangene Rüstung eines Sohnes von Russ, schwer vom Gestank von Fenris. Ihr Träger jagt mit einer Wildheit, die der Codex niemals zu zähmen vermochte."
+    },
+    "71864722-62b1-4d8d-9f81-aa9348cc9b27": {
+      "Offset": 0,
+      "Text": "Deathwatch-White-Scar Mark VII \"Aquila Armour\""
+    },
+    "ddc770cd-ac20-4f8a-b821-8d166f5cf018": {
+      "Offset": 0,
+      "Text": "Behände Rüstung eines Sohnes des Khan, gemacht für den blitzschnellen Schlag. Ihr Träger holt Beute ein, die sich schon entkommen wähnt."
+    },
+    "e16a4b73-a567-4c50-a920-439736de17c0": {
+      "Offset": 0,
+      "Text": "Deathwatch-Blood-Angel Mark VII \"Aquila Armour\""
+    },
+    "093a661a-a97b-431a-a69e-fbd7c3d5ff34": {
+      "Offset": 0,
+      "Text": "Edle Rüstung eines Sohnes von Sanguinius, schön und schrecklich zugleich. Ihr Träger bemeistert den Roten Durst und wendet den Fluch seines Blutes zu einer Waffe."
+    },
+    "28f8fb11-0cb5-4ba1-8cb6-a3e5de49689c": {
+      "Offset": 0,
+      "Text": "Sperrfeuer"
+    },
+    "2d6a152c-5b69-4320-88c1-4b9333fba2aa": {
+      "Offset": 0,
+      "Text": "In teilweiser {g|Encyclopedia:DetailsOfTheCoverGlossary}Deckung{/g} wird die {g|Encyclopedia:RateOfFire}Feuergeschwindigkeit{/g} deiner Bolter-, Melta-, Plasma- und Flammenwaffen um +20 % erhöht und um +40 % in voller Deckung."
+    },
+    "6b97b316-fb4b-4bbf-857b-5939227b0816": {
+      "Offset": 0,
+      "Text": "Space Marine"
+    },
+    "40b5edcb-829b-4181-99f6-44ea18c79da4": {
+      "Offset": 0,
+      "Text": "Apothecarius"
+    }
+  }
+}

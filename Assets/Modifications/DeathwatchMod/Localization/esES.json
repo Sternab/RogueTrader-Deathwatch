@@ -1,0 +1,412 @@
+﻿{
+  "strings": {
+    "DW.Chargen.MarineTileName": {
+      "Offset": 0,
+      "Text": "Marine Espacial personalizado"
+    },
+    "DW.Chargen.Phase.Homeworld": {
+      "Offset": 0,
+      "Text": "Capítulo"
+    },
+    "DW.Chargen.Phase.Occupation": {
+      "Offset": 0,
+      "Text": "Especialidad"
+    },
+    "DW.Chargen.Phase.MomentOfTriumph": {
+      "Offset": 0,
+      "Text": "Gesta de Renombre"
+    },
+    "DW.Chargen.Phase.DarkestHour": {
+      "Offset": 0,
+      "Text": "Carga del Servicio"
+    },
+    "d5f34d8a-e396-425c-806f-a877dc65c683": {
+      "Offset": 0,
+      "Text": "Fisiología Astartes"
+    },
+    "dea7c0de-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Armadura de los Vigías de la Muerte"
+    },
+    "dea7c0de-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "Casco de los Vigías de la Muerte"
+    },
+    "ba5e11ae-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Adeptus Astartes"
+    },
+    "ba5e11ae-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "La herencia completa de un Marine Espacial: fisiología sobrehumana, dominio de las armas bólter, de plasma, de fusión y de fuego, adiestramiento en servoarmadura y la resistencia transhumana de los Adeptus Astartes."
+    },
+    "3ea153cb-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Ulfar"
+    },
+    "e4ca8c3d-0001-4000-8000-000000000001": {
+      "Offset": 0,
+      "Text": "Resistencia de los Adeptus Astartes"
+    },
+    "e4ca8c3d-0002-4000-8000-000000000002": {
+      "Offset": 0,
+      "Text": "Un Astartes es inmune a los terrores de la disformidad y a las artimañas incapacitantes de los enemigos menores: inmune al miedo nacido de la disformidad, jamás derribado y resistente a los efectos de control."
+    },
+    "d3271785-3e5c-4593-a6a0-3f186e945fa8": {
+      "Offset": 0,
+      "Text": "Tu cuerpo es obra del designio del Emperador y de la larga disciplina de tu capítulo. El hueso endurecido por el ossmodula, los órganos implantados, el caparazón negro y décadas de hipnoadoctrinamiento te han hecho más que humano. Acabas de jurar servicio a esta Estación de Vigilancia, pero no entras en ella como un soldado mortal."
+    },
+    "5d599268-87fb-4b3c-8087-d1c5e9032ac0": {
+      "Offset": 0,
+      "Text": "Ultramarines"
+    },
+    "1189a61c-754b-45df-9e0e-ab491e56688c": {
+      "Offset": 0,
+      "Text": "Los Ultramarines llevan el peso del ejemplo de Roboute Guilliman a cada teatro de guerra. Valoran el orden, la adaptabilidad y el mando bajo presión. En los Vigías de la Muerte, semejante Hermano de Batalla suele convertirse en el punto fijo en torno al cual pueden reagruparse aliados menos predecibles."
+    },
+    "87cc5491-7588-42e5-b74e-c4f87e5913ea": {
+      "Offset": 0,
+      "Text": "Perdición de los Xenos"
+    },
+    "bf01f9fd-d320-43fd-9884-19bc056562cb": {
+      "Offset": 0,
+      "Text": "Tu cuenta de muertes incluye una estirpe, una prole o una banda cuyo nombre está marcado para la destrucción en los archivos de la Estación de Vigilancia. Conoces al alienígena por su olor, su rastro y su patrón de derrota."
+    },
+    "7a707354-8719-43c4-ac63-d03c35c2f80f": {
+      "Offset": 0,
+      "Text": "Juramento de Silencio"
+    },
+    "8852fbd6-4a73-4b2d-9eb6-90b010c2f023": {
+      "Offset": 0,
+      "Text": "Parte de tu historial está sellada por orden de la Vigilancia. Obedeces sin protestar, pero el silencio ha hecho de tu talante una fortaleza."
+    },
+    "3bbd6f41-c077-4e50-b688-38eee6534297": {
+      "Offset": 0,
+      "Text": "Ángeles Sangrientos"
+    },
+    "ed9853f7-5c28-4f52-988e-d4bbc2ebd3da": {
+      "Offset": 0,
+      "Text": "Los hijos de Sanguinius son guerreros de terrible gracia, nobles en su porte y prestos a la ira cuando se derrama sangre. En los Vigías de la Muerte, un Ángel Sangriento aporta belleza, disciplina y un ansia de combate cuerpo a cuerpo que ha de dominarse tanto como desatarse."
+    },
+    "90e4c477-ac14-4f4c-9655-210056524774": {
+      "Offset": 0,
+      "Text": "Ángeles Oscuros"
+    },
+    "13025d74-f91e-44e0-8bb0-c6913f501f10": {
+      "Offset": 0,
+      "Text": "Los Ángeles Oscuros se guardan sus propios designios incluso entre hermanos jurados. Son cazadores implacables, sombríos custodios de una antigua vergüenza y maestros de la guerra paciente. En los Vigías de la Muerte, su silencio se confunde a menudo con desconfianza, hasta que la presa es hallada y se ejecuta la sentencia."
+    },
+    "330b27d7-68ff-4c25-9ddd-34283a6cde47": {
+      "Offset": 0,
+      "Text": "Templarios Negros"
+    },
+    "5f7b0cb0-efdd-451e-8b75-fdf8a3f1f5f9": {
+      "Offset": 0,
+      "Text": "Los Templarios Negros libran las guerras del Emperador como una cruzada sin fin. Su fe es de hierro, su odio a la bruja es absoluto y su respuesta a la duda es la espada. En los Vigías de la Muerte, son temibles guerreros de asalto cuyo fervor debe apuntarse con cuidado."
+    },
+    "91199928-5ef0-4f9d-975a-ea099a9f2bbe": {
+      "Offset": 0,
+      "Text": "Cicatrices Blancas"
+    },
+    "cd33523e-bd25-4a60-82d2-f087372b1cb5": {
+      "Offset": 0,
+      "Text": "Las Cicatrices Blancas golpean como un frente de tormenta: veloces, risueñas y ya lejos antes de que el enemigo pueda responder. Sus hijos prefieren el movimiento, la violencia súbita y la libertad de la zona de muerte abierta. En los Vigías de la Muerte, un Cicatriz Blanca suele ser el primero en hallar el flanco débil del enemigo."
+    },
+    "dd58a7ab-d596-40f1-b3be-48ce902a23f5": {
+      "Offset": 0,
+      "Text": "Manos de Hierro"
+    },
+    "d7555140-195e-49ad-9a1b-29864c39958a": {
+      "Offset": 0,
+      "Text": "Las Manos de Hierro consideran la fragilidad una deuda que se paga en hierro. Sus guerreros son fríos, exigentes y despiadados con la debilidad, sobre todo con la propia. En los Vigías de la Muerte, su disciplina y su saber sobre las máquinas son inestimables, aunque rara vez reconfortantes."
+    },
+    "c5deaa9c-4396-4e6f-ad33-1f8b8dd78537": {
+      "Offset": 0,
+      "Text": "Lobos Espaciales"
+    },
+    "2eacc5a9-446c-437f-8c03-eeafdbdabdc4": {
+      "Offset": 0,
+      "Text": "Los Lobos Espaciales son cazadores, guardianes de sus juramentos y guerreros de instinto feroz. Aportan la lealtad de una manada y el olfato de un depredador para la debilidad. En los Vigías de la Muerte, su talante salvaje esconde un ojo probado para la verdad del campo de batalla."
+    },
+    "6d220250-e299-4dcf-a4a4-94e34f362217": {
+      "Offset": 0,
+      "Text": "Puños Imperiales"
+    },
+    "00a11ea6-b41e-4381-b58f-ccff453b88a8": {
+      "Offset": 0,
+      "Text": "Los Puños Imperiales son el muro que no se quiebra. Resisten, fortifican y responden a lo imposible con una resolución aún más fría. En los Vigías de la Muerte, se confía a un Puño Imperial para sostener la línea cuando la línea ha dejado de existir."
+    },
+    "0be5b487-edf3-4b6b-a442-c54c729f8660": {
+      "Offset": 0,
+      "Text": "Guardia del Cuervo"
+    },
+    "89e3279b-6c6c-4f96-8e45-9243f676dd7a": {
+      "Offset": 0,
+      "Text": "La Guardia del Cuervo libra la guerra mediante la paciencia, el silencio y la ejecución súbita. Saben que un solo tajo en el lugar preciso puede ahorrar mil golpes menores. En los Vigías de la Muerte, son exploradores, asesinos y cazadores de nodos de mando."
+    },
+    "d50786f7-efc5-45b4-9c2e-460491c15507": {
+      "Offset": 0,
+      "Text": "Salamandras"
+    },
+    "b5551238-d256-4db3-a54c-3e498ec1cdf9": {
+      "Offset": 0,
+      "Text": "Los Salamandras son artesanos de la guerra y protectores de aquellos a quienes el Imperio gastaría sin miramiento alguno. Soportan el fuego, el dolor y la pérdida con solemne dignidad. En los Vigías de la Muerte, su ira arde con más furia cuando los indefensos se refugian tras ellos."
+    },
+    "b46f48f9-af4f-4e2c-959f-0823caedbe67": {
+      "Offset": 0,
+      "Text": "Marine de Asalto"
+    },
+    "5bbea062-8ba3-41fb-9c96-489e090b15c2": {
+      "Offset": 0,
+      "Text": "Eres la hoja en el instante del impacto. Ya desciendas sobre el fuego de un retropropulsor o cruces una brecha bajo un fuego devastador, tu deber es cerrar la distancia con el enemigo y quebrantarlo allí donde se sostenga."
+    },
+    "f4253843-7538-41ad-8322-4e3d6e25de55": {
+      "Offset": 0,
+      "Text": "Apotecario"
+    },
+    "22d64e29-b961-4b67-8f8b-4ae0b1af9324": {
+      "Offset": 0,
+      "Text": "Preservas la semilla genética del capítulo y las vidas de quienes la portan. Tus manos conocen tanto la clemencia como la ejecución, pues un Hermano de Batalla caído nunca es una simple baja."
+    },
+    "37a7f13c-ddb7-4fe2-939f-f018ccc7f7e6": {
+      "Offset": 0,
+      "Text": "Marine Devastador"
+    },
+    "ca3c6843-8ef5-4229-9af1-f11b6c555229": {
+      "Offset": 0,
+      "Text": "Eres la ira de la escuadra de exterminio, sostenida y metódica. Donde otros avanzan, tú anclas el terreno, mides el alcance y reduces al enemigo a fuerza de fuego y proyectil."
+    },
+    "738eb6ec-92ea-4ea7-8d5e-c67a92c22a55": {
+      "Offset": 0,
+      "Text": "Marine Táctico"
+    },
+    "986bd49b-64d6-4fd0-88c4-0c945cbae674": {
+      "Offset": 0,
+      "Text": "Estás adiestrado para responder a cualquier teatro de guerra. Bólter, hoja, brecha, mando y contraataque están todos a tu cargo. En la escuadra de exterminio, eres el Hermano de Batalla que hace que fortalezas dispares actúen como una sola."
+    },
+    "7d83d5a6-b6ab-408d-84e6-de70ff4e3f77": {
+      "Offset": 0,
+      "Text": "Tecnomarine"
+    },
+    "2a5af241-87f4-4a15-be40-2dbd770ce8ba": {
+      "Offset": 0,
+      "Text": "Se te ha confiado a los misterios del Culto de la Máquina sin dejar de ser un hijo de tu capítulo. Armadura, arma, portón y motor responden a tus ritos allí donde manos menores solo los profanarían."
+    },
+    "d8703ddd-097f-420c-a7fb-475fe9148fc7": {
+      "Offset": 0,
+      "Text": "Bibliotecario"
+    },
+    "584ccc88-70ac-4ec2-a9e0-af12dcf1da8c": {
+      "Offset": 0,
+      "Text": "Portas el peligroso don del psíquico bajo los preceptos del capítulo, el Librarius y la Vigilancia. Tu mente es un arma y una puerta, y cada uso de ella es un juramento renovado contra la condenación."
+    },
+    "9a3353a2-0a20-4c79-a61f-ab7fb29441c6": {
+      "Offset": 0,
+      "Text": "Sostuvo la Brecha"
+    },
+    "8dbf1dce-9a75-4b91-8288-fe69db49061a": {
+      "Offset": 0,
+      "Text": "Te mantuviste firme allí donde la retirada habría condenado la línea. Los cuerpos se estrellaron contra tu armadura hasta que el paso quedó atascado de muertos y los vivos pudieron avanzar tras de ti."
+    },
+    "f0854202-d6ab-4009-931f-1119f5cf24a7": {
+      "Offset": 0,
+      "Text": "Cortó la Sinapsis"
+    },
+    "ba03394b-76f4-4d24-a126-c4f28a799334": {
+      "Offset": 0,
+      "Text": "Identificaste a la bestia de mando, el nodo brujo o la estirpe oficial y la separaste de la horda. El enemigo sobrevivió, pero su voluntad murió antes."
+    },
+    "03a0b023-eda8-49d5-90b8-764f7ef01f4f": {
+      "Offset": 0,
+      "Text": "Reliquia Recuperada"
+    },
+    "ac6af487-1c4d-4e5a-a62d-b6000a1ebd96": {
+      "Offset": 0,
+      "Text": "Devolviste un arma, un yelmo, un estandarte o un fragmento de la cripta genética desde terreno declarado perdido. El objeto no se rescató sin más. Fue juzgado digno de sangre."
+    },
+    "43c6edd6-1857-4cfc-9760-6a187b322ab1": {
+      "Offset": 0,
+      "Text": "Fuego Brujo Apagado"
+    },
+    "33c0bab1-ae81-461f-8692-8f0fbb889e38": {
+      "Offset": 0,
+      "Text": "Un psíquico, un hechicero o una abominación tocada por la disformidad se topó con tu negativa y no logró franquearla. Has visto tensarse el velo y no apartaste la mirada."
+    },
+    "23aafc81-69c1-4315-8fe6-9fce5093261c": {
+      "Offset": 0,
+      "Text": "Golpe de Decapitación"
+    },
+    "19afe91b-42ba-42d6-b7f5-5eb706962adc": {
+      "Offset": 0,
+      "Text": "Formaste parte de un golpe que puso fin a una guerra poniendo fin a su señor. El recuerdo es nítido: entrada, objetivo, confirmación, extracción."
+    },
+    "8202f84d-7019-4505-92c2-b3e19a8a5712": {
+      "Offset": 0,
+      "Text": "Último Hermano en Pie"
+    },
+    "2296045d-2409-411f-869a-86f2a048ba69": {
+      "Offset": 0,
+      "Text": "Tu escuadra quedó destrozada a tu alrededor, y aun así la orden de misión se cumplió. La Vigilancia no honra la supervivencia. Honra aquello que la supervivencia sirvió para lograr."
+    },
+    "008ba2cd-059c-456c-864b-9c70dc2dbf30": {
+      "Offset": 0,
+      "Text": "Juramento Cumplido entre Cenizas"
+    },
+    "70cdd68c-8c67-4f1b-a3fd-4b09b798f660": {
+      "Offset": 0,
+      "Text": "Juraste que un objetivo se tomaría antes del alba, y el alba te halló herido entre las brasas con el juramento cumplido. Tales historiales son breves. No necesitan adorno."
+    },
+    "abe232e5-1b94-4f05-bdfa-f99150ad9feb": {
+      "Offset": 0,
+      "Text": "El Último Nombre de la Lista"
+    },
+    "5060a5db-7618-4abf-bbcf-a5aee742fcd7": {
+      "Offset": 0,
+      "Text": "Regresaste solo de un despliegue cuyos nombres aún se pronuncian en el Reclusiam. No malgastas las vidas de tus hermanos, porque has oído lo que sigue al despilfarro."
+    },
+    "0e922d6f-6832-40f6-b5e3-87711c58a058": {
+      "Offset": 0,
+      "Text": "Deuda de la Semilla Genética"
+    },
+    "16ea80e6-7bb7-45f9-ae9d-4acb4fdedc1e": {
+      "Offset": 0,
+      "Text": "No lograste recuperar lo que jamás debió perderse, o pagaste demasiado por recuperarlo. Desde aquel día, cada hermano caído es una carga puesta en tus manos."
+    },
+    "8225d0dd-29c3-4c41-addb-a4904b86b1aa": {
+      "Offset": 0,
+      "Text": "Censura de la Vigilancia"
+    },
+    "97d494ed-e377-4c7e-8a0c-b16ab513ad72": {
+      "Offset": 0,
+      "Text": "Tu gesta fue necesaria, pero no limpia. La Vigilancia no te expulsó. Marcó el historial y te destinó allí donde la necesidad es cosa común."
+    },
+    "c8369e8f-bbc5-4aa6-9d65-d69d4cb328b1": {
+      "Offset": 0,
+      "Text": "Cicatriz de la Disformidad"
+    },
+    "364efb41-2a61-4df7-aae6-7d8c5ff8150b": {
+      "Offset": 0,
+      "Text": "La disformidad tocó la misión y dejó una marca en tu memoria. Conoces el sabor de las voces falsas y el precio de la vacilación."
+    },
+    "69250695-69c6-4b3a-86ed-20c01c765da4": {
+      "Offset": 0,
+      "Text": "La Bestia Interior"
+    },
+    "aa3569c0-f6bf-431a-ade1-61a332894ab0": {
+      "Offset": 0,
+      "Text": "Algo en la batalla responde con demasiada prontitud cuando la sangre está cerca. La disciplina lo mantiene a raya, pero la disciplina no es lo mismo que la paz."
+    },
+    "ae6224a8-453d-476e-a4e7-fcbc6d5318bd": {
+      "Offset": 0,
+      "Text": "Deuda de la Máquina"
+    },
+    "73d0d015-2342-4b17-8acf-d4d032e63bd4": {
+      "Offset": 0,
+      "Text": "Una armadura, un arma o un motor sagrado falló bajo tu responsabilidad, y el precio se pagó en vidas. Has aprendido a escuchar cuando el espíritu máquina da su advertencia."
+    },
+    "5ad0c63c-9dac-43c2-bbdd-451f108fb639": {
+      "Offset": 0,
+      "Text": "Cadena de Mando Rota"
+    },
+    "acd792b3-38ad-4100-86ff-e4c57ee34ab2": {
+      "Offset": 0,
+      "Text": "Las órdenes fallaron, la vox enmudeció y el mando pasó a ti en el espacio entre un latido y el siguiente. La victoria siguió, pero también el escrutinio."
+    },
+    "92104d53-5868-4822-be1d-03e8658c685d": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Ultramarine de los Vigías de la Muerte"
+    },
+    "0bcf575a-f67c-4641-a723-aa7b9b1141cf": {
+      "Offset": 0,
+      "Text": "Armadura de un hijo de Guilliman, repintada en el negro de la Larga Vigilia. Quien la porta combate según el Codex Astartes, prestando a los Vigías de la Muerte la precisión mesurada de la XIII."
+    },
+    "d60d05ab-958e-4ff3-95df-b9d2bd5f25a5": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Templario Negro de los Vigías de la Muerte"
+    },
+    "65cd65a4-64e6-47da-8756-c8500148493e": {
+      "Offset": 0,
+      "Text": "Armadura de un Hermano Espada, con juramentos de cruzada encadenados sobre su ceramita negra. Quien la viste porta el celo inextinguible de la Cruzada Eterna hasta la cacería."
+    },
+    "a8163d91-e25e-4382-a9cb-60196055330a": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Ángel Oscuro de los Vigías de la Muerte"
+    },
+    "23e1907d-6355-4078-8d3a-ef2727c201db": {
+      "Offset": 0,
+      "Text": "Armadura de la Primera Legión, vestida por uno de los Sin Perdón. Quien la porta se guarda sus propios designios y los secretos de su capítulo, vigilante incluso entre los hermanos de la escuadra de exterminio."
+    },
+    "9246cdbe-9e76-439b-96c3-4f553a0eb2e1": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Puño Imperial de los Vigías de la Muerte"
+    },
+    "e9fc4a79-904f-4e31-b651-b52ea8bad690": {
+      "Offset": 0,
+      "Text": "Armadura marcada por el asedio de un hijo de Dorn, capaz de resistir un castigo que pocos podrían soportar. Quien la viste sostiene la línea allí donde otros se quebrarían."
+    },
+    "4a1a9c0b-fa3f-46e2-aed1-a977d3e0c5d1": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Mano de Hierro de los Vigías de la Muerte"
+    },
+    "6f1be1fe-2630-40d7-97e9-de074c03324d": {
+      "Offset": 0,
+      "Text": "Armadura entretejida de aumentos de un hijo de Manus, carne entregada a la certeza del hierro. Quien la porta cuenta la debilidad como algo que hay que amputar."
+    },
+    "3d5c7e42-6ddf-419d-bb52-cff57ee8dda5": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Guardia del Cuervo de los Vigías de la Muerte"
+    },
+    "2f9f8500-8896-4b12-bd62-a11fcdbc4b2a": {
+      "Offset": 0,
+      "Text": "Armadura aligerada de un hijo de Corax, concebida para el golpe desde las sombras. Quien la viste ya se ha ido antes de que el enemigo sepa que estuvo allí."
+    },
+    "ddcb65ec-d73b-4fa9-9c92-092ccc9f06ad": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Salamandra de los Vigías de la Muerte"
+    },
+    "8e4a756b-9d49-47af-9429-bece85d10db2": {
+      "Offset": 0,
+      "Text": "Armadura ennegrecida por el fuego de un hijo de Vulkan, forjada por una mano que jamás abandona a los inocentes. Quien la porta responde a los xenos con fuego."
+    },
+    "a68ee514-c0be-4133-8a3b-a031e9e87b6d": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Lobo Espacial de los Vigías de la Muerte"
+    },
+    "15c27f0d-346c-42a4-b2c8-a31532bfb521": {
+      "Offset": 0,
+      "Text": "Armadura cargada de trofeos de un hijo de Russ, pesada con el hedor de Fenris. Quien la viste caza con una fiereza que el Codex nunca pudo domar."
+    },
+    "71864722-62b1-4d8d-9f81-aa9348cc9b27": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Cicatriz Blanca de los Vigías de la Muerte"
+    },
+    "ddc770cd-ac20-4f8a-b821-8d166f5cf018": {
+      "Offset": 0,
+      "Text": "Armadura veloz de un hijo del Khan, hecha para el ataque relámpago. Quien la porta da caza a presas que se creían ya escapadas."
+    },
+    "e16a4b73-a567-4c50-a920-439736de17c0": {
+      "Offset": 0,
+      "Text": "Mark VII «Armadura Aquila» de Ángel Sangriento de los Vigías de la Muerte"
+    },
+    "093a661a-a97b-431a-a69e-fbd7c3d5ff34": {
+      "Offset": 0,
+      "Text": "Armadura noble de un hijo de Sanguinius, tan hermosa como terrible. Quien la porta domina la Sed Roja, convirtiendo la maldición de su sangre en un arma."
+    },
+    "28f8fb11-0cb5-4ba1-8cb6-a3e5de49689c": {
+      "Offset": 0,
+      "Text": "Fuego de Supresión"
+    },
+    "2d6a152c-5b69-4320-88c1-4b9333fba2aa": {
+      "Offset": 0,
+      "Text": "Mientras te encuentras en {g|Encyclopedia:DetailsOfTheCoverGlossary}cobertura{/g} parcial, la {g|Encyclopedia:RateOfFire}cadencia de disparo{/g} de tus armas bólter, de fusión, de plasma y de fuego aumenta en un +20 %, y en un +40 % mientras te encuentras en cobertura total."
+    },
+    "6b97b316-fb4b-4bbf-857b-5939227b0816": {
+      "Offset": 0,
+      "Text": "Marine Espacial"
+    },
+    "40b5edcb-829b-4181-99f6-44ea18c79da4": {
+      "Offset": 0,
+      "Text": "Apotecario"
+    }
+  }
+}
