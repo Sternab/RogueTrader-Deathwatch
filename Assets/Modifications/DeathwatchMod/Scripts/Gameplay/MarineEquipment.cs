@@ -12,6 +12,11 @@ using Kingmaker.Visual.CharacterSystem;           // Character, EquipmentEntity
 
 namespace DeathwatchMod
 {
+    // FALLBACK NET (pending removal). The ROOT-CAUSE fix now ships in the build: the mod's <Target>_content
+    // bundle is a keep-resident dependency of the persistent <Target>_BlueprintDirectReferences bundle (see
+    // CreateManifestAndSettings.cs), honoured at runtime by the required MicroPatches. Once a build confirms
+    // this patch's [PruneDeadEEs] line never fires across area transitions, delete this whole class.
+    //
     // INVISIBLE-MARINE FIX + SELF-HEAL (vanilla engine lifecycle flaw). On an area/cutscene transition the engine
     // unloads asset bundles via Bundle.Unload(true), which DESTROYS the shared EquipmentEntity assets a unit's
     // worn gear loaded by reference -- the mod's single-bundle EEs (chapter pauldron, custom helmet) are exactly

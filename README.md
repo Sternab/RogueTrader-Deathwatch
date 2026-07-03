@@ -19,7 +19,9 @@ in the base campaign.
   built around are that DLC's content. The mod enforces ownership: without the DLC, the Custom Space
   Marine option does not appear in character creation. The DLC's story content does not need to be
   enabled, only owned.
-- No other mods required.
+- **MicroPatches** (by Microsoftenator). A required dependency: it keeps the mod's custom armour and
+  pauldron assets loaded across area transitions. The mod will not load without it. Most Rogue Trader
+  mod setups already have it. Get it from Nexus Mods or the Rogue Trader modding community.
 
 ## Installation
 
@@ -29,9 +31,11 @@ in the base campaign.
    You should end up with:
    `...\Modifications\Deathwatch\OwlcatModificationManifest.json`
    (If you see `Modifications\Deathwatch\Deathwatch\...` you extracted one level too deep.)
-3. Launch the game, open the **Mods** menu from the title screen, enable **Deathwatch - Play as a
+3. Make sure **MicroPatches** is installed and enabled (see Requirements). Deathwatch depends on it and
+   will refuse to load without it.
+4. Launch the game, open the **Mods** menu from the title screen, enable **Deathwatch - Play as a
    Space Marine**, and restart when prompted.
-4. Start a New Game and pick the **Custom Space Marine** tile in character creation.
+5. Start a New Game and pick the **Custom Space Marine** tile in character creation.
 
 Mod managers that install Owlcat-template mods from a zip (for example ModFinder) also work: point
 them at `Deathwatch.zip`.

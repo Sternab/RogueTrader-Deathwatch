@@ -22,9 +22,11 @@ MonoBehaviour:
       voices, and an Astartes arsenal. Requires the Infinite Museion DLC. Saves
       containing a marine require this mod; saves without one are unaffected.
     Author: Sternab
-    Repository: 
-    HomePage: 
-    Dependencies: []
+    Repository:
+    HomePage:
+    Dependencies:
+    - Name: MicroPatches
+      Version:
   Settings:
     RelativeThumbnailPath: 
     WorkshopDescription: 
