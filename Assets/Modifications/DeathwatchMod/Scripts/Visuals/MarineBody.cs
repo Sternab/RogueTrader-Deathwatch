@@ -31,7 +31,7 @@ namespace DeathwatchMod
                 ch.IsDirty = true;
                 DeathwatchModMain.LogDebug("[Pauldron] preview pauldron EE -> " + (cv.PauldronEEGuid ?? "none(base)") + ".");
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Pauldron][ERR] ApplyMarinePauldron: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Pauldron][ERR] ApplyMarinePauldron", e); }
         }
     }
 
@@ -50,7 +50,7 @@ namespace DeathwatchMod
                 if (__instance != null && DeathwatchModMain.IsMarinePreset(__instance.RacePreset) && gender != Gender.Male)
                     gender = Gender.Male;
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Gender][ERR] SetGender: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Gender][ERR] SetGender", e); }
         }
     }
 
@@ -85,7 +85,7 @@ namespace DeathwatchMod
                 foreach (var bp in entity.BodyParts)
                     if (bp != null && bp.Type == BodyPartType.Helmet) { __result = true; return; }
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Helmet][ERR] ShouldHideEquipmentEntity: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Helmet][ERR] ShouldHideEquipmentEntity", e); }
         }
     }
 
@@ -112,7 +112,7 @@ namespace DeathwatchMod
                 bool hasArmour = ees != null && ees.Any(e => e != null);
                 if (!hasArmour) __result = Array.Empty<EquipmentEntityLink>();
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Bare][ERR] GetClothes: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Bare][ERR] GetClothes", e); }
         }
     }
 }

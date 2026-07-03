@@ -36,9 +36,9 @@ namespace DeathwatchMod
             {
                 var rp = s_nameField != null ? s_nameField.GetValue(this) as ReactiveProperty<string> : null;
                 if (rp != null) rp.Value = DeathwatchModMain.ModString("DW.Chargen.MarineTileName", "Custom Space Marine");
-                else DeathwatchModMain.Log("[Tile][ERR] m_CharacterName field not found; tile keeps default label.");
+                else DeathwatchModMain.LogError("[Tile][ERR] m_CharacterName field not found; tile keeps default label.");
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Tile][ERR] set name: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Tile][ERR] set name", e); }
         }
     }
 
@@ -85,7 +85,7 @@ namespace DeathwatchMod
             {
                 original?.Invoke(units);   // vanilla: build the premade tiles + auto-select the first
                 try { Append(original?.Target as CharGenPregenPhaseVM); }
-                catch (Exception e) { DeathwatchModMain.Log("[Tile][ERR] add marine tile: " + e); }
+                catch (Exception e) { DeathwatchModMain.LogError("[Tile][ERR] add marine tile", e); }
             };
         }
 
@@ -158,7 +158,7 @@ namespace DeathwatchMod
                 var sel = __instance.SelectedPregenEntity != null ? __instance.SelectedPregenEntity.Value : null;
                 DeathwatchModMain.CreatingDeathwatchMarine = sel is DwMarineSelectorItemVM;
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Tile][ERR] HandleSetPregen flag: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Tile][ERR] HandleSetPregen flag", e); }
         }
 
         // ROADMAP #8 STEP 3 (label refresh): a null->null tile switch (Custom Character <-> Custom Space Marine)
@@ -202,7 +202,7 @@ namespace DeathwatchMod
                 ChargenRouting.RestoreVanillaGroups(BlueprintCharGenRoot.Instance.NewGameCustomChargenPath);
                 ChargenRouting.RestoreVanillaGroups(BlueprintCharGenRoot.Instance.NewCompanionCustomChargenPath);   // merc path too
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Tile][ERR] CloseCharGen clear: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Tile][ERR] CloseCharGen clear", e); }
         }
     }
 }

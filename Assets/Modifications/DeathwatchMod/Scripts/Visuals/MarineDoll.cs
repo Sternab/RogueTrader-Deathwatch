@@ -40,10 +40,10 @@ namespace DeathwatchMod
                 {
                     var go = ResourcesLibrary.TryGetResource<GameObject>(MarineAvatar_Guid, true, true);
                     MarineDollCharacter = go != null ? go.GetComponentInChildren<Character>(true) : null;
-                    if (MarineDollCharacter == null) DeathwatchModMain.Log("[DollRig][ERR] EnsureMarineDoll: marine doll Character not found in " + MarineAvatar_Guid);
+                    if (MarineDollCharacter == null) DeathwatchModMain.LogError("[DollRig][ERR] EnsureMarineDoll: marine doll Character not found in " + MarineAvatar_Guid);
                     else DeathwatchModMain.Log("[DollRig] Loaded marine doll avatar source.");
                 }
-                catch (Exception e) { DeathwatchModMain.Log("[DollRig][ERR] EnsureMarineDoll: " + e); }
+                catch (Exception e) { DeathwatchModMain.LogError("[DollRig][ERR] EnsureMarineDoll", e); }
             }
         }
     }
@@ -91,7 +91,7 @@ namespace DeathwatchMod
                     MarineBody.ApplyMarinePauldron(avatar, MarineDoll.DollChapter.GetValueOrDefault());
                 }
             }
-            catch (Exception e) { DeathwatchModMain.Log("[DollRig][ERR] UpdateDoll diag: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[DollRig][ERR] UpdateDoll diag", e); }
             finally { MarineDoll.BuildingMarineDoll = false; }
         }
     }
@@ -191,7 +191,7 @@ namespace DeathwatchMod
                 ((Component) ch).transform.localScale = ((Component) src).transform.localScale;
                 DeathwatchModMain.Log("[DollRig] In-game marine body: applied marine rig/skeleton/animset/scale.");
             }
-            catch (Exception e) { DeathwatchModMain.Log("[DollRig][ERR] DollData.CreateUnitView postfix: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[DollRig][ERR] DollData.CreateUnitView postfix", e); }
         }
     }
 
@@ -215,7 +215,7 @@ namespace DeathwatchMod
                 if (MarineDoll.DollAvatar != null)
                     MarineBody.ApplyMarinePauldron(MarineDoll.DollAvatar, MarineDoll.DollChapter.GetValueOrDefault());
             }
-            catch (Exception e) { DeathwatchModMain.Log("[DollRig][ERR] DollState.UpdateMechanicsEntities postfix: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[DollRig][ERR] DollState.UpdateMechanicsEntities postfix", e); }
         }
     }
 }

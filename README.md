@@ -48,8 +48,8 @@ them at `Deathwatch.zip`.
 
 ## Troubleshooting
 
-- All mod log lines in `GameLogFull.txt` (same folder as `Modifications`) are tagged `[Deathwatch]`.
-  If you report a bug, please attach that file.
+- All mod log lines in `GameLogFull.txt` (same folder as `Modifications`) are on the `Deathwatch` log
+  channel - search the file for `Deathwatch`. If you report a bug, please attach that file.
 - If the game updates and the mod detects an incompatibility, it disables itself and logs
   `[Init][ERR] ... Deathwatch disabled itself` instead of half-working.
 

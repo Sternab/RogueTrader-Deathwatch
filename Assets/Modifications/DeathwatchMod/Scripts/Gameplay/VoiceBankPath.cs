@@ -37,13 +37,13 @@ namespace DeathwatchMod
                 var add = ak != null ? AccessTools.Method(ak, "AddBasePath", new[] { typeof(string) }) : null;
                 if (add == null)
                 {
-                    DeathwatchModMain.Log("[Audio][ERR] AkSoundEngine.AddBasePath(string) not found via reflection.");
+                    DeathwatchModMain.LogError("[Audio][ERR] AkSoundEngine.AddBasePath(string) not found via reflection.");
                     return;
                 }
                 var res = add.Invoke(null, new object[] { dir });
                 DeathwatchModMain.Log("[Audio] Registered mod bank path " + dir + " (AddBasePath -> " + res + ").");
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Audio][ERR] AddBasePath: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Audio][ERR] AddBasePath", e); }
         }
     }
 }

@@ -39,7 +39,7 @@ namespace DeathwatchMod
                 if (__result > baseScale + 0.001f) return;   // prefab already has a Spacemarine RaceScale -> leave it
                 __result = baseScale * AstartesWeaponScale;
             }
-            catch (Exception e) { DeathwatchModMain.Log("[ForceWeaponScale][ERR] OwnerWeaponScale: " + e.Message); }   // Message only: hot path
+            catch (Exception e) { DeathwatchModMain.LogError("[ForceWeaponScale][ERR] OwnerWeaponScale: " + e.Message); }   // Message only: hot path
         }
     }
 
@@ -109,7 +109,7 @@ namespace DeathwatchMod
         private static void Postfix(PartUnitCombatState __instance)
         {
             try { DynamicMarineSize.OnJoin(__instance != null ? __instance.Owner as BaseUnitEntity : null); }
-            catch (Exception e) { DeathwatchModMain.Log("[DynSize][ERR] JoinCombat: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[DynSize][ERR] JoinCombat", e); }
         }
     }
 
@@ -120,7 +120,7 @@ namespace DeathwatchMod
         private static void Postfix(PartUnitCombatState __instance)
         {
             try { DynamicMarineSize.OnLeave(__instance != null ? __instance.Owner as BaseUnitEntity : null); }
-            catch (Exception e) { DeathwatchModMain.Log("[DynSize][ERR] LeaveCombat: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[DynSize][ERR] LeaveCombat", e); }
         }
     }
 
@@ -138,7 +138,7 @@ namespace DeathwatchMod
                 if (DeathwatchModMain.IsMarineUnit(u))
                     __result = 1f;
             }
-            catch (Exception e) { DeathwatchModMain.Log("[DynSize][ERR] GetSizeScale: " + e.Message); }   // Message only: hot path
+            catch (Exception e) { DeathwatchModMain.LogError("[DynSize][ERR] GetSizeScale: " + e.Message); }   // Message only: hot path
         }
     }
 }

@@ -77,5 +77,6 @@ load and logs `[Init][ERR] ... Deathwatch disabled itself` rather than half-work
   and `Gameplay/`, named `TargetType_Method[_Purpose]_Patch` so you can grep by the method being
   patched.
 - `Blueprints/PATCHES.md` documents every `.jbp_patch` (targets, operations, maintenance invariants).
-- Logging: every mod line is tagged `[Deathwatch] [Area]`; errors are `[Area][ERR] context: <exception>`.
-  If you are debugging an interaction, grep your `GameLogFull.txt` for `[Deathwatch]`.
+- Logging: every mod line is on the `Deathwatch` log channel with an `[Area]` subsystem tag (the channel
+  already supplies the mod name, so messages do not repeat it); errors log at Error severity via
+  `LogError` with the exception attached. Search `GameLogFull.txt` for `Deathwatch`.

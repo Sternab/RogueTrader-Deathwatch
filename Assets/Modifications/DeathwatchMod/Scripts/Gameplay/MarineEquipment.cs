@@ -64,7 +64,7 @@ namespace DeathwatchMod
                     DeathwatchModMain.Log("[PruneDeadEEs] pruned " + pruned + " destroyed EE(s) on a viewless Character (doll room) -- rebuilds from the live body.");
                 }
             }
-            catch (Exception e) { DeathwatchModMain.Log("[PruneDeadEEs][ERR] UpdateCharacter prefix: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[PruneDeadEEs][ERR] UpdateCharacter prefix", e); }
         }
     }
 
@@ -96,7 +96,7 @@ namespace DeathwatchMod
 
                 __result = true;
             }
-            catch (Exception e) { DeathwatchModMain.Log("[LibrarianStaffEquip][ERR] IsItemSupported: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[LibrarianStaffEquip][ERR] IsItemSupported", e); }
         }
     }
 
@@ -142,7 +142,7 @@ namespace DeathwatchMod
                 if (!DeathwatchModMain.IsMarineUnit(unit as BaseUnitEntity)) return;  // this mod's marine only
                 __result = true;
             }
-            catch (Exception e) { DeathwatchModMain.Log("[ForceSword][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
+            catch (Exception e) { DeathwatchModMain.LogError("[ForceSword][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
         }
     }
 }

@@ -38,7 +38,7 @@ namespace DeathwatchMod
                 if (old != null) resultUnit.Inventory.Remove(old);   // delete the unequipped shared armour so there is no spare
                 DeathwatchModMain.Log("[MarineArmour] equipped " + bp.name + " on the committed marine (chapter " + chap.FeatureGuid + ").");
             }
-            catch (Exception e) { DeathwatchModMain.Log("[MarineArmour][ERR] CompleteCharGen: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[MarineArmour][ERR] CompleteCharGen", e); }
         }
     }
 }

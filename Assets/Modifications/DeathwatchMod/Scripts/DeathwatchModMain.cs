@@ -137,19 +137,34 @@ namespace DeathwatchMod
                 // save-eating). Strip OUR patches -- the id argument is REQUIRED, UnpatchAll(null) would strip
                 // other mods' too -- and go dormant instead.
                 try { harmony.UnpatchAll(harmony.Id); } catch { /* best effort */ }
-                Log("[Init][ERR] Harmony patching failed -- game version likely incompatible; Deathwatch disabled itself: " + e);
+                LogError("[Init][ERR] Harmony patching failed -- game version likely incompatible; Deathwatch disabled itself", e);
             }
         }
 
+        // The OMM LogChannel already tags every line with the mod name ("[... - Deathwatch][Message]:"), so we
+        // do NOT prepend it. Log = Message severity; LogError routes through Error severity (the Exception
+        // overload attaches the stack trace) so real failures show as [Error] and are filterable in logs.
         public static void Log(string msg)
         {
             if (Modification != null)
-                Modification.Logger.Log("[Deathwatch] " + msg);
+                Modification.Logger.Log(msg);
+        }
+
+        public static void LogError(string msg)
+        {
+            if (Modification != null)
+                Modification.Logger.Error(msg);
+        }
+
+        public static void LogError(string msg, Exception e)
+        {
+            if (Modification != null)
+                Modification.Logger.Error(e, msg);
         }
 
         // Verbose developer diagnostics (rig/EE dumps, per-flip traces) are off by default so a released
         // install stays quiet; flip to true when reproducing a rendering issue. Low-volume milestone lines
-        // ([Init], [Tile], errors) stay on Log() so a user's bug report still shows the useful trace.
+        // ([Init], [Tile]) stay on Log() so a user's bug report still shows the useful trace.
         internal static bool VerboseLogging;
         public static void LogDebug(string msg)
         {

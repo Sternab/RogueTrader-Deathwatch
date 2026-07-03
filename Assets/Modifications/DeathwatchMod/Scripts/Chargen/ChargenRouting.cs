@@ -52,7 +52,7 @@ namespace DeathwatchMod
                     }
                 }
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Tile][ERR] RefreshPhaseLabels: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Tile][ERR] RefreshPhaseLabels", e); }
         }
 
         // The 4-group Deathwatch option-list swap on the CANONICAL NewGameCustomChargenPath. Run per chargen from
@@ -66,7 +66,7 @@ namespace DeathwatchMod
         {
             if (path == null) return;
             FieldInfo mFeatures = AccessTools.Field(typeof(AddFeaturesToLevelUp), "m_Features");
-            if (mFeatures == null) { DeathwatchModMain.Log("[Path][ERR] AddFeaturesToLevelUp.m_Features not found."); return; }
+            if (mFeatures == null) { DeathwatchModMain.LogError("[Path][ERR] AddFeaturesToLevelUp.m_Features not found."); return; }
             int swapped = 0;
             foreach (var comp in path.ComponentsArray)
             {
@@ -187,7 +187,7 @@ namespace DeathwatchMod
                 var marinePreset = ResourcesLibrary.BlueprintsCache.Load(DeathwatchModMain.MarinePreset_Guid) as BlueprintRaceVisualPreset;
                 if (race == null || marinePreset == null)
                 {
-                    DeathwatchModMain.Log("[MarineUnit][ERR] SetPregenUnit: Astartes race/marine preset unresolved.");
+                    DeathwatchModMain.LogError("[MarineUnit][ERR] SetPregenUnit: Astartes race/marine preset unresolved.");
                     return;
                 }
 
@@ -204,7 +204,7 @@ namespace DeathwatchMod
                 if (lum != null && lum.PreviewUnit != null)
                     __instance.Doll.UpdateMechanicsEntities(lum.PreviewUnit);
             }
-            catch (Exception e) { DeathwatchModMain.Log("[MarineUnit][ERR] SetPregenUnit postfix: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[MarineUnit][ERR] SetPregenUnit postfix", e); }
         }
     }
 
@@ -272,7 +272,7 @@ namespace DeathwatchMod
                 else
                     ChargenRouting.RestoreVanillaGroups(__result);    // canonical -> vanilla options
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Path][ERR] GetOriginPath: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Path][ERR] GetOriginPath", e); }
         }
     }
 
@@ -322,7 +322,7 @@ namespace DeathwatchMod
                         s_cfgUnit.SetValue(cfg, s_humanUnit);                        // restore for the vanilla custom tile
                     }
                 }
-                catch (Exception e) { DeathwatchModMain.Log("[MarineUnit][ERR] swap: " + e); }
+                catch (Exception e) { DeathwatchModMain.LogError("[MarineUnit][ERR] swap", e); }
             }
         }
 

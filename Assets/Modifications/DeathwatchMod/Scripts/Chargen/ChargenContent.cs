@@ -38,7 +38,7 @@ namespace DeathwatchMod
                 if (pcn == null) return;
 
                 FieldInfo field = AccessTools.Field(typeof(PregenCharacterNames), "m_CharacterNames");
-                if (field == null) { DeathwatchModMain.Log("[Names][ERR] PregenCharacterNames.m_CharacterNames not found."); return; }
+                if (field == null) { DeathwatchModMain.LogError("[Names][ERR] PregenCharacterNames.m_CharacterNames not found."); return; }
 
                 var list = field.GetValue(pcn) as System.Collections.Generic.List<PregenCharacterNameList>;
                 if (list == null) return;
@@ -60,7 +60,7 @@ namespace DeathwatchMod
                 s_marineNamesReady = true;
                 DeathwatchModMain.Log("[Names] Added " + added + " Spacemarine name list(s) (cloned from Human).");
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Names][ERR] EnsureMarineNames: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Names][ERR] EnsureMarineNames", e); }
         }
 
         // Residual runtime chargen prep. NOTE the option-group swap does NOT live here: the 4 Deathwatch
@@ -77,7 +77,7 @@ namespace DeathwatchMod
                 // Make Ulfar's voice selectable in chargen (the m_Voices append + DisplayName are data).
                 EnsureUlfarPreviewSound();
             }
-            catch (Exception e) { DeathwatchModMain.Log("[Content][ERR] EnsureChargenContent: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Content][ERR] EnsureChargenContent", e); }
         }
 
         // ULFAR CHARGEN VOICE. Ulfar_Barks (3ea153cb) ships with PreviewSound="" and the voice selector CULLS
@@ -90,15 +90,15 @@ namespace DeathwatchMod
         {
             if (s_ulfarVoiceReady) return;
             var asks = ResourcesLibrary.BlueprintsCache.Load("3ea153cb4f714f1798572e89c7cbd1e9") as BlueprintUnitAsksList;
-            if (asks == null) { DeathwatchModMain.Log("[Voices][ERR] Ulfar_Barks blueprint not found."); return; }
+            if (asks == null) { DeathwatchModMain.LogError("[Voices][ERR] Ulfar_Barks blueprint not found."); return; }
             UnitAsksComponent comp = null;
             foreach (var c in asks.ComponentsArray) { comp = c as UnitAsksComponent; if (comp != null) break; }
-            if (comp == null) { DeathwatchModMain.Log("[Voices][ERR] Ulfar_Barks has no UnitAsksComponent."); return; }
+            if (comp == null) { DeathwatchModMain.LogError("[Voices][ERR] Ulfar_Barks has no UnitAsksComponent."); return; }
             if (!string.IsNullOrEmpty(comp.PreviewSound)) { s_ulfarVoiceReady = true; return; }   // already set (idempotent; or a future game fix)
 
             var entries = comp.Selected != null ? comp.Selected.Entries : null;
             string ev = (entries != null && entries.Length > 0 && entries[0] != null) ? entries[0].AkEvent : null;
-            if (string.IsNullOrEmpty(ev)) { DeathwatchModMain.Log("[Voices][ERR] Ulfar_Barks has no Selected bark to use as a preview."); return; }
+            if (string.IsNullOrEmpty(ev)) { DeathwatchModMain.LogError("[Voices][ERR] Ulfar_Barks has no Selected bark to use as a preview."); return; }
             comp.PreviewSound = ev;
             s_ulfarVoiceReady = true;
             DeathwatchModMain.Log("[Voices] Ulfar chargen voice: preview sound set to " + ev + ".");
@@ -141,7 +141,7 @@ namespace DeathwatchMod
                 int st = marine ? 1 : 0;
                 if (st != s_lastState) { s_lastState = st; DeathwatchModMain.Log("[CutBladeDancer] RefreshData; filterForMarine=" + marine); }
             }
-            catch (Exception e) { DeathwatchModMain.Log("[CutBladeDancer][ERR] RefreshData prefix: " + e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[CutBladeDancer][ERR] RefreshData prefix", e); }
         }
 
         // Finalizer, not Postfix: a postfix is SKIPPED if RefreshData throws, which would leave the GLOBAL
@@ -164,7 +164,7 @@ namespace DeathwatchMod
                 if (!UnitProgressionVM_CutBladeDancer_Patch.s_filteringForMarine || __result == null) return;
                 __result = __result.Where(cp => cp == null || cp.AssetGuid != DeathwatchModMain.BladeDancerCareerPath_Guid).ToArray();
             }
-            catch (Exception e) { DeathwatchModMain.Log("[CutBladeDancer][ERR] CareerPaths: " + e.Message); }   // Message only: hot path
+            catch (Exception e) { DeathwatchModMain.LogError("[CutBladeDancer][ERR] CareerPaths: " + e.Message); }   // Message only: hot path
         }
     }
 }
