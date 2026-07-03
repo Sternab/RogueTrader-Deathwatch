@@ -262,7 +262,7 @@
                     },
                     "Value": {
                       "ValueType": "Simple",
-                      "Value": 25,
+                      "Value": 20,
                       "ValueRank": "Default",
                       "ValueShared": "Damage",
                       "Property": "None",
@@ -357,7 +357,7 @@
                           },
                           "Value": {
                             "ValueType": "Simple",
-                            "Value": 50,
+                            "Value": 40,
                             "ValueRank": "Default",
                             "ValueShared": "Damage",
                             "Property": "None",
@@ -383,7 +383,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch copy of AstraMilitarum_Talent5 (dd8a80be), retargeted from lasguns to the marine's heavy ranged families (Bolt/Melta/Plasma/Flame). Granted to the Devastator in place of the shared lasgun talent, so the vanilla human Astra Militarum origin is untouched. Keeps the original cover-scaled +RoF.",
+    "Comment": "Deathwatch copy of AstraMilitarum_Talent5 (dd8a80be), retargeted from lasguns to the marine's heavy ranged families (Bolt/Melta/Plasma/Flame). Granted to the Devastator in place of the shared lasgun talent, so the vanilla human Astra Militarum origin is untouched. Cover-scaled +RoF: +20% in partial cover, +40% in full -- set to match the tooltip (and vanilla Trench Warfare's stated numbers; vanilla's own blueprint actually applies 25/50, a tooltip mismatch we avoid by aligning data + text here).",
     "m_DisplayName": {
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
