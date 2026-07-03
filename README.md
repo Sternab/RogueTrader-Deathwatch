@@ -61,9 +61,11 @@ This repository contains the mod source plus the one customized build-pipeline f
    version it specifies.
 2. Copy `Assets/Modifications/DeathwatchMod` from this repository into the template's
    `Assets/Modifications/`.
-3. Copy `Assets/Editor/Build/Tasks/PrepareArtifacts.cs` from this repository over the template's copy.
-   This adds the step that ships the mod's `Audio/` folder (the two voice soundbanks) with the build;
-   a stock template silently drops it.
+3. Copy the two customized build-task files from this repository over the template's copies:
+   - `Assets/Editor/Build/Tasks/PrepareArtifacts.cs` - ships the mod's `Audio/` folder (the two voice
+     soundbanks) with the build; a stock template silently drops it.
+   - `Assets/Editor/Build/Tasks/CreateManifestAndSettings.cs` - wires the mod's content bundle as a
+     keep-resident dependency so the custom armour/pauldron assets are not unloaded on area transitions.
 4. In Unity: `Assets > Modification Tools > Build`. The built mod and `Deathwatch.zip` appear in
    `Build/`. Copy the zip out immediately: the next build of any mod wipes that folder.
 

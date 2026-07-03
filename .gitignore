@@ -1,6 +1,7 @@
-# Whitelist repo: ships ONLY the Deathwatch mod source + its one build-tooling customization.
-# Everything else (the Owlcat template, Unity Library, builds) is intentionally untracked;
-# see README.md "Building from source".
+# Whitelist repo: ships ONLY the Deathwatch mod source + its two build-tooling customizations
+# (PrepareArtifacts ships the voice banks; CreateManifestAndSettings wires the content-bundle
+# keep-resident dependency). Everything else (the Owlcat template, Unity Library, builds) is
+# intentionally untracked; see README.md "Building from source".
 /*
 !/.gitignore
 !/README.md
@@ -19,6 +20,8 @@
 /Assets/Editor/Build/Tasks/*
 !/Assets/Editor/Build/Tasks/PrepareArtifacts.cs
 !/Assets/Editor/Build/Tasks/PrepareArtifacts.cs.meta
+!/Assets/Editor/Build/Tasks/CreateManifestAndSettings.cs
+!/Assets/Editor/Build/Tasks/CreateManifestAndSettings.cs.meta
 
 # Auto-generated at build time (PrepareBuild wipes and regenerates it)
 /Assets/Modifications/DeathwatchMod/Generated/
