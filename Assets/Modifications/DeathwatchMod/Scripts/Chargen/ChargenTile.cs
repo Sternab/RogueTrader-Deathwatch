@@ -42,76 +42,78 @@ namespace DeathwatchMod
         }
     }
 
-    // Append exactly ONE marine tile after the premade tiles. The pregen tiles are built by the phase VM's
-    // ctor callback, which BlueprintCharGenRoot.EnsureNewGamePregens / EnsureCompanionPregens invoke -- but NOT
-    // synchronously on the first chargen open: BlueprintCharGenRoot.EnsureChargenUnits starts a COROUTINE when
-    // the pregen list is uncached (the callback fires several frames later) and only calls back inline once
-    // cached. So a postfix on those methods (or the ctor) would run against an EMPTY tile list on first open.
-    // Instead we PREFIX the two (stable, named) methods and WRAP the readyCallback delegate: our append then
-    // runs immediately after the original callback in BOTH the async-first-open and cached-replay paths, with
-    // no compiler-generated local to resolve. The callback is a bound instance method, so its .Target is the
-    // CharGenPregenPhaseVM. Patching both methods covers NewGame (player) and NewCompanion (hired mercenary).
-    [HarmonyPatch(typeof(BlueprintCharGenRoot), nameof(BlueprintCharGenRoot.EnsureNewGamePregens))]
-    internal static class BlueprintCharGenRoot_EnsureNewGamePregens_MarineTile_Patch
-    {
-        [HarmonyPrefix]
-        private static void Prefix(ref Action<List<ChargenUnit>> readyCallback)
-            => readyCallback = MarineTile.Wrap(readyCallback);
-    }
-
-    [HarmonyPatch(typeof(BlueprintCharGenRoot), nameof(BlueprintCharGenRoot.EnsureCompanionPregens))]
-    internal static class BlueprintCharGenRoot_EnsureCompanionPregens_MarineTile_Patch
-    {
-        [HarmonyPrefix]
-        private static void Prefix(ref Action<List<ChargenUnit>> readyCallback)
-            => readyCallback = MarineTile.Wrap(readyCallback);
-    }
-
-    // The marine-tile append itself, wrapping the vanilla pregen-ready callback so our tile is added right
-    // after the premade tiles are built (and after the callback's auto-select of the first premade, so the
-    // human default is preserved). Adding to EntitiesCollection auto-wires selection + triggers the View's
-    // redraw. HARD DLC REQUIREMENT: gated on the Infinite Museion DLC being OWNED (BlueprintDlc.IsPurchased,
-    // the store-ownership check backed by StoreManager.DLCCache) -- its armour/helmet are that DLC's assets.
-    // Deliberately IsPurchased and NOT IsActive: a player who owns the DLC but has its story content DISABLED
-    // can still play the marine (the assets load regardless of the enable toggle); ownership is the bar.
-    internal static class MarineTile
+    // Append exactly ONE marine tile after the premade tiles. The tiles are built in the compiler-generated
+    // callback <.ctor>g__UnitsCallback|13_1 that CharGenPregenPhaseVM's ctor passes to
+    // EnsureNewGamePregens/EnsureCompanionPregens -- NOT synchronously on the first chargen open, because
+    // BlueprintCharGenRoot.EnsureChargenUnits starts a COROUTINE when the pregen list is uncached (the callback
+    // fires several frames later) and only calls back inline once cached. So we POSTFIX that callback: it runs
+    // in BOTH the async-first-open and cached-replay paths, after the tiles are built AND after the callback's
+    // auto-select of the first premade (so our tile lands last and the human default stays selected), with
+    // __instance guaranteed to be the live CharGenPregenPhaseVM.
+    //
+    // (An earlier rework replaced this with a PREFIX that WRAPPED the readyCallback on the two named Ensure
+    // methods -- it silently stopped adding the tile. The wrap hung the append off original.Target AND off
+    // prefixing one-line expression-bodied forwarders (EnsureNewGamePregens/EnsureCompanionPregens), either of
+    // which can no-op under JIT inlining, prefix param-name binding, or decompile-vs-DLL drift in how that
+    // callback delegate is emitted. Postfixing the callback itself has none of those failure modes. Resolving
+    // it by signature -- name-contains "UnitsCallback", single List<ChargenUnit> param -- mirrors this file's
+    // other mangled-name TargetMethod patches, e.g. HandleSetPregen below.)
+    //
+    // A bare [HarmonyPatch] is REQUIRED so PatchAll picks up a TargetMethod-only class. Allowed for NewGame AND
+    // NewCompanion (merc creation reuses this callback) so the tile shows for the player AND a hired mercenary.
+    // HARD DLC REQUIREMENT: gated on the Infinite Museion DLC being OWNED (BlueprintDlc.IsPurchased, store
+    // ownership via StoreManager.DLCCache) -- its armour/helmet are that DLC's assets. Deliberately IsPurchased
+    // and NOT IsActive: a player who owns the DLC but has its story content DISABLED can still play the marine.
+    [HarmonyPatch]
+    internal static class CharGenPregenPhaseVM_AddMarineTile_Patch
     {
         private const string InfiniteMuseionDlc_Guid = "30938411c3c64d77b415fbe6d23bbaa0";
         private static bool s_dlcGateLogged;
 
-        internal static Action<List<ChargenUnit>> Wrap(Action<List<ChargenUnit>> original)
+        private static MethodBase TargetMethod()
         {
-            return units =>
+            return AccessTools.GetDeclaredMethods(typeof(CharGenPregenPhaseVM)).FirstOrDefault(m =>
             {
-                original?.Invoke(units);   // vanilla: build the premade tiles + auto-select the first
-                try { Append(original?.Target as CharGenPregenPhaseVM); }
-                catch (Exception e) { DeathwatchModMain.LogError("[Tile][ERR] add marine tile", e); }
-            };
+                var ps = m.GetParameters();
+                return m.ReturnType == typeof(void)
+                    && ps.Length == 1
+                    && ps[0].ParameterType == typeof(List<ChargenUnit>)
+                    && m.Name.Contains("UnitsCallback");
+            });
         }
 
-        private static void Append(CharGenPregenPhaseVM phaseVM)
+        [HarmonyPostfix]
+        private static void Postfix(CharGenPregenPhaseVM __instance)
         {
-            if (phaseVM == null) return;
-
-            var dlc = ResourcesLibrary.BlueprintsCache.Load(InfiniteMuseionDlc_Guid) as BlueprintDlc;
-            if (dlc == null || !dlc.IsPurchased)
+            try
             {
-                if (!s_dlcGateLogged)
+                var ctx = Traverse.Create(__instance).Field("CharGenContext").GetValue<CharGenContext>();
+                if (ctx == null || ctx.CharGenConfig == null) return;
+                var mode = ctx.CharGenConfig.Mode;
+                if (mode != CharGenConfig.CharGenMode.NewGame &&
+                    mode != CharGenConfig.CharGenMode.NewCompanion) return;   // player (NewGame) or mercenary (NewCompanion) chargen
+
+                var dlc = ResourcesLibrary.BlueprintsCache.Load(InfiniteMuseionDlc_Guid) as BlueprintDlc;
+                if (dlc == null || !dlc.IsPurchased)
                 {
-                    s_dlcGateLogged = true;
-                    DeathwatchModMain.Log("[Tile] The Infinite Museion DLC is not owned -- the Custom Space Marine tile is disabled (the mod's armour assets are that DLC's content).");
+                    if (!s_dlcGateLogged)
+                    {
+                        s_dlcGateLogged = true;
+                        DeathwatchModMain.Log("[Tile] The Infinite Museion DLC is not owned -- the Custom Space Marine tile is disabled (the mod's armour assets are that DLC's content).");
+                    }
+                    return;
                 }
-                return;
+
+                var group = __instance.PregenSelectionGroup;
+                if (group == null || group.EntitiesCollection == null) return;
+
+                foreach (var existing in group.EntitiesCollection)   // guard against double-add (callback re-runs on re-init)
+                    if (existing is DwMarineSelectorItemVM) return;
+
+                group.EntitiesCollection.Add(new DwMarineSelectorItemVM());
+                DeathwatchModMain.Log("[Tile] Appended 'Custom Space Marine' pregen tile.");
             }
-
-            var group = phaseVM.PregenSelectionGroup;
-            if (group == null || group.EntitiesCollection == null) return;
-
-            foreach (var existing in group.EntitiesCollection)   // guard against double-add (callback re-runs on re-init)
-                if (existing is DwMarineSelectorItemVM) return;
-
-            group.EntitiesCollection.Add(new DwMarineSelectorItemVM());
-            DeathwatchModMain.Log("[Tile] Appended 'Custom Space Marine' pregen tile.");
+            catch (Exception e) { DeathwatchModMain.LogError("[Tile][ERR] add marine tile", e); }
         }
     }
 
