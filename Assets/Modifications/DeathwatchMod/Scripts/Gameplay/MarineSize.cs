@@ -4,7 +4,7 @@ using Kingmaker.Blueprints;                       // ResourcesLibrary
 using Kingmaker.Blueprints.Items.Weapons;         // BlueprintItemWeapon
 using Kingmaker.Controllers.Combat;               // PartUnitCombatState
 using Kingmaker.EntitySystem.Entities;            // BaseUnitEntity
-using Kingmaker.Enums;                            // WeaponFamily, WeaponClassification
+using Kingmaker.Enums;                            // WeaponFamily
 using Kingmaker.UnitLogic;                        // UnitHelper.SnapToGrid (extension on BaseUnitEntity)
 using Kingmaker.UnitLogic.Buffs.Blueprints;       // BlueprintBuff
 using Kingmaker.View;                             // UnitEntityView
@@ -12,11 +12,12 @@ using Kingmaker.View.Equipment;                   // UnitViewHandSlotData
 
 namespace DeathwatchMod
 {
-    // Force weapons + psychic staffs (WeaponFamily.Force) render human-sized in an Astartes's hand: weapon scale =
-    // UnitEntityView.GetSizeScale() (1.0 for a native-Large marine) x the weapon prefab's EquipmentOffsets
-    // raceScaleList[Spacemarine].WeaponScale, and generic Force-family weapons carry no Spacemarine entry. Rather than
-    // ship a modified prefab (asset/FBX edit), we postfix the private weapon-scale getter and apply the Astartes weapon
-    // multiplier for a Spacemarine wielding a Force-family weapon that didn't already get a per-race bump.
+    // Human-scaled weapons render tiny in an Astartes's hand: weapon scale = UnitEntityView.GetSizeScale() (1.0 for
+    // the marine) x the weapon prefab's EquipmentOffsets raceScaleList[Spacemarine].WeaponScale, and generic weapons
+    // carry no Spacemarine entry. Rather than ship modified prefabs (asset/FBX edits), we postfix the private
+    // weapon-scale getter and apply the Astartes multiplier for a Spacemarine wielding a Force-family weapon (the
+    // 1H force swords) or ANY 2H melee weapon (the off-hand-wieldable set, staffs included) that didn't already get
+    // a per-race bump.
     [HarmonyPatch(typeof(UnitViewHandSlotData), "OwnerWeaponScale", MethodType.Getter)]
     internal static class UnitViewHandSlotData_OwnerWeaponScale_Patch
     {
@@ -34,7 +35,7 @@ namespace DeathwatchMod
                 // also private in the newer decompile), so reach the blueprint via the public
                 // VisibleItem (ItemEntity) -> Blueprint instead.
                 var weapon = __instance.VisibleItem?.Blueprint as BlueprintItemWeapon;
-                if (weapon == null || (weapon.Family != WeaponFamily.Force && weapon.Classification != WeaponClassification.PsykerStaff)) return;     // force weapons + psyker staffs
+                if (weapon == null || (weapon.Family != WeaponFamily.Force && !(weapon.IsMelee && weapon.IsTwoHanded))) return;     // force weapons + all 2H melee (staffs included)
                 float baseScale = owner.View.GetSizeScale();
                 if (__result > baseScale + 0.001f) return;   // prefab already has a Spacemarine RaceScale -> leave it
                 __result = baseScale * AstartesWeaponScale;

@@ -1,7 +1,8 @@
 using System;
 using System.Collections.Generic;                 // HashSet
 using HarmonyLib;
-using Kingmaker.Blueprints.Items.Components;      // EquipmentRestrictionHasFacts
+using Kingmaker.Blueprints.Items.Components;      // EquipmentRestrictionHasFacts, EquipmentRestrictionMachineTrait
+using Kingmaker.Blueprints.Items.Weapons;         // BlueprintItemWeapon
 using Kingmaker.EntitySystem.Entities;            // BaseUnitEntity
 using Kingmaker.Enums;                            // WeaponClassification
 using Kingmaker.Items;                            // ItemEntity, ItemEntityWeapon
@@ -10,14 +11,17 @@ using Kingmaker.Mechanics.Entities;               // MechanicEntity
 
 namespace DeathwatchMod
 {
-    // A marine's hand rule (HandSlot.IsItemSupported, keyed on CommonSpaceMarineFact) rejects a
-    // MELEE 2H weapon in one hand, so a two-handed psyker STAFF bounces with "Wrong slot". The marine has NO complete
-    // 2H-melee animation set (TwoHandedHammer has an attack but no idle), so the staff is carried ONE-HANDED in the
-    // OFF hand and animated as a native one-handed style (BrutalOneHanded, set by the TwoHandedWeaponsInOneHand component on
-    // AstartesPhysiology_Feature). We lift the rejection ONLY for the OFF hand + a Classification==PsykerStaff staff,
-    // so it equips off-hand and plays that one-handed idle+walk + OffHandAttack. Other 2H melee stays rejected.
+    // A marine's hand rule (HandSlot.IsItemSupported, keyed on CommonSpaceMarineFact) rejects a MELEE 2H weapon
+    // in one hand, so a two-handed melee weapon bounces with "Wrong slot". The marine has NO complete 2H-melee
+    // animation set (TwoHandedHammer has an attack but no idle = T-pose), so 2H melee is carried ONE-HANDED in the
+    // OFF hand and animated as a native one-handed style (BrutalOneHanded, set by the TwoHandedWeaponsInOneHand
+    // component on AstartesPhysiology_Feature -- its style list is what actually drives the remap; this postfix is
+    // the belt-and-braces equip lift). We lift the rejection ONLY for the OFF hand + any 2H MELEE weapon except the
+    // rock saws (Classification Chainsaw -- James's exclusion; their HeavyOnHip style is also deliberately absent
+    // from the anim component, so they bounce at the engine level too). Started as the Librarian-staff mechanism,
+    // generalized to all 2H melee 2026-07-04 (tester request).
     [HarmonyPatch(typeof(HandSlot), nameof(HandSlot.IsItemSupported))]
-    internal static class HandSlot_IsItemSupported_LibrarianStaff_Patch
+    internal static class HandSlot_IsItemSupported_Marine2HMelee_Patch
     {
         [HarmonyPostfix]
         private static void Postfix(HandSlot __instance, ItemEntity item, ref bool __result)
@@ -25,7 +29,7 @@ namespace DeathwatchMod
             try
             {
                 if (__result) return;                                          // base method already allowed it
-                if (__instance == null || __instance.IsPrimaryHand) return;    // OFF hand only (staff carried one-handed off-hand)
+                if (__instance == null || __instance.IsPrimaryHand) return;    // OFF hand only (carried one-handed off-hand)
                 // THIS MOD's marine only (not CommonSpaceMarineFact: vanilla Ulfar carries that, and he lacks
                 // the TwoHandedWeaponsInOneHand animation support this permission depends on).
                 if (!DeathwatchModMain.IsMarineUnit(__instance.Owner as BaseUnitEntity)) return;
@@ -33,25 +37,27 @@ namespace DeathwatchMod
                 var weapon = item as ItemEntityWeapon;
                 var bp = weapon != null ? weapon.Blueprint : null;
                 if (bp == null) return;
-                if (bp.Classification != WeaponClassification.PsykerStaff) return;   // psyker/force staffs only
-                if (!bp.IsMelee || !bp.IsTwoHanded) return;                    // exactly the staffs the marine gate blocks
+                if (!bp.IsMelee || !bp.IsTwoHanded) return;                           // 2H melee only
+                if (bp.Classification == WeaponClassification.Chainsaw) return;       // rock saws stay blocked
 
                 __result = true;
             }
-            catch (Exception e) { DeathwatchModMain.LogError("[LibrarianStaffEquip][ERR] IsItemSupported", e); }
+            catch (Exception e) { DeathwatchModMain.LogError("[Marine2HMelee][ERR] IsItemSupported", e); }
         }
     }
 
-    // FORCE-SWORD unlock for the DW Librarian, PER-UNIT (no blueprint mutation). The 16 force swords carry an
-    // INVERTED EquipmentRestrictionHasFacts blocking anyone with the Astartes marker (950565a6) -- vanilla's way
-    // of keeping force swords off its own Astartes (Ulfar, Uralon). Our Librarian carries that marker via the
-    // baseline, so the same rule blocked him. The mod previously STRIPPED the marker from the 16 blueprints at
-    // load -- a global change that also unlocked the swords for vanilla Ulfar/Uralon (release-gate catch). Now:
-    // allow the equip in a postfix ONLY for this mod's marine (IsMarineUnit = the mod-owned race) on exactly
-    // these 16 items; the vanilla exclusion stays intact for everyone else. The DW marine never carries the
-    // restriction's other block-facts (the Aeldari/Drukhari armour-proficiency markers), so a plain allow is safe here.
+    // MELEE-WEAPON unlock for the DW marine, PER-UNIT (no blueprint mutation). The 16 force swords AND ~50
+    // two-handed melee weapons (greatswords, power claymores, eviscerators, death-cult blades, thunder hammers,
+    // several uniques) all carry the SAME inverted EquipmentRestrictionHasFacts blocking anyone with the Astartes
+    // marker (950565a6) -- vanilla's way of keeping them off its own Astartes (Ulfar, Uralon). Our marine carries
+    // that marker via the baseline, so the rule blocked him. Allow the equip in a postfix ONLY for this mod's
+    // marine (IsMarineUnit = the mod-owned race), on: the 16 one-handed force swords (GUID list) plus ANY 2H melee
+    // weapon except the rock saws (Classification Chainsaw); the vanilla exclusion stays intact for everyone else.
+    // The DW marine never carries the restriction's other block-facts (the Aeldari/Drukhari armour-proficiency
+    // markers), so a plain allow is safe. NOTE: only THIS inverted restriction is flipped -- an item's other
+    // restriction components (e.g. ChaosSword's Corruption requirement, the axes' MachineTrait gate) still apply.
     [HarmonyPatch(typeof(EquipmentRestrictionHasFacts), nameof(EquipmentRestrictionHasFacts.CanBeEquippedBy))]
-    internal static class EquipmentRestrictionHasFacts_CanBeEquippedBy_ForceSword_Patch
+    internal static class EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineMelee_Patch
     {
         private static readonly HashSet<string> ForceSwordGuids = new HashSet<string>
         {
@@ -80,11 +86,47 @@ namespace DeathwatchMod
             {
                 if (__result || __instance == null || !__instance.Inverted) return;   // only flip an inverted-restriction BLOCK
                 var bp = __instance.OwnerBlueprint;
-                if (bp == null || !ForceSwordGuids.Contains(bp.AssetGuid)) return;    // the 16 force swords only
+                if (bp == null) return;
+                var w = bp as BlueprintItemWeapon;
+                bool nonSaw2HMelee = w != null && w.IsMelee && w.IsTwoHanded
+                    && w.Classification != WeaponClassification.Chainsaw;             // any 2H melee except rock saws
+                if (!nonSaw2HMelee && !ForceSwordGuids.Contains(bp.AssetGuid)) return; // ...or the 16 1H force swords
                 if (!DeathwatchModMain.IsMarineUnit(unit as BaseUnitEntity)) return;  // this mod's marine only
                 __result = true;
             }
-            catch (Exception e) { DeathwatchModMain.LogError("[ForceSword][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
+            catch (Exception e) { DeathwatchModMain.LogError("[MarineMelee][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
+        }
+    }
+
+    // OMNISSIAN-AXE unlock for the DW TECHMARINE, PER-UNIT. The Omnissian/breacher axes carry an
+    // EquipmentRestrictionMachineTrait (equip needs MachineTrait rank >= 1, i.e. Pasqal-style tech units). The gate
+    // is pure equip PERMISSION: the axes' abilities are plain AddFactToEquipmentWielder components with no
+    // machine-trait dependency, so they function fully for any wielder. James's call: a Techmarine has earned the
+    // Machine Cult's rites, so allow the equip for this mod's marine WITH the Techmarine speciality only; every
+    // other unit (including the mod's other specialities) keeps the vanilla gate. This restriction is used ONLY by
+    // the 9 axe items (verified: no augment or other item carries it), but scoped to 2H melee weapons anyway.
+    [HarmonyPatch(typeof(EquipmentRestrictionMachineTrait), nameof(EquipmentRestrictionMachineTrait.CanBeEquippedBy))]
+    internal static class EquipmentRestrictionMachineTrait_CanBeEquippedBy_Techmarine_Patch
+    {
+        private const string TechmarineSpeciality_Guid = "7f897a85210b4c68a0420dd13ddd81af";   // DW_Speciality_Techmarine
+
+        [HarmonyPostfix]
+        private static void Postfix(EquipmentRestrictionMachineTrait __instance, MechanicEntity unit, ref bool __result)
+        {
+            try
+            {
+                if (__result || __instance == null) return;                            // only flip a BLOCK
+                var w = __instance.OwnerBlueprint as BlueprintItemWeapon;
+                if (w == null || !w.IsMelee || !w.IsTwoHanded) return;                 // the axes are all 2H melee
+                var u = unit as BaseUnitEntity;
+                if (!DeathwatchModMain.IsMarineUnit(u)) return;                        // this mod's marine only
+                bool techmarine = false;
+                foreach (var f in u.Progression.Features)
+                    if (f != null && f.Blueprint != null && f.Blueprint.AssetGuid == TechmarineSpeciality_Guid) { techmarine = true; break; }
+                if (!techmarine) return;
+                __result = true;
+            }
+            catch (Exception e) { DeathwatchModMain.LogError("[OmnissianAxe][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
         }
     }
 }

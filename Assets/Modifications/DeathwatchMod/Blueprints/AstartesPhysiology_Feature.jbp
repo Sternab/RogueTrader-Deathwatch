@@ -91,14 +91,14 @@
         "m_Flags": 0,
         "PrototypeLink": { "guid": "", "name": "" },
         "m_Overrides": [],
-        "Comment": "Deathwatch: hold the two-handed psyker Staff one-handed in the OFF hand and animate it as a native marine one-handed-melee style. The marine's COMPLETE off-hand melee sets (CombatIdle + CombatWalk + OffHandAttack) are Fencing / BrutalOneHanded / Knife / Fist; TwoHandedHammer has an attack but NO idle (=T-pose). Currently BrutalOneHanded (swap m_TargetAnimationStyle to Fencing/Knife to taste). Grounded native clips, no custom FBX.",
+        "Comment": "Deathwatch: hold any two-handed MELEE weapon one-handed in the OFF hand, animated as a native marine one-handed style. The source list covers every 2H-melee animation style EXCEPT HeavyOnHip: that style is only the rock saws (excluded by design) and is shared with two-handed ranged heavy guns, so it must NEVER be listed here. The marine's COMPLETE off-hand melee sets (CombatIdle + CombatWalk + OffHandAttack) are Fencing / BrutalOneHanded / Knife / Fist; TwoHandedHammer has an attack but NO idle (=T-pose) -- hence the remap. Grounded native clips, no custom FBX.",
         "m_SlotRestriction": "Secondary",
-        "m_SourceAnimationStyles": [ "Staff" ],
+        "m_SourceAnimationStyles": [ "Staff", "BrutalTwoHanded", "TwoHandedHammer", "AxeTwoHanded", "BrutalOneHanded" ],
         "m_TargetAnimationStyle": "BrutalOneHanded"
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch: Astartes Physiology baseline statline (characteristic/skill/wounds bonuses). Size stays Medium out of combat (set on DW_AstartesRace); the old always-on ChangeUnitSize(Large) was removed from here, and Large is now applied only in combat by the DW_CombatSize_Large buff. Also carries the off-hand-staff TwoHandedWeaponsInOneHand anim component.",
+    "Comment": "Deathwatch: Astartes Physiology baseline statline (characteristic/skill/wounds bonuses). Size stays Medium out of combat (set on DW_AstartesRace); the old always-on ChangeUnitSize(Large) was removed from here, and Large is now applied only in combat by the DW_CombatSize_Large buff. Also carries the off-hand 2H-melee TwoHandedWeaponsInOneHand anim component (staffs, greatswords, hammers, axes -> BrutalOneHanded; rock saws excluded).",
     "m_DisplayName": { "m_Key": "d5f34d8a-e396-425c-806f-a877dc65c683", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
     "m_Description": { "m_Key": "d3271785-3e5c-4593-a6a0-3f186e945fa8", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
     "m_Icon": null,

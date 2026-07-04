@@ -68,8 +68,8 @@ namespace DeathwatchMod
         // sheet's reference-equality lookups) -- see ChargenRouting.ApplyDeathwatchGroups, driven by
         // CharGenContext_GetOriginPath_Patch in ChargenRouting, restored for humans on close. The chargen
         // content itself (homeworld talents, speciality occupations, Librarian psyker wiring, the
-        // SpaceMarineImmunity name, the force-sword unlock) is all DATA on the DW blueprints/patches or a
-        // per-unit patch (EquipmentRestrictionHasFacts_CanBeEquippedBy_ForceSword_Patch in MarineEquipment).
+        // SpaceMarineImmunity name, the melee-weapon unlock) is all DATA on the DW blueprints/patches or a
+        // per-unit patch (EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineMelee_Patch in MarineEquipment).
         internal static void EnsureChargenContent()
         {
             try
@@ -106,8 +106,9 @@ namespace DeathwatchMod
 
         // (The force-sword unlock used to live here as a runtime strip of the Astartes marker from the 16 force
         // swords' BLUEPRINTS -- a global change that also unlocked them for vanilla Ulfar/Uralon, caught at the
-        // release gate. It is now the per-unit EquipmentRestrictionHasFacts_CanBeEquippedBy_ForceSword_Patch in
-        // Gameplay\MarineEquipment.cs, scoped to this mod's marine; the vanilla exclusion stays intact.)
+        // release gate. It is now the per-unit EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineMelee_Patch in
+        // Gameplay\MarineEquipment.cs -- since generalized to all non-saw 2H melee -- scoped to this mod's marine;
+        // the vanilla exclusion stays intact.)
     }
 
     // ROADMAP #10: remove the "Blade Dancer" archetype (career-path dd6948ee) from a Deathwatch marine's chargen
