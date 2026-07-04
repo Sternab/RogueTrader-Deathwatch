@@ -16,18 +16,33 @@ using Kingmaker.View.Equipment;                   // UnitViewHandSlotData
 
 namespace DeathwatchMod
 {
-    // Force weapons + psyker staffs render twig-like in an Astartes's hand: weapon scale =
-    // UnitEntityView.GetSizeScale() (1.0 for the marine) x the weapon prefab's EquipmentOffsets
-    // raceScaleList[Spacemarine].WeaponScale, and those slender meshes carry no Spacemarine entry. Rather than
-    // ship modified prefabs (asset/FBX edits), we postfix the private weapon-scale getter and apply the Astartes
-    // bump when one didn't already get a per-race bump. Other 2H melee (hammers/greatswords/eviscerators) is
-    // deliberately NOT scaled: Owlcat's own marine hammer (Ulfar's Mjodlner, 5d93f3fa) uses a mesh the same size
-    // as the human ThunderHammer's, with no EquipmentOffsets race entry -- their calibration for a marine-held
-    // heavy weapon is native 1.0; the marine's bulk does the visual work (1.5x read comically large in-game).
+    // Force weapons + psyker staffs + human plasma/flame guns render human-sized in an Astartes's hand: weapon
+    // scale = UnitEntityView.GetSizeScale() (1.0 for the marine) x the weapon prefab's EquipmentOffsets
+    // raceScaleList[Spacemarine].WeaponScale, and those prefabs carry no Spacemarine entry. Rather than ship
+    // modified prefabs (asset/FBX edits), we postfix the private weapon-scale getter and apply the Astartes bump
+    // when one didn't already get a per-race bump. The 1.5x is Owlcat's own gun calibration: the human HEAVY guns
+    // (Heavy Flamer/Heavy Bolter prefabs) carry raceScaleList [Spacemarine, 1.5] natively -- the guard skips
+    // those. Other 2H melee (hammers/greatswords/eviscerators) is deliberately NOT scaled: Owlcat's own marine
+    // hammer (Ulfar's Mjodlner, 5d93f3fa) uses a mesh the same size as the human ThunderHammer's, with no race
+    // entry -- their calibration for a marine-held heavy weapon is native 1.0; the marine's bulk does the visual
+    // work (1.5x read comically large in-game). The NATIVE Astartes plasma/flame guns are excluded by GUID: their
+    // meshes are already marine-sized at scale 1.0 with EMPTY raceScaleList, so the already-scaled guard cannot
+    // protect them and 1.5x would inflate them.
     [HarmonyPatch(typeof(UnitViewHandSlotData), "OwnerWeaponScale", MethodType.Getter)]
     internal static class UnitViewHandSlotData_OwnerWeaponScale_Patch
     {
-        private const float AstartesWeaponScale = 1.5f;   // matches the Spacemarine RaceScale dedicated Astartes weapons carry
+        private const float AstartesWeaponScale = 1.5f;   // matches the Spacemarine RaceScale the human heavy guns carry
+
+        // Native Astartes plasma/flame guns: marine-sized meshes, empty raceScaleList -> must not be re-scaled.
+        private static readonly HashSet<string> NativeAstartesGuns = new HashSet<string>
+        {
+            "51334a2918e64ceab33b2ad032bc74a4", // AstartesPlasmaPistolT0_Item
+            "d01d6fc678f34bc8a7c6851fbc985221", // AstartesPlasmaPistolT1_Item
+            "8003fbd84d5c44b0808440983a34b6d5", // AstartesFlamer_Item
+            "52a21c0ec9e447cba63c6c50a6c52fdc", // AstartesFlamerT2_Item
+            "a7b71b397d8f437cad9442b53cc6fdad", // GenocideAstartesFlamer_Item ("The Pyre")
+            "9376156b879442d6a33f3c5bf71d7aef", // HolyAstartesFlamer_Item ("Triumph of the Stalwart")
+        };
 
         [HarmonyPostfix]
         private static void Postfix(UnitViewHandSlotData __instance, ref float __result)
@@ -41,7 +56,12 @@ namespace DeathwatchMod
                 // also private in the newer decompile), so reach the blueprint via the public
                 // VisibleItem (ItemEntity) -> Blueprint instead.
                 var weapon = __instance.VisibleItem?.Blueprint as BlueprintItemWeapon;
-                if (weapon == null || (weapon.Family != WeaponFamily.Force && weapon.Classification != WeaponClassification.PsykerStaff)) return;     // force weapons + psyker staffs only (2H melee stays native -- see header)
+                if (weapon == null) return;
+                bool forceOrStaff = weapon.Family == WeaponFamily.Force || weapon.Classification == WeaponClassification.PsykerStaff;
+                bool plasmaOrFlameGun = !weapon.IsMelee
+                    && (weapon.Family == WeaponFamily.Plasma || weapon.Family == WeaponFamily.Flame)
+                    && !NativeAstartesGuns.Contains(weapon.AssetGuid);
+                if (!forceOrStaff && !plasmaOrFlameGun) return;   // (2H melee stays native -- see header)
                 float baseScale = owner.View.GetSizeScale();
                 if (__result > baseScale + 0.001f) return;   // prefab already has a Spacemarine RaceScale -> leave it
                 __result = baseScale * AstartesWeaponScale;

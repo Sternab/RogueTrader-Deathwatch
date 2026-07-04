@@ -4,7 +4,7 @@ using HarmonyLib;
 using Kingmaker.Blueprints.Items.Components;      // EquipmentRestrictionHasFacts, EquipmentRestrictionMachineTrait
 using Kingmaker.Blueprints.Items.Weapons;         // BlueprintItemWeapon
 using Kingmaker.EntitySystem.Entities;            // BaseUnitEntity
-using Kingmaker.Enums;                            // WeaponClassification
+using Kingmaker.Enums;                            // WeaponClassification, WeaponFamily
 using Kingmaker.Items;                            // ItemEntity, ItemEntityWeapon
 using Kingmaker.Items.Slots;                      // HandSlot
 using Kingmaker.Mechanics.Entities;               // MechanicEntity
@@ -46,18 +46,22 @@ namespace DeathwatchMod
         }
     }
 
-    // MELEE-WEAPON unlock for the DW marine, PER-UNIT (no blueprint mutation). The 16 force swords AND ~50
-    // two-handed melee weapons (greatswords, power claymores, eviscerators, death-cult blades, thunder hammers,
-    // several uniques) all carry the SAME inverted EquipmentRestrictionHasFacts blocking anyone with the Astartes
-    // marker (950565a6) -- vanilla's way of keeping them off its own Astartes (Ulfar, Uralon). Our marine carries
-    // that marker via the baseline, so the rule blocked him. Allow the equip in a postfix ONLY for this mod's
-    // marine (IsMarineUnit = the mod-owned race), on: the 16 one-handed force swords (GUID list) plus ANY 2H melee
-    // weapon except the rock saws (Classification Chainsaw); the vanilla exclusion stays intact for everyone else.
-    // The DW marine never carries the restriction's other block-facts (the Aeldari/Drukhari armour-proficiency
-    // markers), so a plain allow is safe. NOTE: only THIS inverted restriction is flipped -- an item's other
-    // restriction components (e.g. ChaosSword's Corruption requirement, the axes' MachineTrait gate) still apply.
+    // WEAPON unlock for the DW marine, PER-UNIT (no blueprint mutation). The 16 force swords, ~50 two-handed
+    // melee weapons (greatswords, power claymores, eviscerators, death-cult blades, thunder hammers, uniques)
+    // AND the human plasma/flame ranged weapons (plasma guns/pistols, flamers, hand flamers, vindictor flamers)
+    // all carry the SAME inverted EquipmentRestrictionHasFacts blocking anyone with the Astartes marker
+    // (950565a6) -- vanilla's way of keeping them off its own Astartes (Ulfar, Uralon). Our marine carries that
+    // marker via the baseline, so the rule blocked him. Allow the equip in a postfix ONLY for this mod's marine
+    // (IsMarineUnit = the mod-owned race), on: the 16 one-handed force swords (GUID list), ANY 2H melee weapon
+    // except the rock saws (Classification Chainsaw), and any RANGED Plasma/Flame-family weapon (tester request
+    // 2026-07-04; all their anim styles -- Assault/Pistol/Rifle/HeavyOnHip -- verified present in the marine
+    // animset). The vanilla exclusion stays intact for everyone else. The DW marine never carries the
+    // restriction's other block-facts (the Aeldari/Drukhari armour-proficiency markers), so a plain allow is
+    // safe. NOTE: only THIS inverted restriction is flipped -- an item's other restriction components (e.g.
+    // ChaosSword's Corruption requirement, the axes' MachineTrait gate, heavy flamers' Strength 50) still apply,
+    // and items with POSITIVE-only gates (heavy flamers, the native Astartes guns) never needed the flip.
     [HarmonyPatch(typeof(EquipmentRestrictionHasFacts), nameof(EquipmentRestrictionHasFacts.CanBeEquippedBy))]
-    internal static class EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineMelee_Patch
+    internal static class EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineWeapons_Patch
     {
         private static readonly HashSet<string> ForceSwordGuids = new HashSet<string>
         {
@@ -90,11 +94,14 @@ namespace DeathwatchMod
                 var w = bp as BlueprintItemWeapon;
                 bool nonSaw2HMelee = w != null && w.IsMelee && w.IsTwoHanded
                     && w.Classification != WeaponClassification.Chainsaw;             // any 2H melee except rock saws
-                if (!nonSaw2HMelee && !ForceSwordGuids.Contains(bp.AssetGuid)) return; // ...or the 16 1H force swords
+                bool plasmaOrFlameRanged = w != null && !w.IsMelee
+                    && (w.Family == WeaponFamily.Plasma || w.Family == WeaponFamily.Flame);   // plasma guns/pistols + flamers
+                if (!nonSaw2HMelee && !plasmaOrFlameRanged
+                    && !ForceSwordGuids.Contains(bp.AssetGuid)) return;               // ...or the 16 1H force swords
                 if (!DeathwatchModMain.IsMarineUnit(unit as BaseUnitEntity)) return;  // this mod's marine only
                 __result = true;
             }
-            catch (Exception e) { DeathwatchModMain.LogError("[MarineMelee][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
+            catch (Exception e) { DeathwatchModMain.LogError("[MarineWeapons][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
         }
     }
 
