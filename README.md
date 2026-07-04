@@ -9,6 +9,8 @@ in the base campaign.
 - A full-size, fully armoured Astartes in-game: correct scale, Deathwatch power armour with your
   Chapter's pauldron, an Astartes starting arsenal, and a working Librarian psyker.
 - 11 custom portraits and 3 custom voices (Space Marine, Apothecary, Ulfar) in character creation.
+- Fully localized: all mod text ships in English, German, French, Spanish, Russian, Chinese
+  (Simplified), Japanese and Turkish, with terminology matched to the game's official localization.
 - Sensible in the world: the marine is Large in combat but fits corridors, ladders and the command
   throne out of combat; story beats that strip your gear hand an Astartes proper wargear back.
 

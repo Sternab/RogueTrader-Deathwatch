@@ -41,7 +41,8 @@ namespace DeathwatchMod
     public static class DeathwatchModMain
     {
         internal const string MarinePreset_Guid   = "d68a2e2af8c0df3aaed55e6ad4910ddc";
-        // Playable Astartes race (clone of HumanRace) carrying Size=Large + AstartesPhysiology + marine preset.
+        // Playable Astartes race (clone of HumanRace) carrying AstartesPhysiology + marine preset. Size stays
+        // Medium; the combat-only Large footprint is the separate DW_CombatSize_Large buff (below).
         internal const string AstartesRace_Guid   = "2302e1d517f847e6aef04c8c4a24d598";
         internal const string CombatSizeLargeBuff_Guid = "dccb5117000000000000000000000001";   // DW_CombatSize_Large (dynamic-size toggle)
         // ROADMAP #10: "Blade Dancer" archetype career path (DLC2 Lex Imperialis; its moveset animates wrong on

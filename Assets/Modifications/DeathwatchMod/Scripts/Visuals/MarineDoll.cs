@@ -110,7 +110,7 @@ namespace DeathwatchMod
     [HarmonyPatch(typeof(CharacterDollRoom), "CreateAvatar")]
     internal static class CharacterDollRoom_CreateAvatar_Patch
     {
-        // Originals captured off the SHARED MaleDoll source, restored in the postfix.
+        // Originals captured off the SHARED MaleDoll source, restored in the finalizer.
         private static Animator s_savedAnimatorPrefab;
         private static AnimationSet s_savedAnimationSet;
         private static Skeleton s_savedSkeleton;
