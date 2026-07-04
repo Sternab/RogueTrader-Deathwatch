@@ -419,6 +419,10 @@
     "dea7c0de-0005-4000-8000-000000000005": {
       "Offset": 0,
       "Text": "Uzun Nöbet'in siyah pelerini; taşıyanı Ölümnöbeti'nin yeminli kardeşi olarak işaretler."
+    },
+    "dea7c0de-0006-4000-8000-000000000006": {
+      "Offset": 0,
+      "Text": "Giyen kişi, kritik {g|Encyclopedia:HitSequenceGlossary}vuruşlardan{/g} 5 puan daha az {g|Encyclopedia:DamageGlossary}hasar{/g} alır.\nGiyen kişi, +10 {g|Encyclopedia:SkillCoercion}Gözdağı{/g} kazanır."
     }
   }
 }

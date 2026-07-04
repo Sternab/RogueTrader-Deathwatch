@@ -419,6 +419,10 @@
     "dea7c0de-0005-4000-8000-000000000005": {
       "Offset": 0,
       "Text": "The black cape of the Long Vigil, marking its bearer as a sworn brother of the Deathwatch."
+    },
+    "dea7c0de-0006-4000-8000-000000000006": {
+      "Offset": 0,
+      "Text": "The wearer receives −5 less {g|Encyclopedia:DamageGlossary}damage{/g} from critical {g|Encyclopedia:HitSequenceGlossary}hits{/g}.\nThe wearer gains +10 {g|Encyclopedia:SkillCoercion}Coercion{/g}."
     }
   }
 }

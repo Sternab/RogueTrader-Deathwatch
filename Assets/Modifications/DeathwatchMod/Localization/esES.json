@@ -419,6 +419,10 @@
     "dea7c0de-0005-4000-8000-000000000005": {
       "Offset": 0,
       "Text": "La capa negra de la Larga Vigilia, que señala a su portador como un hermano juramentado de los Vigías de la Muerte."
+    },
+    "dea7c0de-0006-4000-8000-000000000006": {
+      "Offset": 0,
+      "Text": "El portador recibe −5 de {g|Encyclopedia:DamageGlossary}daño{/g} menos de los {g|Encyclopedia:HitSequenceGlossary}impactos{/g} críticos.\nEl portador gana +10 de {g|Encyclopedia:SkillCoercion}Coacción{/g}."
     }
   }
 }

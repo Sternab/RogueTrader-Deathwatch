@@ -419,6 +419,10 @@
     "dea7c0de-0005-4000-8000-000000000005": {
       "Offset": 0,
       "Text": "La cape noire de la Longue Veille, qui désigne son porteur comme un frère assermenté de la Deathwatch."
+    },
+    "dea7c0de-0006-4000-8000-000000000006": {
+      "Offset": 0,
+      "Text": "L'utilisateur subit 5 points de {g|Encyclopedia:DamageGlossary}dégâts{/g} en moins lorsque des {g|Encyclopedia:HitSequenceGlossary}coups{/g} critiques lui sont infligés.\nL'utilisateur bénéficie de +10 d'{g|Encyclopedia:SkillCoercion}Intimidation{/g}."
     }
   }
 }

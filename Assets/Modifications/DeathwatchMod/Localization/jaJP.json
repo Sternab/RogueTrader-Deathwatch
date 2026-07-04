@@ -419,6 +419,10 @@
     "dea7c0de-0005-4000-8000-000000000005": {
       "Offset": 0,
       "Text": "長き見張りの黒い外套。身に着ける者が死の監視の誓いを立てた兄弟であることを示す。"
+    },
+    "dea7c0de-0006-4000-8000-000000000006": {
+      "Offset": 0,
+      "Text": "使用者はクリティカル{g|Encyclopedia:HitSequenceGlossary}ヒット{/g}による{g|Encyclopedia:DamageGlossary}ダメージ{/g}を−5軽減する。\n使用者は+10の{g|Encyclopedia:SkillCoercion}威圧{/g}を得る。"
     }
   }
 }

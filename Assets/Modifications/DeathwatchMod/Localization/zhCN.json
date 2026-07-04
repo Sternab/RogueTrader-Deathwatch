@@ -419,6 +419,10 @@
     "dea7c0de-0005-4000-8000-000000000005": {
       "Offset": 0,
       "Text": "长守望的黑色斗篷，标志着穿戴者是死亡守望的宣誓兄弟。"
+    },
+    "dea7c0de-0006-4000-8000-000000000006": {
+      "Offset": 0,
+      "Text": "装备者受到的暴击{g|Encyclopedia:HitSequenceGlossary}伤害{/g}降低5点。{g|Encyclopedia:DamageGlossary}{/g}\n装备者获得+10{g|Encyclopedia:SkillCoercion}胁迫{/g}。"
     }
   }
 }

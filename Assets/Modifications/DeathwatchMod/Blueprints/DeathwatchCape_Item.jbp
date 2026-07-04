@@ -6,6 +6,17 @@
     "m_Overrides": [],
     "Components": [
       {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$dw-cape-xenopelt-effect",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_e66230b551004be2a320b2187bb3ab3c"
+      },
+      {
         "$type": "d7b23547716f4a949471625ff6c66fb2, EquipmentRestrictionHasFacts",
         "name": "$EquipmentRestrictionHasFacts$dw-cape-sm-only",
         "m_Flags": 0,
@@ -22,7 +33,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch cape (cosmetic Shoulders item). Structure mirrors WolfPeltCloak_Item (34abddee) without its stat-buff wielder fact; the positive SpaceMarineEquipment_Feature restriction is the vanilla SM-cape convention (the marine baseline grants that fact). Visual = KEE_DeathwatchCape wrapping the base-game EE_CapeDeathWatch1_M_SM. Granted at chargen commit (ChargenCommit.cs) -- m_StartingInventory is DEAD for chargen-created units (BaseUnitEntity.OnInitialize skips AddStartingInventory under the ChargenUnit context), so the blueprint field cannot deliver it.",
+    "Comment": "Deathwatch cape (cosmetic Shoulders item). Structure mirrors WolfPeltCloak_Item (34abddee) without its stat-buff wielder fact; the positive SpaceMarineEquipment_Feature restriction is the vanilla SM-cape convention (the marine baseline grants that fact). Visual = KEE_DeathwatchCape wrapping the base-game EE_CapeDeathWatch1_M_SM. Granted at chargen commit (ChargenCommit.cs) -- m_StartingInventory is DEAD for chargen-created units (BaseUnitEntity.OnInitialize skips AddStartingInventory under the ChargenUnit context), so the blueprint field cannot deliver it. Effect = the vanilla XenoPeltCloak_Feature (e66230b5, -5 damage from critical hits / +10 Coercion; James's pick), referenced directly for exact parity; description = XenoPelt's own effect string lifted verbatim per language, lore in FlavorText.",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0004-4000-8000-000000000004",
       "m_OwnerString": "",
@@ -31,7 +42,7 @@
       "Shared": null
     },
     "m_Description": {
-      "m_Key": "dea7c0de-0005-4000-8000-000000000005",
+      "m_Key": "dea7c0de-0006-4000-8000-000000000006",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",
@@ -39,7 +50,7 @@
     },
     "m_Icon": null,
     "m_FlavorText": {
-      "m_Key": "",
+      "m_Key": "dea7c0de-0005-4000-8000-000000000005",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",
