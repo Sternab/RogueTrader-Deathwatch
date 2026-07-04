@@ -22,7 +22,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch cape (cosmetic Shoulders item). Structure mirrors WolfPeltCloak_Item (34abddee) without its stat-buff wielder fact; the positive SpaceMarineEquipment_Feature restriction is the vanilla SM-cape convention (the marine baseline grants that fact). Visual = KEE_DeathwatchCape wrapping the base-game EE_CapeDeathWatch1_M_SM. In the marine's starting inventory (DW_Marine_Player_Unit m_StartingInventory).",
+    "Comment": "Deathwatch cape (cosmetic Shoulders item). Structure mirrors WolfPeltCloak_Item (34abddee) without its stat-buff wielder fact; the positive SpaceMarineEquipment_Feature restriction is the vanilla SM-cape convention (the marine baseline grants that fact). Visual = KEE_DeathwatchCape wrapping the base-game EE_CapeDeathWatch1_M_SM. Granted at chargen commit (ChargenCommit.cs) -- m_StartingInventory is DEAD for chargen-created units (BaseUnitEntity.OnInitialize skips AddStartingInventory under the ChargenUnit context), so the blueprint field cannot deliver it.",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0004-4000-8000-000000000004",
       "m_OwnerString": "",

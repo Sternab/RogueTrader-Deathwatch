@@ -11,8 +11,7 @@
       "Body.m_Gloves",
       "Body.ItemEquipmentHandSettings.m_PrimaryHand",
       "Body.ItemEquipmentHandSettings.m_SecondaryHand",
-      "Body.ItemEquipmentHandSettings.m_PrimaryHandAlternative1",
-      "m_StartingInventory"
+      "Body.ItemEquipmentHandSettings.m_PrimaryHandAlternative1"
     ],
     "Components": [],
     "Author": "Unknown",
@@ -58,9 +57,7 @@
       "m_AttackFactionsToAdd": [],
       "m_AttackFactionsToRemove": []
     },
-    "m_StartingInventory": [
-      "!bp_9c2b9f3f5bc74d0d8efa35f4d3109c13"
-    ],
+    "m_StartingInventory": [],
     "m_Brain": null,
     "AlternativeBrains": [],
     "IsCarefulShooter": false,
