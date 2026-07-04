@@ -407,6 +407,10 @@
     "40b5edcb-829b-4181-99f6-44ea18c79da4": {
       "Offset": 0,
       "Text": "Apothecarius"
+    },
+    "dea7c0de-0003-4000-8000-000000000003": {
+      "Offset": 0,
+      "Text": "<b>Basisrüstung</b>: +20 Stärke."
     }
   }
 }
