@@ -35,8 +35,12 @@ namespace DeathwatchMod
                 var cape = ResourcesLibrary.BlueprintsCache.Load(DeathwatchCapeItem_Guid) as Kingmaker.Blueprints.Items.BlueprintItem;
                 if (cape != null)
                 {
-                    resultUnit.Inventory.Add(cape);
-                    DeathwatchModMain.Log("[MarineArmour] added the Deathwatch cape to the committed marine's inventory.");
+                    var capeItem = resultUnit.Inventory.Add(cape);
+                    var shoulders = resultUnit.Body != null ? resultUnit.Body.Shoulders : null;
+                    if (capeItem != null && shoulders != null && !shoulders.HasItem)
+                        shoulders.InsertItem(capeItem, true);   // auto-equip into the empty Shoulders slot
+                    DeathwatchModMain.Log("[MarineArmour] Deathwatch cape "
+                        + (shoulders != null && shoulders.MaybeItem == capeItem ? "added and equipped." : "added to inventory."));
                 }
                 else DeathwatchModMain.Log("[MarineArmour] Deathwatch cape item not found: " + DeathwatchCapeItem_Guid);
 
