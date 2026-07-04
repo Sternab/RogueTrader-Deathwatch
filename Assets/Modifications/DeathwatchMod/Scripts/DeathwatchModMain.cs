@@ -23,7 +23,7 @@
 // Reflection (AccessTools / string-name lookups) is used throughout because the referenced Code.dll lags the
 // fresh decompile and member visibility drifts between the two.
 //
-// FILE LAYOUT: this file is the shared HUB (entry point + widely-shared statics). The ~28 [HarmonyPatch]
+// FILE LAYOUT: this file is the shared HUB (entry point + widely-shared statics). The ~30 [HarmonyPatch]
 // classes and their single-concern helpers live in concern files under Chargen\, Visuals\, Gameplay\ (the
 // asmdef compiles Scripts\ recursively, so PatchAll(assembly) still finds every patch class).
 // =====================================================================================================

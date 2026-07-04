@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;                 // List (AoE preview target list)
 using HarmonyLib;
 using Kingmaker.Blueprints;                       // ResourcesLibrary
 using Kingmaker.Blueprints.Items.Weapons;         // BlueprintItemWeapon
@@ -6,6 +7,7 @@ using Kingmaker.Controllers.Combat;               // PartUnitCombatState
 using Kingmaker.EntitySystem.Entities;            // BaseUnitEntity
 using Kingmaker.Enums;                            // WeaponFamily, WeaponClassification
 using Kingmaker.UnitLogic;                        // UnitHelper.SnapToGrid (extension on BaseUnitEntity)
+using Kingmaker.UnitLogic.Abilities;              // AbilityData, AbilityDataHelper, AbilityTargetUIData
 using Kingmaker.UnitLogic.Buffs.Blueprints;       // BlueprintBuff
 using Kingmaker.View;                             // UnitEntityView
 using Kingmaker.View.Equipment;                   // UnitViewHandSlotData
@@ -142,6 +144,41 @@ namespace DeathwatchMod
                     __result = 1f;
             }
             catch (Exception e) { DeathwatchModMain.LogError("[DynSize][ERR] GetSizeScale: " + e.Message); }   // Message only: hot path
+        }
+    }
+
+    // AOE SELF-HIT PREVIEW FIX (a combat-Large size consequence). Melee AoE attack templates (thunder hammer /
+    // power maul / greatsword / crozius) are authored with a one-cell notch for a MEDIUM attacker; the marine is
+    // Large (2x2) in combat, so his flank tiles fall inside his own template and the aim preview shows him
+    // hitting HIMSELF ("78% | 11-17" over his own head). The damage is PREVIEW-ONLY: delivery unconditionally
+    // drops the caster for melee/scatter attacks (AbilityAoEPatternAttack.IsValidTarget: "(!IsMelee &&
+    // !IsScatter) || entity != Caster") -- tester-verified, no attack is ever rolled against yourself. This
+    // postfix restores preview<->delivery parity: remove the marine caster from his own melee/scatter AoE
+    // preview list. Gated to exactly the deliveries that already exclude the caster, so it can never hide a
+    // real hit (heals/friendly AoEs are neither IsMelee nor IsScatter); ranged template AoEs (flamers/grenades)
+    // CAN really self-hit and are untouched. WHY RUNTIME (not data): the notch lives in the vanilla
+    // attack-template blueprints -- widening it for a 2x2 attacker would change the REAL AoE shape for every
+    // human wielder (a gameplay change); the preview path (GatherAffectedTargetsData -> CheckAffectedEntity)
+    // has no caster exclusion and no blueprint knob. Vanilla has the same latent preview bug (Ulfar is natively
+    // Large and Mjodlner's second ability IS ThunderHammer_AoE_Ability); per the per-unit rule we fix only OUR
+    // marine. No logging in the body: this runs continuously while aiming.
+    [HarmonyPatch(typeof(AbilityDataHelper), nameof(AbilityDataHelper.GatherAffectedTargetsData))]
+    internal static class AbilityDataHelper_GatherAffectedTargetsData_MarineAoePreview_Patch
+    {
+        [HarmonyPostfix]
+        private static void Postfix(AbilityData ability, List<AbilityTargetUIData> listToFill)
+        {
+            try
+            {
+                if (ability == null || listToFill == null || listToFill.Count == 0) return;
+                if (!ability.IsMelee && !ability.IsScatter) return;    // exactly the deliveries that drop the caster
+                var caster = ability.Caster as BaseUnitEntity;
+                if (!DeathwatchModMain.IsMarineUnit(caster)) return;   // this mod's marine only
+                for (int i = listToFill.Count - 1; i >= 0; i--)
+                    if (ReferenceEquals(listToFill[i].Target, caster))
+                        listToFill.RemoveAt(i);
+            }
+            catch (Exception e) { DeathwatchModMain.LogError("[AoePreview][ERR] GatherAffectedTargetsData: " + e.Message); }   // Message only: hot path
         }
     }
 }
