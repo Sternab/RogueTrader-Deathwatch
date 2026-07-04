@@ -12,18 +12,18 @@ using Kingmaker.View.Equipment;                   // UnitViewHandSlotData
 
 namespace DeathwatchMod
 {
-    // Human-scaled weapons render tiny in an Astartes's hand: weapon scale = UnitEntityView.GetSizeScale() (1.0 for
-    // the marine) x the weapon prefab's EquipmentOffsets raceScaleList[Spacemarine].WeaponScale, and generic weapons
-    // carry no Spacemarine entry. Rather than ship modified prefabs (asset/FBX edits), we postfix the private
-    // weapon-scale getter for a Spacemarine wielding a weapon that didn't already get a per-race bump. TWO
-    // multipliers: force weapons + psyker staffs get the full Astartes bump (thin meshes, read twig-like without
-    // it); other 2H melee (hammers/greatswords/eviscerators) gets a gentler one -- those meshes are already
-    // human-two-handed-sized, and 1.5x read comically large in-game (James, 2026-07-04).
+    // Force weapons + psyker staffs render twig-like in an Astartes's hand: weapon scale =
+    // UnitEntityView.GetSizeScale() (1.0 for the marine) x the weapon prefab's EquipmentOffsets
+    // raceScaleList[Spacemarine].WeaponScale, and those slender meshes carry no Spacemarine entry. Rather than
+    // ship modified prefabs (asset/FBX edits), we postfix the private weapon-scale getter and apply the Astartes
+    // bump when one didn't already get a per-race bump. Other 2H melee (hammers/greatswords/eviscerators) is
+    // deliberately NOT scaled: Owlcat's own marine hammer (Ulfar's Mjodlner, 5d93f3fa) uses a mesh the same size
+    // as the human ThunderHammer's, with no EquipmentOffsets race entry -- their calibration for a marine-held
+    // heavy weapon is native 1.0; the marine's bulk does the visual work (1.5x read comically large in-game).
     [HarmonyPatch(typeof(UnitViewHandSlotData), "OwnerWeaponScale", MethodType.Getter)]
     internal static class UnitViewHandSlotData_OwnerWeaponScale_Patch
     {
-        private const float AstartesWeaponScale = 1.5f;   // force weapons + staffs: matches the Spacemarine RaceScale dedicated Astartes weapons carry
-        private const float Astartes2HMeleeScale = 1.2f;  // other 2H melee: mesh is already two-handed-sized
+        private const float AstartesWeaponScale = 1.5f;   // matches the Spacemarine RaceScale dedicated Astartes weapons carry
 
         [HarmonyPostfix]
         private static void Postfix(UnitViewHandSlotData __instance, ref float __result)
@@ -37,13 +37,10 @@ namespace DeathwatchMod
                 // also private in the newer decompile), so reach the blueprint via the public
                 // VisibleItem (ItemEntity) -> Blueprint instead.
                 var weapon = __instance.VisibleItem?.Blueprint as BlueprintItemWeapon;
-                if (weapon == null) return;
-                bool forceOrStaff = weapon.Family == WeaponFamily.Force || weapon.Classification == WeaponClassification.PsykerStaff;
-                bool twoHandedMelee = weapon.IsMelee && weapon.IsTwoHanded;
-                if (!forceOrStaff && !twoHandedMelee) return;         // force weapons + staffs + all other 2H melee
+                if (weapon == null || (weapon.Family != WeaponFamily.Force && weapon.Classification != WeaponClassification.PsykerStaff)) return;     // force weapons + psyker staffs only (2H melee stays native -- see header)
                 float baseScale = owner.View.GetSizeScale();
                 if (__result > baseScale + 0.001f) return;   // prefab already has a Spacemarine RaceScale -> leave it
-                __result = baseScale * (forceOrStaff ? AstartesWeaponScale : Astartes2HMeleeScale);
+                __result = baseScale * AstartesWeaponScale;
             }
             catch (Exception e) { DeathwatchModMain.LogError("[MarineWeaponScale][ERR] OwnerWeaponScale: " + e.Message); }   // Message only: hot path
         }
