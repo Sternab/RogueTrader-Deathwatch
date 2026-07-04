@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "装备者受到的暴击{g|Encyclopedia:HitSequenceGlossary}伤害{/g}降低5点。{g|Encyclopedia:DamageGlossary}{/g}\n装备者获得+10{g|Encyclopedia:SkillCoercion}胁迫{/g}。"
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "当角色装备{g|Encyclopedia:HeavyArmour}重型护甲{/g}或动力护甲时，会获得+1{g|Encyclopedia:MovementPoints}移动点数{/g}与+1{g|Encyclopedia:Deflection}偏转{/g}，而且不会陷入{g|Encyclopedia:ProneEffect}倒地{/g}状态。"
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "每场战斗中，每当该角色首次承受{g|Encyclopedia:Stun}眩晕{/g}、{g|Encyclopedia:BlindedEffect}失明{/g}、{g|Encyclopedia:ImmobilisedEffect}定身{/g}、{g|Encyclopedia:StaggeredEffect}恐慌{/g}或{g|Encyclopedia:SlowedEffect}减速{/g}效果时，抵抗此效果并获得{g|Encyclopedia:MaxWounds}临时生命值{/g}，等同于最大生命值的20%。"
     }
   }
 }

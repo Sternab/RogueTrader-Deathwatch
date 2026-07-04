@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "Der Träger nimmt −5 weniger {g|Encyclopedia:DamageGlossary}Schaden{/g} durch kritische {g|Encyclopedia:HitSequenceGlossary}Treffer{/g}.\nDer Träger erhält +10 {g|Encyclopedia:SkillCoercion}Zwang{/g}."
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "Während dieser Charakter {g|Encyclopedia:HeavyArmour}schwere Rüstung{/g} oder Servorüstung trägt, erhält er +1 {g|Encyclopedia:MovementPoints}BP{/g}, +1 {g|Encyclopedia:Deflection}Ablenkung{/g} und kann nicht {g|Encyclopedia:ProneEffect}hingestreckt{/g} werden."
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "Wenn dieser Charakter einmal pro Kampf unter dem Effekt {g|Encyclopedia:Stun}betäubt{/g}, {g|Encyclopedia:BlindedEffect}geblendet{/g}, {g|Encyclopedia:ImmobilisedEffect}gelähmt{/g}, {g|Encyclopedia:StaggeredEffect}taumelnd{/g} oder {g|Encyclopedia:SlowedEffect}verlangsamt{/g} leidet, wird dieser Effekt ignoriert und er erhält stattdessen +20 % seiner {g|Encyclopedia:MaxWounds}maximalen Wunden{/g} als temporäre Wunden."
     }
   }
 }

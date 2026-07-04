@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "The wearer receives −5 less {g|Encyclopedia:DamageGlossary}damage{/g} from critical {g|Encyclopedia:HitSequenceGlossary}hits{/g}.\nThe wearer gains +10 {g|Encyclopedia:SkillCoercion}Coercion{/g}."
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "While wearing {g|Encyclopedia:HeavyArmour}heavy armour{/g} or power armour, this character gains +1 {g|Encyclopedia:MovementPoints}MP{/g}, +1 {g|Encyclopedia:Deflection}deflection{/g}, and cannot fall {g|Encyclopedia:ProneEffect}prone{/g}."
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "Once per combat, when this character suffers the {g|Encyclopedia:Stun}stunned{/g}, {g|Encyclopedia:BlindedEffect}blinded{/g}, {g|Encyclopedia:ImmobilisedEffect}immobilised{/g}, {g|Encyclopedia:StaggeredEffect}staggered{/g}, or {g|Encyclopedia:SlowedEffect}slowed{/g} effect, this effect is ignored, and they instead gain +20% of their {g|Encyclopedia:MaxWounds}maximum wounds{/g} as temporary wounds."
     }
   }
 }

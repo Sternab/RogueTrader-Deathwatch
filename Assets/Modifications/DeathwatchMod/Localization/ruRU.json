@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "Получая критическое {g|Encyclopedia:HitSequenceGlossary}попадание{/g}, персонаж получает на 5 {g|Encyclopedia:DamageGlossary}урона{/g} меньше.\nТакже плащ дает +10 к {g|Encyclopedia:SkillCoercion}Напору{/g}."
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "При ношении {g|Encyclopedia:HeavyArmour}тяжелой брони{/g} или силовой брони персонаж получает +1 {g|Encyclopedia:MovementPoints}ОП{/g} и +1 к {g|Encyclopedia:Deflection}отражению{/g}. Также его нельзя {g|Encyclopedia:ProneEffect}опрокинуть{/g}."
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "Один раз за бой персонаж может игнорировать {g|Encyclopedia:Stun}оглушение{/g}, {g|Encyclopedia:BlindedEffect}ослепление{/g}, {g|Encyclopedia:ImmobilisedEffect}обездвиживание{/g}, {g|Encyclopedia:StaggeredEffect}ошеломление{/g} или {g|Encyclopedia:SlowedEffect}замедление{/g}. Вместо этого персонаж получает +20% от {g|Encyclopedia:MaxWounds}максимального здоровья{/g} в качестве временного здоровья."
     }
   }
 }

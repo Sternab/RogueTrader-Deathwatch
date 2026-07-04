@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "El portador recibe −5 de {g|Encyclopedia:DamageGlossary}daño{/g} menos de los {g|Encyclopedia:HitSequenceGlossary}impactos{/g} críticos.\nEl portador gana +10 de {g|Encyclopedia:SkillCoercion}Coacción{/g}."
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "Mientras lleva {g|Encyclopedia:HeavyArmour}armadura pesada{/g} o servo armadura, este personaje gana +1 {g|Encyclopedia:MovementPoints}PM{/g}, +1 {g|Encyclopedia:Deflection}desvío{/g} y no puede ser {g|Encyclopedia:ProneEffect}derribado{/g}."
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "Una vez por combate, cuando este personaje sufre los estados {g|Encyclopedia:Stun}aturdido{/g}, {g|Encyclopedia:BlindedEffect}cegado{/g}, {g|Encyclopedia:ImmobilisedEffect}inmovilizado{/g}, {g|Encyclopedia:StaggeredEffect}desequilibrado{/g} o {g|Encyclopedia:SlowedEffect}ralentizado{/g}, ignora el estado y en vez de sufrirlo gana +20 % de sus {g|Encyclopedia:MaxWounds}heridas máximas{/g} como heridas temporales."
     }
   }
 }

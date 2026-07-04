@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "Giyen kişi, kritik {g|Encyclopedia:HitSequenceGlossary}vuruşlardan{/g} 5 puan daha az {g|Encyclopedia:DamageGlossary}hasar{/g} alır.\nGiyen kişi, +10 {g|Encyclopedia:SkillCoercion}Gözdağı{/g} kazanır."
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "{g|Encyclopedia:HeavyArmour}Ağır zırh{/g} veya güç zırhı giyen bu karakter, +1 {g|Encyclopedia:MovementPoints}HP{/g} ve +1 {g|Encyclopedia:Deflection}saptırma{/g} kazanır. Ayrıca {g|Encyclopedia:ProneEffect}yere devrilemez{/g}."
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "Bu karakter {g|Encyclopedia:Stun}sersemleme{/g}, {g|Encyclopedia:BlindedEffect}körleşme{/g}, {g|Encyclopedia:ImmobilisedEffect}felç{/g}, {g|Encyclopedia:StaggeredEffect}afallama{/g} veya {g|Encyclopedia:SlowedEffect}yavaşlama{/g} etkisine maruz kalırsa bu etki her çatışmada bir kez yok sayılır. Bunun yerine karakter, {g|Encyclopedia:MaxWounds}maksimum sağlık{/g} puanının +%20'si kadar geçici sağlık kazanır."
     }
   }
 }

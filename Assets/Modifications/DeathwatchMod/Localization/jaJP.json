@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "使用者はクリティカル{g|Encyclopedia:HitSequenceGlossary}ヒット{/g}による{g|Encyclopedia:DamageGlossary}ダメージ{/g}を−5軽減する。\n使用者は+10の{g|Encyclopedia:SkillCoercion}威圧{/g}を得る。"
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "{g|Encyclopedia:HeavyArmour}ヘビーアーマー{/g}またはパワーアーマー装備時、このキャラクターは{g|Encyclopedia:MovementPoints}MP{/g}が+1、{g|Encyclopedia:Deflection}ディフレクション{/g}が+1され、{g|Encyclopedia:ProneEffect}脆弱化{/g}状態にならなくなる。"
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "戦闘ごとに一度、このキャラクターが{g|Encyclopedia:Stun}スタン{/g}、{g|Encyclopedia:BlindedEffect}盲目{/g}、{g|Encyclopedia:ImmobilisedEffect}移動不可{/g}、{g|Encyclopedia:StaggeredEffect}よろけ{/g}、{g|Encyclopedia:SlowedEffect}速度低下{/g}状態になった時、この状態を無視して、代わりに最大体力に+20%の{g|Encyclopedia:MaxWounds}一時体力{/g}を得る。"
     }
   }
 }

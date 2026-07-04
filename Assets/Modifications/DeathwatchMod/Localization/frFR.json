@@ -423,6 +423,14 @@
     "dea7c0de-0006-4000-8000-000000000006": {
       "Offset": 0,
       "Text": "L'utilisateur subit 5 points de {g|Encyclopedia:DamageGlossary}dégâts{/g} en moins lorsque des {g|Encyclopedia:HitSequenceGlossary}coups{/g} critiques lui sont infligés.\nL'utilisateur bénéficie de +10 d'{g|Encyclopedia:SkillCoercion}Intimidation{/g}."
+    },
+    "dea7c0de-0007-4000-8000-000000000007": {
+      "Offset": 0,
+      "Text": "Lorsqu'il porte une {g|Encyclopedia:HeavyArmour}armure lourde{/g} ou une armure énergétique, ce personnage bénéficie de +1 {g|Encyclopedia:MovementPoints}PD{/g} et +1 de {g|Encyclopedia:Deflection}déflexion{/g}. Il est également invulnérable à l'effet {g|Encyclopedia:ProneEffect}Immobilisation{/g}."
+    },
+    "dea7c0de-0008-4000-8000-000000000008": {
+      "Offset": 0,
+      "Text": "Une fois par combat, lorsque ce personnage est frappé d'{g|Encyclopedia:Stun}Étourdissement{/g}, d'{g|Encyclopedia:BlindedEffect}Aveuglement{/g}, d'{g|Encyclopedia:ImmobilisedEffect}Immobilisation{/g}, de {g|Encyclopedia:StaggeredEffect}Sidération{/g} ou de {g|Encyclopedia:SlowedEffect}Ralentissement{/g}, cet effet est ignoré et il obtient un bonus de +20 % de sa réserve de {g|Encyclopedia:MaxWounds}blessures maximum{/g} sous forme de blessures temporaires."
     }
   }
 }
