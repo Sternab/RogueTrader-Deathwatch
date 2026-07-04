@@ -4,7 +4,19 @@
     "$type": "579ddce9e6b6d8e44b05e0715cc66741, BlueprintItemArmor",
     "PrototypeLink": "",
     "m_Overrides": [],
-    "Components": [],
+    "Components": [
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$3a4d7b9e-2f5c-4e0b-1d86-4c9b5a2f3d44",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_a577bfd8d57d41378a8426f4676696f0"
+      }
+    ],
     "Author": "Unknown",
     "Comment": "Dark Angel Deathwatch power armour. Per-chapter worn item: visual = KEE_DeathwatchArmorBody_DarkAngels (power armour + backpack + Dark Angel pauldron). Equipped on the committed Dark Angel marine by the CompleteCharGen hook, so the chapter pauldron rides the armour. Clone of DeathwatchArmor_Item (26ad42d8).",
     "m_DisplayName": {

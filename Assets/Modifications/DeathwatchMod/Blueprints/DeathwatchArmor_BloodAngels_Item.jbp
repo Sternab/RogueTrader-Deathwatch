@@ -4,7 +4,19 @@
     "$type": "579ddce9e6b6d8e44b05e0715cc66741, BlueprintItemArmor",
     "PrototypeLink": "",
     "m_Overrides": [],
-    "Components": [],
+    "Components": [
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$2f3c6a8d-1e4b-4d9a-0c75-3b8a4f1e2c33",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_a577bfd8d57d41378a8426f4676696f0"
+      }
+    ],
     "Author": "Unknown",
     "Comment": "Blood Angel Deathwatch power armour. Per-chapter worn item: visual = base Deathwatch Armour EE (dea7c0de) — Blood Angels uses the base spaulder, so no pauldron overlay. Equipped on the committed Blood Angel marine by the CompleteCharGen hook. Clone of DeathwatchArmor_Item (26ad42d8).",
     "m_DisplayName": {

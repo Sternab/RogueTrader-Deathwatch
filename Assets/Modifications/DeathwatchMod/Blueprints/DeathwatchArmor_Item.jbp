@@ -4,7 +4,19 @@
     "$type": "579ddce9e6b6d8e44b05e0715cc66741, BlueprintItemArmor",
     "PrototypeLink": "",
     "m_Overrides": [],
-    "Components": [],
+    "Components": [
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$0d1a4e6b-9c2f-4b7e-8a53-1f6e2d9c0a11",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_a577bfd8d57d41378a8426f4676696f0"
+      }
+    ],
     "Author": "Unknown",
     "Comment": "Deathwatch power armour (base, no chapter pauldron) - visual = KEE_DeathwatchArmorBody (body+backpack, NO helmet; the full armour+helmet feature-EE is KEE_DeathwatchArmor on the chapter features).",
     "m_DisplayName": {

@@ -4,7 +4,19 @@
     "$type": "579ddce9e6b6d8e44b05e0715cc66741, BlueprintItemArmor",
     "PrototypeLink": "",
     "m_Overrides": [],
-    "Components": [],
+    "Components": [
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$6d7a0e2b-5c8f-4b3e-4a19-7f2e8d5c6a77",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_a577bfd8d57d41378a8426f4676696f0"
+      }
+    ],
     "Author": "Unknown",
     "Comment": "Raven Guard Deathwatch power armour. Per-chapter worn item: visual = KEE_DeathwatchArmorBody_RavenGuard (power armour + backpack + Raven Guard pauldron). Equipped on the committed Raven Guard marine by the CompleteCharGen hook, so the chapter pauldron rides the armour. Clone of DeathwatchArmor_Item (26ad42d8).",
     "m_DisplayName": {
