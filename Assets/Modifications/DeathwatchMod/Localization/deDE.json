@@ -411,6 +411,14 @@
     "dea7c0de-0003-4000-8000-000000000003": {
       "Offset": 0,
       "Text": "<b>Basisrüstung</b>: +20 Stärke."
+    },
+    "dea7c0de-0004-4000-8000-000000000004": {
+      "Offset": 0,
+      "Text": "Deathwatch-Umhang"
+    },
+    "dea7c0de-0005-4000-8000-000000000005": {
+      "Offset": 0,
+      "Text": "Der schwarze Umhang der Langen Wacht, der seinen Träger als vereidigten Bruder der Deathwatch ausweist."
     }
   }
 }

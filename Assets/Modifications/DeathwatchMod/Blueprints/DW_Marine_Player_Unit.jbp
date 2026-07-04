@@ -11,28 +11,56 @@
       "Body.m_Gloves",
       "Body.ItemEquipmentHandSettings.m_PrimaryHand",
       "Body.ItemEquipmentHandSettings.m_SecondaryHand",
-      "Body.ItemEquipmentHandSettings.m_PrimaryHandAlternative1"
+      "Body.ItemEquipmentHandSettings.m_PrimaryHandAlternative1",
+      "m_StartingInventory"
     ],
     "Components": [],
     "Author": "Unknown",
     "Comment": "Deathwatch marine player unit. Prototype-clone of StartGame_Player_Unit (3a849d36) carrying the Astartes race + armour + weapons that used to be patched onto the shared base unit. Only the Custom Space Marine chargen tile builds from this; the shared unit stays vanilla human.",
-    "m_DisplayName": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
-    "m_Description": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
     "m_Icon": null,
     "m_AllowNonContextActions": false,
     "m_Army": null,
-    "LocalizedName": { "assetguid": "8b34ceb451eb6924fb6b4cf8669c8519", "stringkey": "50d91fcb-8227-40c2-837a-cf3886dbe57b" },
+    "LocalizedName": {
+      "assetguid": "8b34ceb451eb6924fb6b4cf8669c8519",
+      "stringkey": "50d91fcb-8227-40c2-837a-cf3886dbe57b"
+    },
     "Gender": "Male",
     "Size": "Medium",
-    "Color": { "r": 0.607843161, "g": 0.0235294122, "b": 0.003921569, "a": 1.0 },
+    "Color": {
+      "r": 0.607843161,
+      "g": 0.0235294122,
+      "b": 0.003921569,
+      "a": 1.0
+    },
     "m_Race": "!bp_2302e1d517f847e6aef04c8c4a24d598",
     "m_Portrait": null,
-    "Prefab": { "AssetId": "132189ef4ab1c11418614e5085b91c05" },
+    "Prefab": {
+      "AssetId": "132189ef4ab1c11418614e5085b91c05"
+    },
     "m_CustomizationPreset": null,
     "m_VisualSettings": "!bp_bcf25b9f55e2465a910309fb5aab117c",
     "m_Faction": "!bp_72f240260881111468db610b6c37c099",
-    "FactionOverrides": { "m_AttackFactionsToAdd": [], "m_AttackFactionsToRemove": [] },
-    "m_StartingInventory": [],
+    "FactionOverrides": {
+      "m_AttackFactionsToAdd": [],
+      "m_AttackFactionsToRemove": []
+    },
+    "m_StartingInventory": [
+      "!bp_9c2b9f3f5bc74d0d8efa35f4d3109c13"
+    ],
     "m_Brain": null,
     "AlternativeBrains": [],
     "IsCarefulShooter": false,
@@ -60,36 +88,89 @@
       "m_Wrist": null,
       "m_Shoulders": null,
       "m_PetProtocol": null,
-      "m_QuickSlots": [ null, null, null, null ],
+      "m_QuickSlots": [
+        null,
+        null,
+        null,
+        null
+      ],
       "m_Mechadendrites": []
     },
     "OldWarhammerBallisticSkill": 30,
-    "WarhammerBallisticSkillSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerBallisticSkillSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerWeaponSkill": 30,
-    "WarhammerWeaponSkillSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerWeaponSkillSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerStrength": 30,
-    "WarhammerStrengthSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerStrengthSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerToughness": 30,
-    "WarhammerToughnessSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerToughnessSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerAgility": 30,
-    "WarhammerAgilitySetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerAgilitySetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerIntelligence": 30,
-    "WarhammerIntelligenceSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerIntelligenceSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerWillpower": 30,
-    "WarhammerWillpowerSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerWillpowerSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerPerception": 30,
-    "WarhammerPerceptionSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerPerceptionSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "OldWarhammerFellowship": 30,
-    "WarhammerFellowshipSetting": { "NotModified": true, "Modifier": 0, "isProfesional": false },
+    "WarhammerFellowshipSetting": {
+      "NotModified": true,
+      "Modifier": 0,
+      "isProfesional": false
+    },
     "WarhammerMovementApPerCell": 1.0,
     "WarhammerMovementApPerCellThreateningArea": 3.0,
     "WarhammerInitialAPBlue": 6,
     "WarhammerInitialAPYellow": 4,
-    "Speed": { "m_Value": 30.0 },
+    "Speed": {
+      "m_Value": 30.0
+    },
     "Skills": {
-      "Athletics": 0, "Awareness": 0, "Carouse": 0, "Persuasion": 0, "Demolition": 0,
-      "Coercion": 0, "Medicae": 0, "LoreXenos": 0, "LoreWarp": 0, "LoreImperium": 0,
-      "TechUse": 0, "Commerce": 0, "Logic": 0
+      "Athletics": 0,
+      "Awareness": 0,
+      "Carouse": 0,
+      "Persuasion": 0,
+      "Demolition": 0,
+      "Coercion": 0,
+      "Medicae": 0,
+      "LoreXenos": 0,
+      "LoreWarp": 0,
+      "LoreImperium": 0,
+      "TechUse": 0,
+      "Commerce": 0,
+      "Logic": 0
     },
     "MaxHP": 0,
     "m_AddFacts": [
@@ -105,5 +186,7 @@
     "DifficultyType": "Elite",
     "Subtype": "Default"
   },
-  "Meta": { "ShadowDeleted": false }
+  "Meta": {
+    "ShadowDeleted": false
+  }
 }

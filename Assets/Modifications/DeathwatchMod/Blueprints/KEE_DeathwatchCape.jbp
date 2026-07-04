@@ -1,0 +1,55 @@
+{
+  "AssetId": "0340c3193748427685e7f5543b6b0fa2",
+  "Data": {
+    "$type": "856d2f6e26e25c04fad05a1429d1b579, KingmakerEquipmentEntity",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Deathwatch cape visual: race-dependent KEE serving EE_CapeDeathWatch1_M_SM (a81a7b18, base-game marine-authored cape from the shared equipment bundle) on the Spacemarine race slot. Mirrors KEE_CloakUlfar1 (fd7aba77); marine-only by construction -- other races get no visual, and the item's positive SpaceMarineEquipment restriction keeps it off humans anyway.",
+    "m_MaleArray": [],
+    "m_FemaleArray": [],
+    "m_RaceDependent": true,
+    "m_RaceDependentArrays": [
+      {
+        "MaleArray": [],
+        "FemaleArray": []
+      },
+      {
+        "MaleArray": [
+          {
+            "AssetId": "a81a7b185ec116d499fb9ae09f16ba57"
+          }
+        ],
+        "FemaleArray": []
+      },
+      {
+        "MaleArray": [],
+        "FemaleArray": []
+      },
+      {
+        "MaleArray": [],
+        "FemaleArray": []
+      },
+      {
+        "MaleArray": [],
+        "FemaleArray": []
+      },
+      {
+        "MaleArray": [],
+        "FemaleArray": []
+      },
+      {
+        "MaleArray": [],
+        "FemaleArray": []
+      },
+      {
+        "MaleArray": [],
+        "FemaleArray": []
+      }
+    ]
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

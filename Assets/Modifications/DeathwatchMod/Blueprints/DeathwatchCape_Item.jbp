@@ -1,0 +1,88 @@
+{
+  "AssetId": "9c2b9f3f5bc74d0d8efa35f4d3109c13",
+  "Data": {
+    "$type": "d2b20f73f4e701d4e9e34b8b67465048, BlueprintItemEquipmentShoulders",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d7b23547716f4a949471625ff6c66fb2, EquipmentRestrictionHasFacts",
+        "name": "$EquipmentRestrictionHasFacts$dw-cape-sm-only",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_affa5fdded7e404b910b990f5d344a8c"
+        ],
+        "m_Inverted": false,
+        "All": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": "Deathwatch cape (cosmetic Shoulders item). Structure mirrors WolfPeltCloak_Item (34abddee) without its stat-buff wielder fact; the positive SpaceMarineEquipment_Feature restriction is the vanilla SM-cape convention (the marine baseline grants that fact). Visual = KEE_DeathwatchCape wrapping the base-game EE_CapeDeathWatch1_M_SM. In the marine's starting inventory (DW_Marine_Player_Unit m_StartingInventory).",
+    "m_DisplayName": {
+      "m_Key": "dea7c0de-0004-4000-8000-000000000004",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0005-4000-8000-000000000005",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_FlavorText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedNameText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NotStackable": false,
+    "m_Weight": 0.0,
+    "m_Origin": "Textile",
+    "m_Rarity": "Common",
+    "m_Tag": "None",
+    "m_IsNotable": false,
+    "m_ProfitFactorCost": 0.0,
+    "m_CargoVolumePercent": 20,
+    "m_InventoryPutSound": "UI_INV_Cape_Put_Play",
+    "m_InventoryTakeSound": "UI_INV_Cape_Take_Play",
+    "ToCargoAutomatically": false,
+    "ItemLevel": 0,
+    "SpendCharges": true,
+    "Charges": 1,
+    "RestoreChargesAfterCombat": false,
+    "IsNonRemovable": false,
+    "IsUnlootable": false,
+    "m_EquipmentEntity": "!bp_0340c3193748427685e7f5543b6b0fa2",
+    "m_EquipmentEntityAlternatives": [],
+    "m_ForcedRampColorPresetIndex": -1,
+    "m_Enchantments": [],
+    "m_InventoryEquipSound": "UI_INV_Cape_Equip_Play"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

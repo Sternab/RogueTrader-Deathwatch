@@ -411,6 +411,14 @@
     "dea7c0de-0003-4000-8000-000000000003": {
       "Offset": 0,
       "Text": "<b>Base Armour Property</b>: +20 Strength."
+    },
+    "dea7c0de-0004-4000-8000-000000000004": {
+      "Offset": 0,
+      "Text": "Deathwatch Cape"
+    },
+    "dea7c0de-0005-4000-8000-000000000005": {
+      "Offset": 0,
+      "Text": "The black cape of the Long Vigil, marking its bearer as a sworn brother of the Deathwatch."
     }
   }
 }
