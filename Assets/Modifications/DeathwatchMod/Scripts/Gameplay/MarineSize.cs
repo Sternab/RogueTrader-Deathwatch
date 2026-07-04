@@ -6,6 +6,8 @@ using Kingmaker.Blueprints.Items.Weapons;         // BlueprintItemWeapon
 using Kingmaker.Controllers.Combat;               // PartUnitCombatState
 using Kingmaker.EntitySystem.Entities;            // BaseUnitEntity
 using Kingmaker.Enums;                            // WeaponFamily, WeaponClassification
+using Kingmaker.Mechanics.Entities;               // MechanicEntity
+using Kingmaker.UI.SurfaceCombatHUD;              // AbilityTargetUIDataCache
 using Kingmaker.UnitLogic;                        // UnitHelper.SnapToGrid (extension on BaseUnitEntity)
 using Kingmaker.UnitLogic.Abilities;              // AbilityData, AbilityDataHelper, AbilityTargetUIData
 using Kingmaker.UnitLogic.Buffs.Blueprints;       // BlueprintBuff
@@ -165,6 +167,8 @@ namespace DeathwatchMod
     [HarmonyPatch(typeof(AbilityDataHelper), nameof(AbilityDataHelper.GatherAffectedTargetsData))]
     internal static class AbilityDataHelper_GatherAffectedTargetsData_MarineAoePreview_Patch
     {
+        private static bool s_loggedOnce;   // one-shot execution proof (the first in-game test round could not distinguish "fix ineffective" from "fix not in the build")
+
         [HarmonyPostfix]
         private static void Postfix(AbilityData ability, List<AbilityTargetUIData> listToFill)
         {
@@ -176,9 +180,42 @@ namespace DeathwatchMod
                 if (!DeathwatchModMain.IsMarineUnit(caster)) return;   // this mod's marine only
                 for (int i = listToFill.Count - 1; i >= 0; i--)
                     if (ReferenceEquals(listToFill[i].Target, caster))
+                    {
                         listToFill.RemoveAt(i);
+                        if (!s_loggedOnce)
+                        {
+                            s_loggedOnce = true;
+                            DeathwatchModMain.Log("[AoePreview] filtered the marine's self-entry from an AoE preview.");
+                        }
+                    }
             }
             catch (Exception e) { DeathwatchModMain.LogError("[AoePreview][ERR] GatherAffectedTargetsData: " + e.Message); }   // Message only: hot path
+        }
+    }
+
+    // Belt-and-suspenders for the same preview bug, second seam: AbilityTargetUIDataCache.GetOrCreate constructs
+    // hit data DIRECTLY (new AbilityTargetUIData(...), no pattern, no gather) for Unit-anchored abilities'
+    // selection previews, and the gather itself poisons this cache with the self-entry via AddOrReplace BEFORE
+    // our list postfix runs. Returning default for the marine-caster-as-his-own-melee-target renders reliably
+    // HIDDEN: a default entry's Ability is null, so the overtip's blueprint gate (OvertipHitChanceBlockVM
+    // UpdateProperties) calls ClearProperties -> HasHit=false -> the view hides the block. Same delivery-parity
+    // gate as above; the other cache consumers are safe (LineOfSightVM is enemy+ranged-gated; the combat log's
+    // target is never the melee caster -- delivery excludes him).
+    [HarmonyPatch(typeof(AbilityTargetUIDataCache), nameof(AbilityTargetUIDataCache.GetOrCreate))]
+    internal static class AbilityTargetUIDataCache_GetOrCreate_MarineAoePreview_Patch
+    {
+        [HarmonyPostfix]
+        private static void Postfix(AbilityData ability, MechanicEntity target, ref AbilityTargetUIData __result)
+        {
+            try
+            {
+                if (ability == null || target == null) return;
+                if (!ReferenceEquals(target, ability.Caster)) return;             // only the caster's own self-entry
+                if (!ability.IsMelee && !ability.IsScatter) return;               // exactly the deliveries that drop the caster
+                if (!DeathwatchModMain.IsMarineUnit(ability.Caster as BaseUnitEntity)) return;
+                __result = default(AbilityTargetUIData);                          // Ability==null -> overtip hides it
+            }
+            catch (Exception e) { DeathwatchModMain.LogError("[AoePreview][ERR] GetOrCreate: " + e.Message); }   // Message only: hot path
         }
     }
 }
