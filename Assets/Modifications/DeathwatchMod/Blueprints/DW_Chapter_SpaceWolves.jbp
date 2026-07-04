@@ -241,34 +241,6 @@
         "m_ActionsOnAdd": {
           "Actions": []
         }
-      },
-      {
-        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
-        "name": "$AddFeaturesToLevelUp$ce0a98d8111b43fb8eee024c28eb1fe1-DWadv-Attribute",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "Group": "Attribute",
-        "m_Features": [
-          "!bp_43305eb5a6a1412a81e0d423798fcbdc"
-        ]
-      },
-      {
-        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
-        "name": "$AddFeaturesToLevelUp$ce0a98d8111b43fb8eee024c28eb1fe1-DWadv-Skill",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "Group": "Skill",
-        "m_Features": [
-          "!bp_02c0dab06e1845eeaf0a8823e5bedbb9"
-        ]
       }
     ],
     "Author": "Unknown",
