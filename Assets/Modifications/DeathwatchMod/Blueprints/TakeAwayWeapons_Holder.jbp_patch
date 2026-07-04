@@ -1,0 +1,52 @@
+{
+  "TargetGuid": "6d0b45fd8ebe413ca8d0e4779b367bd2",
+  "FieldOverrides": [],
+  "ArrayPatches": [
+    {
+      "OperationType": 6,
+      "Value": {
+        "$type": "ef95139bce5938c48b2997497ab811af, RemoveItemFromPlayer",
+        "name": "$RemoveItemFromPlayer$dw-strip-boltpistol",
+        "Money": false,
+        "RemoveAll": true,
+        "m_ItemToRemove": "!bp_5e1bae4c2c7e4bd99411173f8dbe74f0",
+        "m_Silent": false,
+        "Quantity": 1,
+        "Percentage": 0.0
+      },
+      "TargetValue": null,
+      "FieldName": "Actions.Actions"
+    },
+    {
+      "OperationType": 6,
+      "Value": {
+        "$type": "ef95139bce5938c48b2997497ab811af, RemoveItemFromPlayer",
+        "name": "$RemoveItemFromPlayer$dw-strip-combatknife",
+        "Money": false,
+        "RemoveAll": true,
+        "m_ItemToRemove": "!bp_88de523b22324c0b84373ac545f344cb",
+        "m_Silent": false,
+        "Quantity": 1,
+        "Percentage": 0.0
+      },
+      "TargetValue": null,
+      "FieldName": "Actions.Actions"
+    },
+    {
+      "OperationType": 6,
+      "Value": {
+        "$type": "ef95139bce5938c48b2997497ab811af, RemoveItemFromPlayer",
+        "name": "$RemoveItemFromPlayer$dw-strip-bolter",
+        "Money": false,
+        "RemoveAll": true,
+        "m_ItemToRemove": "!bp_0b1a6f7920114dafb5ffc2bdea37bf8d",
+        "m_Silent": false,
+        "Quantity": 1,
+        "Percentage": 0.0
+      },
+      "TargetValue": null,
+      "FieldName": "Actions.Actions"
+    }
+  ],
+  "ComponentsPatches": []
+}

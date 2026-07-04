@@ -28,3 +28,9 @@ MonoBehaviour:
   - Guid: 3ea153cb4f714f1798572e89c7cbd1e9
     Filename: Ulfar_Barks_ChargenVoice
     PatchType: 1
+  - Guid: 6d0b45fd8ebe413ca8d0e4779b367bd2
+    Filename: TakeAwayWeapons_Holder
+    PatchType: 1
+  - Guid: 2e3756e28ece47508977b5628645aefc
+    Filename: GiveWeapons_Holder
+    PatchType: 1

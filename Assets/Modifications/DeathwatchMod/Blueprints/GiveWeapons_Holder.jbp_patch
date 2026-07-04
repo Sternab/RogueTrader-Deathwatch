@@ -1,0 +1,81 @@
+{
+  "TargetGuid": "2e3756e28ece47508977b5628645aefc",
+  "FieldOverrides": [],
+  "ArrayPatches": [
+    {
+      "OperationType": 6,
+      "Value": {
+        "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+        "name": "$Conditional$dw-astartes-prologue-gear",
+        "Comment": "Deathwatch: Abelard returns the marine's own wargear (bolt pistol + combat knife + bolter), UNEQUIPPED like the vanilla career weapons -- the Arm Yourself objective completes on the player's own equip (an Equip:true give would auto-complete it and skip the tutorial beat).",
+        "ConditionsChecker": {
+          "Operation": "And",
+          "Conditions": [
+            {
+              "$type": "f310985bf2724df4a97b165f74b806e8, HasFact",
+              "name": "$HasFact$dw-astartes-physiology-check-prologue",
+              "Not": false,
+              "Unit": {
+                "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+                "name": "$PlayerCharacter$dw-main-character-prologue"
+              },
+              "m_Fact": "!bp_7d77a9579dd3ad5515e428edad844594"
+            }
+          ]
+        },
+        "IfTrue": {
+          "Actions": [
+            {
+              "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+              "name": "$AddItemToPlayer$dw-prologue-boltpistol",
+              "m_ItemToGive": "!bp_5e1bae4c2c7e4bd99411173f8dbe74f0",
+              "Silent": false,
+              "Quantity": 1,
+              "Identify": true,
+              "Equip": false,
+              "EquipOn": null,
+              "PreferredWeaponSet": 0,
+              "m_Hand": "Any",
+              "ForceEquip": false,
+              "ErrorIfDidNotEquip": true
+            },
+            {
+              "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+              "name": "$AddItemToPlayer$dw-prologue-combatknife",
+              "m_ItemToGive": "!bp_88de523b22324c0b84373ac545f344cb",
+              "Silent": false,
+              "Quantity": 1,
+              "Identify": true,
+              "Equip": false,
+              "EquipOn": null,
+              "PreferredWeaponSet": 0,
+              "m_Hand": "Any",
+              "ForceEquip": false,
+              "ErrorIfDidNotEquip": true
+            },
+            {
+              "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+              "name": "$AddItemToPlayer$dw-prologue-bolter",
+              "m_ItemToGive": "!bp_0b1a6f7920114dafb5ffc2bdea37bf8d",
+              "Silent": false,
+              "Quantity": 1,
+              "Identify": true,
+              "Equip": false,
+              "EquipOn": null,
+              "PreferredWeaponSet": 0,
+              "m_Hand": "Any",
+              "ForceEquip": false,
+              "ErrorIfDidNotEquip": true
+            }
+          ]
+        },
+        "IfFalse": {
+          "Actions": []
+        }
+      },
+      "TargetValue": null,
+      "FieldName": "Actions.Actions"
+    }
+  ],
+  "ComponentsPatches": []
+}
