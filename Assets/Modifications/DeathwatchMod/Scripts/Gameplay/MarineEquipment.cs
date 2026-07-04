@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;                 // HashSet
 using HarmonyLib;
 using Kingmaker.Blueprints.Items.Components;      // EquipmentRestrictionHasFacts, EquipmentRestrictionMachineTrait
+using Kingmaker.Blueprints.Items.Equipment;       // BlueprintItemEquipmentShoulders (capes)
 using Kingmaker.Blueprints.Items.Weapons;         // BlueprintItemWeapon
 using Kingmaker.EntitySystem.Entities;            // BaseUnitEntity
 using Kingmaker.Enums;                            // WeaponClassification, WeaponFamily
@@ -46,22 +47,28 @@ namespace DeathwatchMod
         }
     }
 
-    // WEAPON unlock for the DW marine, PER-UNIT (no blueprint mutation). The 16 force swords, ~50 two-handed
-    // melee weapons (greatswords, power claymores, eviscerators, death-cult blades, thunder hammers, uniques)
-    // AND the human plasma/flame ranged weapons (plasma guns/pistols, flamers, hand flamers, vindictor flamers)
-    // all carry the SAME inverted EquipmentRestrictionHasFacts blocking anyone with the Astartes marker
+    // WEAPON + CAPE unlock for the DW marine, PER-UNIT (no blueprint mutation). The 16 force swords, ~50
+    // two-handed melee weapons (greatswords, power claymores, eviscerators, death-cult blades, thunder hammers,
+    // uniques) AND the human plasma/flame ranged weapons (plasma guns/pistols, flamers, hand flamers, vindictor
+    // flamers) all carry the SAME inverted EquipmentRestrictionHasFacts blocking anyone with the Astartes marker
     // (950565a6) -- vanilla's way of keeping them off its own Astartes (Ulfar, Uralon). Our marine carries that
     // marker via the baseline, so the rule blocked him. Allow the equip in a postfix ONLY for this mod's marine
     // (IsMarineUnit = the mod-owned race), on: the 16 one-handed force swords (GUID list), ANY 2H melee weapon
     // except the rock saws (Classification Chainsaw), and any RANGED Plasma/Flame-family weapon (tester request
     // 2026-07-04; all their anim styles -- Assault/Pistol/Rifle/HeavyOnHip -- verified present in the marine
-    // animset). The vanilla exclusion stays intact for everyone else. The DW marine never carries the
-    // restriction's other block-facts (the Aeldari/Drukhari armour-proficiency markers), so a plain allow is
-    // safe. NOTE: only THIS inverted restriction is flipped -- an item's other restriction components (e.g.
-    // ChaosSword's Corruption requirement, the axes' MachineTrait gate, heavy flamers' Strength 50) still apply,
-    // and items with POSITIVE-only gates (heavy flamers, the native Astartes guns) never needed the flip.
+    // animset). CAPES (tester request 2026-07-04): the ~67 human capes are Shoulders items blocked by the same
+    // component shape on a DIFFERENT inverted fact (SpaceMarineEquipment_Feature affa5fdd, which the marine has
+    // via the baseline) -- flip those too. Human capes' KEEs have an EMPTY Spacemarine race slot, so on the
+    // marine they render NOTHING: equip + item effects work, no visual. That is the ACCEPTED design (James,
+    // 2026-07-04: effects without human-fitted jank; the 4 vanilla SM capes + the DW cape render normally via
+    // their positive gates and never reach this flip). The vanilla exclusion stays intact for everyone else.
+    // The DW marine never carries the restrictions' other block-facts (the Aeldari/Drukhari armour-proficiency
+    // markers), so a plain allow is safe. NOTE: only THIS inverted restriction is flipped -- an item's other
+    // restriction components (e.g. ChaosSword's Corruption requirement, the axes' MachineTrait gate, heavy
+    // flamers' Strength 50, soulmark capes' soulmark requirement) still apply, and items with POSITIVE-only
+    // gates (heavy flamers, the native Astartes guns, the SM capes) never needed the flip.
     [HarmonyPatch(typeof(EquipmentRestrictionHasFacts), nameof(EquipmentRestrictionHasFacts.CanBeEquippedBy))]
-    internal static class EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineWeapons_Patch
+    internal static class EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineGear_Patch
     {
         private static readonly HashSet<string> ForceSwordGuids = new HashSet<string>
         {
@@ -96,12 +103,13 @@ namespace DeathwatchMod
                     && w.Classification != WeaponClassification.Chainsaw;             // any 2H melee except rock saws
                 bool plasmaOrFlameRanged = w != null && !w.IsMelee
                     && (w.Family == WeaponFamily.Plasma || w.Family == WeaponFamily.Flame);   // plasma guns/pistols + flamers
-                if (!nonSaw2HMelee && !plasmaOrFlameRanged
+                bool cape = bp is BlueprintItemEquipmentShoulders;                    // any human cape (equips; renders nothing -- see header)
+                if (!nonSaw2HMelee && !plasmaOrFlameRanged && !cape
                     && !ForceSwordGuids.Contains(bp.AssetGuid)) return;               // ...or the 16 1H force swords
                 if (!DeathwatchModMain.IsMarineUnit(unit as BaseUnitEntity)) return;  // this mod's marine only
                 __result = true;
             }
-            catch (Exception e) { DeathwatchModMain.LogError("[MarineWeapons][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
+            catch (Exception e) { DeathwatchModMain.LogError("[MarineGear][ERR] CanBeEquippedBy: " + e.Message); }   // Message only: hot path
         }
     }
 
