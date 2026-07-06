@@ -527,6 +527,30 @@
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
       "Text": "Шлем со штурмовым прицелом"
+    },
+    "dea7c0de-0033-4000-8000-000000000033": {
+      "Offset": 0,
+      "Text": "Психический капюшон"
+    },
+    "dea7c0de-0034-4000-8000-000000000034": {
+      "Offset": 0,
+      "Text": "Психический капюшон дает бонус к навыку {g|Encyclopedia:SkillLoreWarp}Знания: Варп{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя, а также бонус к {g|Encyclopedia:Resolve}решимости{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя."
+    },
+    "dea7c0de-0035-4000-8000-000000000035": {
+      "Offset": 0,
+      "Text": "Сервошлем"
+    },
+    "dea7c0de-0036-4000-8000-000000000036": {
+      "Offset": 0,
+      "Text": "Машинный дух шлема дает бонус к навыку {g|Encyclopedia:SkillTechUse}Технике{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя, а также {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя."
+    },
+    "dea7c0de-0037-4000-8000-000000000037": {
+      "Offset": 0,
+      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nПсихический капюшон дает бонус к навыку {g|Encyclopedia:SkillLoreWarp}Знания: Варп{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя, а также бонус к {g|Encyclopedia:Resolve}решимости{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя."
+    },
+    "dea7c0de-0038-4000-8000-000000000038": {
+      "Offset": 0,
+      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nМашинный дух шлема дает бонус к навыку {g|Encyclopedia:SkillTechUse}Технике{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя, а также {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя."
     }
   }
 }

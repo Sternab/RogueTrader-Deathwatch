@@ -527,6 +527,30 @@
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
       "Text": "Hücum Nişangahı Miğferi"
+    },
+    "dea7c0de-0033-4000-8000-000000000033": {
+      "Offset": 0,
+      "Text": "Psişik Başlık"
+    },
+    "dea7c0de-0034-4000-8000-000000000034": {
+      "Offset": 0,
+      "Text": "Psişik başlık, taşıyıcının {g|Encyclopedia:WarhammerWillpower}İrade{/g} bonusunun iki katına eşit {g|Encyclopedia:SkillLoreWarp}Kültür (Öteboyut){/g} bonusu ve 3 artı taşıyıcının {g|Encyclopedia:WarhammerWillpower}İrade{/g} bonusuna eşit {g|Encyclopedia:Resolve}kararlılık{/g} bonusu verir."
+    },
+    "dea7c0de-0035-4000-8000-000000000035": {
+      "Offset": 0,
+      "Text": "Servo Miğfer"
+    },
+    "dea7c0de-0036-4000-8000-000000000036": {
+      "Offset": 0,
+      "Text": "Miğferin makine ruhu, taşıyıcının {g|Encyclopedia:WarhammerIntelligence}Zekâ{/g} bonusunun iki katına eşit {g|Encyclopedia:SkillTechUse}Tekno Aşinalığı{/g} bonusu ve 2 artı taşıyıcının {g|Encyclopedia:WarhammerIntelligence}Zekâ{/g} bonusuna eşit {g|Encyclopedia:WarhammerArmourGlossary}zırh{/g} verir."
+    },
+    "dea7c0de-0037-4000-8000-000000000037": {
+      "Offset": 0,
+      "Text": "Miğfer, 2 artı taşıyıcının {g|Encyclopedia:WarhammerToughness}Dayanıklılık{/g} bonusuna eşit {g|Encyclopedia:WarhammerArmourGlossary}zırh{/g} ve 5 artı her 5 karakter seviyesi için 1 olmak üzere {g|Encyclopedia:SkillAwareness}Farkındalık{/g} bonusu verir.\nPsişik başlık, taşıyıcının {g|Encyclopedia:WarhammerWillpower}İrade{/g} bonusunun iki katına eşit {g|Encyclopedia:SkillLoreWarp}Kültür (Öteboyut){/g} bonusu ve 3 artı taşıyıcının {g|Encyclopedia:WarhammerWillpower}İrade{/g} bonusuna eşit {g|Encyclopedia:Resolve}kararlılık{/g} bonusu verir."
+    },
+    "dea7c0de-0038-4000-8000-000000000038": {
+      "Offset": 0,
+      "Text": "Miğfer, 2 artı taşıyıcının {g|Encyclopedia:WarhammerToughness}Dayanıklılık{/g} bonusuna eşit {g|Encyclopedia:WarhammerArmourGlossary}zırh{/g} ve 5 artı her 5 karakter seviyesi için 1 olmak üzere {g|Encyclopedia:SkillAwareness}Farkındalık{/g} bonusu verir.\nMiğferin makine ruhu, taşıyıcının {g|Encyclopedia:WarhammerIntelligence}Zekâ{/g} bonusunun iki katına eşit {g|Encyclopedia:SkillTechUse}Tekno Aşinalığı{/g} bonusu ve 2 artı taşıyıcının {g|Encyclopedia:WarhammerIntelligence}Zekâ{/g} bonusuna eşit {g|Encyclopedia:WarhammerArmourGlossary}zırh{/g} verir."
     }
   }
 }

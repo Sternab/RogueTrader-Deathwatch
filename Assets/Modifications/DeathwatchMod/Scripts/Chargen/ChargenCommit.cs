@@ -17,9 +17,9 @@ namespace DeathwatchMod
     // feature is committed + Body.Initialize equipped the shared armour. InsertItem(force) auto-unequips the shared
     // armour back into inventory and re-renders the EE. Gated to our marine (DetectChapter) + to chapters with an
     // ArmorItemGuid (no-op for the rest until their items exist, and for non-marines). The SPECIALITY HELM is
-    // swapped here too (same reason as the armour): the four speciality helm systems ride NAMED helm items whose
-    // descriptions state their effects (armour-item pattern, James 2026-07-06); Librarian/Techmarine keep the
-    // base Deathwatch Helm (Auto-senses only).
+    // swapped here too (same reason as the armour): the six speciality helm systems ride NAMED helm items whose
+    // descriptions state their effects (armour-item pattern, James 2026-07-06); all six specialities swap (the
+    // base Auto-senses-only Deathwatch Helm remains the chargen/fallback helm).
     [HarmonyPatch(typeof(CharGenContextVM), "CompleteCharGen")]
     internal static class CharGenContextVM_CompleteCharGen_MarineArmour_Patch
     {
@@ -33,6 +33,8 @@ namespace DeathwatchMod
             { "5812c9cea10f4420b5915c9b0196a83b", "e47ba7eea837404ea96aae4c2f1471fc" },   // Apothecary -> Diagnostor Helm
             { "6109110b5f3242828a3104f4b1180556", "1e96e14dbd774f41a92b84257ee44f5a" },   // Devastator -> Ballistic Auspex Helm
             { "a072ea57e63e4ada9148d5cdbb2ce1c0", "b5cd9138411c4f848e0f327490cb8c0d" },   // Assault    -> Assault Targeter Helm
+            { "8e283ed69c0d4f569a2cb0e7963362d7", "64e74d1d7d5d4406b1d6c92302c3595d" },   // Librarian  -> Psychic Hood
+            { "7f897a85210b4c68a0420dd13ddd81af", "4ca2beb6309343438f4edc90d80d4a40" },   // Techmarine -> Servo-Helm
         };
 
         // The selectable "Space Marine" voice mixes General + Tactical/Assault/Devastator-flavoured lines.

@@ -527,6 +527,30 @@
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
       "Text": "Yelmo de localizador de asalto"
+    },
+    "dea7c0de-0033-4000-8000-000000000033": {
+      "Offset": 0,
+      "Text": "Capucha psíquica"
+    },
+    "dea7c0de-0034-4000-8000-000000000034": {
+      "Offset": 0,
+      "Text": "La capucha psíquica otorga un bonificador a {g|Encyclopedia:SkillLoreWarp}Conocimiento (disformidad){/g} igual al doble del bonificador de {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} del portador, y un bonificador a {g|Encyclopedia:Resolve}firmeza{/g} igual a 3 más el bonificador de {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} del portador."
+    },
+    "dea7c0de-0035-4000-8000-000000000035": {
+      "Offset": 0,
+      "Text": "Servoyelmo"
+    },
+    "dea7c0de-0036-4000-8000-000000000036": {
+      "Offset": 0,
+      "Text": "El espíritu máquina del yelmo otorga un bonificador a {g|Encyclopedia:SkillTechUse}Uso de tecnología{/g} igual al doble del bonificador de {g|Encyclopedia:WarhammerIntelligence}Inteligencia{/g} del portador, y {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerIntelligence}Inteligencia{/g} del portador."
+    },
+    "dea7c0de-0037-4000-8000-000000000037": {
+      "Offset": 0,
+      "Text": "El yelmo otorga {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} del portador, y un bonificador a {g|Encyclopedia:SkillAwareness}Atención{/g} igual a 5 más 1 por cada 5 niveles de personaje.\nLa capucha psíquica otorga un bonificador a {g|Encyclopedia:SkillLoreWarp}Conocimiento (disformidad){/g} igual al doble del bonificador de {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} del portador, y un bonificador a {g|Encyclopedia:Resolve}firmeza{/g} igual a 3 más el bonificador de {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} del portador."
+    },
+    "dea7c0de-0038-4000-8000-000000000038": {
+      "Offset": 0,
+      "Text": "El yelmo otorga {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} del portador, y un bonificador a {g|Encyclopedia:SkillAwareness}Atención{/g} igual a 5 más 1 por cada 5 niveles de personaje.\nEl espíritu máquina del yelmo otorga un bonificador a {g|Encyclopedia:SkillTechUse}Uso de tecnología{/g} igual al doble del bonificador de {g|Encyclopedia:WarhammerIntelligence}Inteligencia{/g} del portador, y {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerIntelligence}Inteligencia{/g} del portador."
     }
   }
 }

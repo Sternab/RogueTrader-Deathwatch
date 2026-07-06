@@ -527,6 +527,30 @@
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
       "Text": "Sturm-Zielsystem-Helm"
+    },
+    "dea7c0de-0033-4000-8000-000000000033": {
+      "Offset": 0,
+      "Text": "Psi-Haube"
+    },
+    "dea7c0de-0034-4000-8000-000000000034": {
+      "Offset": 0,
+      "Text": "Die Psi-Haube gewährt einen Bonus auf {g|Encyclopedia:SkillLoreWarp}Wissen (Warp){/g} in Höhe des doppelten {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g}-Bonus des Trägers sowie einen Bonus auf {g|Encyclopedia:Resolve}Entschlossenheit{/g} in Höhe von 3 plus dem {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g}-Bonus des Trägers."
+    },
+    "dea7c0de-0035-4000-8000-000000000035": {
+      "Offset": 0,
+      "Text": "Servohelm"
+    },
+    "dea7c0de-0036-4000-8000-000000000036": {
+      "Offset": 0,
+      "Text": "Der Maschinengeist des Helms gewährt einen Bonus auf {g|Encyclopedia:SkillTechUse}Tech-Einsatz{/g} in Höhe des doppelten {g|Encyclopedia:WarhammerIntelligence}Intelligenz{/g}-Bonus des Trägers sowie {g|Encyclopedia:WarhammerArmourGlossary}Rüstung{/g} in Höhe von 2 plus dem {g|Encyclopedia:WarhammerIntelligence}Intelligenz{/g}-Bonus des Trägers."
+    },
+    "dea7c0de-0037-4000-8000-000000000037": {
+      "Offset": 0,
+      "Text": "Der Helm gewährt {g|Encyclopedia:WarhammerArmourGlossary}Rüstung{/g} in Höhe von 2 plus dem {g|Encyclopedia:WarhammerToughness}Zähigkeit{/g}s-Bonus des Trägers sowie einen Bonus auf {g|Encyclopedia:SkillAwareness}Achtsamkeit{/g} in Höhe von 5 plus 1 je 5 Charakterstufen.\nDie Psi-Haube gewährt einen Bonus auf {g|Encyclopedia:SkillLoreWarp}Wissen (Warp){/g} in Höhe des doppelten {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g}-Bonus des Trägers sowie einen Bonus auf {g|Encyclopedia:Resolve}Entschlossenheit{/g} in Höhe von 3 plus dem {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g}-Bonus des Trägers."
+    },
+    "dea7c0de-0038-4000-8000-000000000038": {
+      "Offset": 0,
+      "Text": "Der Helm gewährt {g|Encyclopedia:WarhammerArmourGlossary}Rüstung{/g} in Höhe von 2 plus dem {g|Encyclopedia:WarhammerToughness}Zähigkeit{/g}s-Bonus des Trägers sowie einen Bonus auf {g|Encyclopedia:SkillAwareness}Achtsamkeit{/g} in Höhe von 5 plus 1 je 5 Charakterstufen.\nDer Maschinengeist des Helms gewährt einen Bonus auf {g|Encyclopedia:SkillTechUse}Tech-Einsatz{/g} in Höhe des doppelten {g|Encyclopedia:WarhammerIntelligence}Intelligenz{/g}-Bonus des Trägers sowie {g|Encyclopedia:WarhammerArmourGlossary}Rüstung{/g} in Höhe von 2 plus dem {g|Encyclopedia:WarhammerIntelligence}Intelligenz{/g}-Bonus des Trägers."
     }
   }
 }

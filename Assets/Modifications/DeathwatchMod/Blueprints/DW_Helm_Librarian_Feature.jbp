@@ -1,0 +1,199 @@
+{
+  "AssetId": "e7ea329f4d4e4f89b4fedb9f75e09033",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$e07c9ca6e5364858800f9c002d5dd19f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$5ad215b36ab04070942d21e3943d45cc",
+              "Settings": {
+                "Progression": "MultiplyByModifier",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 2,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "WillpowerBonus"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$3611c38e18944077bc89d5731cf1b0df",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "SkillLoreWarp",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "CasterNamedProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$0b05a43c086f40eb9f18bfbbc6776caf",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value2",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$29c59cce016e452b86f0194a624e0b7a",
+              "Settings": {
+                "Progression": "BonusValue",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 3,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "WillpowerBonus"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$912af48efc2a48569eee2064e39f5753",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "Resolve",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "CasterNamedProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value2"
+        },
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$f7d76781e42d4c94918a31c834b1d292",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Stat": "WarhammerWillpower",
+        "CheckCaster": false
+      }
+    ],
+    "Comment": "Helm system: Librarian Psychic Hood (designed in-house 2026-07-06 completing the tester helm set): +(2x Willpower bonus) Lore (Warp) + (3+Willpower bonus) Resolve. Same traced templates as the other helm features (DeathCultArmour calc->CasterNamedProperty->bonus). Granted by DW_HelmItem_Librarian.",
+    "m_DisplayName": {
+      "m_Key": "dea7c0de-0033-4000-8000-000000000033",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0034-4000-8000-000000000034",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "520da3c6-60cd-417c-86e0-77addec95293",
+      "m_OwnerString": "4e0d15f86f664df0a57f59b0b4e0b3bd",
+      "m_OwnerPropertyPath": "m_Acronym",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Equipment\\Armour\\Unique\\DeathCultArmour_Feature_m_Acronym.json",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false,
+    "Author": "Unknown"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -527,6 +527,30 @@
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
       "Text": "突击瞄准器头盔"
+    },
+    "dea7c0de-0033-4000-8000-000000000033": {
+      "Offset": 0,
+      "Text": "灵能兜罩"
+    },
+    "dea7c0de-0034-4000-8000-000000000034": {
+      "Offset": 0,
+      "Text": "灵能兜罩提供{g|Encyclopedia:SkillLoreWarp}知识（亚空间）{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerWillpower}意志{/g}加值的两倍；并提供{g|Encyclopedia:Resolve}决心{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerWillpower}意志{/g}加值。"
+    },
+    "dea7c0de-0035-4000-8000-000000000035": {
+      "Offset": 0,
+      "Text": "伺服头盔"
+    },
+    "dea7c0de-0036-4000-8000-000000000036": {
+      "Offset": 0,
+      "Text": "头盔的机魂提供{g|Encyclopedia:SkillTechUse}科技使用{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值的两倍；并提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值。"
+    },
+    "dea7c0de-0037-4000-8000-000000000037": {
+      "Offset": 0,
+      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n灵能兜罩提供{g|Encyclopedia:SkillLoreWarp}知识（亚空间）{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerWillpower}意志{/g}加值的两倍；并提供{g|Encyclopedia:Resolve}决心{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerWillpower}意志{/g}加值。"
+    },
+    "dea7c0de-0038-4000-8000-000000000038": {
+      "Offset": 0,
+      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n头盔的机魂提供{g|Encyclopedia:SkillTechUse}科技使用{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值的两倍；并提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值。"
     }
   }
 }

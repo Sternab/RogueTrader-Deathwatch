@@ -527,6 +527,30 @@
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
       "Text": "Heaume à viseur d'assaut"
+    },
+    "dea7c0de-0033-4000-8000-000000000033": {
+      "Offset": 0,
+      "Text": "Coiffe psychique"
+    },
+    "dea7c0de-0034-4000-8000-000000000034": {
+      "Offset": 0,
+      "Text": "La coiffe psychique confère un bonus de {g|Encyclopedia:SkillLoreWarp}Connaissance (Warp){/g} égal au double du bonus de {g|Encyclopedia:WarhammerWillpower}Force mentale{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:Resolve}détermination{/g} égal à 3 plus le bonus de {g|Encyclopedia:WarhammerWillpower}Force mentale{/g} du porteur."
+    },
+    "dea7c0de-0035-4000-8000-000000000035": {
+      "Offset": 0,
+      "Text": "Servo-heaume"
+    },
+    "dea7c0de-0036-4000-8000-000000000036": {
+      "Offset": 0,
+      "Text": "L'esprit de la machine du heaume confère un bonus de {g|Encyclopedia:SkillTechUse}Technomaîtrise{/g} égal au double du bonus d'{g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} du porteur, ainsi qu'une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} du porteur."
+    },
+    "dea7c0de-0037-4000-8000-000000000037": {
+      "Offset": 0,
+      "Text": "Le heaume confère une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:SkillAwareness}Vigilance{/g} égal à 5 plus 1 par 5 niveaux du personnage.\nLa coiffe psychique confère un bonus de {g|Encyclopedia:SkillLoreWarp}Connaissance (Warp){/g} égal au double du bonus de {g|Encyclopedia:WarhammerWillpower}Force mentale{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:Resolve}détermination{/g} égal à 3 plus le bonus de {g|Encyclopedia:WarhammerWillpower}Force mentale{/g} du porteur."
+    },
+    "dea7c0de-0038-4000-8000-000000000038": {
+      "Offset": 0,
+      "Text": "Le heaume confère une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:SkillAwareness}Vigilance{/g} égal à 5 plus 1 par 5 niveaux du personnage.\nL'esprit de la machine du heaume confère un bonus de {g|Encyclopedia:SkillTechUse}Technomaîtrise{/g} égal au double du bonus d'{g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} du porteur, ainsi qu'une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} du porteur."
     }
   }
 }

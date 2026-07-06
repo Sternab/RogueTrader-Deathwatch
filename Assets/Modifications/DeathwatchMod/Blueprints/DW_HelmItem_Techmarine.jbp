@@ -1,5 +1,5 @@
 {
-  "AssetId": "bdc4a907b4f15152f02bc33bbfa8d848",
+  "AssetId": "4ca2beb6309343438f4edc90d80d4a40",
   "Data": {
     "$type": "adc63a0dcf487a44c9c7e8ccb4b5fb33, BlueprintItemEquipmentHead",
     "PrototypeLink": "",
@@ -15,26 +15,37 @@
         },
         "m_Overrides": [],
         "m_Fact": "!bp_e74e3edc09334be28291774d5e6fd7b7"
+      },
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$dw-helm-techmarine",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_a0df37ca836e4184b8dbcdd10dc5fd62"
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch helmet head-slot item - visual = KEE_HelmetSpaceMarine (custom EE_DeathwatchHelmet, HH_SpaceMarine3 mesh). Grants Auto-senses (DW_Helm_Universal_Feature); the effect text is the item description (armour-item pattern). Worn during chargen and by default on DW_Marine_Player_Unit; at commit ALL SIX specialities swap in their NAMED helm item (DW_HelmItem_*.jbp, ChargenCommit.cs SpecialityHelms map), so in play this base helm is the fallback for units without a speciality. The former hidden speciality-router feature is RETIRED.",
+    "Comment": "Techmarine helm item: Auto-senses + DW_Helm_Techmarine_Feature, granted at chargen commit (ChargenCommit.cs SpecialityHelms map). Completes the six-speciality helm set.",
     "m_DisplayName": {
-      "m_Key": "dea7c0de-0002-4000-8000-000000000002",
+      "m_Key": "dea7c0de-0035-4000-8000-000000000035",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",
       "Shared": null
     },
     "m_Description": {
-      "m_Key": "dea7c0de-0011-4000-8000-000000000011",
+      "m_Key": "dea7c0de-0038-4000-8000-000000000038",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",
       "Shared": null
     },
     "m_Icon": {
-      "guid": "3856233b076d48de8128c9f340b3d0c0",
+      "guid": "50e099af436a4705acac02b80b6118ab",
       "fileid": 21300000
     },
     "m_FlavorText": {
