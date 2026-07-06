@@ -26,6 +26,10 @@ fully *replaces* one of these blueprints suppresses our edits to it.
 - `RemoveElement` matches the target element **by its `name` field** (supplied in `Value`); nested objects in
   `Value` deserialize by their `"$type": "<typeId>, <ClassName>"`.
 - `ComponentsPatches`: `FieldValue` is a *stringified* `{"ComponentValue":{...}}`; only `6` add / `8` remove.
+  ⚠️ The FieldValue is deserialized with the game's STRICT `StringEnumConverter`, which **throws on integer
+  enum values** — omit `"m_Flags"` (and any other integer-written enum) from the embedded component, unlike
+  regular .jbp files where `"m_Flags": 0` is fine. (Shipped incident: the PowerBoots patch with `m_Flags: 0`
+  threw `Cannot read Integer as enum value` at item creation and blocked chargen completion.)
 - In `ChargenPsyker_Selection`, `"FieldValue": 1` on `Prerequisites.Composition` = `Or` (enum ordinal).
 
 ## Maintenance invariants

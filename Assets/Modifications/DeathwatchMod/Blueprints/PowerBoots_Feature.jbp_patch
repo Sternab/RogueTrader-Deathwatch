@@ -5,7 +5,7 @@
   "ComponentsPatches": [
     {
       "OperationType": 6,
-      "FieldValue": "{\"ComponentValue\": {\"$type\": \"0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact\", \"name\": \"$AddFeatureIfHasFact$dw-powerboots-kick-grant\", \"m_Flags\": 0, \"PrototypeLink\": {\"guid\": \"\", \"name\": \"\"}, \"m_Overrides\": [], \"Comment\": \"Deathwatch: grant base Kick to a wearer who lacks it (checked fact = the Kick ABILITY, so any existing source -- Arch-Militant, leg augment -- suppresses the grant). The boots' own components below only modify Kick.\", \"m_CheckedFact\": \"!bp_22d6c1b32a6d47f4899a370e28cf16f9\", \"m_Feature\": \"!bp_25c9ccbe3e4b40739ce0103d44262d3e\", \"Not\": true}}"
+      "FieldValue": "{\"ComponentValue\": {\"$type\": \"0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact\", \"name\": \"$AddFeatureIfHasFact$dw-powerboots-kick-grant\", \"PrototypeLink\": {\"guid\": \"\", \"name\": \"\"}, \"m_Overrides\": [], \"m_CheckedFact\": \"!bp_22d6c1b32a6d47f4899a370e28cf16f9\", \"m_Feature\": \"!bp_25c9ccbe3e4b40739ce0103d44262d3e\", \"Not\": true}}"
     }
   ]
 }
