@@ -643,6 +643,14 @@
     "dea7c0de-0063-4000-8000-000000000063": {
       "Offset": 0,
       "Text": "<u>(2 + {g|Encyclopedia:WarhammerIntelligence}ZEK{/g} bonusu)</u>"
+    },
+    "dea7c0de-0064-4000-8000-000000000064": {
+      "Offset": 0,
+      "Text": "Space Marine, menzilli saldırıların hedefi olduğunda +%{uip|DamageBlocked|a9343f4385eb49ee9d3338aa74a75d9f} bloklama değeri kazanır."
+    },
+    "dea7c0de-0065-4000-8000-000000000065": {
+      "Offset": 0,
+      "Text": "Space Marine her plazma veya melta silahı kullandığında, bu silahlarla vereceği {g|Encyclopedia:DamageGlossary}hasar{/g} %{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3} kadar artar. Etki üst üste birikebilir.\nSpace Marine 1 {g|Encyclopedia:Round}raunt{/g} boyunca ateş etmezse tüm bu birikimleri kaybeder."
     }
   }
 }

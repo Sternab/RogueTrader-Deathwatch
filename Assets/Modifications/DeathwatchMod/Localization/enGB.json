@@ -643,6 +643,14 @@
     "dea7c0de-0063-4000-8000-000000000063": {
       "Offset": 0,
       "Text": "<u>(2 + {g|Encyclopedia:WarhammerIntelligence}INT{/g} bonus)</u>"
+    },
+    "dea7c0de-0064-4000-8000-000000000064": {
+      "Offset": 0,
+      "Text": "The Battle-Brother gains +{uip|DamageBlocked|a9343f4385eb49ee9d3338aa74a75d9f}% block when targeted with ranged attacks."
+    },
+    "dea7c0de-0065-4000-8000-000000000065": {
+      "Offset": 0,
+      "Text": "Every time the Battle-Brother uses plasma or melta weapons, his {g|Encyclopedia:DamageGlossary}damage{/g} with these weapons increases by +{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3}%. Stacks.\nIf the Battle-Brother does not shoot for 1 {g|Encyclopedia:Round}round{/g}, he loses all stacks."
     }
   }
 }

@@ -643,6 +643,14 @@
     "dea7c0de-0063-4000-8000-000000000063": {
       "Offset": 0,
       "Text": "<u>(2 + bonus de {g|Encyclopedia:WarhammerIntelligence}INT{/g})</u>"
+    },
+    "dea7c0de-0064-4000-8000-000000000064": {
+      "Offset": 0,
+      "Text": "Le Space Marine gagne +{uip|DamageBlocked|a9343f4385eb49ee9d3338aa74a75d9f} % de blocage quand il est visé par des attaques à distance."
+    },
+    "dea7c0de-0065-4000-8000-000000000065": {
+      "Offset": 0,
+      "Text": "Chaque fois que le Space Marine utilise des armes à plasma ou à fusion, les {g|Encyclopedia:DamageGlossary}dégâts{/g} qu'elles infligent augmentent de +{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3} %. Cumulable.\nSi le Space Marine ne tire pas pendant 1 {g|Encyclopedia:Round}round{/g}, il perd tous ses cumuls."
     }
   }
 }

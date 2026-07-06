@@ -643,6 +643,14 @@
     "dea7c0de-0063-4000-8000-000000000063": {
       "Offset": 0,
       "Text": "<u>（2 + {g|Encyclopedia:WarhammerIntelligence}智力{/g}加值）</u>"
+    },
+    "dea7c0de-0064-4000-8000-000000000064": {
+      "Offset": 0,
+      "Text": "被远程攻击选为目标时，星际战士获得{uip|DamageBlocked|a9343f4385eb49ee9d3338aa74a75d9f}%格挡。"
+    },
+    "dea7c0de-0065-4000-8000-000000000065": {
+      "Offset": 0,
+      "Text": "当星际战士使用等离子武器或热熔武器时，武器造成的{g|Encyclopedia:DamageGlossary}伤害{/g}提高{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3}%。此效果可叠加。\n如果星际战士在某{g|Encyclopedia:Round}轮{/g}中没有进行射击，则会失去所有层数。"
     }
   }
 }

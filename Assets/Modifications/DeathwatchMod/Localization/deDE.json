@@ -643,6 +643,14 @@
     "dea7c0de-0063-4000-8000-000000000063": {
       "Offset": 0,
       "Text": "<u>(2 + {g|Encyclopedia:WarhammerIntelligence}INT{/g}-Bonus)</u>"
+    },
+    "dea7c0de-0064-4000-8000-000000000064": {
+      "Offset": 0,
+      "Text": "Der Space Marine erhält +{uip|DamageBlocked|a9343f4385eb49ee9d3338aa74a75d9f} % Blocken, wenn er mit Fernkampfangriffen attackiert wird."
+    },
+    "dea7c0de-0065-4000-8000-000000000065": {
+      "Offset": 0,
+      "Text": "Jedes Mal, wenn der Space Marine Plasma- oder Melterwaffen benutzt, erhöht sich sein {g|Encyclopedia:DamageGlossary}Schaden{/g} mit diesen Waffen um +{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3} %. Wird gestapelt.\nWenn der Space Marine 1 {g|Encyclopedia:Round}Runde{/g} lang nicht schießt, verliert er alle Stapel."
     }
   }
 }

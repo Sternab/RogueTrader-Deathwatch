@@ -6,6 +6,24 @@
     "m_Overrides": [],
     "Components": [
       {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$AddFacts$b40e1b4dad6a4a41b3121e9ac64962e7",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_0b8058ef3f33406faebea94ee7967d66"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
         "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
         "name": "$DW_OCC_AddFeaturesToLevelUp$TechBlock",
         "m_Flags": 0,
@@ -16,7 +34,11 @@
         "m_Overrides": [],
         "Group": "Talent",
         "m_Features": [
-          "!bp_dc6f47b218804f308ef002560628e43d"
+          "!bp_a9343f4385eb49ee9d3338aa74a75d9f",
+          "!bp_2d333d024504422e99f524cb5fcf9db3",
+          "!bp_86d90f90b0da437c82aa1a25781271ab",
+          "!bp_d370ef8d193d4a949a9feb20af181f85",
+          "!bp_cf9fbc0d5c0e485e8cc79421ce8d2cae"
         ]
       },
       {
@@ -147,10 +169,82 @@
         "m_Features": [
           "!bp_931bde3e5aa54c2099ac0ca4cebcaa88"
         ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$711ac300dae541608fbedb1923bf471a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_a9343f4385eb49ee9d3338aa74a75d9f",
+          "!bp_2d333d024504422e99f524cb5fcf9db3",
+          "!bp_86d90f90b0da437c82aa1a25781271ab",
+          "!bp_d370ef8d193d4a949a9feb20af181f85",
+          "!bp_cf9fbc0d5c0e485e8cc79421ce8d2cae"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$facaed3ad2ac4942a3ca844f351a26cd",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_a9343f4385eb49ee9d3338aa74a75d9f",
+          "!bp_2d333d024504422e99f524cb5fcf9db3",
+          "!bp_86d90f90b0da437c82aa1a25781271ab",
+          "!bp_d370ef8d193d4a949a9feb20af181f85",
+          "!bp_cf9fbc0d5c0e485e8cc79421ce8d2cae"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$df83fdc2734e45f0b4bc648063449718",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_a9343f4385eb49ee9d3338aa74a75d9f",
+          "!bp_2d333d024504422e99f524cb5fcf9db3",
+          "!bp_86d90f90b0da437c82aa1a25781271ab",
+          "!bp_d370ef8d193d4a949a9feb20af181f85",
+          "!bp_cf9fbc0d5c0e485e8cc79421ce8d2cae"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$54f4a133722c474297b82bf6808b8aa3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_a9343f4385eb49ee9d3338aa74a75d9f",
+          "!bp_2d333d024504422e99f524cb5fcf9db3",
+          "!bp_86d90f90b0da437c82aa1a25781271ab",
+          "!bp_d370ef8d193d4a949a9feb20af181f85",
+          "!bp_cf9fbc0d5c0e485e8cc79421ce8d2cae"
+        ]
       }
     ],
     "Author": "Unknown",
-    "Comment": "Speciality: Techmarine (ChargenOccupation). No prerequisites.",
+    "Comment": "Speciality: Techmarine (ChargenOccupation). No prerequisites. KIT COMPLETED 2026-07-06 (was one talent, no innate): innate = Machine Spirit Banishment (vanilla ability 0b8058ef granted directly -- its vanilla wrapper feature has a Disabled AddFacts; generic text, INT/TechUse-scaled anti-machine CC); talents x5 groups = DW_TrajectoryCalculation + DW_OverchargeProtocols (clones, wrong-actor descs) + External Power Block + Piercing Charge + Plasma Bank (generic plasma commons, referenced as-is). Iron Hands' ForgeWorld talents deliberately NOT reused (double-offer). Stats INT+5/TOU+5/TechUse+10.",
     "m_DisplayName": {
       "m_Key": "7d83d5a6-b6ab-408d-84e6-de70ff4e3f77",
       "m_OwnerString": "",
