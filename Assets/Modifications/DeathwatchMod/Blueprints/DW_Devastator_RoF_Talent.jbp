@@ -184,8 +184,8 @@
           "FailSilentlyIfNoTarget": false,
           "Getters": [
             {
-              "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
-              "name": "$ConditionalGetter$a828d9f1-653e-49a1-8b6f-a8c2dd8460c9",
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$836e4880371a44ddb37b21362462a89b",
               "Settings": {
                 "Progression": "AsIs",
                 "m_CustomProgression": [],
@@ -196,186 +196,14 @@
                 "Min": 0,
                 "Max": 0
               },
-              "Condition": {
-                "Operation": "Eq",
-                "TargetType": "CurrentEntity",
-                "TargetEvaluator": null,
-                "FailSilentlyIfNoTarget": false,
-                "Getters": [
-                  {
-                    "$type": "b9dd49398cf14b469d7fc78f01eb5e85, CoverStatusGetter",
-                    "name": "$CoverStatusGetter$ff4b8ece6d165193aa03ba07f3c24e7d",
-                    "Settings": {
-                      "Progression": "AsIs",
-                      "m_CustomProgression": [],
-                      "m_StartLevel": 0,
-                      "m_StepLevel": 0,
-                      "Negate": false,
-                      "Limit": "None",
-                      "Min": 0,
-                      "Max": 0
-                    }
-                  },
-                  {
-                    "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                    "name": "$ContextValueGetter$7b4017db87625cd6b8f9f93930bb924e",
-                    "Settings": {
-                      "Progression": "AsIs",
-                      "m_CustomProgression": [],
-                      "m_StartLevel": 0,
-                      "m_StepLevel": 0,
-                      "Negate": false,
-                      "Limit": "None",
-                      "Min": 0,
-                      "Max": 0
-                    },
-                    "Value": {
-                      "ValueType": "Simple",
-                      "Value": 1,
-                      "ValueRank": "Default",
-                      "ValueShared": "Damage",
-                      "Property": "None",
-                      "m_CustomProperty": null,
-                      "PropertyName": "Value1"
-                    }
-                  }
-                ]
-              },
-              "True": {
-                "Operation": "Sum",
-                "TargetType": "CurrentEntity",
-                "TargetEvaluator": null,
-                "FailSilentlyIfNoTarget": false,
-                "Getters": [
-                  {
-                    "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                    "name": "$ContextValueGetter$93a14fca-d787-4e45-a49f-e27adac90934",
-                    "Settings": {
-                      "Progression": "AsIs",
-                      "m_CustomProgression": [],
-                      "m_StartLevel": 0,
-                      "m_StepLevel": 0,
-                      "Negate": false,
-                      "Limit": "None",
-                      "Min": 0,
-                      "Max": 0
-                    },
-                    "Value": {
-                      "ValueType": "Simple",
-                      "Value": 20,
-                      "ValueRank": "Default",
-                      "ValueShared": "Damage",
-                      "Property": "None",
-                      "m_CustomProperty": null,
-                      "PropertyName": "Value1"
-                    }
-                  }
-                ]
-              },
-              "False": {
-                "Operation": "Sum",
-                "TargetType": "CurrentEntity",
-                "TargetEvaluator": null,
-                "FailSilentlyIfNoTarget": false,
-                "Getters": [
-                  {
-                    "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
-                    "name": "$ConditionalGetter$18a375df-16f5-48a3-9a27-58659aa1fbf8",
-                    "Settings": {
-                      "Progression": "AsIs",
-                      "m_CustomProgression": [],
-                      "m_StartLevel": 0,
-                      "m_StepLevel": 0,
-                      "Negate": false,
-                      "Limit": "None",
-                      "Min": 0,
-                      "Max": 0
-                    },
-                    "Condition": {
-                      "Operation": "Eq",
-                      "TargetType": "CurrentEntity",
-                      "TargetEvaluator": null,
-                      "FailSilentlyIfNoTarget": false,
-                      "Getters": [
-                        {
-                          "$type": "b9dd49398cf14b469d7fc78f01eb5e85, CoverStatusGetter",
-                          "name": "$CoverStatusGetter$d9dd446d-4c16-4df1-954e-af9c72b442cc",
-                          "Settings": {
-                            "Progression": "AsIs",
-                            "m_CustomProgression": [],
-                            "m_StartLevel": 0,
-                            "m_StepLevel": 0,
-                            "Negate": false,
-                            "Limit": "None",
-                            "Min": 0,
-                            "Max": 0
-                          }
-                        },
-                        {
-                          "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                          "name": "$ContextValueGetter$789ebe91-9a3f-47c0-b7c0-5d81935931f5",
-                          "Settings": {
-                            "Progression": "AsIs",
-                            "m_CustomProgression": [],
-                            "m_StartLevel": 0,
-                            "m_StepLevel": 0,
-                            "Negate": false,
-                            "Limit": "None",
-                            "Min": 0,
-                            "Max": 0
-                          },
-                          "Value": {
-                            "ValueType": "Simple",
-                            "Value": 2,
-                            "ValueRank": "Default",
-                            "ValueShared": "Damage",
-                            "Property": "None",
-                            "m_CustomProperty": null,
-                            "PropertyName": "Value1"
-                          }
-                        }
-                      ]
-                    },
-                    "True": {
-                      "Operation": "Sum",
-                      "TargetType": "CurrentEntity",
-                      "TargetEvaluator": null,
-                      "FailSilentlyIfNoTarget": false,
-                      "Getters": [
-                        {
-                          "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
-                          "name": "$ContextValueGetter$190b541e-3983-4e0b-b94b-02ed4e42fd87",
-                          "Settings": {
-                            "Progression": "AsIs",
-                            "m_CustomProgression": [],
-                            "m_StartLevel": 0,
-                            "m_StepLevel": 0,
-                            "Negate": false,
-                            "Limit": "None",
-                            "Min": 0,
-                            "Max": 0
-                          },
-                          "Value": {
-                            "ValueType": "Simple",
-                            "Value": 40,
-                            "ValueRank": "Default",
-                            "ValueShared": "Damage",
-                            "Property": "None",
-                            "m_CustomProperty": null,
-                            "PropertyName": "Value1"
-                          }
-                        }
-                      ]
-                    },
-                    "False": {
-                      "Operation": "Sum",
-                      "TargetType": "CurrentEntity",
-                      "TargetEvaluator": null,
-                      "FailSilentlyIfNoTarget": false,
-                      "Getters": []
-                    }
-                  }
-                ]
+              "Value": {
+                "ValueType": "Simple",
+                "Value": 20,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
               }
             }
           ]
@@ -383,7 +211,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch copy of AstraMilitarum_Talent5 (dd8a80be), retargeted from lasguns to the marine's heavy ranged families (Bolt/Melta/Plasma/Flame). Granted to the Devastator in place of the shared lasgun talent, so the vanilla human Astra Militarum origin is untouched. Cover-scaled +RoF: +20% in partial cover, +40% in full -- set to match the tooltip (and vanilla Trench Warfare's stated numbers; vanilla's own blueprint actually applies 25/50, a tooltip mismatch we avoid by aligning data + text here).",
+    "Comment": "Deathwatch copy of AstraMilitarum_Talent5 (dd8a80be), retargeted from lasguns to the marine's heavy ranged families (Bolt/Melta/Plasma/Flame). RE-GATED 2026-07-05: the clone had kept Trench Warfare's CoverStatusGetter condition, but the marine NEVER has cover (CommonSpaceMarineFact + Large 2x2 units are structurally CoverType.None per LosCalculations) -- the talent was dead in play. Now a flat +20% rate of fire (the old partial-cover tier, kept conservative because it is unconditional).",
     "m_DisplayName": {
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",

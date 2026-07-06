@@ -15,25 +15,7 @@
         },
         "m_Overrides": [],
         "m_Facts": [
-          "!bp_33638b28fa5e49748f4a7a5eed5ec035"
-        ],
-        "Dummy": null,
-        "DoNotRestoreMissingFacts": false,
-        "HasDifficultyRequirements": false,
-        "InvertDifficultyRequirements": false,
-        "MinDifficulty": "Story"
-      },
-      {
-        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
-        "name": "$DW_OCC_AddFacts$de5979a1-52f0-478e-8ca7-201f8df363cf",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "m_Facts": [
-          "!bp_171462027afe4bc6be83799f44fa9995"
+          "!bp_e6a279ca5979435fbb0d39d9d60d7f8a"
         ],
         "Dummy": null,
         "DoNotRestoreMissingFacts": false,
@@ -52,11 +34,9 @@
         "m_Overrides": [],
         "Group": "Talent",
         "m_Features": [
-          "!bp_94b7a24311684783b34e0c53c41c58cf",
-          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
-          "!bp_c5acfe1f0e02491cb86047de9b200e48",
-          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
-          "!bp_825a60180393428a96e4008a0579afe7"
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7"
         ]
       },
       {
@@ -70,11 +50,9 @@
         "m_Overrides": [],
         "Group": "CommonTalent",
         "m_Features": [
-          "!bp_94b7a24311684783b34e0c53c41c58cf",
-          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
-          "!bp_c5acfe1f0e02491cb86047de9b200e48",
-          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
-          "!bp_825a60180393428a96e4008a0579afe7"
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7"
         ]
       },
       {
@@ -88,11 +66,9 @@
         "m_Overrides": [],
         "Group": "SecondCareerTalent",
         "m_Features": [
-          "!bp_94b7a24311684783b34e0c53c41c58cf",
-          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
-          "!bp_c5acfe1f0e02491cb86047de9b200e48",
-          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
-          "!bp_825a60180393428a96e4008a0579afe7"
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7"
         ]
       },
       {
@@ -106,11 +82,9 @@
         "m_Overrides": [],
         "Group": "FirstCareerTalent",
         "m_Features": [
-          "!bp_94b7a24311684783b34e0c53c41c58cf",
-          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
-          "!bp_c5acfe1f0e02491cb86047de9b200e48",
-          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
-          "!bp_825a60180393428a96e4008a0579afe7"
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7"
         ]
       },
       {
@@ -124,11 +98,9 @@
         "m_Overrides": [],
         "Group": "FirstOrSecondCareerTalent",
         "m_Features": [
-          "!bp_94b7a24311684783b34e0c53c41c58cf",
-          "!bp_10a6dc3267d14009a0e302927bb7fcfe",
-          "!bp_c5acfe1f0e02491cb86047de9b200e48",
-          "!bp_950c51dba1ea49079ac512ccc1c4a3c6",
-          "!bp_825a60180393428a96e4008a0579afe7"
+          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
+          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
+          "!bp_ce88361ec77b4a538e9c26f5111595a7"
         ]
       },
       {
@@ -295,7 +267,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Speciality: Tactical Marine (ChargenOccupation). No prerequisites.",
+    "Comment": "Speciality: Tactical Marine. Occupation-analog feature; stats per the vanilla +10/+10 schema. Kit = the Astra Militarum Commander 'Regimental Tactics' set (innate e6a279ca + Suppression Fire! / Field of Fire / Unflinching Heroism), moved here from the Devastator 2026-07-05 (tester redesign: the coordination kit fits Tactical's battlefield-command role; the old Ministorum Priest kit keyed off Willpower, not Tactical's Fellowship). Trench Warfare and Fix Bayonets! are deliberately EXCLUDED: both are dead on the marine (owner-cover-gated / primary-slot two-handed-las melee).",
     "m_DisplayName": {
       "m_Key": "738eb6ec-92ea-4ea7-8d5e-c67a92c22a55",
       "m_OwnerString": "",

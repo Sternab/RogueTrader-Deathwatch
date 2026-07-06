@@ -15,7 +15,7 @@
         },
         "m_Overrides": [],
         "m_Facts": [
-          "!bp_e6a279ca5979435fbb0d39d9d60d7f8a"
+          "!bp_4d68f05c9aaf4620aa66f16cd4ba2efd"
         ],
         "Dummy": null,
         "DoNotRestoreMissingFacts": false,
@@ -34,10 +34,10 @@
         "m_Overrides": [],
         "Group": "Talent",
         "m_Features": [
-          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
-          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
-          "!bp_5285cce7ae36415c8cd09211ad6869fa",
-          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_9a0e7e64902e491baa29d60469eae188",
+          "!bp_5bd4a497a8e643ad8049edbd4fab77e0",
+          "!bp_c8e583c6fc5c4cb4982c039638b59dd9",
+          "!bp_b2ec248dacf24d6ab6b29d368dbc216d",
           "!bp_92857aad95f14b4d9bb9575e7c3f626a"
         ]
       },
@@ -52,10 +52,10 @@
         "m_Overrides": [],
         "Group": "CommonTalent",
         "m_Features": [
-          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
-          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
-          "!bp_5285cce7ae36415c8cd09211ad6869fa",
-          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_9a0e7e64902e491baa29d60469eae188",
+          "!bp_5bd4a497a8e643ad8049edbd4fab77e0",
+          "!bp_c8e583c6fc5c4cb4982c039638b59dd9",
+          "!bp_b2ec248dacf24d6ab6b29d368dbc216d",
           "!bp_92857aad95f14b4d9bb9575e7c3f626a"
         ]
       },
@@ -70,10 +70,10 @@
         "m_Overrides": [],
         "Group": "FirstCareerTalent",
         "m_Features": [
-          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
-          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
-          "!bp_5285cce7ae36415c8cd09211ad6869fa",
-          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_9a0e7e64902e491baa29d60469eae188",
+          "!bp_5bd4a497a8e643ad8049edbd4fab77e0",
+          "!bp_c8e583c6fc5c4cb4982c039638b59dd9",
+          "!bp_b2ec248dacf24d6ab6b29d368dbc216d",
           "!bp_92857aad95f14b4d9bb9575e7c3f626a"
         ]
       },
@@ -88,10 +88,10 @@
         "m_Overrides": [],
         "Group": "SecondCareerTalent",
         "m_Features": [
-          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
-          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
-          "!bp_5285cce7ae36415c8cd09211ad6869fa",
-          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_9a0e7e64902e491baa29d60469eae188",
+          "!bp_5bd4a497a8e643ad8049edbd4fab77e0",
+          "!bp_c8e583c6fc5c4cb4982c039638b59dd9",
+          "!bp_b2ec248dacf24d6ab6b29d368dbc216d",
           "!bp_92857aad95f14b4d9bb9575e7c3f626a"
         ]
       },
@@ -106,10 +106,10 @@
         "m_Overrides": [],
         "Group": "FirstOrSecondCareerTalent",
         "m_Features": [
-          "!bp_d091ea8f960542f2a31ef20ef2341b4f",
-          "!bp_94ea4f4278e147bebb0c964d75cc50ad",
-          "!bp_5285cce7ae36415c8cd09211ad6869fa",
-          "!bp_ce88361ec77b4a538e9c26f5111595a7",
+          "!bp_9a0e7e64902e491baa29d60469eae188",
+          "!bp_5bd4a497a8e643ad8049edbd4fab77e0",
+          "!bp_c8e583c6fc5c4cb4982c039638b59dd9",
+          "!bp_b2ec248dacf24d6ab6b29d368dbc216d",
           "!bp_92857aad95f14b4d9bb9575e7c3f626a"
         ]
       },
@@ -244,7 +244,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Speciality: Devastator Marine (ChargenOccupation). No prerequisites.",
+    "Comment": "Speciality: Devastator Marine. Occupation-analog feature; stats per the vanilla +10/+10 schema. Kit redesigned 2026-07-05 (tester): innate = Operative Perfect Spot (4d68f05c, self-contained -- no Analyse Enemies/Exploit dependency; its cover-efficiency third is inert on the marine, cosmetic only); talents = Sharpshooter (the tester's 'Marksman'), Sniper Expertise (prereq satisfied by the innate), Barrage, Muzzle Velocity, DW_Devastator_RoF_Talent. The former Astra Militarum kit moved to the Tactical Marine. All picks dependency-scanned: work without the Operative career.",
     "m_DisplayName": {
       "m_Key": "37a7f13c-ddb7-4fe2-939f-f018ccc7f7e6",
       "m_OwnerString": "",
