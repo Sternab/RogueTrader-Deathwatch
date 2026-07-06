@@ -44,7 +44,10 @@
       "m_JsonPath": "",
       "Shared": null
     },
-    "m_Icon": null,
+    "m_Icon": {
+      "guid": "432f4785436f4c5d9440a14dbb062344",
+      "fileid": 21300000
+    },
     "m_FlavorText": {
       "m_Key": "dea7c0de-0009-4000-8000-000000000009",
       "m_OwnerString": "",
