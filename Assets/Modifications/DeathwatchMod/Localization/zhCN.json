@@ -495,6 +495,38 @@
     "dea7c0de-0024-4000-8000-000000000024": {
       "Offset": 0,
       "Text": "战斗开始时，星际战士获得{unit_stat|WarhammerAgility|bonus}层“万全计划”层数。激活此{g|Encyclopedia:Ability}能力{/g}会消耗1层层数，使下个行动获得额外效果：\n- <indent=5%>如果星际战士进行攻击，造成的{g|Encyclopedia:DamageGlossary}伤害{/g}提高{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}%。</indent>\n- <indent=5%>如果星际战士进行移动，{g|Encyclopedia:DodgeGlossary}闪避{/g}与{g|Encyclopedia:Parry}招架{/g}提高{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}%，效果持续至下个回合开始。</indent>\n- <indent=5%>如果星际战士对敌人使用了非伤害性能力，则敌人该回合造成的伤害降低{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}%，效果持续一轮。</indent>\n“万全计划”每回合可多次使用。"
+    },
+    "dea7c0de-0025-4000-8000-000000000025": {
+      "Offset": 0,
+      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n头盔的战术智机提供{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}与{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerFellowship}社交{/g}加值。"
+    },
+    "dea7c0de-0029-4000-8000-000000000029": {
+      "Offset": 0,
+      "Text": "战术智机头盔"
+    },
+    "dea7c0de-0026-4000-8000-000000000026": {
+      "Offset": 0,
+      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n诊断者提供{g|Encyclopedia:SkillMedicae}医疗{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerPerception}感知{/g}加值的两倍；并提高暴击伤害5%，每10点{g|Encyclopedia:SkillMedicae}医疗{/g}再加1%。"
+    },
+    "dea7c0de-0030-4000-8000-000000000030": {
+      "Offset": 0,
+      "Text": "诊断者头盔"
+    },
+    "dea7c0de-0027-4000-8000-000000000027": {
+      "Offset": 0,
+      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n鉴具以{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}计算{g|Encyclopedia:SkillDemolition}爆破{/g}。佩戴者的攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与{g|Encyclopedia:Overpenetration}过度穿透{/g}，数值等于5%，每10点{g|Encyclopedia:SkillDemolition}爆破{/g}再加1%。"
+    },
+    "dea7c0de-0031-4000-8000-000000000031": {
+      "Offset": 0,
+      "Text": "弹道鉴具头盔"
+    },
+    "dea7c0de-0028-4000-8000-000000000028": {
+      "Offset": 0,
+      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n瞄准器为手枪攻击提供{g|Encyclopedia:HitChance}命中率{/g}与{g|Encyclopedia:DodgeReduction}闪避减免{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerAgility}敏捷{/g}加值。近战攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与暴击伤害，数值等于5%，每10点{g|Encyclopedia:SkillAthletics}运动{/g}再加1%。"
+    },
+    "dea7c0de-0032-4000-8000-000000000032": {
+      "Offset": 0,
+      "Text": "突击瞄准器头盔"
     }
   }
 }

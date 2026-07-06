@@ -1,5 +1,5 @@
 {
-  "AssetId": "bdc4a907b4f15152f02bc33bbfa8d848",
+  "AssetId": "b2eb22477c654b2791a49f0f45e6642b",
   "Data": {
     "$type": "adc63a0dcf487a44c9c7e8ccb4b5fb33, BlueprintItemEquipmentHead",
     "PrototypeLink": "",
@@ -15,19 +15,30 @@
         },
         "m_Overrides": [],
         "m_Fact": "!bp_e74e3edc09334be28291774d5e6fd7b7"
+      },
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$dw-helm-tactical",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_4269752521e44a25a751121ff250fd4d"
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch helmet head-slot item - visual = KEE_HelmetSpaceMarine (custom EE_DeathwatchHelmet, HH_SpaceMarine3 mesh). Grants Auto-senses (DW_Helm_Universal_Feature); the effect text is the item description (armour-item pattern, James 2026-07-06). Worn by default; at chargen commit the four specialities swap in their NAMED helm item (DW_HelmItem_*.jbp) -- Librarian/Techmarine keep this one. The former hidden speciality-router feature is RETIRED.",
+    "Comment": "Tactical Cogitator Helm: Auto-senses + DW_Helm_Tactical_Feature, granted at chargen commit to the Tactical Marine (ChargenCommit.cs helm swap).",
     "m_DisplayName": {
-      "m_Key": "dea7c0de-0002-4000-8000-000000000002",
+      "m_Key": "dea7c0de-0029-4000-8000-000000000029",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",
       "Shared": null
     },
     "m_Description": {
-      "m_Key": "dea7c0de-0011-4000-8000-000000000011",
+      "m_Key": "dea7c0de-0025-4000-8000-000000000025",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",

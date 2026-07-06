@@ -495,6 +495,38 @@
     "dea7c0de-0024-4000-8000-000000000024": {
       "Offset": 0,
       "Text": "Au début du combat, le Space Marine obtient +{unit_stat|WarhammerAgility|bonus} cumuls de l'effet Plan infaillible. L'activation de cette {g|Encyclopedia:Ability}capacité{/g} coûte 1 cumul et renforce l'action suivante en fonction de son type :\n-<indent=5%>Si le Space Marine attaque, il inflige +{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097} % de {g|Encyclopedia:DamageGlossary}dégâts{/g} supplémentaires.</indent>\n-<indent=5%>Si le Space Marine se déplace, il bénéficie de {uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097} % d'{g|Encyclopedia:DodgeGlossary}esquive{/g} et de {g|Encyclopedia:Parry}parade{/g} jusqu'au début de son tour suivant.</indent>\n-<indent=5%>Si le Space Marine utilise sur un ennemi une capacité qui n'inflige pas de dégâts, cet ennemi subit une pénalité de dégâts de −{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097} % pendant un round.</indent>\nUtilisable plusieurs fois par tour."
+    },
+    "dea7c0de-0025-4000-8000-000000000025": {
+      "Offset": 0,
+      "Text": "Le heaume confère une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:SkillAwareness}Vigilance{/g} égal à 5 plus 1 par 5 niveaux du personnage.\nLe cogitateur tactique du heaume confère un bonus de {g|Encyclopedia:WarhammerWeaponSkill}Capacité de combat{/g} et de {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g} égal à 3 plus le bonus de {g|Encyclopedia:WarhammerFellowship}Sociabilité{/g} du porteur."
+    },
+    "dea7c0de-0029-4000-8000-000000000029": {
+      "Offset": 0,
+      "Text": "Heaume-cogitateur tactique"
+    },
+    "dea7c0de-0026-4000-8000-000000000026": {
+      "Offset": 0,
+      "Text": "Le heaume confère une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:SkillAwareness}Vigilance{/g} égal à 5 plus 1 par 5 niveaux du personnage.\nLe diagnostor confère un bonus de {g|Encyclopedia:SkillMedicae}Medicae{/g} égal au double du bonus de {g|Encyclopedia:WarhammerPerception}Perception{/g} du porteur, et augmente les dégâts critiques de 5 % plus 1 % par 10 points de {g|Encyclopedia:SkillMedicae}Medicae{/g}."
+    },
+    "dea7c0de-0030-4000-8000-000000000030": {
+      "Offset": 0,
+      "Text": "Heaume diagnostor"
+    },
+    "dea7c0de-0027-4000-8000-000000000027": {
+      "Offset": 0,
+      "Text": "Le heaume confère une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:SkillAwareness}Vigilance{/g} égal à 5 plus 1 par 5 niveaux du personnage.\nL'auspex calcule la {g|Encyclopedia:SkillDemolition}Démolition{/g} à partir de la {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g}. Les attaques du porteur gagnent une {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} et une {g|Encyclopedia:Overpenetration}surpénétration{/g} égales à 5 % plus 1 % par 10 points de {g|Encyclopedia:SkillDemolition}Démolition{/g}."
+    },
+    "dea7c0de-0031-4000-8000-000000000031": {
+      "Offset": 0,
+      "Text": "Heaume à auspex balistique"
+    },
+    "dea7c0de-0028-4000-8000-000000000028": {
+      "Offset": 0,
+      "Text": "Le heaume confère une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:SkillAwareness}Vigilance{/g} égal à 5 plus 1 par 5 niveaux du personnage.\nLe viseur confère aux attaques de pistolet un bonus de {g|Encyclopedia:HitChance}chances de toucher{/g} et de {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} égal à 3 plus le bonus d'{g|Encyclopedia:WarhammerAgility}Agilité{/g} du porteur. Les attaques de mêlée gagnent une {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} et des dégâts critiques égaux à 5 % plus 1 % par 10 points d'{g|Encyclopedia:SkillAthletics}Athlétisme{/g}."
+    },
+    "dea7c0de-0032-4000-8000-000000000032": {
+      "Offset": 0,
+      "Text": "Heaume à viseur d'assaut"
     }
   }
 }

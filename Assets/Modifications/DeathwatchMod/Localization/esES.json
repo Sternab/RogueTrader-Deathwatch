@@ -495,6 +495,38 @@
     "dea7c0de-0024-4000-8000-000000000024": {
       "Offset": 0,
       "Text": "Al principio del combate, el marine espacial gana +{unit_stat|WarhammerAgility|bonus} acumulaciones del efecto Plan garantizado. Activar esta {g|Encyclopedia:Ability}capacidad{/g} consume 1 acumulación y hace que la siguiente acción sea más eficaz en función de su tipo:\n-<indent=5%>Si el marine espacial ataca, inflige un +{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097} % más de {g|Encyclopedia:DamageGlossary}daño{/g}.</indent>\n-<indent=5%>Si el marine espacial se mueve, gana un {uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097} % de {g|Encyclopedia:DodgeGlossary}esquiva{/g} y {g|Encyclopedia:Parry}parada{/g} hasta el principio de su siguiente turno.</indent>\n-<indent=5%>Si el marine espacial usa una capacidad no dañina contra un enemigo, el enemigo sufre una penalización del −{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097} % al daño durante un asalto.</indent>\nSe puede usar varias veces por turno."
+    },
+    "dea7c0de-0025-4000-8000-000000000025": {
+      "Offset": 0,
+      "Text": "El yelmo otorga {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} del portador, y un bonificador a {g|Encyclopedia:SkillAwareness}Atención{/g} igual a 5 más 1 por cada 5 niveles de personaje.\nEl cogitador táctico del yelmo otorga un bonificador a {g|Encyclopedia:WarhammerWeaponSkill}Habilidad de armas{/g} y {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g} igual a 3 más el bonificador de {g|Encyclopedia:WarhammerFellowship}Empatía{/g} del portador."
+    },
+    "dea7c0de-0029-4000-8000-000000000029": {
+      "Offset": 0,
+      "Text": "Yelmo de cogitador táctico"
+    },
+    "dea7c0de-0026-4000-8000-000000000026": {
+      "Offset": 0,
+      "Text": "El yelmo otorga {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} del portador, y un bonificador a {g|Encyclopedia:SkillAwareness}Atención{/g} igual a 5 más 1 por cada 5 niveles de personaje.\nEl diagnostor otorga un bonificador a {g|Encyclopedia:SkillMedicae}Medicae{/g} igual al doble del bonificador de {g|Encyclopedia:WarhammerPerception}Percepción{/g} del portador, y aumenta el daño crítico en un 5 % más un 1 % por cada 10 puntos de {g|Encyclopedia:SkillMedicae}Medicae{/g}."
+    },
+    "dea7c0de-0030-4000-8000-000000000030": {
+      "Offset": 0,
+      "Text": "Yelmo diagnostor"
+    },
+    "dea7c0de-0027-4000-8000-000000000027": {
+      "Offset": 0,
+      "Text": "El yelmo otorga {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} del portador, y un bonificador a {g|Encyclopedia:SkillAwareness}Atención{/g} igual a 5 más 1 por cada 5 niveles de personaje.\nEl áuspex calcula {g|Encyclopedia:SkillDemolition}Demolición{/g} usando la {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}. Los ataques del portador ganan {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} y {g|Encyclopedia:Overpenetration}sobrepenetración{/g} iguales a un 5 % más un 1 % por cada 10 puntos de {g|Encyclopedia:SkillDemolition}Demolición{/g}."
+    },
+    "dea7c0de-0031-4000-8000-000000000031": {
+      "Offset": 0,
+      "Text": "Yelmo de áuspex balístico"
+    },
+    "dea7c0de-0028-4000-8000-000000000028": {
+      "Offset": 0,
+      "Text": "El yelmo otorga {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} del portador, y un bonificador a {g|Encyclopedia:SkillAwareness}Atención{/g} igual a 5 más 1 por cada 5 niveles de personaje.\nEl localizador otorga a los ataques con pistola un bonificador a {g|Encyclopedia:HitChance}probabilidad de impacto{/g} y {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} igual a 3 más el bonificador de {g|Encyclopedia:WarhammerAgility}Agilidad{/g} del portador. Los ataques cuerpo a cuerpo ganan {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} y daño crítico iguales a un 5 % más un 1 % por cada 10 puntos de {g|Encyclopedia:SkillAthletics}Atletismo{/g}."
+    },
+    "dea7c0de-0032-4000-8000-000000000032": {
+      "Offset": 0,
+      "Text": "Yelmo de localizador de asalto"
     }
   }
 }

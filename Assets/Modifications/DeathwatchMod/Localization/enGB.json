@@ -495,6 +495,38 @@
     "dea7c0de-0024-4000-8000-000000000024": {
       "Offset": 0,
       "Text": "At the start of combat, the Battle-Brother gains +{unit_stat|WarhammerAgility|bonus} stacks of the sure-fire plan effect. Activation of this {g|Encyclopedia:Ability}ability{/g} consumes 1 stack and makes the next action stronger depending on the type of action:\n-<indent=5%>If the Battle-Brother attacks, they deal +{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}% more {g|Encyclopedia:DamageGlossary}damage{/g}.</indent>\n-<indent=5%>If the Battle-Brother moves, they gain +{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}% {g|Encyclopedia:DodgeGlossary}dodge{/g} and {g|Encyclopedia:Parry}parry{/g} until the start of their next turn.</indent>\n-<indent=5%>If the Battle-Brother uses a non-damaging ability on an enemy, that enemy suffers a −{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}% penalty to damage for one round.</indent>\nCan be used multiple times per turn."
+    },
+    "dea7c0de-0025-4000-8000-000000000025": {
+      "Offset": 0,
+      "Text": "The helm grants {g|Encyclopedia:WarhammerArmourGlossary}armour{/g} equal to 2 plus the wearer's {g|Encyclopedia:WarhammerToughness}Toughness{/g} bonus, and a bonus to {g|Encyclopedia:SkillAwareness}Awareness{/g} equal to 5 plus 1 per 5 character levels.\nThe helm's tactical cogitator grants a bonus to {g|Encyclopedia:WarhammerWeaponSkill}Weapon Skill{/g} and {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g} equal to 3 plus the wearer's {g|Encyclopedia:WarhammerFellowship}Fellowship{/g} bonus."
+    },
+    "dea7c0de-0029-4000-8000-000000000029": {
+      "Offset": 0,
+      "Text": "Tactical Cogitator Helm"
+    },
+    "dea7c0de-0026-4000-8000-000000000026": {
+      "Offset": 0,
+      "Text": "The helm grants {g|Encyclopedia:WarhammerArmourGlossary}armour{/g} equal to 2 plus the wearer's {g|Encyclopedia:WarhammerToughness}Toughness{/g} bonus, and a bonus to {g|Encyclopedia:SkillAwareness}Awareness{/g} equal to 5 plus 1 per 5 character levels.\nThe diagnostor grants a bonus to {g|Encyclopedia:SkillMedicae}Medicae{/g} equal to twice the wearer's {g|Encyclopedia:WarhammerPerception}Perception{/g} bonus, and increases critical damage by 5% plus 1% per 10 points of {g|Encyclopedia:SkillMedicae}Medicae{/g}."
+    },
+    "dea7c0de-0030-4000-8000-000000000030": {
+      "Offset": 0,
+      "Text": "Diagnostor Helm"
+    },
+    "dea7c0de-0027-4000-8000-000000000027": {
+      "Offset": 0,
+      "Text": "The helm grants {g|Encyclopedia:WarhammerArmourGlossary}armour{/g} equal to 2 plus the wearer's {g|Encyclopedia:WarhammerToughness}Toughness{/g} bonus, and a bonus to {g|Encyclopedia:SkillAwareness}Awareness{/g} equal to 5 plus 1 per 5 character levels.\nThe auspex calculates {g|Encyclopedia:SkillDemolition}Demolition{/g} using {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g}. The wearer's attacks gain {g|Encyclopedia:DodgeReduction}dodge reduction{/g} and {g|Encyclopedia:Overpenetration}overpenetration{/g} equal to 5% plus 1% per 10 points of {g|Encyclopedia:SkillDemolition}Demolition{/g}."
+    },
+    "dea7c0de-0031-4000-8000-000000000031": {
+      "Offset": 0,
+      "Text": "Ballistic Auspex Helm"
+    },
+    "dea7c0de-0028-4000-8000-000000000028": {
+      "Offset": 0,
+      "Text": "The helm grants {g|Encyclopedia:WarhammerArmourGlossary}armour{/g} equal to 2 plus the wearer's {g|Encyclopedia:WarhammerToughness}Toughness{/g} bonus, and a bonus to {g|Encyclopedia:SkillAwareness}Awareness{/g} equal to 5 plus 1 per 5 character levels.\nThe targeter grants pistol attacks a bonus to {g|Encyclopedia:HitChance}hit chance{/g} and {g|Encyclopedia:DodgeReduction}dodge reduction{/g} equal to 3 plus the wearer's {g|Encyclopedia:WarhammerAgility}Agility{/g} bonus. Melee attacks gain {g|Encyclopedia:DodgeReduction}dodge reduction{/g} and critical damage equal to 5% plus 1% per 10 points of {g|Encyclopedia:SkillAthletics}Athletics{/g}."
+    },
+    "dea7c0de-0032-4000-8000-000000000032": {
+      "Offset": 0,
+      "Text": "Assault Targeter Helm"
     }
   }
 }

@@ -495,6 +495,38 @@
     "dea7c0de-0024-4000-8000-000000000024": {
       "Offset": 0,
       "Text": "В начале боя космодесантник получает {unit_stat|WarhammerAgility|bonus} уровней эффекта \"надежный план\". Активация этой {g|Encyclopedia:Ability}способности{/g} снимает 1 уровень эффекта и усиливает следующее действие в зависимости от его типа:\n-<indent=5%>При атаке космодесантник наносит на {uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}% больше {g|Encyclopedia:DamageGlossary}урона{/g}.</indent>\n-<indent=5%>При движении космодесантник получает +{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}% к {g|Encyclopedia:DodgeGlossary}уклонению{/g} и {g|Encyclopedia:Parry}парированию{/g} до начала своего следующего хода.</indent>\n-<indent=5%>При применении к противнику способности, которая не наносит урон, цель получает штраф −{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}% к наносимому урону на 1 раунд.</indent>\nМожно использовать несколько раз за ход."
+    },
+    "dea7c0de-0025-4000-8000-000000000025": {
+      "Offset": 0,
+      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nТактический когитатор шлема дает бонус к {g|Encyclopedia:WarhammerWeaponSkill}Ближнему Бою{/g} и {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerFellowship}Общительности{/g} носителя."
+    },
+    "dea7c0de-0029-4000-8000-000000000029": {
+      "Offset": 0,
+      "Text": "Шлем с тактическим когитатором"
+    },
+    "dea7c0de-0026-4000-8000-000000000026": {
+      "Offset": 0,
+      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nДиагностор дает бонус к {g|Encyclopedia:SkillMedicae}Медицине{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerPerception}Восприятия{/g} носителя и увеличивает критический урон на 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillMedicae}Медицины{/g}."
+    },
+    "dea7c0de-0030-4000-8000-000000000030": {
+      "Offset": 0,
+      "Text": "Шлем-диагностор"
+    },
+    "dea7c0de-0027-4000-8000-000000000027": {
+      "Offset": 0,
+      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nАуспик рассчитывает {g|Encyclopedia:SkillDemolition}Взрывотехнику{/g} на основе {g|Encyclopedia:WarhammerBallisticSkill}Дальнего Боя{/g}. Атаки носителя получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и {g|Encyclopedia:Overpenetration}сквозное пробитие{/g} в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillDemolition}Взрывотехники{/g}."
+    },
+    "dea7c0de-0031-4000-8000-000000000031": {
+      "Offset": 0,
+      "Text": "Шлем с баллистическим ауспиком"
+    },
+    "dea7c0de-0028-4000-8000-000000000028": {
+      "Offset": 0,
+      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nПрицел дает атакам из пистолетов бонус к {g|Encyclopedia:HitChance}шансу попадания{/g} и {g|Encyclopedia:DodgeReduction}снижению уклонения{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerAgility}Ловкости{/g} носителя. Атаки в ближнем бою получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и критический урон в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillAthletics}Атлетики{/g}."
+    },
+    "dea7c0de-0032-4000-8000-000000000032": {
+      "Offset": 0,
+      "Text": "Шлем со штурмовым прицелом"
     }
   }
 }

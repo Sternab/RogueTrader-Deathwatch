@@ -4,61 +4,8 @@
     "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
     "PrototypeLink": "",
     "m_Overrides": [],
-    "Components": [
-      {
-        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
-        "name": "$AddFeatureIfHasFact$28756f982c7945558dc0cb27551a6407",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "m_CheckedFact": "!bp_1ecda642d54c491a96ebf767cb12d7fb",
-        "m_Feature": "!bp_4269752521e44a25a751121ff250fd4d",
-        "Not": false
-      },
-      {
-        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
-        "name": "$AddFeatureIfHasFact$6fd46c62bfe74fd39790a0aea4e0a39e",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "m_CheckedFact": "!bp_5812c9cea10f4420b5915c9b0196a83b",
-        "m_Feature": "!bp_3d2b14cfaafd45e9b481b959f90cf247",
-        "Not": false
-      },
-      {
-        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
-        "name": "$AddFeatureIfHasFact$7e58cf4e4aa64063a2ec77f8e3667556",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "m_CheckedFact": "!bp_6109110b5f3242828a3104f4b1180556",
-        "m_Feature": "!bp_c301ee3feedb476096a9faad89aef58b",
-        "Not": false
-      },
-      {
-        "$type": "0235a93dc6eb6864a839fcc72bb44c36, AddFeatureIfHasFact",
-        "name": "$AddFeatureIfHasFact$defd591e8b3c4cec8070cb82af2c0f2c",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "m_CheckedFact": "!bp_a072ea57e63e4ada9148d5cdbb2ce1c0",
-        "m_Feature": "!bp_ae4551c73a3948a69e69314a8d5177e2",
-        "Not": false
-      }
-    ],
-    "Comment": "Hidden helm router: grants the wearer's speciality helm system via AddFeatureIfHasFact (template: HexagramPendant_Feature). Librarian/Techmarine deliberately have no helm system yet (tester deferred Techmarine; Librarian unspecified) -- they get Auto-senses only.",
+    "Components": [],
+    "Comment": "RETIRED 2026-07-06 (same session it shipped): James wants the speciality helm systems to ride NAMED helmet items with their effects in the item description (armour-item pattern) instead of a hidden router on one generic helm. No longer referenced by any item; file+GUID kept so test saves that captured the fact resolve cleanly. Do not reuse.",
     "m_DisplayName": {
       "m_Key": "",
       "m_OwnerString": "",

@@ -495,6 +495,38 @@
     "dea7c0de-0024-4000-8000-000000000024": {
       "Offset": 0,
       "Text": "戦闘開始時、スペースマリーンは「確かな計画」効果を+{unit_stat|WarhammerAgility|bonus}スタック得る。この{g|Encyclopedia:Ability}アビリティ{/g}の発動時、1スタックを消費し、次の行動をその種類に応じて強化する：\n-<indent=5%>スペースマリーンが攻撃した場合、与{g|Encyclopedia:DamageGlossary}ダメージ{/g}が+{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}%増加する。</indent>\n-<indent=5%>スペースマリーンが移動した場合、次のターン開始まで{g|Encyclopedia:DodgeGlossary}回避{/g}と{g|Encyclopedia:Parry}受け流し{/g}が+%{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}増加する。</indent>\n-<indent=5%>スペースマリーンが敵に非ダメージ系アビリティを使用した場合、その敵は1ラウンドの間、ダメージに−{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}%のペナルティを受ける。</indent>\n1ターンに複数回使用可能。"
+    },
+    "dea7c0de-0025-4000-8000-000000000025": {
+      "Offset": 0,
+      "Text": "このヘルムは、2+装着者の{g|Encyclopedia:WarhammerToughness}耐久力{/g}ボーナスに等しい{g|Encyclopedia:WarhammerArmourGlossary}アーマー{/g}と、5+キャラクターレベル5ごとに1の{g|Encyclopedia:SkillAwareness}認識力{/g}ボーナスを与える。\nヘルムの戦術コギテーターは、3+装着者の{g|Encyclopedia:WarhammerFellowship}連帯{/g}ボーナスに等しい{g|Encyclopedia:WarhammerWeaponSkill}武器スキル{/g}と{g|Encyclopedia:WarhammerBallisticSkill}射撃技能{/g}へのボーナスを与える。"
+    },
+    "dea7c0de-0029-4000-8000-000000000029": {
+      "Offset": 0,
+      "Text": "戦術コギテーター・ヘルム"
+    },
+    "dea7c0de-0026-4000-8000-000000000026": {
+      "Offset": 0,
+      "Text": "このヘルムは、2+装着者の{g|Encyclopedia:WarhammerToughness}耐久力{/g}ボーナスに等しい{g|Encyclopedia:WarhammerArmourGlossary}アーマー{/g}と、5+キャラクターレベル5ごとに1の{g|Encyclopedia:SkillAwareness}認識力{/g}ボーナスを与える。\nディアグノスターは、装着者の{g|Encyclopedia:WarhammerPerception}認知力{/g}ボーナスの2倍に等しい{g|Encyclopedia:SkillMedicae}メディケア{/g}ボーナスを与え、クリティカルダメージを5%+{g|Encyclopedia:SkillMedicae}メディケア{/g}10ポイントごとに1%増加させる。"
+    },
+    "dea7c0de-0030-4000-8000-000000000030": {
+      "Offset": 0,
+      "Text": "ディアグノスター・ヘルム"
+    },
+    "dea7c0de-0027-4000-8000-000000000027": {
+      "Offset": 0,
+      "Text": "このヘルムは、2+装着者の{g|Encyclopedia:WarhammerToughness}耐久力{/g}ボーナスに等しい{g|Encyclopedia:WarhammerArmourGlossary}アーマー{/g}と、5+キャラクターレベル5ごとに1の{g|Encyclopedia:SkillAwareness}認識力{/g}ボーナスを与える。\nオースペックスは{g|Encyclopedia:SkillDemolition}解体{/g}を{g|Encyclopedia:WarhammerBallisticSkill}射撃技能{/g}で算出する。装着者の攻撃は、5%+{g|Encyclopedia:SkillDemolition}解体{/g}10ポイントごとに1%の{g|Encyclopedia:DodgeReduction}回避減少{/g}と{g|Encyclopedia:Overpenetration}過貫通{/g}を得る。"
+    },
+    "dea7c0de-0031-4000-8000-000000000031": {
+      "Offset": 0,
+      "Text": "弾道オースペックス・ヘルム"
+    },
+    "dea7c0de-0028-4000-8000-000000000028": {
+      "Offset": 0,
+      "Text": "このヘルムは、2+装着者の{g|Encyclopedia:WarhammerToughness}耐久力{/g}ボーナスに等しい{g|Encyclopedia:WarhammerArmourGlossary}アーマー{/g}と、5+キャラクターレベル5ごとに1の{g|Encyclopedia:SkillAwareness}認識力{/g}ボーナスを与える。\nターゲッターは、ピストル攻撃に3+装着者の{g|Encyclopedia:WarhammerAgility}敏捷性{/g}ボーナスに等しい{g|Encyclopedia:HitChance}命中率{/g}と{g|Encyclopedia:DodgeReduction}回避減少{/g}のボーナスを与える。近接攻撃は、5%+{g|Encyclopedia:SkillAthletics}身体能力{/g}10ポイントごとに1%の{g|Encyclopedia:DodgeReduction}回避減少{/g}とクリティカルダメージを得る。"
+    },
+    "dea7c0de-0032-4000-8000-000000000032": {
+      "Offset": 0,
+      "Text": "アサルト・ターゲッター・ヘルム"
     }
   }
 }

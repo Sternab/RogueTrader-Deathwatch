@@ -1,5 +1,5 @@
 {
-  "AssetId": "bdc4a907b4f15152f02bc33bbfa8d848",
+  "AssetId": "b5cd9138411c4f848e0f327490cb8c0d",
   "Data": {
     "$type": "adc63a0dcf487a44c9c7e8ccb4b5fb33, BlueprintItemEquipmentHead",
     "PrototypeLink": "",
@@ -15,19 +15,30 @@
         },
         "m_Overrides": [],
         "m_Fact": "!bp_e74e3edc09334be28291774d5e6fd7b7"
+      },
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$dw-helm-assault",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_ae4551c73a3948a69e69314a8d5177e2"
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch helmet head-slot item - visual = KEE_HelmetSpaceMarine (custom EE_DeathwatchHelmet, HH_SpaceMarine3 mesh). Grants Auto-senses (DW_Helm_Universal_Feature); the effect text is the item description (armour-item pattern, James 2026-07-06). Worn by default; at chargen commit the four specialities swap in their NAMED helm item (DW_HelmItem_*.jbp) -- Librarian/Techmarine keep this one. The former hidden speciality-router feature is RETIRED.",
+    "Comment": "Assault Targeter Helm: Auto-senses + DW_Helm_Assault_Feature, granted at chargen commit to the Assault Marine.",
     "m_DisplayName": {
-      "m_Key": "dea7c0de-0002-4000-8000-000000000002",
+      "m_Key": "dea7c0de-0032-4000-8000-000000000032",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",
       "Shared": null
     },
     "m_Description": {
-      "m_Key": "dea7c0de-0011-4000-8000-000000000011",
+      "m_Key": "dea7c0de-0028-4000-8000-000000000028",
       "m_OwnerString": "",
       "m_OwnerPropertyPath": "",
       "m_JsonPath": "",
