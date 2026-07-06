@@ -84,8 +84,15 @@ namespace DeathwatchMod
         // empty-preview voices (CharGenVoiceItemVM.IsEmptyVoice), so appending it to CharGenRoot.m_Voices (data,
         // CharGenRoot_PortraitsAndVoices.jbp_patch) and naming it (Ulfar_Barks_ChargenVoice.jbp_patch) is not enough.
         // PreviewSound is a component field the .jbp_patch FieldOverrides cannot reach (no array indexing into
-        // Components), so this one field is set at runtime -- taken from the voice's own first Selected bark, so
-        // no event name is hardcoded and a game patch to Ulfar's barks cannot silently break the preview.
+        // Components), so this one field is set at runtime. THE EVENT: the 12 vanilla chargen voices use dedicated
+        // 2D demo events in PC_DemoVoices_ENG.bnk; Ulfar has none, and his regular companion-bark events are
+        // routed through game buses that render SILENT in the chargen preview context (verified in-game: the
+        // borrowed Selected event never played, from the doll room OR the listener). So the preview is
+        // Play_DW_Ulfar_Preview -- a demo event ADDED to our own DX_Ask_DWMarine.bnk (proven-audible Master-bus
+        // routing, cloned from a DW sound object) that STREAMS Owlcat's own Ulfar select-line media
+        // (Media\269340113.wem) untouched. Bank surgery documented in the bank's commit (a3261fd follow-up).
+        private const string UlfarPreviewEvent = "Play_DW_Ulfar_Preview";
+
         private static void EnsureUlfarPreviewSound()
         {
             if (s_ulfarVoiceReady) return;
@@ -94,14 +101,11 @@ namespace DeathwatchMod
             UnitAsksComponent comp = null;
             foreach (var c in asks.ComponentsArray) { comp = c as UnitAsksComponent; if (comp != null) break; }
             if (comp == null) { DeathwatchModMain.LogError("[Voices][ERR] Ulfar_Barks has no UnitAsksComponent."); return; }
-            if (!string.IsNullOrEmpty(comp.PreviewSound)) { s_ulfarVoiceReady = true; return; }   // already set (idempotent; or a future game fix)
+            if (comp.PreviewSound == UlfarPreviewEvent) { s_ulfarVoiceReady = true; return; }   // idempotent
 
-            var entries = comp.Selected != null ? comp.Selected.Entries : null;
-            string ev = (entries != null && entries.Length > 0 && entries[0] != null) ? entries[0].AkEvent : null;
-            if (string.IsNullOrEmpty(ev)) { DeathwatchModMain.LogError("[Voices][ERR] Ulfar_Barks has no Selected bark to use as a preview."); return; }
-            comp.PreviewSound = ev;
+            comp.PreviewSound = UlfarPreviewEvent;
             s_ulfarVoiceReady = true;
-            DeathwatchModMain.Log("[Voices] Ulfar chargen voice: preview sound set to " + ev + ".");
+            DeathwatchModMain.Log("[Voices] Ulfar chargen voice: preview sound set to " + UlfarPreviewEvent + ".");
         }
 
         // (The force-sword unlock used to live here as a runtime strip of the Astartes marker from the 16 force
@@ -169,39 +173,7 @@ namespace DeathwatchMod
         }
     }
 
-    // ULFAR VOICE PREVIEW AUDIBILITY. EnsureUlfarPreviewSound (above) gives the voice a PreviewSound taken from
-    // its own Selected barks -- but where the 12 vanilla chargen voices use DEDICATED 2D "*Demo_Play" preview
-    // events (and the two DW banks are Master-bus, effectively 2D), Ulfar's borrowed event is an ordinary 3D
-    // COMPANION bark: routed/attenuated like an in-game unit line. Posted on the doll-room object (the vanilla
-    // PlayPreview target -- far from the audio listener, no unit audio context) it renders SILENT. James's
-    // report: the voice shows but never speaks when selected. WHY RUNTIME: the event choice is already the only
-    // one available in DX_Ask_Ulfar (no demo event exists; authoring one = editing Owlcat's bank), so the fix is
-    // to re-post the preview AT the listener (main camera = zero distance, no attenuation loss) for THIS voice
-    // only. Belt-and-braces: LoadBank first (idempotent handle) in case the voice-bank preload missed it.
-    [HarmonyPatch(typeof(UnitAsksComponent), nameof(UnitAsksComponent.PlayPreview))]
-    internal static class UnitAsksComponent_PlayPreview_UlfarPreview_Patch
-    {
-        [HarmonyPrefix]
-        private static bool Prefix(UnitAsksComponent __instance)
-        {
-            try
-            {
-                var owner = __instance.OwnerBlueprint;
-                if (owner == null || owner.AssetGuid != "3ea153cb4f714f1798572e89c7cbd1e9") return true;   // Ulfar_Barks only
-                if (string.IsNullOrEmpty(__instance.PreviewSound)) return true;
-
-                var banks = __instance.SoundBanks;
-                if (banks != null)
-                    foreach (var b in banks)
-                        if (!string.IsNullOrEmpty(b)) Kingmaker.Sound.SoundBanksManager.LoadBank(b);
-
-                var cam = UnityEngine.Camera.main;
-                if (cam == null) return true;                                           // fall back to the vanilla path
-                Kingmaker.Sound.Base.SoundEventsManager.PostEvent(__instance.PreviewSound, cam.gameObject, false);
-                DeathwatchModMain.LogDebug("[Voices] Ulfar preview posted at the listener.");
-                return false;
-            }
-            catch (Exception e) { DeathwatchModMain.LogError("[Voices][ERR] PlayPreview", e); return true; }
-        }
-    }
+    // (A UnitAsksComponent.PlayPreview camera-repost patch briefly lived here for the Ulfar preview -- retired
+    // same-day: the silence was bus routing, not distance, so the fix moved into the bank itself (the
+    // Play_DW_Ulfar_Preview demo event in DX_Ask_DWMarine.bnk; see EnsureUlfarPreviewSound above).)
 }
