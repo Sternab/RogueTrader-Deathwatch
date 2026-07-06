@@ -491,6 +491,10 @@
     "dea7c0de-0023-4000-8000-000000000023": {
       "Offset": 0,
       "Text": "Neunzehn transhumane Organe wappnen die Astartes von innen. Fehlgeschlagene Proben auf {g|Encyclopedia:WarhammerToughness}Zähigkeit{/g} werden einmal wiederholt, und {g|Encyclopedia:WarhammerToughness}Zähigkeit{/g} kann beim Stufenaufstieg immer gesteigert werden."
+    },
+    "dea7c0de-0024-4000-8000-000000000024": {
+      "Offset": 0,
+      "Text": "Zu Beginn des Kampfes erhält der Space Marine +{unit_stat|WarhammerAgility|bonus} Stapel des Effekts Todsicherer Plan. Das Aktivieren dieser {g|Encyclopedia:Ability}Fähigkeit{/g} verbraucht 1 Stapel und macht die nächste Aktion je nach Aktionstyp stärker:\n-<indent=5%>Wenn der Space Marine angreift, verursacht er +{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097} % mehr {g|Encyclopedia:DamageGlossary}Schaden{/g}.</indent>\n-<indent=5%>Wenn der Space Marine sich bewegt, erhält er +{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097} % {g|Encyclopedia:DodgeGlossary}Ausweichen{/g} und {g|Encyclopedia:Parry}Parieren{/g} bis zum Beginn seines nächsten Zuges.</indent>\n<indent=5%>Wenn der Space Marine eine nicht-schadensverursachende Fähigkeit bei einem Feind einsetzt, erleidet dieser Feind eine Runde lang einen Abzug von −{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097} % auf den Schaden.</indent>\nKann mehrmals pro Zug eingesetzt werden."
     }
   }
 }

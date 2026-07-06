@@ -491,6 +491,10 @@
     "dea7c0de-0023-4000-8000-000000000023": {
       "Offset": 0,
       "Text": "Nineteen transhuman organs armour the Astartes from within. Failed {g|Encyclopedia:WarhammerToughness}Toughness{/g} tests are rerolled once, and {g|Encyclopedia:WarhammerToughness}Toughness{/g} can always be increased when levelling up."
+    },
+    "dea7c0de-0024-4000-8000-000000000024": {
+      "Offset": 0,
+      "Text": "At the start of combat, the Battle-Brother gains +{unit_stat|WarhammerAgility|bonus} stacks of the sure-fire plan effect. Activation of this {g|Encyclopedia:Ability}ability{/g} consumes 1 stack and makes the next action stronger depending on the type of action:\n-<indent=5%>If the Battle-Brother attacks, they deal +{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}% more {g|Encyclopedia:DamageGlossary}damage{/g}.</indent>\n-<indent=5%>If the Battle-Brother moves, they gain +{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}% {g|Encyclopedia:DodgeGlossary}dodge{/g} and {g|Encyclopedia:Parry}parry{/g} until the start of their next turn.</indent>\n-<indent=5%>If the Battle-Brother uses a non-damaging ability on an enemy, that enemy suffers a −{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}% penalty to damage for one round.</indent>\nCan be used multiple times per turn."
     }
   }
 }

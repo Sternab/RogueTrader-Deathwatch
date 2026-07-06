@@ -491,6 +491,10 @@
     "dea7c0de-0023-4000-8000-000000000023": {
       "Offset": 0,
       "Text": "19の超人的な器官がアスタルテスを内側から守っている。失敗した{g|Encyclopedia:WarhammerToughness}耐久力{/g}判定を1回振り直し、レベルアップ時に常に{g|Encyclopedia:WarhammerToughness}耐久力{/g}を上昇させられる。"
+    },
+    "dea7c0de-0024-4000-8000-000000000024": {
+      "Offset": 0,
+      "Text": "戦闘開始時、スペースマリーンは「確かな計画」効果を+{unit_stat|WarhammerAgility|bonus}スタック得る。この{g|Encyclopedia:Ability}アビリティ{/g}の発動時、1スタックを消費し、次の行動をその種類に応じて強化する：\n-<indent=5%>スペースマリーンが攻撃した場合、与{g|Encyclopedia:DamageGlossary}ダメージ{/g}が+{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}%増加する。</indent>\n-<indent=5%>スペースマリーンが移動した場合、次のターン開始まで{g|Encyclopedia:DodgeGlossary}回避{/g}と{g|Encyclopedia:Parry}受け流し{/g}が+%{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}増加する。</indent>\n-<indent=5%>スペースマリーンが敵に非ダメージ系アビリティを使用した場合、その敵は1ラウンドの間、ダメージに−{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}%のペナルティを受ける。</indent>\n1ターンに複数回使用可能。"
     }
   }
 }

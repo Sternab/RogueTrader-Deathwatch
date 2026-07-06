@@ -491,6 +491,10 @@
     "dea7c0de-0023-4000-8000-000000000023": {
       "Offset": 0,
       "Text": "Девятнадцать трансчеловеческих органов защищают Астартес изнутри. Проваленные проверки {g|Encyclopedia:WarhammerToughness}Выносливости{/g} перебрасываются один раз, а {g|Encyclopedia:WarhammerToughness}Выносливость{/g} всегда можно повысить при получении уровня."
+    },
+    "dea7c0de-0024-4000-8000-000000000024": {
+      "Offset": 0,
+      "Text": "В начале боя космодесантник получает {unit_stat|WarhammerAgility|bonus} уровней эффекта \"надежный план\". Активация этой {g|Encyclopedia:Ability}способности{/g} снимает 1 уровень эффекта и усиливает следующее действие в зависимости от его типа:\n-<indent=5%>При атаке космодесантник наносит на {uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}% больше {g|Encyclopedia:DamageGlossary}урона{/g}.</indent>\n-<indent=5%>При движении космодесантник получает +{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}% к {g|Encyclopedia:DodgeGlossary}уклонению{/g} и {g|Encyclopedia:Parry}парированию{/g} до начала своего следующего хода.</indent>\n-<indent=5%>При применении к противнику способности, которая не наносит урон, цель получает штраф −{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}% к наносимому урону на 1 раунд.</indent>\nМожно использовать несколько раз за ход."
     }
   }
 }

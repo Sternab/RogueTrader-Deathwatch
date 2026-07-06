@@ -491,6 +491,10 @@
     "dea7c0de-0023-4000-8000-000000000023": {
       "Offset": 0,
       "Text": "On dokuz insanüstü organ, Astartes'i içeriden zırhlar. Başarısız {g|Encyclopedia:WarhammerToughness}Dayanıklılık{/g} testleri bir kez yeniden zarlanır ve seviye atlarken {g|Encyclopedia:WarhammerToughness}Dayanıklılık{/g} her zaman artırılabilir."
+    },
+    "dea7c0de-0024-4000-8000-000000000024": {
+      "Offset": 0,
+      "Text": "Space Marine, çatışmanın başlangıcında +{unit_stat|WarhammerAgility|bonus} kadar garanti plan etkisi birikimi kazanır. Bu {g|Encyclopedia:Ability}kabiliyetin{/g} etkinleştirilmesi 1 birikim harcar ve eylemin türüne bağlı olarak bir sonraki eylemi daha güçlü kılar:\n-<indent=5%>Space Marine saldırırsa +%{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097} daha fazla {g|Encyclopedia:DamageGlossary}hasar{/g} verir.</indent>\n-<indent=5%>Space Marine hareket ederse {g|Encyclopedia:DodgeGlossary}kaçınma{/g} ve {g|Encyclopedia:Parry}savuşturma{/g} değerleri +%{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097} artar. Bu etki, bir sonraki turunun başına dek sürer.</indent>\n-<indent=5%>Space Marine, bir düşman üzerinde hasar vermeyen bir kabiliyet kullanırsa o düşman bir rauntluğuna vereceği hasara −%{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097} ceza puanı alır.</indent>\nBir turda birden çok kez kullanılabilir."
     }
   }
 }

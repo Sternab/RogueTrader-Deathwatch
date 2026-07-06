@@ -491,6 +491,10 @@
     "dea7c0de-0023-4000-8000-000000000023": {
       "Offset": 0,
       "Text": "十九个超人类器官从内部武装着阿斯塔特。失败的{g|Encyclopedia:WarhammerToughness}坚韧{/g}检定可重掷一次，且升级时始终可以提升{g|Encyclopedia:WarhammerToughness}坚韧{/g}。"
+    },
+    "dea7c0de-0024-4000-8000-000000000024": {
+      "Offset": 0,
+      "Text": "战斗开始时，星际战士获得{unit_stat|WarhammerAgility|bonus}层“万全计划”层数。激活此{g|Encyclopedia:Ability}能力{/g}会消耗1层层数，使下个行动获得额外效果：\n- <indent=5%>如果星际战士进行攻击，造成的{g|Encyclopedia:DamageGlossary}伤害{/g}提高{uip|AdditionalDamage|f8fbdb667b6a4dca814aec2bb5f14097}%。</indent>\n- <indent=5%>如果星际战士进行移动，{g|Encyclopedia:DodgeGlossary}闪避{/g}与{g|Encyclopedia:Parry}招架{/g}提高{uip|AdditionalDodge|f8fbdb667b6a4dca814aec2bb5f14097}%，效果持续至下个回合开始。</indent>\n- <indent=5%>如果星际战士对敌人使用了非伤害性能力，则敌人该回合造成的伤害降低{uip|AdditionalDamageTarget|f8fbdb667b6a4dca814aec2bb5f14097}%，效果持续一轮。</indent>\n“万全计划”每回合可多次使用。"
     }
   }
 }
