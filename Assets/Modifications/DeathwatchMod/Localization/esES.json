@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "Una vez por combate, cuando este personaje sufre los estados {g|Encyclopedia:Stun}aturdido{/g}, {g|Encyclopedia:BlindedEffect}cegado{/g}, {g|Encyclopedia:ImmobilisedEffect}inmovilizado{/g}, {g|Encyclopedia:StaggeredEffect}desequilibrado{/g} o {g|Encyclopedia:SlowedEffect}ralentizado{/g}, ignora el estado y en vez de sufrirlo gana +20 % de sus {g|Encyclopedia:MaxWounds}heridas máximas{/g} como heridas temporales."
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "El yelmo de batalla sellado de la Larga Vigilia. Sus autosensores protegen los sentidos del portador, y su cogitador se sintoniza con la especialidad del portador, despertando sistemas adicionales."
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "Autosensores"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "El yelmo otorga {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} igual a 2 más el bonificador de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} del portador, y un bonificador a {g|Encyclopedia:SkillAwareness}Atención{/g} igual a 5 más 1 por cada 5 niveles de personaje."
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "Cogitador táctico"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "El cogitador táctico del yelmo otorga un bonificador a {g|Encyclopedia:WarhammerWeaponSkill}Habilidad de armas{/g} y {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g} igual a 3 más el bonificador de {g|Encyclopedia:WarhammerFellowship}Empatía{/g} del portador."
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "Yelmo diagnostor"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "El diagnostor otorga un bonificador a {g|Encyclopedia:SkillMedicae}Medicae{/g} igual al doble del bonificador de {g|Encyclopedia:WarhammerPerception}Percepción{/g} del portador, y aumenta el daño crítico en un 5 % más un 1 % por cada 10 puntos de {g|Encyclopedia:SkillMedicae}Medicae{/g}."
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "Áuspex balístico"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "El áuspex calcula {g|Encyclopedia:SkillDemolition}Demolición{/g} usando la {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}. Los ataques del portador ganan {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} y {g|Encyclopedia:Overpenetration}sobrepenetración{/g} iguales a un 5 % más un 1 % por cada 10 puntos de {g|Encyclopedia:SkillDemolition}Demolición{/g}."
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "Localizador de asalto"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "El localizador otorga a los ataques con pistola un bonificador a {g|Encyclopedia:HitChance}probabilidad de impacto{/g} y {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} igual a 3 más el bonificador de {g|Encyclopedia:WarhammerAgility}Agilidad{/g} del portador. Los ataques cuerpo a cuerpo ganan {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} y daño crítico iguales a un 5 % más un 1 % por cada 10 puntos de {g|Encyclopedia:SkillAthletics}Atletismo{/g}."
     }
   }
 }

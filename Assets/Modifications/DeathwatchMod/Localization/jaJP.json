@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "戦闘ごとに一度、このキャラクターが{g|Encyclopedia:Stun}スタン{/g}、{g|Encyclopedia:BlindedEffect}盲目{/g}、{g|Encyclopedia:ImmobilisedEffect}移動不可{/g}、{g|Encyclopedia:StaggeredEffect}よろけ{/g}、{g|Encyclopedia:SlowedEffect}速度低下{/g}状態になった時、この状態を無視して、代わりに最大体力に+20%の{g|Encyclopedia:MaxWounds}一時体力{/g}を得る。"
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "デスウォッチの密閉型バトルヘルム。オートセンスが装着者の感覚を守り、コギテーターが装着者の兵科に同調して追加システムを起動する。"
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "オートセンス"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "このヘルムは、2+装着者の{g|Encyclopedia:WarhammerToughness}耐久力{/g}ボーナスに等しい{g|Encyclopedia:WarhammerArmourGlossary}アーマー{/g}と、5+キャラクターレベル5ごとに1の{g|Encyclopedia:SkillAwareness}認識力{/g}ボーナスを与える。"
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "戦術コギテーター"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "ヘルムの戦術コギテーターは、3+装着者の{g|Encyclopedia:WarhammerFellowship}連帯{/g}ボーナスに等しい{g|Encyclopedia:WarhammerWeaponSkill}武器スキル{/g}と{g|Encyclopedia:WarhammerBallisticSkill}射撃技能{/g}へのボーナスを与える。"
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "ディアグノスター・ヘルム"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "ディアグノスターは、装着者の{g|Encyclopedia:WarhammerPerception}認知力{/g}ボーナスの2倍に等しい{g|Encyclopedia:SkillMedicae}メディケア{/g}ボーナスを与え、クリティカルダメージを5%+{g|Encyclopedia:SkillMedicae}メディケア{/g}10ポイントごとに1%増加させる。"
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "弾道オースペックス"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "オースペックスは{g|Encyclopedia:SkillDemolition}解体{/g}を{g|Encyclopedia:WarhammerBallisticSkill}射撃技能{/g}で算出する。装着者の攻撃は、5%+{g|Encyclopedia:SkillDemolition}解体{/g}10ポイントごとに1%の{g|Encyclopedia:DodgeReduction}回避減少{/g}と{g|Encyclopedia:Overpenetration}過貫通{/g}を得る。"
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "アサルト・ターゲッター"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "ターゲッターは、ピストル攻撃に3+装着者の{g|Encyclopedia:WarhammerAgility}敏捷性{/g}ボーナスに等しい{g|Encyclopedia:HitChance}命中率{/g}と{g|Encyclopedia:DodgeReduction}回避減少{/g}のボーナスを与える。近接攻撃は、5%+{g|Encyclopedia:SkillAthletics}身体能力{/g}10ポイントごとに1%の{g|Encyclopedia:DodgeReduction}回避減少{/g}とクリティカルダメージを得る。"
     }
   }
 }

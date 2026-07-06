@@ -1,0 +1,37 @@
+{
+  "AssetId": "2c77bce360b04f8282fe6616ed5df486",
+  "Data": {
+    "$type": "19be5dcf539a404487f98692dc73d872, PropertyCalculatorBlueprint",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Helm Diagnostor crit-damage %: 5 + Medicae/10. Template: SancticPurgeSoulBonusDamageProperty fbfba50c (Add + Sum-getter shape).",
+    "Add": 5,
+    "Value": {
+      "Operation": "Sum",
+      "TargetType": "ContextCaster",
+      "FailSilentlyIfNoTarget": false,
+      "Getters": [
+        {
+          "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+          "name": "$SimplePropertyGetter$47b053b1e0e344a7b05951a83f6b0278",
+          "Settings": {
+            "Progression": "DivStep",
+            "m_CustomProgression": [],
+            "m_StartLevel": 0,
+            "m_StepLevel": 10,
+            "Negate": false,
+            "Limit": "None",
+            "Min": 0,
+            "Max": 0
+          },
+          "Property": "SkillMedicae"
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

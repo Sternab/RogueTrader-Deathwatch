@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "Wenn dieser Charakter einmal pro Kampf unter dem Effekt {g|Encyclopedia:Stun}betäubt{/g}, {g|Encyclopedia:BlindedEffect}geblendet{/g}, {g|Encyclopedia:ImmobilisedEffect}gelähmt{/g}, {g|Encyclopedia:StaggeredEffect}taumelnd{/g} oder {g|Encyclopedia:SlowedEffect}verlangsamt{/g} leidet, wird dieser Effekt ignoriert und er erhält stattdessen +20 % seiner {g|Encyclopedia:MaxWounds}maximalen Wunden{/g} als temporäre Wunden."
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "Der versiegelte Gefechtshelm der Langen Wacht. Seine Autosensoren schützen die Sinne des Trägers, und sein Cogitator stimmt sich auf die Spezialisierung des Trägers ein und erweckt zusätzliche Systeme."
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "Autosensoren"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "Der Helm gewährt {g|Encyclopedia:WarhammerArmourGlossary}Rüstung{/g} in Höhe von 2 plus dem {g|Encyclopedia:WarhammerToughness}Zähigkeit{/g}s-Bonus des Trägers sowie einen Bonus auf {g|Encyclopedia:SkillAwareness}Achtsamkeit{/g} in Höhe von 5 plus 1 je 5 Charakterstufen."
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "Taktik-Cogitator"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "Der Taktik-Cogitator des Helms gewährt einen Bonus auf {g|Encyclopedia:WarhammerWeaponSkill}Waffenfähigkeit{/g} und {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g} in Höhe von 3 plus dem {g|Encyclopedia:WarhammerFellowship}Gefolgschaft{/g}s-Bonus des Trägers."
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "Diagnostor-Helm"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "Der Diagnostor gewährt einen Bonus auf {g|Encyclopedia:SkillMedicae}Medicae{/g} in Höhe des doppelten {g|Encyclopedia:WarhammerPerception}Wahrnehmung{/g}s-Bonus des Trägers und erhöht kritischen Schaden um 5 % plus 1 % je 10 Punkte {g|Encyclopedia:SkillMedicae}Medicae{/g}."
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "Ballistik-Auspex"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "Das Auspex berechnet {g|Encyclopedia:SkillDemolition}Zerstörung{/g} anhand der {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g}. Die Angriffe des Trägers erhalten {g|Encyclopedia:DodgeReduction}Ausweichen-Reduktion{/g} und {g|Encyclopedia:Overpenetration}Überdurchdringung{/g} in Höhe von 5 % plus 1 % je 10 Punkte {g|Encyclopedia:SkillDemolition}Zerstörung{/g}."
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "Sturm-Zielsystem"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "Das Zielsystem gewährt Pistolenangriffen einen Bonus auf {g|Encyclopedia:HitChance}Trefferchance{/g} und {g|Encyclopedia:DodgeReduction}Ausweichen-Reduktion{/g} in Höhe von 3 plus dem {g|Encyclopedia:WarhammerAgility}Beweglichkeit{/g}s-Bonus des Trägers. Nahkampfangriffe erhalten {g|Encyclopedia:DodgeReduction}Ausweichen-Reduktion{/g} und kritischen Schaden in Höhe von 5 % plus 1 % je 10 Punkte {g|Encyclopedia:SkillAthletics}Athletik{/g}."
     }
   }
 }

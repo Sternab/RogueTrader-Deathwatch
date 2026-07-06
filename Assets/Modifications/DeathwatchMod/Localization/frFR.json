@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "Une fois par combat, lorsque ce personnage est frappé d'{g|Encyclopedia:Stun}Étourdissement{/g}, d'{g|Encyclopedia:BlindedEffect}Aveuglement{/g}, d'{g|Encyclopedia:ImmobilisedEffect}Immobilisation{/g}, de {g|Encyclopedia:StaggeredEffect}Sidération{/g} ou de {g|Encyclopedia:SlowedEffect}Ralentissement{/g}, cet effet est ignoré et il obtient un bonus de +20 % de sa réserve de {g|Encyclopedia:MaxWounds}blessures maximum{/g} sous forme de blessures temporaires."
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "Le heaume de bataille scellé de la Longue Veille. Ses auto-senseurs protègent les sens du porteur, et son cogitateur s'accorde à la spécialité du porteur, éveillant des systèmes supplémentaires."
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "Auto-senseurs"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "Le heaume confère une {g|Encyclopedia:WarhammerArmourGlossary}armure{/g} égale à 2 plus le bonus d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} du porteur, ainsi qu'un bonus de {g|Encyclopedia:SkillAwareness}Vigilance{/g} égal à 5 plus 1 par 5 niveaux du personnage."
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "Cogitateur tactique"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "Le cogitateur tactique du heaume confère un bonus de {g|Encyclopedia:WarhammerWeaponSkill}Capacité de combat{/g} et de {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g} égal à 3 plus le bonus de {g|Encyclopedia:WarhammerFellowship}Sociabilité{/g} du porteur."
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "Heaume diagnostor"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "Le diagnostor confère un bonus de {g|Encyclopedia:SkillMedicae}Medicae{/g} égal au double du bonus de {g|Encyclopedia:WarhammerPerception}Perception{/g} du porteur, et augmente les dégâts critiques de 5 % plus 1 % par 10 points de {g|Encyclopedia:SkillMedicae}Medicae{/g}."
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "Auspex balistique"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "L'auspex calcule la {g|Encyclopedia:SkillDemolition}Démolition{/g} à partir de la {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g}. Les attaques du porteur gagnent une {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} et une {g|Encyclopedia:Overpenetration}surpénétration{/g} égales à 5 % plus 1 % par 10 points de {g|Encyclopedia:SkillDemolition}Démolition{/g}."
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "Viseur d'assaut"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "Le viseur confère aux attaques de pistolet un bonus de {g|Encyclopedia:HitChance}chances de toucher{/g} et de {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} égal à 3 plus le bonus d'{g|Encyclopedia:WarhammerAgility}Agilité{/g} du porteur. Les attaques de mêlée gagnent une {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} et des dégâts critiques égaux à 5 % plus 1 % par 10 points d'{g|Encyclopedia:SkillAthletics}Athlétisme{/g}."
     }
   }
 }

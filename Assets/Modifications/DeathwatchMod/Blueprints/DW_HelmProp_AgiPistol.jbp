@@ -1,0 +1,37 @@
+{
+  "AssetId": "625790decdfa4df297ed622341d0bcb6",
+  "Data": {
+    "$type": "19be5dcf539a404487f98692dc73d872, PropertyCalculatorBlueprint",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Helm Assault Targeter pistol bonus: 3 + Agility bonus.",
+    "Add": 3,
+    "Value": {
+      "Operation": "Sum",
+      "TargetType": "ContextCaster",
+      "FailSilentlyIfNoTarget": false,
+      "Getters": [
+        {
+          "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+          "name": "$SimplePropertyGetter$428b1eab1f2b4ef3adde53987d0d352f",
+          "Settings": {
+            "Progression": "AsIs",
+            "m_CustomProgression": [],
+            "m_StartLevel": 0,
+            "m_StepLevel": 0,
+            "Negate": false,
+            "Limit": "None",
+            "Min": 0,
+            "Max": 0
+          },
+          "Property": "AgilityBonus"
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

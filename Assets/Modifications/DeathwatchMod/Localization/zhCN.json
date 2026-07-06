@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "每场战斗中，每当该角色首次承受{g|Encyclopedia:Stun}眩晕{/g}、{g|Encyclopedia:BlindedEffect}失明{/g}、{g|Encyclopedia:ImmobilisedEffect}定身{/g}、{g|Encyclopedia:StaggeredEffect}恐慌{/g}或{g|Encyclopedia:SlowedEffect}减速{/g}效果时，抵抗此效果并获得{g|Encyclopedia:MaxWounds}临时生命值{/g}，等同于最大生命值的20%。"
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "长夜守望的密封作战头盔。其自动感知系统守护佩戴者的感官，其智机会根据佩戴者的专精自动调谐，唤醒额外的系统。"
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "自动感知"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。"
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "战术智机"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "头盔的战术智机提供{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}与{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerFellowship}社交{/g}加值。"
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "诊断者头盔"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "诊断者提供{g|Encyclopedia:SkillMedicae}医疗{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerPerception}感知{/g}加值的两倍；并提高暴击伤害5%，每10点{g|Encyclopedia:SkillMedicae}医疗{/g}再加1%。"
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "弹道鉴具"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "鉴具以{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}计算{g|Encyclopedia:SkillDemolition}爆破{/g}。佩戴者的攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与{g|Encyclopedia:Overpenetration}过度穿透{/g}，数值等于5%，每10点{g|Encyclopedia:SkillDemolition}爆破{/g}再加1%。"
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "突击瞄准器"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "瞄准器为手枪攻击提供{g|Encyclopedia:HitChance}命中率{/g}与{g|Encyclopedia:DodgeReduction}闪避减免{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerAgility}敏捷{/g}加值。近战攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与暴击伤害，数值等于5%，每10点{g|Encyclopedia:SkillAthletics}运动{/g}再加1%。"
     }
   }
 }

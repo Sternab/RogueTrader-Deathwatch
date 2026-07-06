@@ -4,15 +4,68 @@
     "$type": "adc63a0dcf487a44c9c7e8ccb4b5fb33, BlueprintItemEquipmentHead",
     "PrototypeLink": "",
     "m_Overrides": [],
-    "Components": [],
+    "Components": [
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$dw-helm-universal",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_e74e3edc09334be28291774d5e6fd7b7"
+      },
+      {
+        "$type": "65221a9a6133bd0408b019b86642d97e, AddFactToEquipmentWielder",
+        "name": "$AddFactToEquipmentWielder$dw-helm-router",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Fact": "!bp_407a95c00d2b4650b4ae3a52e8a9b719"
+      }
+    ],
     "Author": "Unknown",
-    "Comment": "Deathwatch helmet head-slot item - visual = KEE_HelmetSpaceMarine (custom EE_DeathwatchHelmet, HH_SpaceMarine3 mesh).",
-    "m_DisplayName": { "m_Key": "dea7c0de-0002-4000-8000-000000000002", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
-    "m_Description": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "Comment": "Deathwatch helmet head-slot item - visual = KEE_HelmetSpaceMarine (custom EE_DeathwatchHelmet, HH_SpaceMarine3 mesh). Helm features (2026-07-05 tester design): grants Auto-senses + a hidden router that adds the wearer's speciality helm system (see DW_Helm_*.jbp).",
+    "m_DisplayName": {
+      "m_Key": "dea7c0de-0002-4000-8000-000000000002",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0009-4000-8000-000000000009",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
     "m_Icon": null,
-    "m_FlavorText": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
-    "m_NonIdentifiedNameText": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
-    "m_NonIdentifiedDescriptionText": { "m_Key": "", "m_OwnerString": "", "m_OwnerPropertyPath": "", "m_JsonPath": "", "Shared": null },
+    "m_FlavorText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedNameText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_NonIdentifiedDescriptionText": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
     "m_NotStackable": false,
     "m_Weight": 0.0,
     "m_Origin": "Tech",
@@ -36,5 +89,7 @@
     "m_Enchantments": [],
     "m_InventoryEquipSound": "UI_INV_Flak_Equip_Play"
   },
-  "Meta": { "ShadowDeleted": false }
+  "Meta": {
+    "ShadowDeleted": false
+  }
 }

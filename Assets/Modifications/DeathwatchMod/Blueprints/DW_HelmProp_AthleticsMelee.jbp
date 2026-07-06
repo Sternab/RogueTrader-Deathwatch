@@ -1,0 +1,37 @@
+{
+  "AssetId": "47bf34ae44414eb095cafbe337d2b099",
+  "Data": {
+    "$type": "19be5dcf539a404487f98692dc73d872, PropertyCalculatorBlueprint",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Helm Assault Targeter melee %: 5 + Athletics/10.",
+    "Add": 5,
+    "Value": {
+      "Operation": "Sum",
+      "TargetType": "ContextCaster",
+      "FailSilentlyIfNoTarget": false,
+      "Getters": [
+        {
+          "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+          "name": "$SimplePropertyGetter$8dd6aa95d92e400197010a252fd59eb7",
+          "Settings": {
+            "Progression": "DivStep",
+            "m_CustomProgression": [],
+            "m_StartLevel": 0,
+            "m_StepLevel": 10,
+            "Negate": false,
+            "Limit": "None",
+            "Min": 0,
+            "Max": 0
+          },
+          "Property": "SkillAthletics"
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

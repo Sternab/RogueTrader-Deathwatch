@@ -1,0 +1,37 @@
+{
+  "AssetId": "5bc2b9c6e0e44360891f3b79ea5b738b",
+  "Data": {
+    "$type": "19be5dcf539a404487f98692dc73d872, PropertyCalculatorBlueprint",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [],
+    "Author": "Unknown",
+    "Comment": "Helm Ballistic Auspex %: 5 + Demolition/10.",
+    "Add": 5,
+    "Value": {
+      "Operation": "Sum",
+      "TargetType": "ContextCaster",
+      "FailSilentlyIfNoTarget": false,
+      "Getters": [
+        {
+          "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+          "name": "$SimplePropertyGetter$f712376062a541edb58f00845edbe5b6",
+          "Settings": {
+            "Progression": "DivStep",
+            "m_CustomProgression": [],
+            "m_StartLevel": 0,
+            "m_StepLevel": 10,
+            "Negate": false,
+            "Limit": "None",
+            "Min": 0,
+            "Max": 0
+          },
+          "Property": "SkillDemolition"
+        }
+      ]
+    }
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

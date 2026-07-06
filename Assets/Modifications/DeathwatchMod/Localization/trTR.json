@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "Bu karakter {g|Encyclopedia:Stun}sersemleme{/g}, {g|Encyclopedia:BlindedEffect}körleşme{/g}, {g|Encyclopedia:ImmobilisedEffect}felç{/g}, {g|Encyclopedia:StaggeredEffect}afallama{/g} veya {g|Encyclopedia:SlowedEffect}yavaşlama{/g} etkisine maruz kalırsa bu etki her çatışmada bir kez yok sayılır. Bunun yerine karakter, {g|Encyclopedia:MaxWounds}maksimum sağlık{/g} puanının +%20'si kadar geçici sağlık kazanır."
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "Uzun Nöbet'in mühürlü savaş miğferi. Otomatik algılayıcıları taşıyıcının duyularını korur; cogitator'ü taşıyıcının uzmanlık alanına uyum sağlayarak ek sistemleri uyandırır."
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "Otomatik Algılayıcılar"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "Miğfer, 2 artı taşıyıcının {g|Encyclopedia:WarhammerToughness}Dayanıklılık{/g} bonusuna eşit {g|Encyclopedia:WarhammerArmourGlossary}zırh{/g} ve 5 artı her 5 karakter seviyesi için 1 olmak üzere {g|Encyclopedia:SkillAwareness}Farkındalık{/g} bonusu verir."
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "Taktik Cogitator"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "Miğferin taktik cogitator'ü, 3 artı taşıyıcının {g|Encyclopedia:WarhammerFellowship}Sosyallik{/g} bonusuna eşit {g|Encyclopedia:WarhammerWeaponSkill}Silah Yeteneği{/g} ve {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g} bonusu verir."
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "Diagnostor Miğferi"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "Diagnostor, taşıyıcının {g|Encyclopedia:WarhammerPerception}Algı{/g} bonusunun iki katına eşit {g|Encyclopedia:SkillMedicae}Sıhhiye{/g} bonusu verir ve kritik hasarı %5 artı her 10 {g|Encyclopedia:SkillMedicae}Sıhhiye{/g} puanı için %1 artırır."
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "Balistik Auspex"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "Auspex, {g|Encyclopedia:SkillDemolition}Tahribat{/g} becerisini {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g} ile hesaplar. Taşıyıcının saldırıları, %5 artı her 10 {g|Encyclopedia:SkillDemolition}Tahribat{/g} puanı için %1 olmak üzere {g|Encyclopedia:DodgeReduction}kaçınma azaltımı{/g} ve {g|Encyclopedia:Overpenetration}delip geçme{/g} kazanır."
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "Hücum Nişangahı"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "Nişangah, tabanca saldırılarına 3 artı taşıyıcının {g|Encyclopedia:WarhammerAgility}Çeviklik{/g} bonusuna eşit {g|Encyclopedia:HitChance}vuruş olasılığı{/g} ve {g|Encyclopedia:DodgeReduction}kaçınma azaltımı{/g} bonusu verir. Yakın dövüş saldırıları, %5 artı her 10 {g|Encyclopedia:SkillAthletics}Atletizm{/g} puanı için %1 olmak üzere {g|Encyclopedia:DodgeReduction}kaçınma azaltımı{/g} ve kritik hasar kazanır."
     }
   }
 }

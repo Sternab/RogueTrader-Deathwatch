@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "Once per combat, when this character suffers the {g|Encyclopedia:Stun}stunned{/g}, {g|Encyclopedia:BlindedEffect}blinded{/g}, {g|Encyclopedia:ImmobilisedEffect}immobilised{/g}, {g|Encyclopedia:StaggeredEffect}staggered{/g}, or {g|Encyclopedia:SlowedEffect}slowed{/g} effect, this effect is ignored, and they instead gain +20% of their {g|Encyclopedia:MaxWounds}maximum wounds{/g} as temporary wounds."
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "The sealed battle-helm of the Long Vigil. Its auto-senses guard the wearer's senses, and its cogitator attunes itself to the wearer's speciality, awakening additional systems."
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "Auto-senses"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "The helm grants {g|Encyclopedia:WarhammerArmourGlossary}armour{/g} equal to 2 plus the wearer's {g|Encyclopedia:WarhammerToughness}Toughness{/g} bonus, and a bonus to {g|Encyclopedia:SkillAwareness}Awareness{/g} equal to 5 plus 1 per 5 character levels."
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "Tactical Cogitator"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "The helm's tactical cogitator grants a bonus to {g|Encyclopedia:WarhammerWeaponSkill}Weapon Skill{/g} and {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g} equal to 3 plus the wearer's {g|Encyclopedia:WarhammerFellowship}Fellowship{/g} bonus."
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "Diagnostor Helm"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "The diagnostor grants a bonus to {g|Encyclopedia:SkillMedicae}Medicae{/g} equal to twice the wearer's {g|Encyclopedia:WarhammerPerception}Perception{/g} bonus, and increases critical damage by 5% plus 1% per 10 points of {g|Encyclopedia:SkillMedicae}Medicae{/g}."
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "Ballistic Auspex"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "The auspex calculates {g|Encyclopedia:SkillDemolition}Demolition{/g} using {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g}. The wearer's attacks gain {g|Encyclopedia:DodgeReduction}dodge reduction{/g} and {g|Encyclopedia:Overpenetration}overpenetration{/g} equal to 5% plus 1% per 10 points of {g|Encyclopedia:SkillDemolition}Demolition{/g}."
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "Assault Targeter"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "The targeter grants pistol attacks a bonus to {g|Encyclopedia:HitChance}hit chance{/g} and {g|Encyclopedia:DodgeReduction}dodge reduction{/g} equal to 3 plus the wearer's {g|Encyclopedia:WarhammerAgility}Agility{/g} bonus. Melee attacks gain {g|Encyclopedia:DodgeReduction}dodge reduction{/g} and critical damage equal to 5% plus 1% per 10 points of {g|Encyclopedia:SkillAthletics}Athletics{/g}."
     }
   }
 }

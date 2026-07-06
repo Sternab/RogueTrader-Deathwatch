@@ -431,6 +431,50 @@
     "dea7c0de-0008-4000-8000-000000000008": {
       "Offset": 0,
       "Text": "Один раз за бой персонаж может игнорировать {g|Encyclopedia:Stun}оглушение{/g}, {g|Encyclopedia:BlindedEffect}ослепление{/g}, {g|Encyclopedia:ImmobilisedEffect}обездвиживание{/g}, {g|Encyclopedia:StaggeredEffect}ошеломление{/g} или {g|Encyclopedia:SlowedEffect}замедление{/g}. Вместо этого персонаж получает +20% от {g|Encyclopedia:MaxWounds}максимального здоровья{/g} в качестве временного здоровья."
+    },
+    "dea7c0de-0009-4000-8000-000000000009": {
+      "Offset": 0,
+      "Text": "Запечатанный боевой шлем Долгого Дозора. Его автосенсоры оберегают чувства носителя, а когитатор настраивается на специальность носителя, пробуждая дополнительные системы."
+    },
+    "dea7c0de-0010-4000-8000-000000000010": {
+      "Offset": 0,
+      "Text": "Автосенсоры"
+    },
+    "dea7c0de-0011-4000-8000-000000000011": {
+      "Offset": 0,
+      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа."
+    },
+    "dea7c0de-0012-4000-8000-000000000012": {
+      "Offset": 0,
+      "Text": "Тактический когитатор"
+    },
+    "dea7c0de-0013-4000-8000-000000000013": {
+      "Offset": 0,
+      "Text": "Тактический когитатор шлема дает бонус к {g|Encyclopedia:WarhammerWeaponSkill}Ближнему Бою{/g} и {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerFellowship}Общительности{/g} носителя."
+    },
+    "dea7c0de-0014-4000-8000-000000000014": {
+      "Offset": 0,
+      "Text": "Шлем-диагностор"
+    },
+    "dea7c0de-0015-4000-8000-000000000015": {
+      "Offset": 0,
+      "Text": "Диагностор дает бонус к {g|Encyclopedia:SkillMedicae}Медицине{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerPerception}Восприятия{/g} носителя и увеличивает критический урон на 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillMedicae}Медицины{/g}."
+    },
+    "dea7c0de-0016-4000-8000-000000000016": {
+      "Offset": 0,
+      "Text": "Баллистический ауспик"
+    },
+    "dea7c0de-0017-4000-8000-000000000017": {
+      "Offset": 0,
+      "Text": "Ауспик рассчитывает {g|Encyclopedia:SkillDemolition}Взрывотехнику{/g} на основе {g|Encyclopedia:WarhammerBallisticSkill}Дальнего Боя{/g}. Атаки носителя получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и {g|Encyclopedia:Overpenetration}сквозное пробитие{/g} в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillDemolition}Взрывотехники{/g}."
+    },
+    "dea7c0de-0018-4000-8000-000000000018": {
+      "Offset": 0,
+      "Text": "Штурмовой прицел"
+    },
+    "dea7c0de-0019-4000-8000-000000000019": {
+      "Offset": 0,
+      "Text": "Прицел дает атакам из пистолетов бонус к {g|Encyclopedia:HitChance}шансу попадания{/g} и {g|Encyclopedia:DodgeReduction}снижению уклонения{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerAgility}Ловкости{/g} носителя. Атаки в ближнем бою получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и критический урон в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillAthletics}Атлетики{/g}."
     }
   }
 }
