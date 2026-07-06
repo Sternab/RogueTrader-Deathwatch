@@ -35,6 +35,24 @@ namespace DeathwatchMod
             { "a072ea57e63e4ada9148d5cdbb2ce1c0", "b5cd9138411c4f848e0f327490cb8c0d" },   // Assault    -> Assault Targeter Helm
         };
 
+        // The selectable "Space Marine" voice mixes General + Tactical/Assault/Devastator-flavoured lines.
+        // If the player chose it, swap the committed unit to the speciality-filtered variant (same soundbank,
+        // filtered events) so e.g. a Devastator never barks assault-marine lines (James 2026-07-06). Any other
+        // chosen voice (Apothecary, Ulfar, vanilla) is left untouched. PartUnitAsks.CustomAsks IS the chargen
+        // choice; SetCustom persists it on the unit (save-safe, per-unit -- also correct for mercenaries).
+        private const string SpaceMarineVoice_Guid = "2cc2468184df42e0952936e6743cc0db";  // DW_SpaceMarine_Barks
+        private const string GeneralVoice_Guid = "40a4dc62d71c4757979b295b63f0ddb6";      // DW_SpaceMarine_Barks_General
+        private static readonly System.Collections.Generic.Dictionary<string, string> SpecialityVoices =
+            new System.Collections.Generic.Dictionary<string, string>
+        {
+            { "1ecda642d54c491a96ebf767cb12d7fb", "b8880ef753bc449f903e8b947629f062" },   // Tactical   -> _Tactical
+            { "a072ea57e63e4ada9148d5cdbb2ce1c0", "6cbebc5c76204f059f77e20dff56b104" },   // Assault    -> _Assault
+            { "6109110b5f3242828a3104f4b1180556", "5eff1364ab5f42ae993661ee9bc885e7" },   // Devastator -> _Devastator
+            { "5812c9cea10f4420b5915c9b0196a83b", GeneralVoice_Guid },                     // Apothecary  -> General only
+            { "8e283ed69c0d4f569a2cb0e7963362d7", GeneralVoice_Guid },                     // Librarian   -> General only
+            { "7f897a85210b4c68a0420dd13ddd81af", GeneralVoice_Guid },                     // Techmarine  -> General only
+        };
+
         [HarmonyPostfix]
         private static void Postfix(BaseUnitEntity resultUnit)
         {
@@ -44,6 +62,23 @@ namespace DeathwatchMod
                 var cv = DeathwatchModMain.DetectChapter(resultUnit);
                 if (cv == null) return;
                 var chap = cv.Value;
+
+                // Speciality voice: only when the player chose the mixed "Space Marine" voice.
+                var asks = resultUnit.Asks;
+                if (asks != null && asks.CustomAsks != null && asks.CustomAsks.AssetGuid == SpaceMarineVoice_Guid)
+                {
+                    string voiceGuid = null;
+                    foreach (var f in resultUnit.Progression.Features)
+                        if (f != null && f.Blueprint != null && SpecialityVoices.TryGetValue(f.Blueprint.AssetGuid, out voiceGuid)) break;
+                    var voiceBp = voiceGuid != null
+                        ? ResourcesLibrary.BlueprintsCache.Load(voiceGuid) as Kingmaker.Visual.Sound.BlueprintUnitAsksList : null;
+                    if (voiceBp != null)
+                    {
+                        asks.SetCustom(voiceBp);
+                        if (resultUnit.View != null) resultUnit.View.UpdateAsks();
+                        DeathwatchModMain.Log("[MarineArmour] speciality voice variant set: " + voiceBp.name + ".");
+                    }
+                }
 
                 // Speciality helm swap (mirrors the armour swap below; base helm was equipped by Body.Initialize).
                 string helmGuid = null;
