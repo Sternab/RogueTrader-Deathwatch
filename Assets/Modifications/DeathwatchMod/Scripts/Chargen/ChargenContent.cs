@@ -168,4 +168,40 @@ namespace DeathwatchMod
             catch (Exception e) { DeathwatchModMain.LogError("[CutBladeDancer][ERR] CareerPaths: " + e.Message); }   // Message only: hot path
         }
     }
+
+    // ULFAR VOICE PREVIEW AUDIBILITY. EnsureUlfarPreviewSound (above) gives the voice a PreviewSound taken from
+    // its own Selected barks -- but where the 12 vanilla chargen voices use DEDICATED 2D "*Demo_Play" preview
+    // events (and the two DW banks are Master-bus, effectively 2D), Ulfar's borrowed event is an ordinary 3D
+    // COMPANION bark: routed/attenuated like an in-game unit line. Posted on the doll-room object (the vanilla
+    // PlayPreview target -- far from the audio listener, no unit audio context) it renders SILENT. James's
+    // report: the voice shows but never speaks when selected. WHY RUNTIME: the event choice is already the only
+    // one available in DX_Ask_Ulfar (no demo event exists; authoring one = editing Owlcat's bank), so the fix is
+    // to re-post the preview AT the listener (main camera = zero distance, no attenuation loss) for THIS voice
+    // only. Belt-and-braces: LoadBank first (idempotent handle) in case the voice-bank preload missed it.
+    [HarmonyPatch(typeof(UnitAsksComponent), nameof(UnitAsksComponent.PlayPreview))]
+    internal static class UnitAsksComponent_PlayPreview_UlfarPreview_Patch
+    {
+        [HarmonyPrefix]
+        private static bool Prefix(UnitAsksComponent __instance)
+        {
+            try
+            {
+                var owner = __instance.OwnerBlueprint;
+                if (owner == null || owner.AssetGuid != "3ea153cb4f714f1798572e89c7cbd1e9") return true;   // Ulfar_Barks only
+                if (string.IsNullOrEmpty(__instance.PreviewSound)) return true;
+
+                var banks = __instance.SoundBanks;
+                if (banks != null)
+                    foreach (var b in banks)
+                        if (!string.IsNullOrEmpty(b)) Kingmaker.Sound.SoundBanksManager.LoadBank(b);
+
+                var cam = UnityEngine.Camera.main;
+                if (cam == null) return true;                                           // fall back to the vanilla path
+                Kingmaker.Sound.Base.SoundEventsManager.PostEvent(__instance.PreviewSound, cam.gameObject, false);
+                DeathwatchModMain.LogDebug("[Voices] Ulfar preview posted at the listener.");
+                return false;
+            }
+            catch (Exception e) { DeathwatchModMain.LogError("[Voices][ERR] PlayPreview", e); return true; }
+        }
+    }
 }
