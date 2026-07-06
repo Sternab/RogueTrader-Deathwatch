@@ -475,6 +475,22 @@
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
       "Text": "Nişangah, tabanca saldırılarına 3 artı taşıyıcının {g|Encyclopedia:WarhammerAgility}Çeviklik{/g} bonusuna eşit {g|Encyclopedia:HitChance}vuruş olasılığı{/g} ve {g|Encyclopedia:DodgeReduction}kaçınma azaltımı{/g} bonusu verir. Yakın dövüş saldırıları, %5 artı her 10 {g|Encyclopedia:SkillAthletics}Atletizm{/g} puanı için %1 olmak üzere {g|Encyclopedia:DodgeReduction}kaçınma azaltımı{/g} ve kritik hasar kazanır."
+    },
+    "dea7c0de-0020-4000-8000-000000000020": {
+      "Offset": 0,
+      "Text": "Gen-Dövmesi Kudret"
+    },
+    "dea7c0de-0021-4000-8000-000000000021": {
+      "Offset": 0,
+      "Text": "İmparatorluğun gen ustaları, Astartes'i ölümlü sınırların ötesinde inşa etti. Başarısız {g|Encyclopedia:WarhammerStrength}Kuvvet{/g} testleri bir kez yeniden zarlanır ve seviye atlarken {g|Encyclopedia:WarhammerStrength}Kuvvet{/g} her zaman artırılabilir."
+    },
+    "dea7c0de-0022-4000-8000-000000000022": {
+      "Offset": 0,
+      "Text": "İnsanüstü Fizyoloji"
+    },
+    "dea7c0de-0023-4000-8000-000000000023": {
+      "Offset": 0,
+      "Text": "On dokuz insanüstü organ, Astartes'i içeriden zırhlar. Başarısız {g|Encyclopedia:WarhammerToughness}Dayanıklılık{/g} testleri bir kez yeniden zarlanır ve seviye atlarken {g|Encyclopedia:WarhammerToughness}Dayanıklılık{/g} her zaman artırılabilir."
     }
   }
 }

@@ -475,6 +475,22 @@
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
       "Text": "The targeter grants pistol attacks a bonus to {g|Encyclopedia:HitChance}hit chance{/g} and {g|Encyclopedia:DodgeReduction}dodge reduction{/g} equal to 3 plus the wearer's {g|Encyclopedia:WarhammerAgility}Agility{/g} bonus. Melee attacks gain {g|Encyclopedia:DodgeReduction}dodge reduction{/g} and critical damage equal to 5% plus 1% per 10 points of {g|Encyclopedia:SkillAthletics}Athletics{/g}."
+    },
+    "dea7c0de-0020-4000-8000-000000000020": {
+      "Offset": 0,
+      "Text": "Geneforged Might"
+    },
+    "dea7c0de-0021-4000-8000-000000000021": {
+      "Offset": 0,
+      "Text": "The gene-wrights of the Imperium built the Astartes beyond mortal limits. Failed {g|Encyclopedia:WarhammerStrength}Strength{/g} tests are rerolled once, and {g|Encyclopedia:WarhammerStrength}Strength{/g} can always be increased when levelling up."
+    },
+    "dea7c0de-0022-4000-8000-000000000022": {
+      "Offset": 0,
+      "Text": "Transhuman Physiology"
+    },
+    "dea7c0de-0023-4000-8000-000000000023": {
+      "Offset": 0,
+      "Text": "Nineteen transhuman organs armour the Astartes from within. Failed {g|Encyclopedia:WarhammerToughness}Toughness{/g} tests are rerolled once, and {g|Encyclopedia:WarhammerToughness}Toughness{/g} can always be increased when levelling up."
     }
   }
 }

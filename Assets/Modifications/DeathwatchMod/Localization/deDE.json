@@ -475,6 +475,22 @@
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
       "Text": "Das Zielsystem gewährt Pistolenangriffen einen Bonus auf {g|Encyclopedia:HitChance}Trefferchance{/g} und {g|Encyclopedia:DodgeReduction}Ausweichen-Reduktion{/g} in Höhe von 3 plus dem {g|Encyclopedia:WarhammerAgility}Beweglichkeit{/g}s-Bonus des Trägers. Nahkampfangriffe erhalten {g|Encyclopedia:DodgeReduction}Ausweichen-Reduktion{/g} und kritischen Schaden in Höhe von 5 % plus 1 % je 10 Punkte {g|Encyclopedia:SkillAthletics}Athletik{/g}."
+    },
+    "dea7c0de-0020-4000-8000-000000000020": {
+      "Offset": 0,
+      "Text": "Genschmiede-Macht"
+    },
+    "dea7c0de-0021-4000-8000-000000000021": {
+      "Offset": 0,
+      "Text": "Die Genwirker des Imperiums erschufen die Astartes jenseits sterblicher Grenzen. Fehlgeschlagene Proben auf {g|Encyclopedia:WarhammerStrength}Stärke{/g} werden einmal wiederholt, und {g|Encyclopedia:WarhammerStrength}Stärke{/g} kann beim Stufenaufstieg immer gesteigert werden."
+    },
+    "dea7c0de-0022-4000-8000-000000000022": {
+      "Offset": 0,
+      "Text": "Transhumane Physiologie"
+    },
+    "dea7c0de-0023-4000-8000-000000000023": {
+      "Offset": 0,
+      "Text": "Neunzehn transhumane Organe wappnen die Astartes von innen. Fehlgeschlagene Proben auf {g|Encyclopedia:WarhammerToughness}Zähigkeit{/g} werden einmal wiederholt, und {g|Encyclopedia:WarhammerToughness}Zähigkeit{/g} kann beim Stufenaufstieg immer gesteigert werden."
     }
   }
 }

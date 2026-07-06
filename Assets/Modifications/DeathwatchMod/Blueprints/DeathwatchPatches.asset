@@ -34,3 +34,6 @@ MonoBehaviour:
   - Guid: 2e3756e28ece47508977b5628645aefc
     Filename: GiveWeapons_Holder
     PatchType: 1
+  - Guid: 437b8247ae98465491ab35193f77e47d
+    Filename: PowerBoots_Feature
+    PatchType: 1

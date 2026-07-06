@@ -475,6 +475,22 @@
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
       "Text": "El localizador otorga a los ataques con pistola un bonificador a {g|Encyclopedia:HitChance}probabilidad de impacto{/g} y {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} igual a 3 más el bonificador de {g|Encyclopedia:WarhammerAgility}Agilidad{/g} del portador. Los ataques cuerpo a cuerpo ganan {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} y daño crítico iguales a un 5 % más un 1 % por cada 10 puntos de {g|Encyclopedia:SkillAthletics}Atletismo{/g}."
+    },
+    "dea7c0de-0020-4000-8000-000000000020": {
+      "Offset": 0,
+      "Text": "Poder genoforjado"
+    },
+    "dea7c0de-0021-4000-8000-000000000021": {
+      "Offset": 0,
+      "Text": "Los forjadores genéticos del Imperio crearon a los Astartes más allá de los límites mortales. Las pruebas de {g|Encyclopedia:WarhammerStrength}Fuerza{/g} falladas se repiten una vez, y la {g|Encyclopedia:WarhammerStrength}Fuerza{/g} siempre se puede aumentar al subir de nivel."
+    },
+    "dea7c0de-0022-4000-8000-000000000022": {
+      "Offset": 0,
+      "Text": "Fisiología transhumana"
+    },
+    "dea7c0de-0023-4000-8000-000000000023": {
+      "Offset": 0,
+      "Text": "Diecinueve órganos transhumanos blindan a los Astartes desde dentro. Las pruebas de {g|Encyclopedia:WarhammerToughness}Resistencia{/g} falladas se repiten una vez, y la {g|Encyclopedia:WarhammerToughness}Resistencia{/g} siempre se puede aumentar al subir de nivel."
     }
   }
 }

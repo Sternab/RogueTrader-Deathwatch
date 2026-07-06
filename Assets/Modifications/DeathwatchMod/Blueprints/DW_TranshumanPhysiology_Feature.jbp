@@ -1,0 +1,90 @@
+{
+  "AssetId": "a440a418c8524b659417bc672c9db0c2",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "735b0f7df0d179c4485cd3c8e30ca6db, RerollD100",
+        "name": "$RerollD100$4b2b3bd0f1d7412da6aad0be41c2052f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Chance": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": []
+        },
+        "m_CanBeGreaterThanBaseChance": true,
+        "m_ShouldStopAfterSuccessfulReroll": false,
+        "m_RerollSuccess": 0,
+        "m_RerollFail": "Attribute",
+        "m_RerollOnlyAgainstSourceOwner": false,
+        "m_RerollConcreteAttribute": true,
+        "m_RerollConcreteSkill": false,
+        "m_AllowRerollMultipleTimes": false,
+        "m_RerollCount": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": []
+        },
+        "SkillType": "Athletics",
+        "AttributeType": "Toughness",
+        "ModifyBaseChance": true,
+        "RemoveSelfAfterReroll": false,
+        "ActionsOnReroll": {
+          "Actions": []
+        }
+      }
+    ],
+    "Comment": "Transhuman Physiology (tester design, emulates Deathwatch TT Unnatural Toughness): reroll failed Toughness tests once at full chance. Same mechanism as DW_GeneforgedMight_Feature; advanceable-TOU half on the specialities (17a55de). Granted by DW_AstartesBaseline.",
+    "m_DisplayName": {
+      "m_Key": "dea7c0de-0022-4000-8000-000000000022",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0023-4000-8000-000000000023",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": true,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": 0,
+      "MainGroup": 0
+    },
+    "m_Acronym": {
+      "m_Key": "520da3c6-60cd-417c-86e0-77addec95293",
+      "m_OwnerString": "4e0d15f86f664df0a57f59b0b4e0b3bd",
+      "m_OwnerPropertyPath": "m_Acronym",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Equipment\\Armour\\Unique\\DeathCultArmour_Feature_m_Acronym.json",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false,
+    "Author": "Unknown"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

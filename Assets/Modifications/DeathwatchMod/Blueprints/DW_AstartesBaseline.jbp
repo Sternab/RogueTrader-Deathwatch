@@ -9,7 +9,10 @@
         "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
         "name": "$AddFacts$DW_AstartesBaseline_Facts",
         "m_Flags": 0,
-        "PrototypeLink": { "guid": "", "name": "" },
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
         "m_Overrides": [],
         "Comment": "Deathwatch: the SINGLE source of truth for the 13-fact Astartes baseline (AstartesPhysiology statline + Bolter/Plasma/Melta/Flame/PowerArmour proficiencies + AP increase + SpaceMarine_Protection + SpaceMarineImmunity + BlackCarapace + SwiftHunter + the two Adeptus Astartes equipment-gating facts). Each DW_Chapter_* grants THIS feature; AddFacts applies nested facts transitively (Owlcat umbrella pattern, e.g. JaeFeatureList). Was previously a byte-identical 13-fact list pasted into all 10 chapter blueprints.",
         "m_Facts": [
@@ -25,7 +28,9 @@
           "!bp_a45e159c80c64bd388ee31533451f778",
           "!bp_c0649956290f4ca6be345541ef440c9a",
           "!bp_950565a69d144391897cdc0024747755",
-          "!bp_affa5fdded7e404b910b990f5d344a8c"
+          "!bp_affa5fdded7e404b910b990f5d344a8c",
+          "!bp_ad2ac270e515459f80c82c4559da6f47",
+          "!bp_a440a418c8524b659417bc672c9db0c2"
         ],
         "Dummy": null,
         "DoNotRestoreMissingFacts": false,
@@ -35,7 +40,7 @@
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch: shared Astartes baseline umbrella feature, granted by all 10 DW_Chapter_* features.",
+    "Comment": "Deathwatch: shared Astartes baseline umbrella feature, granted by all 10 DW_Chapter_* features. Now 15 facts (added Geneforged Might + Transhuman Physiology, 2026-07-05).",
     "m_DisplayName": {
       "m_Key": "ba5e11ae-0001-4000-8000-000000000001",
       "m_OwnerString": "",

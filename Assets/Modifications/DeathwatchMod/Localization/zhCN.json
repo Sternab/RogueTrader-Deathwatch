@@ -475,6 +475,22 @@
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
       "Text": "瞄准器为手枪攻击提供{g|Encyclopedia:HitChance}命中率{/g}与{g|Encyclopedia:DodgeReduction}闪避减免{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerAgility}敏捷{/g}加值。近战攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与暴击伤害，数值等于5%，每10点{g|Encyclopedia:SkillAthletics}运动{/g}再加1%。"
+    },
+    "dea7c0de-0020-4000-8000-000000000020": {
+      "Offset": 0,
+      "Text": "基因锻造之力"
+    },
+    "dea7c0de-0021-4000-8000-000000000021": {
+      "Offset": 0,
+      "Text": "帝国的基因术士将阿斯塔特锻造得超越凡人极限。失败的{g|Encyclopedia:WarhammerStrength}力量{/g}检定可重掷一次，且升级时始终可以提升{g|Encyclopedia:WarhammerStrength}力量{/g}。"
+    },
+    "dea7c0de-0022-4000-8000-000000000022": {
+      "Offset": 0,
+      "Text": "超人类生理"
+    },
+    "dea7c0de-0023-4000-8000-000000000023": {
+      "Offset": 0,
+      "Text": "十九个超人类器官从内部武装着阿斯塔特。失败的{g|Encyclopedia:WarhammerToughness}坚韧{/g}检定可重掷一次，且升级时始终可以提升{g|Encyclopedia:WarhammerToughness}坚韧{/g}。"
     }
   }
 }

@@ -475,6 +475,22 @@
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
       "Text": "ターゲッターは、ピストル攻撃に3+装着者の{g|Encyclopedia:WarhammerAgility}敏捷性{/g}ボーナスに等しい{g|Encyclopedia:HitChance}命中率{/g}と{g|Encyclopedia:DodgeReduction}回避減少{/g}のボーナスを与える。近接攻撃は、5%+{g|Encyclopedia:SkillAthletics}身体能力{/g}10ポイントごとに1%の{g|Encyclopedia:DodgeReduction}回避減少{/g}とクリティカルダメージを得る。"
+    },
+    "dea7c0de-0020-4000-8000-000000000020": {
+      "Offset": 0,
+      "Text": "遺伝子鍛造の膂力"
+    },
+    "dea7c0de-0021-4000-8000-000000000021": {
+      "Offset": 0,
+      "Text": "帝国の遺伝子職人はアスタルテスを人間の限界を超えて造り上げた。失敗した{g|Encyclopedia:WarhammerStrength}筋力{/g}判定を1回振り直し、レベルアップ時に常に{g|Encyclopedia:WarhammerStrength}筋力{/g}を上昇させられる。"
+    },
+    "dea7c0de-0022-4000-8000-000000000022": {
+      "Offset": 0,
+      "Text": "超人的生理機能"
+    },
+    "dea7c0de-0023-4000-8000-000000000023": {
+      "Offset": 0,
+      "Text": "19の超人的な器官がアスタルテスを内側から守っている。失敗した{g|Encyclopedia:WarhammerToughness}耐久力{/g}判定を1回振り直し、レベルアップ時に常に{g|Encyclopedia:WarhammerToughness}耐久力{/g}を上昇させられる。"
     }
   }
 }

@@ -475,6 +475,22 @@
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
       "Text": "Le viseur confère aux attaques de pistolet un bonus de {g|Encyclopedia:HitChance}chances de toucher{/g} et de {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} égal à 3 plus le bonus d'{g|Encyclopedia:WarhammerAgility}Agilité{/g} du porteur. Les attaques de mêlée gagnent une {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} et des dégâts critiques égaux à 5 % plus 1 % par 10 points d'{g|Encyclopedia:SkillAthletics}Athlétisme{/g}."
+    },
+    "dea7c0de-0020-4000-8000-000000000020": {
+      "Offset": 0,
+      "Text": "Puissance généforgée"
+    },
+    "dea7c0de-0021-4000-8000-000000000021": {
+      "Offset": 0,
+      "Text": "Les génételiers de l'Imperium ont façonné les Astartes au-delà des limites mortelles. Les tests de {g|Encyclopedia:WarhammerStrength}Force{/g} ratés sont relancés une fois, et la {g|Encyclopedia:WarhammerStrength}Force{/g} peut toujours être augmentée lors de la montée de niveau."
+    },
+    "dea7c0de-0022-4000-8000-000000000022": {
+      "Offset": 0,
+      "Text": "Physiologie transhumaine"
+    },
+    "dea7c0de-0023-4000-8000-000000000023": {
+      "Offset": 0,
+      "Text": "Dix-neuf organes transhumains cuirassent les Astartes de l'intérieur. Les tests d'{g|Encyclopedia:WarhammerToughness}Endurance{/g} ratés sont relancés une fois, et l'{g|Encyclopedia:WarhammerToughness}Endurance{/g} peut toujours être augmentée lors de la montée de niveau."
     }
   }
 }
