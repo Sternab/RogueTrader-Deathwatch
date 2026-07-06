@@ -8,6 +8,9 @@ in the base campaign.
   **Deed of Renown** and **Burden of Service**.
 - A full-size, fully armoured Astartes in-game: correct scale, Deathwatch power armour with your
   Chapter's pauldron, an Astartes starting arsenal, and a working Librarian psyker.
+- Speciality identity in play: every speciality wears its own named battle-helm with systems that
+  scale off your stats (values shown live in the tooltip), gets a matched talent kit, and - with the
+  Space Marine voice - speaks its own battle barks.
 - 11 custom portraits and 3 custom voices (Space Marine, Apothecary, Ulfar) in character creation.
 - Fully localized: all mod text ships in English, German, French, Spanish, Russian, Chinese
   (Simplified), Japanese and Turkish, with terminology matched to the game's official localization.
@@ -27,20 +30,52 @@ in the base campaign.
 
 ## Installation
 
+### Recommended: ModFinder
+
+[ModFinder](https://github.com/Pathfinder-WOTR-Modding-Community/ModFinder) is the mod manager most
+Rogue Trader mod pages point you at, and it handles installation and updates for you.
+
+1. Install Deathwatch with ModFinder (or point it at a downloaded `Deathwatch.zip`).
+2. Make sure **MicroPatches** is installed and enabled too (see Requirements) - Deathwatch refuses
+   to load without it.
+3. Launch the game, open the **Mods** menu from the title screen, enable **Deathwatch - Play as a
+   Space Marine**, and restart when prompted.
+4. Start a New Game and pick the **Custom Space Marine** tile in character creation.
+
+### Manual
+
 1. Download `Deathwatch.zip` from the Releases page.
 2. Extract it into your Rogue Trader modifications folder:
    `%USERPROFILE%\AppData\LocalLow\Owlcat Games\Warhammer 40000 Rogue Trader\Modifications`
    You should end up with:
    `...\Modifications\Deathwatch\OwlcatModificationManifest.json`
    (If you see `Modifications\Deathwatch\Deathwatch\...` you extracted one level too deep.)
-3. Make sure **MicroPatches** is installed and enabled (see Requirements). Deathwatch depends on it and
-   will refuse to load without it.
-4. Launch the game, open the **Mods** menu from the title screen, enable **Deathwatch - Play as a
-   Space Marine**, and restart when prompted.
-5. Start a New Game and pick the **Custom Space Marine** tile in character creation.
+3. Continue from step 2 above (MicroPatches, enable in the Mods menu, restart, new game).
 
-Mod managers that install Owlcat-template mods from a zip (for example ModFinder) also work: point
-them at `Deathwatch.zip`.
+## Known issues and things that are BY DESIGN
+
+- **This mod is not balanced, and does not try to be.** You are an Astartes in a campaign written
+  for baseline humans; encounters will often be easy. Play it for the fantasy, not the challenge.
+- **NPCs and the story do not react to you being a Space Marine.** Dialogue, cutscenes and quests
+  treat you as the vanilla Rogue Trader.
+- **The marine never takes cover.** That is the game's own Astartes behaviour (vanilla Space Marines
+  work the same way), not a bug - and cover-based talents are excluded from the marine's options.
+- **Most human-scale equipment cannot be worn.** Deliberate: an Astartes wears Astartes wargear. If
+  you want to lift the restrictions anyway, third-party tools such as ToyBox can do so.
+- **Some combat arenas are cramped.** The marine is Large (2x2) in combat; a few tight maps have
+  paths a Large character cannot take.
+- **Some scripted animations look odd at marine scale** - sitting on the command throne, certain
+  cutscene interactions, and similar human-skeleton moments.
+- **The Blade Dancer archetype is not offered to a marine.** Its moveset does not animate correctly
+  on the Astartes skeleton, so the mod hides it rather than shipping broken animations.
+- **Human capes equip but render invisible on a marine** (their visuals only exist for human
+  bodies). The marine-fit capes - including the Deathwatch Cape - display normally.
+- **Capes can clip through the pauldrons and backpack.** This matches how the game's own Deathwatch
+  Captain renders the same cape; the cloth simulation cannot collide with armour.
+- **Human hair and beard options may sit imperfectly on the marine head.**
+- **Iron Hands: the three Forged-for-Purpose augment talents share one augment slot.** Only the
+  first pick takes effect - vanilla behaviour for the forge-world augments, inherited as-is.
+- **Co-op with a marine is largely untested.**
 
 ## Uninstalling / save compatibility
 
@@ -57,7 +92,7 @@ them at `Deathwatch.zip`.
 
 ## Building from source
 
-This repository contains the mod source plus the one customized build-pipeline file it needs.
+This repository contains the mod source plus the two customized build-pipeline files it needs.
 
 1. Get Owlcat's official modification template (`WhRtModificationTemplate`) and open it in the Unity
    version it specifies.
@@ -68,7 +103,10 @@ This repository contains the mod source plus the one customized build-pipeline f
      soundbanks) with the build; a stock template silently drops it.
    - `Assets/Editor/Build/Tasks/CreateManifestAndSettings.cs` - carries the MicroPatches build-task
      integration (per-bundle dependency recording and the Edit-only patch filter) a stock template lacks.
-4. In Unity: `Assets > Modification Tools > Build`. The built mod and `Deathwatch.zip` appear in
+4. In the template's `Packages/manifest.json`, make sure `com.unity.modules.animation` is present in
+   the dependencies (alongside the stock `com.unity.modules.assetbundle`) - without it, Unity
+   silently strips animation assets from the built bundles.
+5. In Unity: `Assets > Modification Tools > Build`. The built mod and `Deathwatch.zip` appear in
    `Build/`. Copy the zip out immediately: the next build of any mod wipes that folder.
 
 Design and architecture notes for modders are in [DESIGN_NOTES.md](DESIGN_NOTES.md); every edit the
