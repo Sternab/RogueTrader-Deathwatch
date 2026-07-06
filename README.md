@@ -8,14 +8,21 @@ in the base campaign.
   **Deed of Renown** and **Burden of Service**.
 - A full-size, fully armoured Astartes in-game: correct scale, Deathwatch power armour with your
   Chapter's pauldron, an Astartes starting arsenal, and a working Librarian psyker.
-- Speciality identity in play: every speciality wears its own named battle-helm with systems that
-  scale off your stats (values shown live in the tooltip), gets a matched talent kit, and - with the
-  Space Marine voice - speaks its own battle barks.
+- Speciality identity in play: every speciality has an innate combat ability, a matched talent kit,
+  wears its own named battle-helm with systems that scale off your stats (values shown live in the
+  tooltip), and - with the Space Marine voice - speaks its own battle barks.
+- Transhuman physiology: failed Strength and Toughness tests are rerolled once, and both
+  characteristics can always be increased at level-up.
+- An Astartes armoury: wield any two-handed melee weapon in one hand, use plasma and flame weapons
+  at marine scale, Kick with your power armour's boots, wear capes (including a Deathwatch cape),
+  and - as a Techmarine - take up the Omnissian axe.
 - 11 custom portraits and 3 custom voices (Space Marine, Apothecary, Ulfar) in character creation.
 - Fully localized: all mod text ships in English, German, French, Spanish, Russian, Chinese
   (Simplified), Japanese and Turkish, with terminology matched to the game's official localization.
 - Sensible in the world: the marine is Large in combat but fits corridors, ladders and the command
   throne out of combat; story beats that strip your gear hand an Astartes proper wargear back.
+- Also ships one general engine fix that benefits any party: cells of a destroyed destructible
+  (cover, barricades) free up for movement immediately instead of staying blocked.
 
 ## Requirements
 
