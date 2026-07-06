@@ -37,3 +37,6 @@ MonoBehaviour:
   - Guid: 437b8247ae98465491ab35193f77e47d
     Filename: PowerBoots_Feature
     PatchType: 1
+  - Guid: 38a36879cbe44b9d982a9014cf9e29ed
+    Filename: ForgeWorld_Selection
+    PatchType: 1

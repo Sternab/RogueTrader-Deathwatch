@@ -73,8 +73,6 @@ Rogue Trader mod pages point you at, and it handles installation and updates for
 - **Capes can clip through the pauldrons and backpack.** This matches how the game's own Deathwatch
   Captain renders the same cape; the cloth simulation cannot collide with armour.
 - **Human hair and beard options may sit imperfectly on the marine head.**
-- **Iron Hands: the three Forged-for-Purpose augment talents share one augment slot.** Only the
-  first pick takes effect - vanilla behaviour for the forge-world augments, inherited as-is.
 - **Co-op with a marine is largely untested.**
 
 ## Uninstalling / save compatibility
