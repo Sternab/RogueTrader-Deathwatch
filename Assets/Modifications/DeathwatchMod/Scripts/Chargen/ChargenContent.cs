@@ -4,8 +4,6 @@ using System.Reflection;
 using HarmonyLib;
 using Kingmaker.Blueprints;                       // ResourcesLibrary, BlueprintReferenceBase, BlueprintScriptableObject
 using Kingmaker.Blueprints.Root;                  // BlueprintRoot, ProgressionRoot, PregenCharacterNames
-using Kingmaker.UI.MVVM.VM.ServiceWindows.CharacterInfo.Sections.Careers; // UnitProgressionVM
-using Kingmaker.UnitLogic.Progression.Paths;      // BlueprintCareerPath
 using Kingmaker.Visual.Sound;                     // BlueprintUnitAsksList, UnitAsksComponent (Ulfar chargen voice)
 
 namespace DeathwatchMod
@@ -115,65 +113,10 @@ namespace DeathwatchMod
         // scoped to this mod's marine; the vanilla exclusion stays intact.)
     }
 
-    // ROADMAP #10: remove the "Blade Dancer" archetype (career-path dd6948ee) from a Deathwatch marine's chargen
-    // career list, PER CHARACTER. The list is UnitProgressionVM.m_AllCareerPaths, rebuilt in RefreshData from the
-    // GLOBAL ProgressionRoot.CareerPaths getter on every CurrentUnit change. We deliberately do NOT key off the
-    // global CreatingDeathwatchMarine flag: it gates a marine SESSION, not a unit, so a non-marine built afterwards
-    // in the same session (e.g. a human MERCENARY hired after a marine main char) could be wrongly affected.
-    // Instead we decide marine-ness from THIS build's unit -- specifically LevelUpManager.PreviewUnit, the clone
-    // that carries the in-progress chapter feature during chargen (CurrentUnit/TargetUnit only get it at Commit).
-    //   PREFIX:  s_filteringForMarine = IsCharGen && chapter feature present on PreviewUnit
-    //   GETTER POSTFIX: drop Blade Dancer ONLY while that flag is set (i.e. only while a marine's list is built)
-    //   FINALIZER: clear the flag so it can never leak to an unrelated CareerPaths read (even on throw).
-    // Humans (fresh, or a merc/companion after a marine) -> chapter feature absent -> flag false -> full list.
-    // In-game sheet / level-up -> IsCharGen false -> flag never set -> getter untouched.
-    [HarmonyPatch(typeof(UnitProgressionVM), "RefreshData")]
-    internal static class UnitProgressionVM_CutBladeDancer_Patch
-    {
-        [ThreadStatic] internal static bool s_filteringForMarine;
-        private static int s_lastState = -1;   // edge-triggered: log only when the per-unit Blade-Dancer decision flips
-
-        [HarmonyPrefix]
-        private static void Prefix(UnitProgressionVM __instance)
-        {
-            try
-            {
-                bool marine = __instance != null
-                    && __instance.IsCharGen
-                    && DeathwatchModMain.IsDeathwatchMarinePreview(
-                           __instance.LevelUpManager != null ? __instance.LevelUpManager.PreviewUnit : null);
-                s_filteringForMarine = marine;
-                int st = marine ? 1 : 0;
-                if (st != s_lastState) { s_lastState = st; DeathwatchModMain.Log("[CutBladeDancer] RefreshData; filterForMarine=" + marine); }
-            }
-            catch (Exception e) { DeathwatchModMain.LogError("[CutBladeDancer][ERR] RefreshData prefix", e); }
-        }
-
-        // Finalizer, not Postfix: a postfix is SKIPPED if RefreshData throws, which would leave the GLOBAL
-        // CareerPaths getter filtering Blade Dancer for every later read. A finalizer runs on both exits.
-        [HarmonyFinalizer]
-        private static void Finalizer() { s_filteringForMarine = false; }   // never leak the scoped decision
-    }
-
-    // Getter filter, scoped PER CHARACTER by the prefix above: drops Blade Dancer from the sequence ONLY while a
-    // marine unit's RefreshData is running. RefreshData is straight-line synchronous between the getter read and
-    // the postfix, so the [ThreadStatic] scope holds; outside it every other caller sees the full list.
-    [HarmonyPatch(typeof(ProgressionRoot), nameof(ProgressionRoot.CareerPaths), MethodType.Getter)]
-    internal static class ProgressionRoot_CutBladeDancer_Patch
-    {
-        [HarmonyPostfix]
-        private static void Postfix(ref System.Collections.Generic.IEnumerable<BlueprintCareerPath> __result)
-        {
-            try
-            {
-                if (!UnitProgressionVM_CutBladeDancer_Patch.s_filteringForMarine || __result == null) return;
-                __result = __result.Where(cp => cp == null || cp.AssetGuid != DeathwatchModMain.BladeDancerCareerPath_Guid).ToArray();
-            }
-            catch (Exception e) { DeathwatchModMain.LogError("[CutBladeDancer][ERR] CareerPaths: " + e.Message); }   // Message only: hot path
-        }
-    }
-
-    // (A UnitAsksComponent.PlayPreview camera-repost patch briefly lived here for the Ulfar preview -- retired
-    // same-day: the silence was bus routing, not distance, so the fix moved into the bank itself (the
-    // Play_DW_Ulfar_Preview demo event in DX_Ask_DWMarine.bnk; see EnsureUlfarPreviewSound above).)
+    // (Two retired patch families once lived here: the Blade Dancer chargen-list cut -- REMOVED 2026-07-06,
+    // James wants the archetype selectable even though its moveset animates poorly on the Astartes skeleton;
+    // the README Known Issues documents it instead. And a UnitAsksComponent.PlayPreview camera-repost patch
+    // for the Ulfar preview -- retired same-day it shipped: the silence was bus routing, not distance, so the
+    // fix moved into the bank itself (the Play_DW_Ulfar_Preview demo event in DX_Ask_DWMarine.bnk; see
+    // EnsureUlfarPreviewSound above).)
 }

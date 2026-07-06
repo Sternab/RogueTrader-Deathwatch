@@ -23,7 +23,7 @@
 // Reflection (AccessTools / string-name lookups) is used throughout because the referenced Code.dll lags the
 // fresh decompile and member visibility drifts between the two.
 //
-// FILE LAYOUT: this file is the shared HUB (entry point + widely-shared statics). The ~32 [HarmonyPatch]
+// FILE LAYOUT: this file is the shared HUB (entry point + widely-shared statics). The ~30 [HarmonyPatch]
 // classes and their single-concern helpers live in concern files under Chargen\, Visuals\, Gameplay\ (the
 // asmdef compiles Scripts\ recursively, so PatchAll(assembly) still finds every patch class).
 // =====================================================================================================
@@ -45,9 +45,6 @@ namespace DeathwatchMod
         // Medium; the combat-only Large footprint is the separate DW_CombatSize_Large buff (below).
         internal const string AstartesRace_Guid   = "2302e1d517f847e6aef04c8c4a24d598";
         internal const string CombatSizeLargeBuff_Guid = "dccb5117000000000000000000000001";   // DW_CombatSize_Large (dynamic-size toggle)
-        // ROADMAP #10: "Blade Dancer" archetype career path (DLC2 Lex Imperialis; its moveset animates wrong on
-        // an Astartes) -- removed from the Custom Space Marine chargen career list (ProgressionRoot.CareerPaths).
-        internal const string BladeDancerCareerPath_Guid = "dd6948ee596346a69733d0bb107c2f42";
         // ROADMAP #8: true while the player is creating a "Custom Space Marine" (the new Pregen tile). When set,
         // the GetOriginPath postfix swaps the 4 option groups on the CANONICAL custom path to Deathwatch content
         // IN PLACE (not a copy -- a copy broke the in-game sheet's reference-equality lookups; see
@@ -96,15 +93,6 @@ namespace DeathwatchMod
                     if (Chapters[i].FeatureGuid == g) return Chapters[i];
             }
             return null;
-        }
-
-        // PER-CHARACTER marine test for the Blade Dancer filter. True iff the unit being assembled in this
-        // chargen RefreshData is a Deathwatch Astartes, detected by the chapter feature on the PREVIEW unit.
-        // The chapter feature lives on LevelUpManager.PreviewUnit (a clone) and is NOT on CurrentUnit/TargetUnit
-        // until Commit, so we test the preview unit (same as the mod's own doll code), not this.Unit.Value.
-        internal static bool IsDeathwatchMarinePreview(BaseUnitEntity previewUnit)
-        {
-            return previewUnit != null && DetectChapter(previewUnit) != null;
         }
 
         // Marine identity tests, centralised so detection has ONE edit point (e.g. the hireable-merc

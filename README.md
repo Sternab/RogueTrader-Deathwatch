@@ -66,8 +66,8 @@ Rogue Trader mod pages point you at, and it handles installation and updates for
   paths a Large character cannot take.
 - **Some scripted animations look odd at marine scale** - sitting on the command throne, certain
   cutscene interactions, and similar human-skeleton moments.
-- **The Blade Dancer archetype is not offered to a marine.** Its moveset does not animate correctly
-  on the Astartes skeleton, so the mod hides it rather than shipping broken animations.
+- **The Blade Dancer archetype has broken animations on a marine.** Its moveset was made for the
+  human skeleton. It is deliberately left selectable for the curious - pick it at your own risk.
 - **Human capes equip but render invisible on a marine** (their visuals only exist for human
   bodies). The marine-fit capes - including the Deathwatch Cape - display normally.
 - **Capes can clip through the pauldrons and backpack.** This matches how the game's own Deathwatch
