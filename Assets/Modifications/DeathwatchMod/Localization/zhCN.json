@@ -442,7 +442,7 @@
     },
     "dea7c0de-0011-4000-8000-000000000011": {
       "Offset": 0,
-      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。"
+      "Text": "头盔提供+{uip|Armour|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}与+{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:SkillAwareness}警觉{/g}。"
     },
     "dea7c0de-0012-4000-8000-000000000012": {
       "Offset": 0,
@@ -450,7 +450,7 @@
     },
     "dea7c0de-0013-4000-8000-000000000013": {
       "Offset": 0,
-      "Text": "头盔的战术智机提供{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}与{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerFellowship}社交{/g}加值。"
+      "Text": "战术智机提供+{uip|Skill|4269752521e44a25a751121ff250fd4d}{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}与{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}。"
     },
     "dea7c0de-0014-4000-8000-000000000014": {
       "Offset": 0,
@@ -458,7 +458,7 @@
     },
     "dea7c0de-0015-4000-8000-000000000015": {
       "Offset": 0,
-      "Text": "诊断者提供{g|Encyclopedia:SkillMedicae}医疗{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerPerception}感知{/g}加值的两倍；并提高暴击伤害5%，每10点{g|Encyclopedia:SkillMedicae}医疗{/g}再加1%。"
+      "Text": "诊断者提供+{uip|Medicae|3d2b14cfaafd45e9b481b959f90cf247}{g|Encyclopedia:SkillMedicae}医疗{/g}与+{uip|Crit|3d2b14cfaafd45e9b481b959f90cf247}%暴击伤害。"
     },
     "dea7c0de-0016-4000-8000-000000000016": {
       "Offset": 0,
@@ -466,7 +466,7 @@
     },
     "dea7c0de-0017-4000-8000-000000000017": {
       "Offset": 0,
-      "Text": "鉴具以{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}计算{g|Encyclopedia:SkillDemolition}爆破{/g}。佩戴者的攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与{g|Encyclopedia:Overpenetration}过度穿透{/g}，数值等于5%，每10点{g|Encyclopedia:SkillDemolition}爆破{/g}再加1%。"
+      "Text": "{g|Encyclopedia:SkillDemolition}爆破{/g}以{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}计算。佩戴者的攻击获得+{uip|Auspex|c301ee3feedb476096a9faad89aef58b}%{g|Encyclopedia:DodgeReduction}闪避减免{/g}与{g|Encyclopedia:Overpenetration}过度穿透{/g}。"
     },
     "dea7c0de-0018-4000-8000-000000000018": {
       "Offset": 0,
@@ -474,7 +474,7 @@
     },
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
-      "Text": "瞄准器为手枪攻击提供{g|Encyclopedia:HitChance}命中率{/g}与{g|Encyclopedia:DodgeReduction}闪避减免{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerAgility}敏捷{/g}加值。近战攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与暴击伤害，数值等于5%，每10点{g|Encyclopedia:SkillAthletics}运动{/g}再加1%。"
+      "Text": "手枪攻击获得+{uip|Pistol|ae4551c73a3948a69e69314a8d5177e2}{g|Encyclopedia:HitChance}命中率{/g}与{g|Encyclopedia:DodgeReduction}闪避减免{/g}。近战攻击获得+{uip|Melee|ae4551c73a3948a69e69314a8d5177e2}%{g|Encyclopedia:DodgeReduction}闪避减免{/g}与暴击伤害。"
     },
     "dea7c0de-0020-4000-8000-000000000020": {
       "Offset": 0,
@@ -498,7 +498,7 @@
     },
     "dea7c0de-0025-4000-8000-000000000025": {
       "Offset": 0,
-      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n头盔的战术智机提供{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}与{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerFellowship}社交{/g}加值。"
+      "Text": "头盔提供+{uip|Armour|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}与+{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:SkillAwareness}警觉{/g}。\n战术智机提供+{uip|Skill|4269752521e44a25a751121ff250fd4d}{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}与{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}。"
     },
     "dea7c0de-0029-4000-8000-000000000029": {
       "Offset": 0,
@@ -506,7 +506,7 @@
     },
     "dea7c0de-0026-4000-8000-000000000026": {
       "Offset": 0,
-      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n诊断者提供{g|Encyclopedia:SkillMedicae}医疗{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerPerception}感知{/g}加值的两倍；并提高暴击伤害5%，每10点{g|Encyclopedia:SkillMedicae}医疗{/g}再加1%。"
+      "Text": "头盔提供+{uip|Armour|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}与+{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:SkillAwareness}警觉{/g}。\n诊断者提供+{uip|Medicae|3d2b14cfaafd45e9b481b959f90cf247}{g|Encyclopedia:SkillMedicae}医疗{/g}与+{uip|Crit|3d2b14cfaafd45e9b481b959f90cf247}%暴击伤害。"
     },
     "dea7c0de-0030-4000-8000-000000000030": {
       "Offset": 0,
@@ -514,7 +514,7 @@
     },
     "dea7c0de-0027-4000-8000-000000000027": {
       "Offset": 0,
-      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n鉴具以{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}计算{g|Encyclopedia:SkillDemolition}爆破{/g}。佩戴者的攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与{g|Encyclopedia:Overpenetration}过度穿透{/g}，数值等于5%，每10点{g|Encyclopedia:SkillDemolition}爆破{/g}再加1%。"
+      "Text": "头盔提供+{uip|Armour|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}与+{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:SkillAwareness}警觉{/g}。\n{g|Encyclopedia:SkillDemolition}爆破{/g}以{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}计算。佩戴者的攻击获得+{uip|Auspex|c301ee3feedb476096a9faad89aef58b}%{g|Encyclopedia:DodgeReduction}闪避减免{/g}与{g|Encyclopedia:Overpenetration}过度穿透{/g}。"
     },
     "dea7c0de-0031-4000-8000-000000000031": {
       "Offset": 0,
@@ -522,7 +522,7 @@
     },
     "dea7c0de-0028-4000-8000-000000000028": {
       "Offset": 0,
-      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n瞄准器为手枪攻击提供{g|Encyclopedia:HitChance}命中率{/g}与{g|Encyclopedia:DodgeReduction}闪避减免{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerAgility}敏捷{/g}加值。近战攻击获得{g|Encyclopedia:DodgeReduction}闪避减免{/g}与暴击伤害，数值等于5%，每10点{g|Encyclopedia:SkillAthletics}运动{/g}再加1%。"
+      "Text": "头盔提供+{uip|Armour|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}与+{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:SkillAwareness}警觉{/g}。\n手枪攻击获得+{uip|Pistol|ae4551c73a3948a69e69314a8d5177e2}{g|Encyclopedia:HitChance}命中率{/g}与{g|Encyclopedia:DodgeReduction}闪避减免{/g}。近战攻击获得+{uip|Melee|ae4551c73a3948a69e69314a8d5177e2}%{g|Encyclopedia:DodgeReduction}闪避减免{/g}与暴击伤害。"
     },
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
@@ -534,7 +534,7 @@
     },
     "dea7c0de-0034-4000-8000-000000000034": {
       "Offset": 0,
-      "Text": "灵能兜罩提供{g|Encyclopedia:SkillLoreWarp}知识（亚空间）{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerWillpower}意志{/g}加值的两倍；并提供{g|Encyclopedia:Resolve}决心{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerWillpower}意志{/g}加值。"
+      "Text": "灵能兜罩提供+{uip|LoreWarp|e7ea329f4d4e4f89b4fedb9f75e09033}{g|Encyclopedia:SkillLoreWarp}知识（亚空间）{/g}与+{uip|Resolve|e7ea329f4d4e4f89b4fedb9f75e09033}{g|Encyclopedia:Resolve}决心{/g}。"
     },
     "dea7c0de-0035-4000-8000-000000000035": {
       "Offset": 0,
@@ -542,15 +542,107 @@
     },
     "dea7c0de-0036-4000-8000-000000000036": {
       "Offset": 0,
-      "Text": "头盔的机魂提供{g|Encyclopedia:SkillTechUse}科技使用{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值的两倍；并提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值。"
+      "Text": "机魂提供+{uip|TechUse|a0df37ca836e4184b8dbcdd10dc5fd62}{g|Encyclopedia:SkillTechUse}科技使用{/g}与+{uip|Armour|a0df37ca836e4184b8dbcdd10dc5fd62}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}。"
     },
     "dea7c0de-0037-4000-8000-000000000037": {
       "Offset": 0,
-      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n灵能兜罩提供{g|Encyclopedia:SkillLoreWarp}知识（亚空间）{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerWillpower}意志{/g}加值的两倍；并提供{g|Encyclopedia:Resolve}决心{/g}加值，数值等于3加佩戴者的{g|Encyclopedia:WarhammerWillpower}意志{/g}加值。"
+      "Text": "头盔提供+{uip|Armour|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}与+{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:SkillAwareness}警觉{/g}。\n灵能兜罩提供+{uip|LoreWarp|e7ea329f4d4e4f89b4fedb9f75e09033}{g|Encyclopedia:SkillLoreWarp}知识（亚空间）{/g}与+{uip|Resolve|e7ea329f4d4e4f89b4fedb9f75e09033}{g|Encyclopedia:Resolve}决心{/g}。"
     },
     "dea7c0de-0038-4000-8000-000000000038": {
       "Offset": 0,
-      "Text": "头盔提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerToughness}坚韧{/g}加值；并提供{g|Encyclopedia:SkillAwareness}警觉{/g}加值，数值等于5，每5级角色等级再加1。\n头盔的机魂提供{g|Encyclopedia:SkillTechUse}科技使用{/g}加值，数值等于佩戴者{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值的两倍；并提供{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}，数值等于2加佩戴者的{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值。"
+      "Text": "头盔提供+{uip|Armour|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}与+{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7}{g|Encyclopedia:SkillAwareness}警觉{/g}。\n机魂提供+{uip|TechUse|a0df37ca836e4184b8dbcdd10dc5fd62}{g|Encyclopedia:SkillTechUse}科技使用{/g}与+{uip|Armour|a0df37ca836e4184b8dbcdd10dc5fd62}{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}。"
+    },
+    "dea7c0de-0041-4000-8000-000000000041": {
+      "Offset": 0,
+      "Text": "护甲"
+    },
+    "dea7c0de-0042-4000-8000-000000000042": {
+      "Offset": 0,
+      "Text": "警觉"
+    },
+    "dea7c0de-0043-4000-8000-000000000043": {
+      "Offset": 0,
+      "Text": "武器技能与弹道技能"
+    },
+    "dea7c0de-0044-4000-8000-000000000044": {
+      "Offset": 0,
+      "Text": "医疗"
+    },
+    "dea7c0de-0045-4000-8000-000000000045": {
+      "Offset": 0,
+      "Text": "暴击伤害"
+    },
+    "dea7c0de-0046-4000-8000-000000000046": {
+      "Offset": 0,
+      "Text": "闪避减免与过度穿透"
+    },
+    "dea7c0de-0047-4000-8000-000000000047": {
+      "Offset": 0,
+      "Text": "手枪命中率与闪避减免"
+    },
+    "dea7c0de-0048-4000-8000-000000000048": {
+      "Offset": 0,
+      "Text": "近战闪避减免与暴击伤害"
+    },
+    "dea7c0de-0049-4000-8000-000000000049": {
+      "Offset": 0,
+      "Text": "知识（亚空间）"
+    },
+    "dea7c0de-0050-4000-8000-000000000050": {
+      "Offset": 0,
+      "Text": "决心"
+    },
+    "dea7c0de-0051-4000-8000-000000000051": {
+      "Offset": 0,
+      "Text": "科技使用"
+    },
+    "dea7c0de-0052-4000-8000-000000000052": {
+      "Offset": 0,
+      "Text": "<u>（2 + {g|Encyclopedia:WarhammerToughness}坚韧{/g}加值）</u>"
+    },
+    "dea7c0de-0053-4000-8000-000000000053": {
+      "Offset": 0,
+      "Text": "<u>（5 + 每5级角色等级加1）</u>"
+    },
+    "dea7c0de-0054-4000-8000-000000000054": {
+      "Offset": 0,
+      "Text": "<u>（3 + {g|Encyclopedia:WarhammerFellowship}社交{/g}加值）</u>"
+    },
+    "dea7c0de-0055-4000-8000-000000000055": {
+      "Offset": 0,
+      "Text": "<u>（2 × {g|Encyclopedia:WarhammerPerception}感知{/g}加值）</u>"
+    },
+    "dea7c0de-0056-4000-8000-000000000056": {
+      "Offset": 0,
+      "Text": "<u>（5% + 每10点{g|Encyclopedia:SkillMedicae}医疗{/g}加1%）</u>"
+    },
+    "dea7c0de-0057-4000-8000-000000000057": {
+      "Offset": 0,
+      "Text": "<u>（5% + 每10点{g|Encyclopedia:SkillDemolition}爆破{/g}加1%）</u>"
+    },
+    "dea7c0de-0058-4000-8000-000000000058": {
+      "Offset": 0,
+      "Text": "<u>（3 + {g|Encyclopedia:WarhammerAgility}敏捷{/g}加值）</u>"
+    },
+    "dea7c0de-0059-4000-8000-000000000059": {
+      "Offset": 0,
+      "Text": "<u>（5% + 每10点{g|Encyclopedia:SkillAthletics}运动{/g}加1%）</u>"
+    },
+    "dea7c0de-0060-4000-8000-000000000060": {
+      "Offset": 0,
+      "Text": "<u>（2 × {g|Encyclopedia:WarhammerWillpower}意志{/g}加值）</u>"
+    },
+    "dea7c0de-0061-4000-8000-000000000061": {
+      "Offset": 0,
+      "Text": "<u>（3 + {g|Encyclopedia:WarhammerWillpower}意志{/g}加值）</u>"
+    },
+    "dea7c0de-0062-4000-8000-000000000062": {
+      "Offset": 0,
+      "Text": "<u>（2 × {g|Encyclopedia:WarhammerIntelligence}智力{/g}加值）</u>"
+    },
+    "dea7c0de-0063-4000-8000-000000000063": {
+      "Offset": 0,
+      "Text": "<u>（2 + {g|Encyclopedia:WarhammerIntelligence}智力{/g}加值）</u>"
     }
   }
 }

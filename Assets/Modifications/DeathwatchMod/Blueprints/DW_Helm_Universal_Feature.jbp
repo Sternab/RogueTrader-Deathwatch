@@ -178,9 +178,65 @@
         "m_Overrides": [],
         "Stat": "WarhammerToughness",
         "CheckCaster": false
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$42f48c44539b4bb887c435c78d14bcbf",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0041-4000-8000-000000000041",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0052-4000-8000-000000000052",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_e74e3edc09334be28291774d5e6fd7b7",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_e74e3edc09334be28291774d5e6fd7b7",
+            "m_LinkKey": "Armour"
+          },
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0042-4000-8000-000000000042",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0053-4000-8000-000000000053",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_e74e3edc09334be28291774d5e6fd7b7",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value2",
+            "m_PropertySource": "!bp_e74e3edc09334be28291774d5e6fd7b7",
+            "m_LinkKey": "Awareness"
+          }
+        ]
       }
     ],
-    "Comment": "Helm universal Auto-senses (tester design): +(2+Toughness bonus) armour absorption + (5+level/5) Awareness. Templates: DeathCultArmour_Feature 4e0d15f8 (calc->CasterNamedProperty->bonus + RecalculateOnStatChange), BreachersArmour_Feature 88c4c2fe (WarhammerArmorBonus), CQ_RTMemoirs_Feature d15873b8 (LevelGetter DivStep).",
+    "Comment": "Helm universal Auto-senses (tester design): +(2+Toughness bonus) armour absorption + (5+level/5) Awareness. Templates: DeathCultArmour_Feature 4e0d15f8 (calc->CasterNamedProperty->bonus + RecalculateOnStatChange), BreachersArmour_Feature 88c4c2fe (WarhammerArmorBonus), CQ_RTMemoirs_Feature d15873b8 (LevelGetter DivStep). DISPLAY (2026-07-06): live values via UIPropertiesComponent + {uip} tokens (PowerBoots pattern).",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0010-4000-8000-000000000010",
       "m_OwnerString": "",

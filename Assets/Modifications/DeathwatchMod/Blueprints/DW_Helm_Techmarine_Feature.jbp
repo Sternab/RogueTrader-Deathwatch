@@ -156,9 +156,65 @@
         "m_Overrides": [],
         "Stat": "WarhammerIntelligence",
         "CheckCaster": false
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$e9021f032392454f9d63bd4f3ca54005",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0051-4000-8000-000000000051",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0062-4000-8000-000000000062",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_a0df37ca836e4184b8dbcdd10dc5fd62",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_a0df37ca836e4184b8dbcdd10dc5fd62",
+            "m_LinkKey": "TechUse"
+          },
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0041-4000-8000-000000000041",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0063-4000-8000-000000000063",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_a0df37ca836e4184b8dbcdd10dc5fd62",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value2",
+            "m_PropertySource": "!bp_a0df37ca836e4184b8dbcdd10dc5fd62",
+            "m_LinkKey": "Armour"
+          }
+        ]
       }
     ],
-    "Comment": "Helm system: Techmarine Servo-Helm (designed in-house 2026-07-06): +(2x Intelligence bonus) Tech-Use + (2+Intelligence bonus) armour absorption (WarhammerArmorBonus, BreachersArmour template; stacks with Auto-senses' Toughness-based line). Granted by DW_HelmItem_Techmarine.",
+    "Comment": "Helm system: Techmarine Servo-Helm (designed in-house 2026-07-06): +(2x Intelligence bonus) Tech-Use + (2+Intelligence bonus) armour absorption (WarhammerArmorBonus, BreachersArmour template; stacks with Auto-senses' Toughness-based line). Granted by DW_HelmItem_Techmarine. DISPLAY (2026-07-06): live values via UIPropertiesComponent + {uip} tokens (PowerBoots pattern).",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0035-4000-8000-000000000035",
       "m_OwnerString": "",

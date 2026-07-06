@@ -143,9 +143,122 @@
         "m_Overrides": [],
         "Stat": "WarhammerPerception",
         "CheckCaster": false
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$39ad0d0e0e18498fb10d94141973285c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value2",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$be8f2be4cfc34f0eb8d362afed84d682",
+              "Settings": {
+                "Progression": "DivStep",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 10,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "SkillMedicae"
+            },
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$d3fbc48022224cc7a5df76cf82555c9a",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": 5,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$3b11bc8c1b694f7a8744168a2579701c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0044-4000-8000-000000000044",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0055-4000-8000-000000000055",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_3d2b14cfaafd45e9b481b959f90cf247",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_3d2b14cfaafd45e9b481b959f90cf247",
+            "m_LinkKey": "Medicae"
+          },
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0045-4000-8000-000000000045",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0056-4000-8000-000000000056",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_3d2b14cfaafd45e9b481b959f90cf247",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value2",
+            "m_PropertySource": "!bp_3d2b14cfaafd45e9b481b959f90cf247",
+            "m_LinkKey": "Crit"
+          }
+        ]
       }
     ],
-    "Comment": "Helm Diagnostor (tester design): +(2x Perception bonus) Medicae + (5+Medicae/10)% crit damage. Crit template: SniperRifle_CritDamage_Feature 7712185d; % value via CasterCustomProperty -> DW_HelmProp_MedicaeCrit.",
+    "Comment": "Helm Diagnostor (tester design): +(2x Perception bonus) Medicae + (5+Medicae/10)% crit damage. Crit template: SniperRifle_CritDamage_Feature 7712185d; % value via CasterCustomProperty -> DW_HelmProp_MedicaeCrit. DISPLAY (2026-07-06): live values via UIPropertiesComponent + {uip} tokens in the descriptions (PowerBoots_Feature pattern); hover shows the formula. Mirror display calculators added where the mechanical value rides a CasterCustomProperty.",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0014-4000-8000-000000000014",
       "m_OwnerString": "",

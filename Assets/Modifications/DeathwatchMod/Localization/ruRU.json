@@ -442,7 +442,7 @@
     },
     "dea7c0de-0011-4000-8000-000000000011": {
       "Offset": 0,
-      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа."
+      "Text": "Шлем дает +{uip|Armour|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} и +{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g}."
     },
     "dea7c0de-0012-4000-8000-000000000012": {
       "Offset": 0,
@@ -450,7 +450,7 @@
     },
     "dea7c0de-0013-4000-8000-000000000013": {
       "Offset": 0,
-      "Text": "Тактический когитатор шлема дает бонус к {g|Encyclopedia:WarhammerWeaponSkill}Ближнему Бою{/g} и {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerFellowship}Общительности{/g} носителя."
+      "Text": "Тактический когитатор дает +{uip|Skill|4269752521e44a25a751121ff250fd4d} к {g|Encyclopedia:WarhammerWeaponSkill}Ближнему Бою{/g} и {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g}."
     },
     "dea7c0de-0014-4000-8000-000000000014": {
       "Offset": 0,
@@ -458,7 +458,7 @@
     },
     "dea7c0de-0015-4000-8000-000000000015": {
       "Offset": 0,
-      "Text": "Диагностор дает бонус к {g|Encyclopedia:SkillMedicae}Медицине{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerPerception}Восприятия{/g} носителя и увеличивает критический урон на 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillMedicae}Медицины{/g}."
+      "Text": "Диагностор дает +{uip|Medicae|3d2b14cfaafd45e9b481b959f90cf247} к {g|Encyclopedia:SkillMedicae}Медицине{/g} и +{uip|Crit|3d2b14cfaafd45e9b481b959f90cf247}% к урону: критический урон."
     },
     "dea7c0de-0016-4000-8000-000000000016": {
       "Offset": 0,
@@ -466,7 +466,7 @@
     },
     "dea7c0de-0017-4000-8000-000000000017": {
       "Offset": 0,
-      "Text": "Ауспик рассчитывает {g|Encyclopedia:SkillDemolition}Взрывотехнику{/g} на основе {g|Encyclopedia:WarhammerBallisticSkill}Дальнего Боя{/g}. Атаки носителя получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и {g|Encyclopedia:Overpenetration}сквозное пробитие{/g} в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillDemolition}Взрывотехники{/g}."
+      "Text": "{g|Encyclopedia:SkillDemolition}Взрывотехника{/g} рассчитывается на основе показателя {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g}. Атаки носителя получают +{uip|Auspex|c301ee3feedb476096a9faad89aef58b}% к параметрам {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и {g|Encyclopedia:Overpenetration}сквозное пробитие{/g}."
     },
     "dea7c0de-0018-4000-8000-000000000018": {
       "Offset": 0,
@@ -474,7 +474,7 @@
     },
     "dea7c0de-0019-4000-8000-000000000019": {
       "Offset": 0,
-      "Text": "Прицел дает атакам из пистолетов бонус к {g|Encyclopedia:HitChance}шансу попадания{/g} и {g|Encyclopedia:DodgeReduction}снижению уклонения{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerAgility}Ловкости{/g} носителя. Атаки в ближнем бою получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и критический урон в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillAthletics}Атлетики{/g}."
+      "Text": "Атаки из пистолетов получают +{uip|Pistol|ae4551c73a3948a69e69314a8d5177e2} к {g|Encyclopedia:HitChance}шансу попадания{/g} и снижению уклонения. Атаки в ближнем бою получают +{uip|Melee|ae4551c73a3948a69e69314a8d5177e2}% к параметрам {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и критический урон."
     },
     "dea7c0de-0020-4000-8000-000000000020": {
       "Offset": 0,
@@ -498,7 +498,7 @@
     },
     "dea7c0de-0025-4000-8000-000000000025": {
       "Offset": 0,
-      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nТактический когитатор шлема дает бонус к {g|Encyclopedia:WarhammerWeaponSkill}Ближнему Бою{/g} и {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerFellowship}Общительности{/g} носителя."
+      "Text": "Шлем дает +{uip|Armour|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} и +{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g}.\nТактический когитатор дает +{uip|Skill|4269752521e44a25a751121ff250fd4d} к {g|Encyclopedia:WarhammerWeaponSkill}Ближнему Бою{/g} и {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g}."
     },
     "dea7c0de-0029-4000-8000-000000000029": {
       "Offset": 0,
@@ -506,7 +506,7 @@
     },
     "dea7c0de-0026-4000-8000-000000000026": {
       "Offset": 0,
-      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nДиагностор дает бонус к {g|Encyclopedia:SkillMedicae}Медицине{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerPerception}Восприятия{/g} носителя и увеличивает критический урон на 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillMedicae}Медицины{/g}."
+      "Text": "Шлем дает +{uip|Armour|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} и +{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g}.\nДиагностор дает +{uip|Medicae|3d2b14cfaafd45e9b481b959f90cf247} к {g|Encyclopedia:SkillMedicae}Медицине{/g} и +{uip|Crit|3d2b14cfaafd45e9b481b959f90cf247}% к урону: критический урон."
     },
     "dea7c0de-0030-4000-8000-000000000030": {
       "Offset": 0,
@@ -514,7 +514,7 @@
     },
     "dea7c0de-0027-4000-8000-000000000027": {
       "Offset": 0,
-      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nАуспик рассчитывает {g|Encyclopedia:SkillDemolition}Взрывотехнику{/g} на основе {g|Encyclopedia:WarhammerBallisticSkill}Дальнего Боя{/g}. Атаки носителя получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и {g|Encyclopedia:Overpenetration}сквозное пробитие{/g} в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillDemolition}Взрывотехники{/g}."
+      "Text": "Шлем дает +{uip|Armour|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} и +{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g}.\n{g|Encyclopedia:SkillDemolition}Взрывотехника{/g} рассчитывается на основе показателя {g|Encyclopedia:WarhammerBallisticSkill}Дальнему Бою{/g}. Атаки носителя получают +{uip|Auspex|c301ee3feedb476096a9faad89aef58b}% к параметрам {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и {g|Encyclopedia:Overpenetration}сквозное пробитие{/g}."
     },
     "dea7c0de-0031-4000-8000-000000000031": {
       "Offset": 0,
@@ -522,7 +522,7 @@
     },
     "dea7c0de-0028-4000-8000-000000000028": {
       "Offset": 0,
-      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nПрицел дает атакам из пистолетов бонус к {g|Encyclopedia:HitChance}шансу попадания{/g} и {g|Encyclopedia:DodgeReduction}снижению уклонения{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerAgility}Ловкости{/g} носителя. Атаки в ближнем бою получают {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и критический урон в размере 5% плюс 1% за каждые 10 очков {g|Encyclopedia:SkillAthletics}Атлетики{/g}."
+      "Text": "Шлем дает +{uip|Armour|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} и +{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g}.\nАтаки из пистолетов получают +{uip|Pistol|ae4551c73a3948a69e69314a8d5177e2} к {g|Encyclopedia:HitChance}шансу попадания{/g} и снижению уклонения. Атаки в ближнем бою получают +{uip|Melee|ae4551c73a3948a69e69314a8d5177e2}% к параметрам {g|Encyclopedia:DodgeReduction}снижение уклонения{/g} и критический урон."
     },
     "dea7c0de-0032-4000-8000-000000000032": {
       "Offset": 0,
@@ -534,7 +534,7 @@
     },
     "dea7c0de-0034-4000-8000-000000000034": {
       "Offset": 0,
-      "Text": "Психический капюшон дает бонус к навыку {g|Encyclopedia:SkillLoreWarp}Знания: Варп{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя, а также бонус к {g|Encyclopedia:Resolve}решимости{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя."
+      "Text": "Психический капюшон дает +{uip|LoreWarp|e7ea329f4d4e4f89b4fedb9f75e09033} к навыку {g|Encyclopedia:SkillLoreWarp}Знания: Варп{/g} и +{uip|Resolve|e7ea329f4d4e4f89b4fedb9f75e09033} к {g|Encyclopedia:Resolve}решимости{/g}."
     },
     "dea7c0de-0035-4000-8000-000000000035": {
       "Offset": 0,
@@ -542,15 +542,107 @@
     },
     "dea7c0de-0036-4000-8000-000000000036": {
       "Offset": 0,
-      "Text": "Машинный дух шлема дает бонус к навыку {g|Encyclopedia:SkillTechUse}Технике{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя, а также {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя."
+      "Text": "Машинный дух дает +{uip|TechUse|a0df37ca836e4184b8dbcdd10dc5fd62} к навыку {g|Encyclopedia:SkillTechUse}Технике{/g} и +{uip|Armour|a0df37ca836e4184b8dbcdd10dc5fd62} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g}."
     },
     "dea7c0de-0037-4000-8000-000000000037": {
       "Offset": 0,
-      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nПсихический капюшон дает бонус к навыку {g|Encyclopedia:SkillLoreWarp}Знания: Варп{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя, а также бонус к {g|Encyclopedia:Resolve}решимости{/g} в размере 3 плюс бонус {g|Encyclopedia:WarhammerWillpower}Воли{/g} носителя."
+      "Text": "Шлем дает +{uip|Armour|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} и +{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g}.\nПсихический капюшон дает +{uip|LoreWarp|e7ea329f4d4e4f89b4fedb9f75e09033} к навыку {g|Encyclopedia:SkillLoreWarp}Знания: Варп{/g} и +{uip|Resolve|e7ea329f4d4e4f89b4fedb9f75e09033} к {g|Encyclopedia:Resolve}решимости{/g}."
     },
     "dea7c0de-0038-4000-8000-000000000038": {
       "Offset": 0,
-      "Text": "Шлем дает {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerToughness}Выносливости{/g} носителя, а также бонус к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g} в размере 5 плюс 1 за каждые 5 уровней персонажа.\nМашинный дух шлема дает бонус к навыку {g|Encyclopedia:SkillTechUse}Технике{/g} в размере удвоенного бонуса {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя, а также {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} в размере 2 плюс бонус {g|Encyclopedia:WarhammerIntelligence}Интеллекта{/g} носителя."
+      "Text": "Шлем дает +{uip|Armour|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g} и +{uip|Awareness|e74e3edc09334be28291774d5e6fd7b7} к {g|Encyclopedia:SkillAwareness}Наблюдательности{/g}.\nМашинный дух дает +{uip|TechUse|a0df37ca836e4184b8dbcdd10dc5fd62} к навыку {g|Encyclopedia:SkillTechUse}Технике{/g} и +{uip|Armour|a0df37ca836e4184b8dbcdd10dc5fd62} к {g|Encyclopedia:WarhammerArmourGlossary}броню{/g}."
+    },
+    "dea7c0de-0041-4000-8000-000000000041": {
+      "Offset": 0,
+      "Text": "Броня"
+    },
+    "dea7c0de-0042-4000-8000-000000000042": {
+      "Offset": 0,
+      "Text": "Наблюдательность"
+    },
+    "dea7c0de-0043-4000-8000-000000000043": {
+      "Offset": 0,
+      "Text": "Ближний и Дальний Бой"
+    },
+    "dea7c0de-0044-4000-8000-000000000044": {
+      "Offset": 0,
+      "Text": "Медицина"
+    },
+    "dea7c0de-0045-4000-8000-000000000045": {
+      "Offset": 0,
+      "Text": "Критический урон"
+    },
+    "dea7c0de-0046-4000-8000-000000000046": {
+      "Offset": 0,
+      "Text": "Снижение уклонения и сквозное пробитие"
+    },
+    "dea7c0de-0047-4000-8000-000000000047": {
+      "Offset": 0,
+      "Text": "Шанс попадания и снижение уклонения (пистолеты)"
+    },
+    "dea7c0de-0048-4000-8000-000000000048": {
+      "Offset": 0,
+      "Text": "Снижение уклонения и критический урон (ближний бой)"
+    },
+    "dea7c0de-0049-4000-8000-000000000049": {
+      "Offset": 0,
+      "Text": "Знания: Варп"
+    },
+    "dea7c0de-0050-4000-8000-000000000050": {
+      "Offset": 0,
+      "Text": "Решимость"
+    },
+    "dea7c0de-0051-4000-8000-000000000051": {
+      "Offset": 0,
+      "Text": "Техника"
+    },
+    "dea7c0de-0052-4000-8000-000000000052": {
+      "Offset": 0,
+      "Text": "<u>(2 + бонус {g|Encyclopedia:WarhammerToughness}ВЫН{/g})</u>"
+    },
+    "dea7c0de-0053-4000-8000-000000000053": {
+      "Offset": 0,
+      "Text": "<u>(5 + 1 за каждые 5 уровней персонажа)</u>"
+    },
+    "dea7c0de-0054-4000-8000-000000000054": {
+      "Offset": 0,
+      "Text": "<u>(3 + бонус {g|Encyclopedia:WarhammerFellowship}ОБЩ{/g})</u>"
+    },
+    "dea7c0de-0055-4000-8000-000000000055": {
+      "Offset": 0,
+      "Text": "<u>(2 × бонус {g|Encyclopedia:WarhammerPerception}ВОС{/g})</u>"
+    },
+    "dea7c0de-0056-4000-8000-000000000056": {
+      "Offset": 0,
+      "Text": "<u>(5% + 1% за каждые 10 {g|Encyclopedia:SkillMedicae}Медицине{/g})</u>"
+    },
+    "dea7c0de-0057-4000-8000-000000000057": {
+      "Offset": 0,
+      "Text": "<u>(5% + 1% за каждые 10 {g|Encyclopedia:SkillDemolition}Взрывотехники{/g})</u>"
+    },
+    "dea7c0de-0058-4000-8000-000000000058": {
+      "Offset": 0,
+      "Text": "<u>(3 + бонус {g|Encyclopedia:WarhammerAgility}ЛВК{/g})</u>"
+    },
+    "dea7c0de-0059-4000-8000-000000000059": {
+      "Offset": 0,
+      "Text": "<u>(5% + 1% за каждые 10 {g|Encyclopedia:SkillAthletics}Атлетики{/g})</u>"
+    },
+    "dea7c0de-0060-4000-8000-000000000060": {
+      "Offset": 0,
+      "Text": "<u>(2 × бонус {g|Encyclopedia:WarhammerWillpower}ВОЛ{/g})</u>"
+    },
+    "dea7c0de-0061-4000-8000-000000000061": {
+      "Offset": 0,
+      "Text": "<u>(3 + бонус {g|Encyclopedia:WarhammerWillpower}ВОЛ{/g})</u>"
+    },
+    "dea7c0de-0062-4000-8000-000000000062": {
+      "Offset": 0,
+      "Text": "<u>(2 × бонус {g|Encyclopedia:WarhammerIntelligence}ИНТ{/g})</u>"
+    },
+    "dea7c0de-0063-4000-8000-000000000063": {
+      "Offset": 0,
+      "Text": "<u>(2 + бонус {g|Encyclopedia:WarhammerIntelligence}ИНТ{/g})</u>"
     }
   }
 }

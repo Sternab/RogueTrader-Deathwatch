@@ -150,9 +150,65 @@
         "m_Overrides": [],
         "Stat": "WarhammerWillpower",
         "CheckCaster": false
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$31b7152de1cd455b9b8cf9cd20f6e75d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0049-4000-8000-000000000049",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0060-4000-8000-000000000060",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_e7ea329f4d4e4f89b4fedb9f75e09033",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_e7ea329f4d4e4f89b4fedb9f75e09033",
+            "m_LinkKey": "LoreWarp"
+          },
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0050-4000-8000-000000000050",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0061-4000-8000-000000000061",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_e7ea329f4d4e4f89b4fedb9f75e09033",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value2",
+            "m_PropertySource": "!bp_e7ea329f4d4e4f89b4fedb9f75e09033",
+            "m_LinkKey": "Resolve"
+          }
+        ]
       }
     ],
-    "Comment": "Helm system: Librarian Psychic Hood (designed in-house 2026-07-06 completing the tester helm set): +(2x Willpower bonus) Lore (Warp) + (3+Willpower bonus) Resolve. Same traced templates as the other helm features (DeathCultArmour calc->CasterNamedProperty->bonus). Granted by DW_HelmItem_Librarian.",
+    "Comment": "Helm system: Librarian Psychic Hood (designed in-house 2026-07-06 completing the tester helm set): +(2x Willpower bonus) Lore (Warp) + (3+Willpower bonus) Resolve. Same traced templates as the other helm features (DeathCultArmour calc->CasterNamedProperty->bonus). Granted by DW_HelmItem_Librarian. DISPLAY (2026-07-06): live values via UIPropertiesComponent + {uip} tokens (PowerBoots pattern).",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0033-4000-8000-000000000033",
       "m_OwnerString": "",

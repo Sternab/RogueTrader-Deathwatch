@@ -188,9 +188,100 @@
           "Enabled": true,
           "ModifierType": "ValAdd"
         }
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$355761c5cbff42448e6152a99e5ba810",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$d764118f53714561bdd5df7bafbbc185",
+              "Settings": {
+                "Progression": "DivStep",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 10,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "SkillDemolition"
+            },
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$41e197bef3f24a31996c59a99a744f4d",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": 5,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$4c146180560649179848b9575a78b6d3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0046-4000-8000-000000000046",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0057-4000-8000-000000000057",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_c301ee3feedb476096a9faad89aef58b",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_c301ee3feedb476096a9faad89aef58b",
+            "m_LinkKey": "Auspex"
+          }
+        ]
       }
     ],
-    "Comment": "Helm Ballistic Auspex (tester design): Demolition calculated with BS (ReplaceBaseStatValue -- vanilla item precedent AncientMonocleFromTerra_Feature 9fd4933b) + (5+Demolition/10)% dodge reduction (WWSMI, Commissar_OnlyTool 1a1ac3e3 template) and overpenetration (SolidProjectileWeapon_Feature 3af88221 template; the engine zeroes overpen for melee, so it is ranged-only by rule).",
+    "Comment": "Helm Ballistic Auspex (tester design): Demolition calculated with BS (ReplaceBaseStatValue -- vanilla item precedent AncientMonocleFromTerra_Feature 9fd4933b) + (5+Demolition/10)% dodge reduction (WWSMI, Commissar_OnlyTool 1a1ac3e3 template) and overpenetration (SolidProjectileWeapon_Feature 3af88221 template; the engine zeroes overpen for melee, so it is ranged-only by rule). DISPLAY (2026-07-06): live values via UIPropertiesComponent + {uip} tokens in the descriptions (PowerBoots_Feature pattern); hover shows the formula. Mirror display calculators added where the mechanical value rides a CasterCustomProperty.",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0016-4000-8000-000000000016",
       "m_OwnerString": "",

@@ -394,9 +394,156 @@
           "Enabled": false
         },
         "ModifierDescriptor": "None"
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$66ce1d3cc69e4b68becd500234a53409",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$bd4b9991d2c14553ba987c6319d98ec7",
+              "Settings": {
+                "Progression": "BonusValue",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 3,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "AgilityBonus"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$04dbb194ff7246e4aed783a268e77c21",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value2",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$b4562ffd40da49f8828515f6999ce419",
+              "Settings": {
+                "Progression": "DivStep",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 10,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "SkillAthletics"
+            },
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$eb3dd449dbea4dfe88c4a91042782dfb",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": 5,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$612a4d470ae840a489f7fed0fa248da8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0047-4000-8000-000000000047",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0058-4000-8000-000000000058",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_ae4551c73a3948a69e69314a8d5177e2",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_ae4551c73a3948a69e69314a8d5177e2",
+            "m_LinkKey": "Pistol"
+          },
+          {
+            "NameType": "Custom",
+            "m_Name": {
+              "m_Key": "dea7c0de-0048-4000-8000-000000000048",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "dea7c0de-0059-4000-8000-000000000059",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_ae4551c73a3948a69e69314a8d5177e2",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value2",
+            "m_PropertySource": "!bp_ae4551c73a3948a69e69314a8d5177e2",
+            "m_LinkKey": "Melee"
+          }
+        ]
       }
     ],
-    "Comment": "Helm Assault Targeter (tester design): pistols +(3+Agility bonus) hit chance + dodge reduction; melee +(5+Athletics/10)% dodge reduction + crit damage. Weapon-conditional +BS does not exist in vanilla data -- AdditionalHitChance is vanilla's own idiom for it (TacticalGoggles_Feature b82cb773). Restriction getters: CheckAbilityWeaponCategoryGetter (Commissar_OnlyTool) / CheckAbilityWeaponRangeTypeGetter (AscensionTalent15).",
+    "Comment": "Helm Assault Targeter (tester design): pistols +(3+Agility bonus) hit chance + dodge reduction; melee +(5+Athletics/10)% dodge reduction + crit damage. Weapon-conditional +BS does not exist in vanilla data -- AdditionalHitChance is vanilla's own idiom for it (TacticalGoggles_Feature b82cb773). Restriction getters: CheckAbilityWeaponCategoryGetter (Commissar_OnlyTool) / CheckAbilityWeaponRangeTypeGetter (AscensionTalent15). DISPLAY (2026-07-06): live values via UIPropertiesComponent + {uip} tokens in the descriptions (PowerBoots_Feature pattern); hover shows the formula. Mirror display calculators added where the mechanical value rides a CasterCustomProperty.",
     "m_DisplayName": {
       "m_Key": "dea7c0de-0018-4000-8000-000000000018",
       "m_OwnerString": "",
