@@ -65,8 +65,6 @@ Rogue Trader mod pages point you at, and it handles installation and updates for
   for baseline humans; encounters will often be easy. Play it for the fantasy, not the challenge.
 - **NPCs and the story do not react to you being a Space Marine.** Dialogue, cutscenes and quests
   treat you as the vanilla Rogue Trader.
-- **The marine never takes cover.** That is the game's own Astartes behaviour (vanilla Space Marines
-  work the same way), not a bug - and cover-based talents are excluded from the marine's options.
 - **Most human-scale equipment cannot be worn.** Deliberate: an Astartes wears Astartes wargear. If
   you want to lift the restrictions anyway, third-party tools such as ToyBox can do so.
 - **Some combat arenas are cramped.** The marine is Large (2x2) in combat; a few tight maps have
