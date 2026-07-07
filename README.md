@@ -39,7 +39,7 @@ in the base campaign.
 
 ### Recommended: ModFinder
 
-[ModFinder](https://github.com/Pathfinder-WOTR-Modding-Community/ModFinder) is the mod manager most
+[ModFinder](https://www.nexusmods.com/warhammer40kroguetrader/mods/146) is the mod manager most
 Rogue Trader mod pages point you at, and it handles installation and updates for you.
 
 1. Install Deathwatch with ModFinder (or point it at a downloaded `Deathwatch.zip`).
