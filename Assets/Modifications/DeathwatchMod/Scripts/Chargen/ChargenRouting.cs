@@ -62,6 +62,10 @@ namespace DeathwatchMod
         // that). The original vanilla m_Features are captured once per group (s_vanillaGroups) so the human path can
         // be restored. Idempotent (skips a group already on DW).
         private static readonly Dictionary<string, BlueprintFeatureReference[]> s_vanillaGroups = new Dictionary<string, BlueprintFeatureReference[]>();
+        // COEXISTENCE: the exact m_Features array WE installed per group. RestoreVanillaGroups reverts a group ONLY when
+        // this is the array currently live -- so a second chargen mod (e.g. an Eldar creator) that swapped the same
+        // group to its own list is never clobbered by our "not the marine tile" restore. No-op for a solo DW install.
+        private static readonly Dictionary<string, BlueprintFeatureReference[]> s_appliedGroups = new Dictionary<string, BlueprintFeatureReference[]>();
         internal static void ApplyDeathwatchGroups(BlueprintScriptableObject path)
         {
             if (path == null) return;
@@ -120,6 +124,7 @@ namespace DeathwatchMod
                 s_vanillaGroups[vkey] = cur;
                 var refs = guids.Select(g => BlueprintReferenceBase.CreateTyped<BlueprintFeatureReference>(g)).ToArray();
                 mFeatures.SetValue(afl, refs);
+                s_appliedGroups[vkey] = refs;   // remember exactly what WE installed (ownership-gated restore)
                 swapped++;
             }
             DeathwatchModMain.Log("[Path] ApplyDeathwatchGroups: swapped " + swapped + " group(s) on " + (path != null ? path.name : "?") + ".");
@@ -139,8 +144,14 @@ namespace DeathwatchMod
             {
                 var afl = comp as AddFeaturesToLevelUp;
                 if (afl == null) continue;
-                if (!s_vanillaGroups.TryGetValue(path.AssetGuid + ":" + afl.Group.ToString(), out var vanilla)) continue;
-                if ((mFeatures.GetValue(afl) as BlueprintFeatureReference[]) == vanilla) continue; // already vanilla
+                string rkey = path.AssetGuid + ":" + afl.Group.ToString();
+                if (!s_vanillaGroups.TryGetValue(rkey, out var vanilla)) continue;
+                var live = mFeatures.GetValue(afl) as BlueprintFeatureReference[];
+                if (live == vanilla) continue; // already vanilla
+                // COEXISTENCE: revert ONLY if OUR options are the ones currently live. If a second chargen mod has
+                // swapped this group to its own list, "not the marine tile" no longer means "restore vanilla" -- leave
+                // its options intact. (No-op for a solo DW install, where the live list is always ours or vanilla.)
+                if (!s_appliedGroups.TryGetValue(rkey, out var ourRefs) || live != ourRefs) continue;
                 mFeatures.SetValue(afl, vanilla);
                 restored++;
             }
@@ -317,8 +328,11 @@ namespace DeathwatchMod
                         if (s_marineUnit == null || s_marineUnit.IsDisposed) s_marineUnit = CreateMarineUnit();
                         if (s_marineUnit != null && cfg.Unit != s_marineUnit) s_cfgUnit.SetValue(cfg, s_marineUnit);
                     }
-                    else if (s_humanUnit != null && cfg.Unit != s_humanUnit)
+                    else if (s_marineUnit != null && cfg.Unit == s_marineUnit && s_humanUnit != null)
                     {
+                        // COEXISTENCE: restore ONLY our own marine unit. With a second race creator installed,
+                        // "not the marine tile" no longer implies "human" -- if the live config unit is another mod's
+                        // unit, leave it. No-op for a solo DW install (the live unit is our marine unit or already human).
                         s_cfgUnit.SetValue(cfg, s_humanUnit);                        // restore for the vanilla custom tile
                     }
                 }
