@@ -5,6 +5,9 @@ using HarmonyLib;
 using Kingmaker.Blueprints;                       // ResourcesLibrary, BlueprintReferenceBase, BlueprintScriptableObject
 using Kingmaker.Blueprints.Root;                  // BlueprintRoot, ProgressionRoot, PregenCharacterNames
 using Kingmaker.Visual.Sound;                     // BlueprintUnitAsksList, UnitAsksComponent (Ulfar chargen voice)
+using Kingmaker.Sound;                            // SoundBanksManager (voice-bank load for the in-game merc chargen)
+using Kingmaker.UI.MVVM.VM.CharGen;               // CharGenContext (voice selector ctor param)
+using Kingmaker.UI.MVVM.VM.CharGen.Phases.Appearance.Components.Voice; // CharGenVoiceSelectorVM
 
 namespace DeathwatchMod
 {
@@ -111,6 +114,52 @@ namespace DeathwatchMod
         // release gate. It is now the per-unit EquipmentRestrictionHasFacts_CanBeEquippedBy_MarineGear_Patch in
         // Gameplay\MarineEquipment.cs -- since generalized to all non-saw 2H melee + plasma/flame ranged + capes --
         // scoped to this mod's marine; the vanilla exclusion stays intact.)
+    }
+
+    // MERC-CHARGEN VOICE PREVIEWS. The voice banks named by CharGenRoot.Voices (ours: DX_Ask_DWMarine /
+    // DX_Ask_DWApothecary) are loaded ONLY by SoundBanksManager.LoadVoiceBanks() in the MainMenuVM ctor and
+    // unloaded when the menu disposes. The in-game Create-Custom-Companion (mercenary) chargen runs long after
+    // that unload, so our PreviewSound events post into an unloaded bank = silent. Vanilla previews still play
+    // there because the 12 vanilla demo events live in PC_DemoVoices_ENG.bnk, which the selector loads for
+    // itself (ctor :50 / DisposeImplementation :58) -- exactly the lifecycle we mirror here for the VOICE banks.
+    // Refcounted (BankHandle.RefsCount), so in main-menu chargen (banks already held by MainMenuVM) this is a
+    // harmless +1/-1; in-game it holds the banks for the selector's lifetime only. Race-agnostic on purpose:
+    // it loads every CharGenRoot.Voices bank, so any future custom voice (e.g. the Eldar creator's) previews
+    // correctly in merc chargen too. In-game BARKS were never affected (UnitBarksManager loads per-unit banks).
+    [HarmonyPatch(typeof(CharGenVoiceSelectorVM), MethodType.Constructor, new Type[] { typeof(CharGenContext) })]
+    internal static class CharGenVoiceSelectorVM_Ctor_LoadVoiceBanks_Patch
+    {
+        // Pair-balance guard: only unload what our ctor postfix actually loaded (one selector VM per chargen).
+        internal static bool s_voiceBanksHeld;
+
+        [HarmonyPostfix]
+        private static void Postfix()
+        {
+            try
+            {
+                SoundBanksManager.LoadVoiceBanks();
+                s_voiceBanksHeld = true;
+                DeathwatchModMain.LogDebug("[Voices] Voice banks loaded for the chargen voice selector.");
+            }
+            catch (Exception e) { DeathwatchModMain.LogError("[Voices][ERR] LoadVoiceBanks for selector", e); }
+        }
+    }
+
+    [HarmonyPatch(typeof(CharGenVoiceSelectorVM), "DisposeImplementation")]
+    internal static class CharGenVoiceSelectorVM_Dispose_UnloadVoiceBanks_Patch
+    {
+        [HarmonyPostfix]
+        private static void Postfix()
+        {
+            try
+            {
+                if (!CharGenVoiceSelectorVM_Ctor_LoadVoiceBanks_Patch.s_voiceBanksHeld) return;
+                CharGenVoiceSelectorVM_Ctor_LoadVoiceBanks_Patch.s_voiceBanksHeld = false;
+                SoundBanksManager.UnloadVoiceBanks();
+                DeathwatchModMain.LogDebug("[Voices] Voice banks released with the chargen voice selector.");
+            }
+            catch (Exception e) { DeathwatchModMain.LogError("[Voices][ERR] UnloadVoiceBanks for selector", e); }
+        }
     }
 
     // (Two retired patch families once lived here: the Blade Dancer chargen-list cut -- REMOVED 2026-07-06,
