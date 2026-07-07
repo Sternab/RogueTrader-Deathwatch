@@ -1,0 +1,265 @@
+{
+  "AssetId": "d86d492df4884f13a6cc10f0092d1ac0",
+  "Data": {
+    "$type": "da11db195c86e0d4dae17a2c03a4ba9a, BlueprintAbility",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "c53b6a74192ad9d43818c98797b7e0de, AbilityCasterHasNoFacts",
+        "name": "$AbilityCasterHasNoFacts$a9e58e96-bfe7-4051-aa6b-03fbec899844",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_340888e6d61c4cfea87d8c1a2a4ba6d1"
+        ]
+      },
+      {
+        "$type": "66e032e5cf38801428940a1a0d14b946, AbilityEffectRunAction",
+        "name": "$AbilityEffectRunAction$05cf5d4d-cbbd-4676-9960-01d76c61c1fc",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "SavingThrowType": "Unknown",
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$ca9c4cb852904314b584a1357e264ac5",
+              "m_Buff": "!bp_340888e6d61c4cfea87d8c1a2a4ba6d1",
+              "BuffEndCondition": "CombatEnd",
+              "Permanent": true,
+              "DurationValue": {
+                "BonusValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                },
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": false,
+              "AsChild": false,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            },
+            {
+              "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+              "name": "$ContextActionRemoveBuff$ef0b1375391042848b562be58c85ee01",
+              "m_Buff": "!bp_fc8852a3c3344a3cb1d2b79b32b0f5b3",
+              "RemoveRank": true,
+              "RemoveSeveralRanks": false,
+              "RankNumber": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "m_CasterRanksRemovalPolicy": "Default",
+              "ToCaster": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "3244a7f6b105c654db650034076be4a5, AbilityCasterHasFacts",
+        "name": "$AbilityCasterHasFacts$8945d9ac-b0cc-461e-bf0f-3ab311a07e3e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_fc8852a3c3344a3cb1d2b79b32b0f5b3"
+        ],
+        "NeedsAll": false
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$7c9ad9eb-777c-4f61-9a48-0e4dec7de328",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "b70a51b6-83a1-48fb-8901-a820d08ce132",
+              "m_OwnerString": "f8fbdb667b6a4dca814aec2bb5f14097#$UIPropertiesComponent$7c9ad9eb-777c-4f61-9a48-0e4dec7de328",
+              "m_OwnerPropertyPath": "Properties.Array.data[0].Description",
+              "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Occupations\\Criminal\\Criminal_InnateAbility_Ability_Properties.Array.data[0].Description.json",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_d86d492df4884f13a6cc10f0092d1ac0",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_340888e6d61c4cfea87d8c1a2a4ba6d1",
+            "m_LinkKey": "AdditionalDamage"
+          },
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "b0095113-27f5-4aeb-9a57-1fcedd79b194",
+              "m_OwnerString": "f8fbdb667b6a4dca814aec2bb5f14097#$UIPropertiesComponent$7c9ad9eb-777c-4f61-9a48-0e4dec7de328",
+              "m_OwnerPropertyPath": "Properties.Array.data[1].Description",
+              "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Occupations\\Criminal\\Criminal_InnateAbility_Ability_Properties.Array.data[1].Description.json",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_d86d492df4884f13a6cc10f0092d1ac0",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_ee7a3a48179a463fb1da678bfd6562e2",
+            "m_LinkKey": "AdditionalDodge"
+          },
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "88159ef9-0f20-4078-8f39-cc7f8f1393b9",
+              "m_OwnerString": "f8fbdb667b6a4dca814aec2bb5f14097#$UIPropertiesComponent$7c9ad9eb-777c-4f61-9a48-0e4dec7de328",
+              "m_OwnerPropertyPath": "Properties.Array.data[2].Description",
+              "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Occupations\\Criminal\\Criminal_InnateAbility_Ability_Properties.Array.data[2].Description.json",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_d86d492df4884f13a6cc10f0092d1ac0",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_abfd7e0bfc0d45e08d04971934a740bb",
+            "m_LinkKey": "AdditionalDamageTarget"
+          }
+        ]
+      }
+    ],
+    "Comment": "DW clone of Criminal_InnateAbility_Ability (Sure-Fire Plan, f8fbdb66) for the Assault Marine (tester report 2026-07-07: the on-bar ability tooltip still showed the crime lord's INTELLIGENCE-based text -- the vanilla ability blueprint is shared; the AGI mechanics in DW_SureFirePlan_Agility_Feature were already correct). Mechanics identical: consumes stacks of the VANILLA buff fc8852a3 (kept, so the five Plan talents keep working) and applies the vanilla effect buffs. Only the description (mod key, Agility token, Battle-Brother actor) and the UIProperties self-refs change.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "dd77a89cb5e2553439dccd9a5b64a85d",
+        "stringkey": "38b6c1a0-67e3-4581-afee-82e78d9e9e1c"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0024-4000-8000-000000000024",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "4fa8d9c49a6a9fb4b87f187dd4796ae4",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "Type": "Spell",
+    "Range": "Personal",
+    "CustomRange": 0,
+    "MinRange": 0,
+    "ActionPointCost": 0,
+    "AbilityParamsSource": "None",
+    "PsychicPower": "Minor",
+    "VeilThicknessPointsToAdd": 1,
+    "ParamsSkill": "SkillAthletics",
+    "CooldownRounds": 0,
+    "CanTargetPoint": false,
+    "CanTargetEnemies": false,
+    "CanTargetFriends": false,
+    "CanTargetSelf": true,
+    "Hidden": false,
+    "DisableBestShootingPosition": false,
+    "NeedEquipWeapons": false,
+    "NotOffensive": false,
+    "ShowInDialogue": false,
+    "IsStarshipAbility": false,
+    "EffectOnAlly": "None",
+    "EffectOnEnemy": "None",
+    "m_Parent": null,
+    "Animation": "Directional",
+    "CastInOffHand": false,
+    "UseOnMechadendrite": false,
+    "UsedMechadendrite": "Utility",
+    "m_TargetMapObjects": false,
+    "IsFreeAction": false,
+    "ShouldTurnToTarget": true,
+    "m_IsStratagem": false,
+    "UsingInThreateningArea": "CanUseWithoutAOO",
+    "UsingInOverwatchArea": "WillNotCauseAttack",
+    "CombatStateRestriction": "InCombatOnly",
+    "m_AbilityGroups": [],
+    "MaterialComponent": {
+      "m_Item": null,
+      "Count": 1
+    },
+    "DisableLog": false,
+    "ResourceAssetIds": [],
+    "m_FXSettings": null,
+    "m_AbilityTag": "None",
+    "m_CombatHudCommandsOverride": null,
+    "Author": "Unknown"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}
