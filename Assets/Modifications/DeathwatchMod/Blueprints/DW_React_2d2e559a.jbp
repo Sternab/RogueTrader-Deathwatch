@@ -1,0 +1,165 @@
+{
+  "AssetId": "2d2e559a8dc14f7184fa85b54ef0bcfb",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "0cdbc172cfe945e3818c0d49fbd7d65f, TurnBasedModeEventsTrigger",
+        "name": "$TurnBasedModeEventsTrigger$b4f55124-c3f4-4357-ab66-6e57effba660",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "TriggerIfNotInCombat": false,
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "CombatStartActions": {
+          "Actions": []
+        },
+        "CombatEndActions": {
+          "Actions": []
+        },
+        "RoundStartActions": {
+          "Actions": []
+        },
+        "RoundEndActions": {
+          "Actions": []
+        },
+        "AnyUnitTurns": false,
+        "OnlyEnemyTurns": false,
+        "ActionsOnTheTurnOwner": false,
+        "UnitTurnStartActions": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$1e6d07cf14564c9aaf6fd36a6c6c0800",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "43f75bd73450e1f4aa1f6163f51956e3, ContextConditionCasterHasFact",
+                    "name": "$ContextConditionCasterHasFact$b53cf1835ab0495180ad30ca51740a1c",
+                    "Not": true,
+                    "m_Fact": "!bp_fc8852a3c3344a3cb1d2b79b32b0f5b3"
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": [
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$5f68c8f61dbc4a96a22c57ee3b7836a5",
+                    "m_Buff": "!bp_fc8852a3c3344a3cb1d2b79b32b0f5b3",
+                    "BuffEndCondition": "CombatEnd",
+                    "Permanent": true,
+                    "DurationValue": {
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 0,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": false,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "Simple",
+                      "Value": 1,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  }
+                ]
+              },
+              "IfFalse": {
+                "Actions": []
+              }
+            }
+          ]
+        },
+        "UnitTurnEndActions": {
+          "Actions": []
+        },
+        "UnitInterruptTurnStartActions": {
+          "Actions": []
+        },
+        "UnitInterruptTurnEndActions": {
+          "Actions": []
+        },
+        "DoNotApplyOnInterrupts": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "5e0ec6f9-91e1-45fa-84e3-3b76fb1dfa66",
+      "m_OwnerString": "2d2e559a8dc14f7184fa85b54ef0bcfb",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Occupations\\Criminal\\Criminal_Talent04_Feature_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0108-4000-8000-000000000108",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Buff",
+      "MainGroup": "Buff"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

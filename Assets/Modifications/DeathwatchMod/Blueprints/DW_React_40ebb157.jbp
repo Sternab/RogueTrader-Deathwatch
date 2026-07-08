@@ -1,0 +1,135 @@
+{
+  "AssetId": "40ebb157cc6140b298dd7c67d4c87d96",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "5a95724975c24882a5efb0c5aed8c2ab, GlobalCombatStateTrigger",
+        "name": "$GlobalCombatStateTrigger$eee539e8-a36d-49e9-8764-af5160cc2a04",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "ActionsOnEnter": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$e9a41d1a30994cc59abd4585c8b88a32",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "c5b3b6002404ca249add2943e99f366a, ContextConditionIsAlly",
+                    "name": "$ContextConditionIsAlly$00a13d2b0b1e4cd69a3ac863a38dddc7",
+                    "Not": false
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": []
+              },
+              "IfFalse": {
+                "Actions": [
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$b6b7a784074949d1bfb883ef10bdc780",
+                    "m_Buff": "!bp_36473a3451824a828c3eb870525d180d",
+                    "BuffEndCondition": "CombatEnd",
+                    "Permanent": true,
+                    "DurationValue": {
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 0,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": false,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "ActionsOnLeave": {
+          "Actions": []
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "5c8e486a7bdeb454aa0303b753574e98",
+        "stringkey": "6349cd61-5882-4be4-8fe8-bb501e3bb942"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0091-4000-8000-000000000091",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Damage, Occupation",
+      "MainGroup": "Occupation"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

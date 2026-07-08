@@ -1,0 +1,185 @@
+{
+  "AssetId": "2de7b00177f7460da2d6bafeaf9dfeab",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "428580af48b84509b97be533f03c7759, WarhammerHitChanceModifierInitiator",
+        "name": "$WarhammerHitChanceModifierInitiator$94c83e09-af40-4484-b839-73f8c7fa2351",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "BoolOr",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "ba648cd4033740aa987af4b641d583de, CheckAbilityWeaponFamilyGetter",
+                "name": "$CheckAbilityWeaponFamilyGetter$d7e441a23cc44dc7a4c40ed271320a2b",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Families": [
+                  "Laser"
+                ]
+              },
+              {
+                "$type": "83a8a95dacc24c6f8bb7fdccf7ec43ea, CheckAbilityWeaponBlueprintGetter",
+                "name": "$CheckAbilityWeaponBlueprintGetter$2b9e25fe0a314ca7bcbabc22d0fe0413",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "m_Weapon": "!bp_8ca0e21d89df4073bffa644d241f6e3e"
+              },
+              {
+                "$type": "83a8a95dacc24c6f8bb7fdccf7ec43ea, CheckAbilityWeaponBlueprintGetter",
+                "name": "$CheckAbilityWeaponBlueprintGetter$2c59917d-b1ab-4b40-b484-82fe8f00f63c",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "m_Weapon": "!bp_9e5c5ea2674647ea8f86e02e339ecdb9"
+              }
+            ]
+          }
+        },
+        "Properties": "RighteousFury",
+        "HitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "MaxHitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "RighteousFuryChance": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverPenetrationPercent": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverMagnitude": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "HitToCritPercentMultiplier": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AutoHit": false,
+        "AutoCrit": false,
+        "NeverCrit": false,
+        "CoverHitAutoResult": "None"
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "51289e0aaa44c574bb20f453def80fcc",
+        "stringkey": "85c3cea0-ca6f-4e30-a746-8bade301e12f"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0073-4000-8000-000000000073",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Crit",
+      "MainGroup": "Crit"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

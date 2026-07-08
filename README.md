@@ -78,6 +78,12 @@ Rogue Trader mod pages point you at, and it handles installation and updates for
 - **Capes can clip through the pauldrons and backpack.** This matches how the game's own Deathwatch
   Captain renders the same cape; the cloth simulation cannot collide with armour.
 - **Human hair and beard options may sit imperfectly on the marine head.**
+- **A few inherited talents/abilities still show their vanilla origin's name in tooltip flavour.**
+  Most inherited descriptions have been rewritten to name the Space Marine, but a small number are
+  left intentionally: the Librarian's psyker features read "Sanctioned Psyker" (a Librarian *is* a
+  sanctioned psyker), the Iron Hands augment sub-menu options keep their forge-world wording, and the
+  Apothecary's Brace for Impact! bar tooltip still says "the Navy Officer" (its character-sheet entry
+  is corrected). Mechanics are unaffected.
 - **Co-op with a marine is largely untested.**
 
 ## Uninstalling / save compatibility

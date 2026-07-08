@@ -1,0 +1,219 @@
+{
+  "AssetId": "0338a9f23db947a792661137bc5d6bd7",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "428580af48b84509b97be533f03c7759, WarhammerHitChanceModifierInitiator",
+        "name": "$WarhammerHitChanceModifierInitiator$94c83e09-af40-4484-b839-73f8c7fa2351",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "RuleTarget",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": true,
+            "Getters": [
+              {
+                "$type": "88a988badcc84ea8847e21626bee82e5, PropertyCalculatorGetter",
+                "name": "$PropertyCalculatorGetter$1c440475b6f44d559104d170f4d2c49d",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Value": {
+                  "Operation": "LE",
+                  "TargetType": "RuleTarget",
+                  "TargetEvaluator": null,
+                  "FailSilentlyIfNoTarget": false,
+                  "Getters": [
+                    {
+                      "$type": "9cb6f49c104fb044db79e499b6fcd002, HPGetter",
+                      "name": "$HPGetter$099ced2f3c354517bad9c9a3f07a7f00",
+                      "Settings": {
+                        "Progression": "AsIs",
+                        "m_CustomProgression": [],
+                        "m_StartLevel": 0,
+                        "m_StepLevel": 0,
+                        "Negate": false,
+                        "Limit": "None",
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "HPPercent": true,
+                      "MaxHP": false,
+                      "HealthType": "BaseHP"
+                    },
+                    {
+                      "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                      "name": "$ContextValueGetter$a41a341e87a0484b823b1bf9aef80dbe",
+                      "Settings": {
+                        "Progression": "AsIs",
+                        "m_CustomProgression": [],
+                        "m_StartLevel": 0,
+                        "m_StepLevel": 0,
+                        "Negate": false,
+                        "Limit": "None",
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Value": {
+                        "ValueType": "Simple",
+                        "Value": 50,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
+                "name": "$FactRankGetter$f2879eb1cb9344988754189e14a25b31",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "m_Fact": "!bp_8efe147110a46d2488c30447e7545f13",
+                "CheckTarget": "CurrentEntity",
+                "Aggregation": "Max",
+                "BuffWithCasterFromTargetType": false,
+                "BuffCaster": "CurrentEntity"
+              }
+            ]
+          }
+        },
+        "Properties": "RighteousFury",
+        "HitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "MaxHitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "RighteousFuryChance": {
+          "ValueType": "Simple",
+          "Value": 15,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverPenetrationPercent": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverMagnitude": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "HitToCritPercentMultiplier": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AutoHit": false,
+        "AutoCrit": false,
+        "NeverCrit": false,
+        "CoverHitAutoResult": "None"
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "e5c3d7115af43b14eac630d0cc9bc71b",
+        "stringkey": "ce263959-2dcb-4824-b671-a668ad2ab1db"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0072-4000-8000-000000000072",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Crit",
+      "MainGroup": "Crit"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

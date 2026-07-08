@@ -651,6 +651,190 @@
     "dea7c0de-0065-4000-8000-000000000065": {
       "Offset": 0,
       "Text": "Chaque fois que le Space Marine utilise des armes à plasma ou à fusion, les {g|Encyclopedia:DamageGlossary}dégâts{/g} qu'elles infligent augmentent de +{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3} %. Cumulable.\nSi le Space Marine ne tire pas pendant 1 {g|Encyclopedia:Round}round{/g}, il perd tous ses cumuls."
+    },
+    "dea7c0de-0066-4000-8000-000000000066": {
+      "Offset": 0,
+      "Text": "Les Space Marines obtiennent +{uip|Resolve|884ddece28ca4520b5b0d2a737fabfb5} de {g|Encyclopedia:Resolve}détermination{/g} en présence d'au moins 3 créatures (alliées ou ennemies) dans un rayon de 3 cases.\nEn revanche, ils subissent une {g|Encyclopedia:Penalty}pénalité{/g} de détermination de −2 si aucune créature n'est présente aux alentours."
+    },
+    "dea7c0de-0067-4000-8000-000000000067": {
+      "Offset": 0,
+      "Text": "Pour réussir les {g|Encyclopedia:ResistanceTest}tests de résistance{/g} de {g|Encyclopedia:WarhammerWillpower}Force mentale{/g}, les Space Marines peuvent utiliser leur {g|Encyclopedia:WarhammerFellowship}Sociabilité{/g}, si sa valeur est plus élevée."
+    },
+    "dea7c0de-0068-4000-8000-000000000068": {
+      "Offset": 0,
+      "Text": "Si un Space Marine bénéficie de {g|Encyclopedia:MeleeSuperiority}Supériorité en mêlée{/g} contre l'ennemi, l'effet augmente de +10. Si un ennemi bénéficie de Supériorité en {g|Encyclopedia:MeleeAttacksGlossary}mêlée{/g} contre un Space Marine, l'effet diminue de −10.\n"
+    },
+    "dea7c0de-0069-4000-8000-000000000069": {
+      "Offset": 0,
+      "Text": "Si un Space Marine commence son {g|Encyclopedia:Turn}tour{/g} sur une case adjacente à celle d'un allié, le Space Marine obtient +2 {g|Encyclopedia:MovementPoints}PD{/g}.\nSi un Space Marine termine son tour sur une case adjacente à celle de ses alliés, tous obtiennent +2 PD lors de leur tour suivant."
+    },
+    "dea7c0de-0070-4000-8000-000000000070": {
+      "Offset": 0,
+      "Text": "Les Space Marines obtiennent un {g|Encyclopedia:Bonus}bonus{/g} d'{g|Encyclopedia:DodgeGlossary}esquive{/g} de +50 % contre la première {g|Encyclopedia:AttackOfOpportunityFullGlossary}attaque d'opportunité{/g} à chaque {g|Encyclopedia:Round}round{/g}."
+    },
+    "dea7c0de-0071-4000-8000-000000000071": {
+      "Offset": 0,
+      "Text": "Une fois par combat, lorsque la réserve de {g|Encyclopedia:HitPoints}blessures{/g} d'un Space Marine passe sous la barre des 30 %, il obtient un bonus de +20 % de ses {g|Encyclopedia:MaxWounds}blessures maximum{/g} sous forme de {g|Encyclopedia:TemporaryWounds}blessures temporaires{/g}.\nLes Space Marines reçoivent également un bonus d'{g|Encyclopedia:DodgeGlossary}esquive{/g} et d'armure de +20 %, à condition d'avoir au moins 1 blessure temporaire, quelle qu'en soit la source."
+    },
+    "dea7c0de-0072-4000-8000-000000000072": {
+      "Offset": 0,
+      "Text": "Les Space Marines bénéficient de +15 % de {g|Encyclopedia:CritChancesAndCritDamageGlossary}chances de coup critique{/g} contre les cibles affectées par l'effet {g|Encyclopedia:BleedingEffect}Saignement{/g} ou dont la réserve de {g|Encyclopedia:MaxWounds}blessures maximum{/g} est inférieure ou égale à 50 %."
+    },
+    "dea7c0de-0073-4000-8000-000000000073": {
+      "Offset": 0,
+      "Text": "Les Space Marines bénéficient de +10 % de {g|Encyclopedia:CritChancesAndCritDamageGlossary}chances de coup critique{/g} lorsqu'ils utilisent des haches, des marteaux et des armes laser."
+    },
+    "dea7c0de-0074-4000-8000-000000000074": {
+      "Offset": 0,
+      "Text": "Chaque {g|Encyclopedia:Injury}blessure{/g} augmente l'{g|Encyclopedia:WarhammerAgility}Agilité{/g} et la {g|Encyclopedia:WarhammerWillpower}Force Mentale{/g} du Space Marine de +5 (jusqu'à un maximum de +60).\nChaque {g|Encyclopedia:Traumas}traumatisme{/g} compte comme 3 blessures."
+    },
+    "dea7c0de-0075-4000-8000-000000000075": {
+      "Offset": 0,
+      "Text": "Les Space Marines subissent {unit_stat|WarhammerToughness|bonus} points de {g|Encyclopedia:DamageGlossary}dégâts{/g} de feu, de {g|Encyclopedia:ToxicDamage}dégâts toxiques{/g} et d'effets de {g|Encyclopedia:BleedingEffect}Saignement{/g} en moins."
+    },
+    "dea7c0de-0076-4000-8000-000000000076": {
+      "Offset": 0,
+      "Text": "Le Space Marine obtient +15 de {g|Encyclopedia:WarhammerPerception}Perception{/g} et +15 de {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g}.\nCet effet perdure jusqu'à ce que le Space Marine se déplace. Non cumulable."
+    },
+    "dea7c0de-0077-4000-8000-000000000077": {
+      "Offset": 0,
+      "Text": "{g|f:7e75728ba44541b5985588702d0e08bb}Emplacement parfait{/g} confère également à l'Space Marine +{uip|ArmourPenetration|07276669fcc04e2a9e7a5a3055c58b8c} % de {g|Encyclopedia:ArmourPenetration}pénétration d'armure{/g} contre les ennemis situés à 7 cases ou plus."
+    },
+    "dea7c0de-0078-4000-8000-000000000078": {
+      "Offset": 0,
+      "Text": "Si l'Space Marine ne s'est pas déplacé pendant ce {g|Encyclopedia:Turn}tour{/g}, il bénéficie de +{unit_stat|WarhammerPerception|bonus} de {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g} et +{uip|DamageBonus|233f7d66b32243a192b6960e0058da54} points de dégâts par tranche de 5 cases le séparant de la cible pour les attaques {g|Encyclopedia:SingleRangedAttacksGlossary}au coup par coup{/g}. Ces bonus ne sont pas cumulables et durent jusqu'à ce que le Space Marine se déplace."
+    },
+    "dea7c0de-0079-4000-8000-000000000079": {
+      "Offset": 0,
+      "Text": "Chaque fois qu'un Space Marine élimine un ennemi, il obtient +10 cumuls de Tirs ininterrompus. Au début de son {g|Encyclopedia:Turn}tour{/g}, il a <u>(cumuls de Tirs ininterrompus)</u> % de chances que la première attaque du {g|Encyclopedia:Round}round{/g} ne coûte aucun {g|Encyclopedia:ActionPoints}PA{/g} et qu'elle ne soit pas déduite du nombre maximum d'attaques par tour.\nSi cet effet se déclenche, tous les cumuls sont perdus."
+    },
+    "dea7c0de-0080-4000-8000-000000000080": {
+      "Offset": 0,
+      "Text": "Les Space Marines bénéficient de +7 de {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g}, de {g|Encyclopedia:WarhammerPerception}Perception{/g} et de {g|Encyclopedia:WarhammerWillpower}Force mentale{/g} lorsqu'ils sont au combat. En revanche, en dehors des combats, leur {g|Encyclopedia:WarhammerIntelligence}Intelligence{/g}, leur {g|Encyclopedia:WarhammerFellowship}Sociabilité{/g}, leur Perception et leur Force mentale sont réduites de −7."
+    },
+    "dea7c0de-0081-4000-8000-000000000081": {
+      "Offset": 0,
+      "Text": "À chaque round, les Space Marines reçoivent un {g|Encyclopedia:Bonus}bonus{/g} cumulatif de +1 % à l'{g|Encyclopedia:DodgeGlossary}esquive{/g} contre les {g|Encyclopedia:RangeAreaAttacksGlossary}attaques à distance{/g} pour chaque tir effectué pendant ce round. De plus, l'attaque en {g|Encyclopedia:BurstAttacksGlossary}rafale{/g} à distance confère +10 cumuls supplémentaires de Tirs ininterrompus."
+    },
+    "dea7c0de-0082-4000-8000-000000000082": {
+      "Offset": 0,
+      "Text": "À la fin de leur {g|Encyclopedia:Turn}tour{/g}, les Space Marines obtiennent un nombre de cumuls de Tirs Ininterrompus égal à <u>(la moitié des {g|Encyclopedia:DamageGlossary}dégâts{/g} minimum de l'{g|Encyclopedia:RangeAreaAttacksGlossary}arme à distance{/g} la plus dévastatrice utilisée au cours du {g|Encyclopedia:Round}round{/g})</u>."
+    },
+    "dea7c0de-0083-4000-8000-000000000083": {
+      "Offset": 0,
+      "Text": "Le premier {g|Encyclopedia:Reload}rechargement{/g} effectué au combat par les Space Marines ne coûte aucun {g|Encyclopedia:ActionPoints}PA{/g}. Le rechargement d'une arme confère un bonus de +10 cumuls de Tirs ininterrompus."
+    },
+    "dea7c0de-0084-4000-8000-000000000084": {
+      "Offset": 0,
+      "Text": "Lorsque tous les cumuls de Tirs ininterrompus devraient être perdus, ils sont remplacés par {uip|Stacks|c75384d4cdae4d1aa1c3d94e7c100ae2} cumuls.\nDe plus, un Space Marine peut améliorer sa {g|Encyclopedia:Characteristic}caractéristique{/g} {g|Encyclopedia:WarhammerWillpower}Force mentale{/g} même si ses archétypes actuels ne le permettent pas."
+    },
+    "dea7c0de-0085-4000-8000-000000000085": {
+      "Offset": 0,
+      "Text": "Un Space Marine peut relancer un jet de dés lié à une attaque, une {g|Encyclopedia:DodgeGlossary}esquive{/g}, une {g|Encyclopedia:Parry}parade{/g}, une {g|Encyclopedia:Characteristic}caractéristique{/g} ou un {g|Encyclopedia:Test}test{/g} de compétence manqué, avec 20 % de chances de réussite. Ces chances ne peuvent pas être supérieures aux chances de réussite de base du jet.\nDe plus, toute esquive ou parade ennemie contre un Space Marine a 20 % de chances d'échouer après un jet réussi."
+    },
+    "dea7c0de-0086-4000-8000-000000000086": {
+      "Offset": 0,
+      "Text": "Chaque fois qu'un Space Marine inflige un {g|Encyclopedia:CritChancesAndCritDamageGlossary}coup critique{/g}, il a 10 % de chances de doubler les {g|Encyclopedia:DamageGlossary}dégâts{/g}."
+    },
+    "dea7c0de-0087-4000-8000-000000000087": {
+      "Offset": 0,
+      "Text": "Le Space Marine a 20 % de chances de survivre après avoir subi des {g|Encyclopedia:DamageGlossary}dégâts{/g} mortels. Il survit alors avec 1 {g|Encyclopedia:HitPoints}blessure{/g}."
+    },
+    "dea7c0de-0088-4000-8000-000000000088": {
+      "Offset": 0,
+      "Text": "Lorsque la réserve de {g|Encyclopedia:HitPoints}blessures{/g} d'un Space Marine est supérieure à 50 %, toutes les chances de l'ensemble des créatures (y compris les ennemis) dans un rayon de 3 cases augmentent de +10 %.\nLorsque la réserve de blessures d'un Space Marine est inférieure à 50 %, toutes les chances de l'ensemble des créatures (y compris les ennemis) dans un rayon de 3 cases diminuent de −10 %."
+    },
+    "dea7c0de-0089-4000-8000-000000000089": {
+      "Offset": 0,
+      "Text": "Chaque fois qu'une {g|Encyclopedia:Ability}capacité{/g} ou un {g|Encyclopedia:Talent}talent{/g} utilise le bonus de {g|Encyclopedia:WarhammerFellowship}Sociabilité{/g}, un Space Marine peut privilégier l'utilisation du bonus d'{g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} si celui-ci est plus élevé.\nDe plus, les Space Marines peuvent toujours améliorer leur Intelligence, même si leur {g|Encyclopedia:Career}archétype{/g} ne le permet pas."
+    },
+    "dea7c0de-0090-4000-8000-000000000090": {
+      "Offset": 0,
+      "Text": "Lorsque la capacité est utilisée, pendant 1 {g|Encyclopedia:Round}round{/g}, le Space Marine et ses alliés ne subissent aucun dégât lors des attaques alliées, et ils infligent +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} % de dégâts supplémentaires aux ennemis qu'ils ont attaqués depuis l'activation de la capacité. Cet effet n'est pas cumulable si plusieurs Space Marines participent au combat.\n! Utilisable une fois par combat."
+    },
+    "dea7c0de-0091-4000-8000-000000000091": {
+      "Offset": 0,
+      "Text": "Tant que l'effet d'{g|f:a15dd47c2d294b8b881604dd233b8e0f}Armes combinées{/g} est actif, les attaques armées du Space Marine et de ses alliés bénéficient de +20 % de {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g}, de {g|Encyclopedia:ParryReduction}réduction de parade{/g}, de réduction de blocage et de pénétration de {g|Encyclopedia:DetailsOfTheCoverGlossary}couverture{/g} contre les ennemis qui ont déjà été attaqués par les alliés du Space Marine au cours du combat."
+    },
+    "dea7c0de-0092-4000-8000-000000000092": {
+      "Offset": 0,
+      "Text": "Tant que le Space Marine est sous l'effet d'{g|f:a15dd47c2d294b8b881604dd233b8e0f}Armes combinées{/g}, tous ses alliés reçoivent un bonus de {g|Encyclopedia:RateOfFire}cadence de tir{/g} de +5 % par attaque lancée dès l'application de cet effet."
+    },
+    "dea7c0de-0093-4000-8000-000000000093": {
+      "Offset": 0,
+      "Text": "Quand le Space Marine ou l'un de ses alliés effectuent un {g|Encyclopedia:HeroicAct}acte héroïque{/g}, le Space Marine reçoit un bonus de +7 à toutes ses {g|Encyclopedia:Characteristic}caractéristiques{/g} jusqu'à la fin du combat."
+    },
+    "dea7c0de-0094-4000-8000-000000000094": {
+      "Offset": 0,
+      "Text": "Le Space Marine octroie l'effet {g|f:b9f9ef145708451f81283a73c16c527d}Prêt{/g} à tous ses alliés situés dans un rayon de 5 cases et à lui-même. Cet effet dure 1 {g|Encyclopedia:Round}round{/g}. Le Space Marine gagne +1 charge de cette capacité au début du combat, quand ses {g|Encyclopedia:HitPoints}blessures{/g} passent sous la barre des 50 % pour la première fois au cours du combat, et chaque fois que l'un de ses alliés perd connaissance pour la première fois au cours du combat."
+    },
+    "dea7c0de-0095-4000-8000-000000000095": {
+      "Offset": 0,
+      "Text": "Tant que l'effet {g|f:b9f9ef145708451f81283a73c16c527d}Prêt{/g} est actif, le Space Marine peut utiliser la capacité {g|f:282940ecb99948a28adc9cb60374223b}Lâchez-moi !{/g} une fois par {g|Encyclopedia:Round}round{/g}, et les cibles de ses {g|Encyclopedia:MeleeAttacksGlossary}attaques de mêlée{/g} doivent réussir un {g|Encyclopedia:ResistanceTest}test de résistance{/g} d'{g|Encyclopedia:WarhammerAgility}Agilité{/g} avec une pénalité de −10, sans quoi elles sont {g|Encyclopedia:ProneEffect}paralysées{/g}."
+    },
+    "dea7c0de-0096-4000-8000-000000000096": {
+      "Offset": 0,
+      "Text": "Lorsque le Space Marine utilise la capacité {g|f:f0d6fd0433624181a3a6c9bb6fd60ab5}Préparez-vous à l'impact !{/g}, tous les ennemis dans un rayon de 5 cases autour de lui subissent −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} à la {g|Encyclopedia:WarhammerWeaponSkill}Capacité de combat{/g} and −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} à la {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g}."
+    },
+    "dea7c0de-0097-4000-8000-000000000097": {
+      "Offset": 0,
+      "Text": "Les alliés qui bénéficient de l'effet {g|f:b9f9ef145708451f81283a73c16c527d}Prêt{/g} ou qui sont affectés par d'autres capacités d'archétype non offensives du Space Marine gagnent +{uip|dodge bonus|b79a772332e64e99921463bb28030674} % d'{g|Encyclopedia:DodgeGlossary}esquive{/g} pendant 1 {g|Encyclopedia:Round}round{/g}. Non cumulable.\nLe Space Marine et ses alliés qui bénéficient de l'effet {g|f:b9f9ef145708451f81283a73c16c527d}Prêt{/g} ne provoquent pas d'{g|Encyclopedia:AttackOfOpportunityFullGlossary}attaques d'opportunité{/g}."
+    },
+    "dea7c0de-0098-4000-8000-000000000098": {
+      "Offset": 0,
+      "Text": "Les Space Marines choisissent un système d'augmentations dans la liste suivante :\n-<indent=5%>{g|Encyclopedia:WarhammerArmourGlossary}Armure{/g} subdermique : confère +<u>(5 + 2 × bonus d'END)</u> % d'armure.</indent>\n-<indent=5%>Système locomoteur : confère +<u>(bonus d'AGI / 2)</u> {g|Encyclopedia:MovementPoints}PD{/g} et +<u>(2 × bonus d'AGI)</u> % d'{g|Encyclopedia:DodgeGlossary}esquive{/g}.</indent>\n-<indent=5%>Système analytique : confère +<u>(10 + bonus d'INT)</u> % de {g|Encyclopedia:CritChancesAndCritDamageGlossary}chances de coup critique{/g}.</indent>"
+    },
+    "dea7c0de-0099-4000-8000-000000000099": {
+      "Offset": 0,
+      "Text": "Les Space Marines bénéficient de +{unit_stat|WarhammerToughness|bonus} de {g|Encyclopedia:Deflection}déflexion{/g} contre l'effet {g|Encyclopedia:BurningEffect}Combustion{/g} et les armes incendiaires."
+    },
+    "dea7c0de-0100-4000-8000-000000000100": {
+      "Offset": 0,
+      "Text": "Un {g|Encyclopedia:Bonus}bonus{/g} cumulatif de +10 % s'applique aux chances de toucher et à la {g|Encyclopedia:DodgeReduction}réduction d'esquive{/g} des Space Marines qui touchent une cible avec une attaque à cible unique.\nLes {g|Encyclopedia:CritChancesAndCritDamageGlossary}coups critiques{/g} réussis lors des attaques à cible unique augmentent de +20 % les chances de toucher et la réduction d'esquive."
+    },
+    "dea7c0de-0101-4000-8000-000000000101": {
+      "Offset": 0,
+      "Text": "Les Space Marines peuvent utiliser les compétences {g|Encyclopedia:SkillPersuasion}Persuasion{/g}, {g|Encyclopedia:SkillCoercion}Intimidation{/g} et {g|Encyclopedia:SkillCommerce}Commerce{/g} sur la base de l'{g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} au lieu de la {g|Encyclopedia:WarhammerFellowship}Sociabilité{/g}."
+    },
+    "dea7c0de-0102-4000-8000-000000000102": {
+      "Offset": 0,
+      "Text": "Space Marine peut utiliser des {g|Encyclopedia:MovementPoints}PD{/g} après avoir attaqué ou utilisé des {g|Encyclopedia:Ability}capacités{/g}."
+    },
+    "dea7c0de-0103-4000-8000-000000000103": {
+      "Offset": 0,
+      "Text": "Les Space Marines peuvent choisir n'importe quelle {g|Encyclopedia:Characteristic}caractéristique{/g} (à l'exception de la {g|Encyclopedia:WarhammerWeaponSkill}Capacité de combat{/g} et de la {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g}) et y ajouter un {g|Encyclopedia:Bonus}bonus{/g} de +10."
+    },
+    "dea7c0de-0104-4000-8000-000000000104": {
+      "Offset": 0,
+      "Text": "Lorsqu'un allié confère une {g|Encyclopedia:Ability}capacité{/g} qui n'inflige pas de dégâts à un Space Marine, ou inversement si celui-ci confère une telle capacité à un allié, la {g|Encyclopedia:Resolve}détermination{/g} du Space Marine augmente de {uip|Resolve|1a9f01d856144172863ef2ffecab6d4e} pendant 1 {g|Encyclopedia:Round}round{/g}."
+    },
+    "dea7c0de-0105-4000-8000-000000000105": {
+      "Offset": 0,
+      "Text": "Lorsque la réserve de {g|Encyclopedia:HitPoints}blessures{/g} des Space Marines est inférieure à 40 %, un {g|Encyclopedia:Bonus}bonus{/g} de +10 s'applique à toutes leurs {g|Encyclopedia:Characteristic}caractéristiques{/g}, et leur {g|Encyclopedia:Resolve}détermination{/g} augmente de +2."
+    },
+    "dea7c0de-0106-4000-8000-000000000106": {
+      "Offset": 0,
+      "Text": "Les Space Marines bénéficient de +10 % de {g|Encyclopedia:CritChancesAndCritDamageGlossary}chances de coup critique{/g} et de +10 % d'{g|Encyclopedia:WarhammerArmourGlossary}armure{/g} contre les xénos ou les créatures démoniaques. Leurs alliés obtiennent la moitié des {g|Encyclopedia:Bonus}bonus{/g} d'Absence d'hérésie.\nEn revanche, les valeurs des compétences {g|Encyclopedia:SkillLoreXenos}Connaissance (Xénos){/g} et {g|Encyclopedia:SkillLoreWarp}Connaissance (Warp){/g} des Space Marines sont toujours de 0."
+    },
+    "dea7c0de-0107-4000-8000-000000000107": {
+      "Offset": 0,
+      "Text": "Tant que le psyker n'est pas dans la {g|Encyclopedia:LineOfSight}ligne de mire{/g} de la cible, une {g|Encyclopedia:Penalty}pénalité{/g} de −{uip|ResistancePenalty|2cab29e13d404ab986a2f825d0dc8914} à tous les {g|Encyclopedia:ResistanceTest}tests de résistance{/g}."
+    },
+    "dea7c0de-0108-4000-8000-000000000108": {
+      "Offset": 0,
+      "Text": "Si, au début de son {g|Encyclopedia:Turn}tour{/g}, le Space Marine ne dispose d'aucun cumul de Plan infaillible, il obtient +1 cumul."
+    },
+    "dea7c0de-0109-4000-8000-000000000109": {
+      "Offset": 0,
+      "Text": "Une fois par combat, si le Space Marine dispose d'au moins 1 cumul de Plan infaillible, il résiste aux {g|Encyclopedia:DamageGlossary}dégâts{/g} létaux. Au lieu de mourir, il récupère <u>(5 × cumuls de Plan infaillible)</u> % de sa réserve de {g|Encyclopedia:MaxWounds}blessures maximum{/g}, suite à quoi il perd tous ses cumuls et ne peut plus bénéficier d'aucun cumul de Plan infaillible."
+    },
+    "dea7c0de-0110-4000-8000-000000000110": {
+      "Offset": 0,
+      "Text": "Le Space Marine obtient +15 de {g|Encyclopedia:WarhammerPerception}Perception{/g} et +15 de {g|Encyclopedia:WarhammerBallisticSkill}Capacité de tir{/g}.\nCet effet perdure jusqu'à ce que le Space Marine se déplace. Non cumulable."
+    },
+    "dea7c0de-0111-4000-8000-000000000111": {
+      "Offset": 0,
+      "Text": "Lorsque la capacité est utilisée, pendant 1 {g|Encyclopedia:Round}round{/g}, le Space Marine et ses alliés ne subissent aucun dégât lors des attaques alliées, et ils infligent +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} % de dégâts supplémentaires aux ennemis qu'ils ont attaqués depuis l'activation de la capacité. Cet effet n'est pas cumulable si plusieurs Space Marines participent au combat.\n! Utilisable une fois par combat."
     }
   }
 }

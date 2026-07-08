@@ -1,0 +1,284 @@
+{
+  "AssetId": "7c0061571ed448c2b0c1a94533aacc34",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "eb30e3ab60d893e4189e1be10a29a9e2, BuffExtraEffects",
+        "name": "$BuffExtraEffects$9aec4b9a-c845-4542-b1ca-c0c1d36e1f0a",
+        "m_Flags": "Disabled",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_CheckedBuff": "!bp_b9f9ef145708451f81283a73c16c527d",
+        "m_ExtraEffectBuff": "!bp_a685edd639e1415e944ed63407c83f1e"
+      },
+      {
+        "$type": "6ebdb034bf2f486b932f9342e175ec6d, AbilityLifecycleTriggerCaster",
+        "name": "$AbilityLifecycleTriggerCaster$e45a0f0d-b0be-4ded-a478-d8a7ad0706f1",
+        "m_Flags": "Disabled",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Condition": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "622b2e3118c34edebe1597cf4c03339e, CheckAbilityBlueprintGetter",
+              "name": "$CheckAbilityBlueprintGetter$f201ede9-f895-4587-8939-2d5b6f2c5a54",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "m_Abilities": [
+                "!bp_f0d6fd0433624181a3a6c9bb6fd60ab5"
+              ]
+            }
+          ]
+        },
+        "StartActions": {
+          "Actions": [
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$c8fec52b-7cf1-43e7-b6e6-1ef6e0da02c9",
+              "m_Buff": "!bp_ff12ece321e94db786ad028f10e9bded",
+              "BuffEndCondition": "CombatEnd",
+              "Permanent": false,
+              "DurationValue": {
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 1,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": true,
+              "AsChild": false,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            },
+            {
+              "$type": "2dcc60a5b076f0047b982e9d4c04b226, ContextActionOnRandomTargetsAround",
+              "name": "$ContextActionOnRandomTargetsAround$a9f39c10ab015ab6af5a77892d0fab1d",
+              "OnEnemies": false,
+              "OnlyAllies": true,
+              "Actions": {
+                "Actions": [
+                  {
+                    "$type": "32ab11539189db84aa3d249b00be4d32, ContextActionStartAdditionalTurn",
+                    "name": "$ContextActionStartAdditionalTurn$3e4d4d0c-978e-4037-8a83-885c3ef91188",
+                    "m_AllowOnCurrentTurnUnit": false,
+                    "GrantedMP": {
+                      "ValueType": "CasterProperty",
+                      "Value": 3,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "ToughnessBonus",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "GrantedAP": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "AsInterruption": true,
+                    "AbilityRestrictionForInterrupt": {
+                      "Property": {
+                        "Operation": "Sum",
+                        "TargetType": "CurrentEntity",
+                        "TargetEvaluator": null,
+                        "FailSilentlyIfNoTarget": false,
+                        "Getters": []
+                      }
+                    },
+                    "InterruptionWithoutUIUpdates": false,
+                    "LetCurrentUnitFinishAction": false,
+                    "ForbidChainInterruption": false
+                  },
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$1020f8db-34f7-41ae-b3b3-0a9669496c09",
+                    "m_Buff": "!bp_ff12ece321e94db786ad028f10e9bded",
+                    "BuffEndCondition": "TurnEndOrCombatEnd",
+                    "Permanent": false,
+                    "DurationValue": {
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 1,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": false,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  },
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$7c1b8ae0-62cc-477f-a2f1-dd8dba5f976c",
+                    "m_Buff": "!bp_7368d617f36f43288601172fb63c397a",
+                    "BuffEndCondition": "CombatEnd",
+                    "Permanent": false,
+                    "DurationValue": {
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 1,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": false,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "Simple",
+                      "Value": 1,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  }
+                ]
+              },
+              "NumberOfTargets": 50,
+              "TilesRadius": 5,
+              "LowestWounds": false,
+              "HighestWounds": false,
+              "AffectDead": false,
+              "AffectUnconscious": false,
+              "m_FilterNoFact": null,
+              "m_FilterHasFact": null
+            }
+          ]
+        },
+        "EndActions": {
+          "Actions": []
+        },
+        "m_Facts": [],
+        "m_FactsToCheckOnOwner": []
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "8d0ce7d5e06c32c448c882bde347a90f",
+        "stringkey": "9ff82a07-65bf-4c31-8204-9004bd593c66"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0095-4000-8000-000000000095",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "7057d325a032e99458f0e17ef0e792b2",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Dodge, Damage",
+      "MainGroup": "Dodge"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

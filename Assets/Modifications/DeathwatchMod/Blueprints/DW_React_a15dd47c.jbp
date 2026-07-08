@@ -1,0 +1,177 @@
+{
+  "AssetId": "a15dd47c2d294b8b881604dd233b8e0f",
+  "Data": {
+    "$type": "da11db195c86e0d4dae17a2c03a4ba9a, BlueprintAbility",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "66e032e5cf38801428940a1a0d14b946, AbilityEffectRunAction",
+        "name": "$AbilityEffectRunAction$62daef27-73aa-4388-9fce-5bcd433bd973",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "SavingThrowType": "Unknown",
+        "Actions": {
+          "Actions": [
+            {
+              "$type": "7b1d3a11c0f4426a8584738997ebc207, ContextActionOnAllUnitsInCombat",
+              "name": "$ContextActionOnAllUnitsInCombat$c036015bce9a4066a700d9c69d5bb570",
+              "OnlyEnemies": false,
+              "OnlyAllies": true,
+              "Actions": {
+                "Actions": [
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$e90538a530ad412f882440d93a0dcb25",
+                    "m_Buff": "!bp_62ee98dac65e46ed8af361b5e4fcaa49",
+                    "BuffEndCondition": "TurnStartOrCombatEnd",
+                    "Permanent": false,
+                    "DurationValue": {
+                      "BonusValue": {
+                        "ValueType": "Simple",
+                        "Value": 2,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      },
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 1,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": false,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  }
+                ]
+              },
+              "OnlyParty": false,
+              "WithoutPets": false,
+              "m_FilterNoFacts": [],
+              "m_FilterHaveAnyFact": [],
+              "ActionsOnRandomTarget": false,
+              "NotCaster": false,
+              "OnlyVisible": false,
+              "OnlyNotVisible": false,
+              "IncludeDead": false,
+              "IncludeUntargetable": false
+            }
+          ]
+        }
+      },
+      {
+        "$type": "9e5d6fea90c0cb9418a322c839a11cf8, WarhammerCooldown",
+        "name": "$WarhammerCooldown$134b1b66-0fa6-4fc7-a091-6c6765063a74",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "CooldownInRounds": 0,
+        "UntilEndOfCombat": true
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "7407f62db1d524647ac9128fe291a134",
+        "stringkey": "d82218d8-beef-44fb-ab25-d180ea0692b9"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0111-4000-8000-000000000111",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": {
+      "guid": "beb94777fbabce24a8a7337a73f2a78e",
+      "fileid": 21300000
+    },
+    "m_AllowNonContextActions": false,
+    "Type": "Spell",
+    "Range": "Personal",
+    "CustomRange": 0,
+    "MinRange": 0,
+    "ActionPointCost": 0,
+    "AbilityParamsSource": "None",
+    "PsychicPower": "Minor",
+    "VeilThicknessPointsToAdd": 1,
+    "ParamsSkill": "SkillAthletics",
+    "CooldownRounds": 0,
+    "CanTargetPoint": false,
+    "CanTargetEnemies": false,
+    "CanTargetFriends": false,
+    "CanTargetSelf": true,
+    "Hidden": false,
+    "HiddenInUI": false,
+    "DisableLog": false,
+    "DisableBestShootingPosition": false,
+    "NeedEquipWeapons": false,
+    "NotOffensive": false,
+    "ShowInDialogue": false,
+    "IsStarshipAbility": false,
+    "EffectOnAlly": "None",
+    "EffectOnEnemy": "None",
+    "m_Parent": null,
+    "Animation": "Directional",
+    "CastInOffHand": false,
+    "UseOnMechadendrite": false,
+    "UsedMechadendrite": "Utility",
+    "m_TargetMapObjects": false,
+    "IsFreeAction": false,
+    "ShouldTurnToTarget": true,
+    "SyncRotationAndAttack": false,
+    "SyncRotationDelay": 0.0,
+    "m_IsStratagem": false,
+    "UsingInThreateningArea": "CanUseWithoutAOO",
+    "UsingInOverwatchArea": "WillCauseAttack",
+    "CombatStateRestriction": "InCombatOnly",
+    "m_AbilityGroups": [],
+    "MaterialComponent": {
+      "m_Item": null,
+      "Count": 1
+    },
+    "ResourceAssetIds": [],
+    "m_FXSettings": "!bp_f2f68c6fc4d74e0b95aaef919b715c28",
+    "m_AbilityTag": "None",
+    "m_CombatHudCommandsOverride": null
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

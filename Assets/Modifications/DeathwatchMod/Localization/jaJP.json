@@ -651,6 +651,190 @@
     "dea7c0de-0065-4000-8000-000000000065": {
       "Offset": 0,
       "Text": "スペースマリーンがプラズマまたはメルタウェポンを使用するたびに、これら武器による{g|Encyclopedia:DamageGlossary}ダメージ{/g}が+%{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3}上昇する。この効果は累積する。\nスペースマリーンが1{g|Encyclopedia:Round}ラウンド{/g}の間に撃たない場合、全てのスタックは失われる。"
+    },
+    "dea7c0de-0066-4000-8000-000000000066": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、3セル以内に3体以上の生物（敵味方問わず）がいる場合、{g|Encyclopedia:Resolve}決断力{/g}が+{uip|Resolve|884ddece28ca4520b5b0d2a737fabfb5}される。\nただし、周囲に生物がいない場合、決断力に−2の{g|Encyclopedia:Penalty}ペナルティ{/g}を受ける。"
+    },
+    "dea7c0de-0067-4000-8000-000000000067": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、{g|Encyclopedia:WarhammerWillpower}意志力{/g}{g|Encyclopedia:ResistanceTest}抵抗判定{/g}を{g|Encyclopedia:WarhammerFellowship}連帯{/g}値を使って行うことができる（連帯の方が高い場合）"
+    },
+    "dea7c0de-0068-4000-8000-000000000068": {
+      "Offset": 0,
+      "Text": "スペースマリーンが敵に対して{g|Encyclopedia:MeleeSuperiority}近接優位{/g}の場合、その効果が+10増加する。敵がスペースマリーンに対して{g|Encyclopedia:MeleeAttacksGlossary}近接攻撃{/g}優勢の場合、その効果が-10減少する。\n"
+    },
+    "dea7c0de-0069-4000-8000-000000000069": {
+      "Offset": 0,
+      "Text": "スペースマリーンが味方キャラクターと隣接した状態で{g|Encyclopedia:Turn}ターン{/g}を開始た時、そのスペースマリーンは{g|Encyclopedia:MovementPoints}MP{/g}が+2される。\nスペースマリーンが味方と隣接した状態でターンを終えた時、味方全員は次のターンにMPが+2される。"
+    },
+    "dea7c0de-0070-4000-8000-000000000070": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、毎{g|Encyclopedia:Round}ラウンド{/g}最初の{g|Encyclopedia:AttackOfOpportunityFullGlossary}機会攻撃{/g}に対して+50%の{g|Encyclopedia:DodgeGlossary}回避{/g}{g|Encyclopedia:Bonus}ボーナス{/g}を得る。"
+    },
+    "dea7c0de-0071-4000-8000-000000000071": {
+      "Offset": 0,
+      "Text": "戦闘ごとに一度、スペースマリーンの{g|Encyclopedia:HitPoints}体力{/g}が30%以下になった時、{g|Encyclopedia:MaxWounds}最大体力{/g}の20%分を{g|Encyclopedia:TemporaryWounds}一時体力{/g}として得る。\nスペースマリーンは、いずれかの発生源により1以上の一時体力を持っている場合、{g|Encyclopedia:DodgeGlossary}回避{/g}とアーマーに+20%のボーナスを得る。"
+    },
+    "dea7c0de-0072-4000-8000-000000000072": {
+      "Offset": 0,
+      "Text": "スペースマリーンは{g|Encyclopedia:BleedingEffect}出血{/g}状態のターゲットまたは{g|Encyclopedia:MaxWounds}最大体力{/g}の50%以下のキャラクターに対して、{g|Encyclopedia:CritChancesAndCritDamageGlossary}クリティカルヒット率{/g}が+15%される。"
+    },
+    "dea7c0de-0073-4000-8000-000000000073": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、斧、ハンマー、ラス兵器使用時に{g|Encyclopedia:CritChancesAndCritDamageGlossary}クリティカルヒット率{/g}が+10%される。"
+    },
+    "dea7c0de-0074-4000-8000-000000000074": {
+      "Offset": 0,
+      "Text": "スペースマリーンは{g|Encyclopedia:Injury}負傷{/g}1つごとに、{g|Encyclopedia:WarhammerAgility}敏捷{/g}と{g|Encyclopedia:WarhammerWillpower}意志力{/g}が5増加する。\n{g|Encyclopedia:Traumas}外傷{/g}は1つにつき負傷3つ分とみなされる。"
+    },
+    "dea7c0de-0075-4000-8000-000000000075": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、炎、{g|Encyclopedia:ToxicDamage}毒ダメージ{/g}、{g|Encyclopedia:BleedingEffect}出血{/g}効果で受ける{g|Encyclopedia:DamageGlossary}ダメージ{/g}が −{unit_stat|WarhammerToughness|bonus}少なくなる。"
+    },
+    "dea7c0de-0076-4000-8000-000000000076": {
+      "Offset": 0,
+      "Text": "スペースマリーンは{g|Encyclopedia:WarhammerPerception}PER{/g}を+15、{g|Encyclopedia:WarhammerBallisticSkill}BS{/g}を+15獲得する。\nこの効果はスペースマリーンが移動するまで継続する。この効果はスタックしない。"
+    },
+    "dea7c0de-0077-4000-8000-000000000077": {
+      "Offset": 0,
+      "Text": "<b>的確</b>により、7セル以上離れている敵に対するスペースマリーンの{g|Encyclopedia:ArmourPenetration}アーマー貫通率{/g}を追加で+{uip|ArmourPenetration|07276669fcc04e2a9e7a5a3055c58b8c}%増加する。"
+    },
+    "dea7c0de-0078-4000-8000-000000000078": {
+      "Offset": 0,
+      "Text": "スペースマリーンがこの{g|Encyclopedia:Turn}ターン{/g}に移動していない場合、ターゲットとの間が5セル離れるごとに{g|Encyclopedia:SingleRangedAttacksGlossary}単発射撃{/g}が＋{uip|DamageBonus|233f7d66b32243a192b6960e0058da54}増加し{g|Encyclopedia:WarhammerBallisticSkill}BS{/g}が+{unit_stat|WarhammerPerception|bonus}増加する。この効果はスタックせず、スペースマリーンが動くまで継続する。"
+    },
+    "dea7c0de-0079-4000-8000-000000000079": {
+      "Offset": 0,
+      "Text": "スペースマリーンが敵を倒すたび、ネバーストップ・シューティングの+10のスタックを得る。彼らの{g|Encyclopedia:Turn}ターン{/g}の最初で、<u>(ネバーストップ・シューティングのスタック)</u>%の確率でこの{g|Encyclopedia:Round}ラウンド{/g}の最初の攻撃の{g|Encyclopedia:ActionPoints}AP{/g}消費が0になり、それは各ターンの攻撃制限にカウントされない。\nこの効果が発動すると全てのスタックを失う。"
+    },
+    "dea7c0de-0080-4000-8000-000000000080": {
+      "Offset": 0,
+      "Text": "スペースマリーンは戦闘の間、{g|Encyclopedia:WarhammerBallisticSkill}BS{/g}、{g|Encyclopedia:WarhammerPerception}PER{/g}、{g|Encyclopedia:WarhammerWillpower}WP{/g}が+7増加する。ただし戦闘以外では、{g|Encyclopedia:WarhammerIntelligence}INT{/g}、{g|Encyclopedia:WarhammerFellowship}FEL{/g}、{g|Encyclopedia:WarhammerPerception}PER{/g}、{g|Encyclopedia:WarhammerWillpower}WP{/g}が-7減少する。"
+    },
+    "dea7c0de-0081-4000-8000-000000000081": {
+      "Offset": 0,
+      "Text": "ラウンドごとにスペースマリーンは、このラウンドで行った各ショットの{g|Encyclopedia:RangeAreaAttacksGlossary}遠距離攻撃{/g}に対する{g|Encyclopedia:DodgeGlossary}回避{/g}に、+1％{g|Encyclopedia:Bonus}ボーナス{/g}のスタックを得る。また、遠距離{g|Encyclopedia:BurstAttacksGlossary}バースト{/g}攻撃はネバーストップ・シューティングの追加スタックを+10与える。"
+    },
+    "dea7c0de-0082-4000-8000-000000000082": {
+      "Offset": 0,
+      "Text": "彼らの{g|Encyclopedia:Turn}ターン{/g}の終わりに、スペースマリーンは<u>(この{g|Encyclopedia:Round}ラウンド{/g}で使った最も{g|Encyclopedia:DamageGlossary}ダメージ{/g}を与えた{g|Encyclopedia:RangeAreaAttacksGlossary}遠隔武器{/g}の最小ダメージの半分)</u>と同等のネバーストップ・シューティングのスタックを得る。"
+    },
+    "dea7c0de-0083-4000-8000-000000000083": {
+      "Offset": 0,
+      "Text": "戦闘の中でスペースマリーンの最初の{g|Encyclopedia:Reload}リロード{/g}は{g|Encyclopedia:ActionPoints}AP{/g}の消費が0になる。武器のリロードはネバーストップ・シューティングの追加スタックを+10与える。"
+    },
+    "dea7c0de-0084-4000-8000-000000000084": {
+      "Offset": 0,
+      "Text": "ネバーストップ・シューティングの全てのスタックがなくなると、スタック数は{uip|Stacks|c75384d4cdae4d1aa1c3d94e7c100ae2}となる。\nさらにスペースマリーンは、現在のタイプによって制限されていても、自身の{g|Encyclopedia:WarhammerWillpower}WP{/g}の{g|Encyclopedia:Characteristic}特性{/g}をアップグレードできる。"
+    },
+    "dea7c0de-0085-4000-8000-000000000085": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、攻撃、{g|Encyclopedia:DodgeGlossary}回避{/g}、{g|Encyclopedia:Parry}受け流し{/g}、{g|Encyclopedia:Characteristic}特性{/g}/スキル{g|Encyclopedia:Test}判定{/g}の失敗時、20%の確率で再判定できる。この確率は、基本成功確率以上にはならない。\nさらに、スペースマリーンに対する敵の回避や受け流しは、成功した場合でも20%の確率で失敗する。"
+    },
+    "dea7c0de-0086-4000-8000-000000000086": {
+      "Offset": 0,
+      "Text": "スペースマリーンが{g|Encyclopedia:CritChancesAndCritDamageGlossary}クリティカルヒット{/g}を出した時、10%の確率で{g|Encyclopedia:DamageGlossary}ダメージ{/g}が倍になる。"
+    },
+    "dea7c0de-0087-4000-8000-000000000087": {
+      "Offset": 0,
+      "Text": "スペースマリーンは致死{g|Encyclopedia:DamageGlossary}ダメージ{/g}を受けても20%の確率で{g|Encyclopedia:HitPoints}体力{/g}1の状態で生存する。"
+    },
+    "dea7c0de-0088-4000-8000-000000000088": {
+      "Offset": 0,
+      "Text": "スペースマリーンの{g|Encyclopedia:HitPoints}体力{/g}が50%以上の時、周囲3セル以内のすべての生物（敵を含む）のすべての確率が+10%される。\nスペースマリーンの体力が50%以下の時、周囲3セル以内のすべての生物（敵を含む）のすべての確率が−10%される。"
+    },
+    "dea7c0de-0089-4000-8000-000000000089": {
+      "Offset": 0,
+      "Text": "{g|Encyclopedia:Ability}アビリティ{/g}または{g|Encyclopedia:Talent}タレント{/g}で{g|Encyclopedia:WarhammerFellowship}FEL{/g}ボーナスを使用する時、スペースマリーンは代わりに{g|Encyclopedia:WarhammerIntelligence}INT{/g}ボーナスを使用できる（そちらのほうが高い場合）\nさらに、スペースマリーンは{g|Encyclopedia:Career}タイプ{/g}で認められていなくとも、常に知性をアップグレードできる。"
+    },
+    "dea7c0de-0090-4000-8000-000000000090": {
+      "Offset": 0,
+      "Text": "使用時、1{g|Encyclopedia:Round}round{/g}の間、スペースマリーンとその味方は味方の攻撃によるダメージを受けず、能力発動以降に攻撃した敵に対して+{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f}%の追加ダメージを与える。複数のスペースマリーンが戦闘にいる場合、この効果は重複しない。\n！1戦闘につき1回だけ使用できる。"
+    },
+    "dea7c0de-0091-4000-8000-000000000091": {
+      "Offset": 0,
+      "Text": "{g|f:a15dd47c2d294b8b881604dd233b8e0f}連隊戦術{/g}の効果が続く間、スペースマリーンとその味方の武器攻撃は、この戦闘でスペースマリーンの味方によってすでに攻撃された敵に対して+20%の{g|Encyclopedia:DodgeReduction}回避減少{/g}、{g|Encyclopedia:ParryReduction}受け流し減少{/g}、ブロック減少、および{g|Encyclopedia:DetailsOfTheCoverGlossary}遮蔽貫通{/g}を得る。"
+    },
+    "dea7c0de-0092-4000-8000-000000000092": {
+      "Offset": 0,
+      "Text": "スペースマリーンが<b>連隊戦術</b>効果を受けている時、そのすべての味方はこの効果開始以降に行った攻撃1回につき、{g|Encyclopedia:RateOfFire}バースト速度{/g}が+5%される。"
+    },
+    "dea7c0de-0093-4000-8000-000000000093": {
+      "Offset": 0,
+      "Text": "スペースマリーンの味方が{g|Encyclopedia:HeroicAct}英雄的行為{/g}を使用するたび、スペースマリーンは戦闘終了まですべての{g|Encyclopedia:Characteristic}特性{/g}が+7される。"
+    },
+    "dea7c0de-0094-4000-8000-000000000094": {
+      "Offset": 0,
+      "Text": "スペースマリーンは5セル以内の味方（自身を含む）に{g|f:b9f9ef145708451f81283a73c16c527d}衝撃に備えろ{/g}効果を付与する。この効果は1{g|Encyclopedia:Round}ラウンド{/g}持続する。スペースマリーンは戦闘開始時、戦闘中に{g|Encyclopedia:HitPoints}傷{/g}が初めて50%未満になった時、そして味方が戦闘中に初めて意識を失った時に、このアビリティのチャージを+1得る。"
+    },
+    "dea7c0de-0095-4000-8000-000000000095": {
+      "Offset": 0,
+      "Text": "{g|f:b9f9ef145708451f81283a73c16c527d}衝撃に備えろ{/g}の効果かぎり、スペースマリーンは{g|f:282940ecb99948a28adc9cb60374223b}離れろ！{/g}アビリティを1{g|Encyclopedia:Round}ターン{/g}ごとに使用でき、{g|Encyclopedia:MeleeAttacksGlossary}近接攻撃{/g}の対象は−10のペナルティ付きで{g|Encyclopedia:WarhammerAgility}AGI{/g}の{g|Encyclopedia:ResistanceTest}耐性判定{/g}に成功しなければ、{g|Encyclopedia:ProneEffect}転倒{/g}する。"
+    },
+    "dea7c0de-0096-4000-8000-000000000096": {
+      "Offset": 0,
+      "Text": "{g|f:b9f9ef145708451f81283a73c16c527d}衝撃に備えろ{/g}効果が持続している間、スペースマリーンの周囲5セル以内の敵は−{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703}{g|Encyclopedia:WarhammerWeaponSkill}WS{/g}および−{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703}{g|Encyclopedia:WarhammerBallisticSkill}BS{/g}を受ける。"
+    },
+    "dea7c0de-0097-4000-8000-000000000097": {
+      "Offset": 0,
+      "Text": "{g|f:b9f9ef145708451f81283a73c16c527d}衝撃に備えろ{/g}効果を持つ味方、またはスペースマリーンのその他の非攻撃系アーキタイプ能力の影響を受ける味方は、1{g|Encyclopedia:Round}ラウンド{/g}の間+{uip|dodge bonus|b79a772332e64e99921463bb28030674}%の{g|Encyclopedia:DodgeGlossary}回避{/g}を得る。重複しない。\\nスペースマリーンおよび{g|f:b9f9ef145708451f81283a73c16c527d}衝撃に備えろ{/g}効果を持つ味方は、{g|Encyclopedia:AttackOfOpportunityFullGlossary}機会攻撃{/g}を誘発しない。"
+    },
+    "dea7c0de-0098-4000-8000-000000000098": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、以下のリストからインプラントシステムを1つ選択する：\n-<indent=5%>サブスキン{g|Encyclopedia:WarhammerArmourGlossary}アーマー{/g}：アーマーを+<u>(5 + 2 × TGHボーナス)</u>%増加させる。</indent>\n-<indent=5%>運動システム：{g|Encyclopedia:MovementPoints}MP{/g}が+<u>(AGIボーナス / 2)</u>、{g|Encyclopedia:DodgeGlossary}回避{/g}が+<u>(2 × AGI ボーナス)</u>%増加する。</indent>\n-<indent=5%>分析システム：{g|Encyclopedia:CritChancesAndCritDamageGlossary}クリティカル命中率{/g}が+<u>(10 + INTボーナス)</u>%増加する。</indent>"
+    },
+    "dea7c0de-0099-4000-8000-000000000099": {
+      "Offset": 0,
+      "Text": "スペースマリーンは{g|Encyclopedia:BurningEffect}炎上{/g}効果とフレイムウェポンに対して、{g|Encyclopedia:Deflection}ディフレクション{/g}に+{unit_stat|WarhammerToughness|bonus}を得る。"
+    },
+    "dea7c0de-0100-4000-8000-000000000100": {
+      "Offset": 0,
+      "Text": "スペースマリーンは単体対象攻撃を命中させたターゲットに対して、命中率と{g|Encyclopedia:DodgeReduction}回避減少{/g}に+10%の{g|Encyclopedia:Bonus}ボーナス{/g}を得る（累積可）\n単体対象攻撃で{g|Encyclopedia:CritChancesAndCritDamageGlossary}クリティカルヒット{/g}を出した場合、命中率と回避減少が+20%に増加する。"
+    },
+    "dea7c0de-0101-4000-8000-000000000101": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、{g|Encyclopedia:WarhammerIntelligence}INT{/g}ではなく{g|Encyclopedia:WarhammerFellowship}FEL{/g}を用いて{g|Encyclopedia:SkillPersuasion}説得{/g}、{g|Encyclopedia:SkillCoercion}強制{/g}、{g|Encyclopedia:SkillCommerce}商取引{/g}を行うことができる。"
+    },
+    "dea7c0de-0102-4000-8000-000000000102": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、攻撃後または{g|Encyclopedia:Ability}アビリティ{/g}使用後に、{g|Encyclopedia:MovementPoints}MP{/g}を消費することがある。"
+    },
+    "dea7c0de-0103-4000-8000-000000000103": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、いずれかの{g|Encyclopedia:Characteristic}特性{/g}を選択することができ（{g|Encyclopedia:WarhammerWeaponSkill}武器{/g}または{g|Encyclopedia:WarhammerBallisticSkill}射撃技能{/g}を除く）、それに+10の{g|Encyclopedia:Bonus}ボーナス{/g}を加える。"
+    },
+    "dea7c0de-0104-4000-8000-000000000104": {
+      "Offset": 0,
+      "Text": "スペースマリーンが味方の非ダメージ系{g|Encyclopedia:Ability}アビリティ{/g}の効果を受けた時、または味方にそのようなアビリティを使った時、1{g|Encyclopedia:Round}ラウンド{/g}の間、{g|Encyclopedia:Resolve}決断力{/g}が{uip|Resolve|1a9f01d856144172863ef2ffecab6d4e}増加する。"
+    },
+    "dea7c0de-0105-4000-8000-000000000105": {
+      "Offset": 0,
+      "Text": "{g|Encyclopedia:HitPoints}体力{/g}が40%以下の時、スペースマリーンは全{g|Encyclopedia:Characteristic}特性{/g}に+10の{g|Encyclopedia:Bonus}ボーナス{/g}を得て、{g|Encyclopedia:Resolve}決断力{/g}が+2される。"
+    },
+    "dea7c0de-0106-4000-8000-000000000106": {
+      "Offset": 0,
+      "Text": "スペースマリーンは、異種族またはディーモン系の生物に対して{g|Encyclopedia:CritChancesAndCritDamageGlossary}クリティカル命中率{/g}が+10%、{g|Encyclopedia:WarhammerArmourGlossary}アーマー{/g}が+10%される。それらの味方は「異端を知らず」の{g|Encyclopedia:Bonus}ボーナス{/g}の半分を得る。\nただし、スペースマリーンの{g|Encyclopedia:SkillLoreXenos}伝承（異種族）{/g}および{g|Encyclopedia:SkillLoreWarp}伝承（歪み）{/g}は常に0になる。"
+    },
+    "dea7c0de-0107-4000-8000-000000000107": {
+      "Offset": 0,
+      "Text": "異能者がターゲットの{g|Encyclopedia:LineOfSight}視界{/g}内にいない限り、ターゲットのすべての抵抗{g|Encyclopedia:ResistanceTest}判定{/g}に −{uip|ResistancePenalty|2cab29e13d404ab986a2f825d0dc8914}の{g|Encyclopedia:Penalty}ペナルティ{/g}を与える。"
+    },
+    "dea7c0de-0108-4000-8000-000000000108": {
+      "Offset": 0,
+      "Text": "{g|Encyclopedia:Turn}ターン{/g}開始時にスペースマリーンが「確かな計画」を1スタックも持っていない場合、+1スタックを得る。"
+    },
+    "dea7c0de-0109-4000-8000-000000000109": {
+      "Offset": 0,
+      "Text": "戦闘ごとに一度、スペースマリーンが「確かな計画」を1スタック以上持っている場合、致死{g|Encyclopedia:DamageGlossary}ダメージ{/g}で死亡しなくなる。代わりに、{g|Encyclopedia:MaxWounds}最大体力{/g}の<u>(5 × 「確かな計画」のスタック数)</u>%を回復し、全スタックを失い、これ以上「確かな計画」のスタックを得られなくなる。"
+    },
+    "dea7c0de-0110-4000-8000-000000000110": {
+      "Offset": 0,
+      "Text": "スペースマリーンは{g|Encyclopedia:WarhammerPerception}PER{/g}を+15、{g|Encyclopedia:WarhammerBallisticSkill}BS{/g}を+15獲得する。\nこの効果はスペースマリーンが移動するまで継続する。この効果はスタックしない。"
+    },
+    "dea7c0de-0111-4000-8000-000000000111": {
+      "Offset": 0,
+      "Text": "使用時、1{g|Encyclopedia:Round}round{/g}の間、スペースマリーンとその味方は味方の攻撃によるダメージを受けず、能力発動以降に攻撃した敵に対して+{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f}%の追加ダメージを与える。複数のスペースマリーンが戦闘にいる場合、この効果は重複しない。\n！1戦闘につき1回だけ使用できる。"
     }
   }
 }

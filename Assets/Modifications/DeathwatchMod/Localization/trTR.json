@@ -651,6 +651,190 @@
     "dea7c0de-0065-4000-8000-000000000065": {
       "Offset": 0,
       "Text": "Space Marine her plazma veya melta silahı kullandığında, bu silahlarla vereceği {g|Encyclopedia:DamageGlossary}hasar{/g} %{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3} kadar artar. Etki üst üste birikebilir.\nSpace Marine 1 {g|Encyclopedia:Round}raunt{/g} boyunca ateş etmezse tüm bu birikimleri kaybeder."
+    },
+    "dea7c0de-0066-4000-8000-000000000066": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri, 3 hücrelik bir yarıçap içinde 3 veya daha fazla yaratık (dost veya düşman) varsa +{uip|Resolve|884ddece28ca4520b5b0d2a737fabfb5} {g|Encyclopedia:Resolve}kararlılık{/g} kazanır.\nEtrafta hiç yaratık yoksa da kararlılıklarına tam aksine −2 {g|Encyclopedia:Penalty}ceza puanı{/g} alırlar."
+    },
+    "dea7c0de-0067-4000-8000-000000000067": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesi, {g|Encyclopedia:WarhammerFellowship}Sosyallik{/g} niteliği {g|Encyclopedia:WarhammerWillpower}İrade{/g} niteliğinden yüksekse İrade {g|Encyclopedia:ResistanceTest}direnç testlerine{/g} girerken Sosyallik niteliğini kullanır."
+    },
+    "dea7c0de-0068-4000-8000-000000000068": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesinin düşmana karşı {g|Encyclopedia:MeleeSuperiority}yakın dövüş üstünlüğü{/g} varsa bu etki 10 puan artar. Bir düşmanın Uzay Piyadesine karşı {g|Encyclopedia:MeleeAttacksGlossary}yakın dövüş{/g} üstünlüğü varsa etki 10 puan azalır.\n"
+    },
+    "dea7c0de-0069-4000-8000-000000000069": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesi, {g|Encyclopedia:Turn}turuna{/g} dost bir karakterin bitişiğinde başlarsa +2 {g|Encyclopedia:MovementPoints}HP{/g} kazanır.\nBir Uzay Piyadesi, turunu dost birimlerin bitişiğinde tamamlarsa hepsi bir sonraki turlarında +2 HP kazanır."
+    },
+    "dea7c0de-0070-4000-8000-000000000070": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri, her {g|Encyclopedia:Round}raunttaki{/g} ilk {g|Encyclopedia:AttackOfOpportunityFullGlossary}fırsat saldırısına{/g} karşı +%50 {g|Encyclopedia:DodgeGlossary}kaçınma{/g} {g|Encyclopedia:Bonus}bonusu{/g} kazanırlar."
+    },
+    "dea7c0de-0071-4000-8000-000000000071": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesi, {g|Encyclopedia:HitPoints}sağlık{/g} puanı %30'un altına inerse çatışmada bir kez {g|Encyclopedia:MaxWounds}maksimum sağlık{/g} puanının +%20'si kadar {g|Encyclopedia:TemporaryWounds}geçici sağlık{/g} kazanır.\nAyrıca Uzay Piyadeleri, herhangi bir kaynaktan en az 1 geçici sağlık puanına sahiplerse {g|Encyclopedia:DodgeGlossary}kaçınma{/g} değerlerine +%20 bonus alırlar."
+    },
+    "dea7c0de-0072-4000-8000-000000000072": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri, {g|Encyclopedia:BleedingEffect}kanama{/g} etkisindeki veya sağlığı {g|Encyclopedia:MaxWounds}maksimum sağlık{/g} puanının %50 veya altına düşmüş hedeflere karşı +%15 {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritik vuruş olasılığı{/g} kazanırlar."
+    },
+    "dea7c0de-0073-4000-8000-000000000073": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri; balta, çekiç ve lazer silahlarla {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritik vuruş olasılıklarına{/g} +%10 kazanırlar."
+    },
+    "dea7c0de-0074-4000-8000-000000000074": {
+      "Offset": 0,
+      "Text": "Her {g|Encyclopedia:Injury}sakatlık{/g}, Uzay Piyadesi'nin {g|Encyclopedia:WarhammerAgility}Çeviklik{/g} ve {g|Encyclopedia:WarhammerWillpower}İrade{/g} niteliklerini +5 artırır (maksimum +60).\nHer {g|Encyclopedia:Traumas}travma{/g}, 3 sakatlık olarak sayılır."
+    },
+    "dea7c0de-0075-4000-8000-000000000075": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri; ateş, {g|Encyclopedia:ToxicDamage}toksik hasar{/g} ve {g|Encyclopedia:BleedingEffect}kanama{/g} etkilerinden {unit_stat|WarhammerToughness|bonus} kadar daha az {g|Encyclopedia:DamageGlossary}hasar{/g} alır."
+    },
+    "dea7c0de-0076-4000-8000-000000000076": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, +15 {g|Encyclopedia:WarhammerPerception}Algı{/g} ve +15 {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g} kazanır.\nBu etki, Uzay Piyadesi hareket edene dek sürer. Etki üst üste birikmez."
+    },
+    "dea7c0de-0077-4000-8000-000000000077": {
+      "Offset": 0,
+      "Text": "{g|f:7e75728ba44541b5985588702d0e08bb}Mükemmel Nokta{/g} kabiliyeti, ayrıca Uzay Piyadesi'a 7 veya daha fazla hücre uzaktaki düşmanlara karşı +%{uip|ArmourPenetration|07276669fcc04e2a9e7a5a3055c58b8c} {g|Encyclopedia:ArmourPenetration}zırh delme{/g} kazandırır."
+    },
+    "dea7c0de-0078-4000-8000-000000000078": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, o {g|Encyclopedia:Turn}turda{/g} hareket etmemişse {g|Encyclopedia:SingleRangedAttacksGlossary}tek atış{/g} saldırılarında hedef ile arasındaki her 5 hücrelik mesafe için +{uip|DamageBonus|233f7d66b32243a192b6960e0058da54} daha fazla hasar verir ve +{unit_stat|WarhammerPerception|bonus} {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g} niteliği kazanır. Bu bonuslar üst üste birikmez ve etkileri Uzay Piyadesi hareket ettiğinde son bulur."
+    },
+    "dea7c0de-0079-4000-8000-000000000079": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesi, bir düşmanı öldürdüğünde +10 tetiği asla bırakma birikimi kazanır. Karakterin {g|Encyclopedia:Turn}turu{/g} başladığında %<u>(tetiği asla bırakma birikimi)</u> oranla o {g|Encyclopedia:Round}raunttaki{/g} ilk saldırının {g|Encyclopedia:ActionPoints}EP{/g} bedelinin 0'a inme ve tur başına saldırı sınırından sayılmama olasılığı bulunur.\nBu etki tetiklenirse tüm birikimler kaybolur."
+    },
+    "dea7c0de-0080-4000-8000-000000000080": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri; çatışmadayken {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g}, {g|Encyclopedia:WarhammerPerception}Algı{/g} ve {g|Encyclopedia:WarhammerWillpower}İrade{/g} niteliklerine +7 kazanırlar. Çatışma dışında ise {g|Encyclopedia:WarhammerIntelligence}Zekâ{/g}, {g|Encyclopedia:WarhammerFellowship}Sosyallik{/g}, Algı ve İrade nitelikleri 7'şer puan azalır."
+    },
+    "dea7c0de-0081-4000-8000-000000000081": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri her rauntta, o raunt boyunca yaptıkları her atış için {g|Encyclopedia:RangeAreaAttacksGlossary}menzilli saldırılara{/g} karşı {g|Encyclopedia:DodgeGlossary}kaçınmalarına{/g} +%1 {g|Encyclopedia:Bonus}bonus{/g} (üst üste birikebilir) kazanırlar. Ayrıca menzilli {g|Encyclopedia:BurstAttacksGlossary}seri saldırılar{/g}, ilave +10 tetiği asla bırakma birikimi kazandırır."
+    },
+    "dea7c0de-0082-4000-8000-000000000082": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri, {g|Encyclopedia:Turn}turları{/g} sona erdiğinde <u>(o {g|Encyclopedia:Round}rauntta{/g} kullandıkları en çok hasar veren {g|Encyclopedia:RangeAreaAttacksGlossary}menzilli silahın{/g} minimum {g|Encyclopedia:DamageGlossary}hasarının{/g} yarısı)</u> kadar tetiği asla bırakma birikimi kazanırlar."
+    },
+    "dea7c0de-0083-4000-8000-000000000083": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri, çatışmadaki ilk silah {g|Encyclopedia:Reload}dolduruşlarını{/g} 0 {g|Encyclopedia:ActionPoints}EP{/g} harcayarak yaparlar. Silah doldurmak, ilave +10 tetiği asla bırakma birikimi kazandırır."
+    },
+    "dea7c0de-0084-4000-8000-000000000084": {
+      "Offset": 0,
+      "Text": "Tüm tetiği asla bırakma birikimlerinin sıfırlanması gerektiği yerde sıfır yerine {uip|Stacks|c75384d4cdae4d1aa1c3d94e7c100ae2} birikime dönüşürler.\nAyrıca bir uzay piyadesi, mevcut arketipi izin vermese bile {g|Encyclopedia:WarhammerWillpower}İrade{/g} {g|Encyclopedia:Characteristic}niteliğini{/g} yükseltebilir."
+    },
+    "dea7c0de-0085-4000-8000-000000000085": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesi; başarısız olduğu her türlü saldırı, {g|Encyclopedia:DodgeGlossary}kaçınma{/g}, {g|Encyclopedia:Parry}savuşturma{/g}, {g|Encyclopedia:Characteristic}nitelik{/g} veya yetenek {g|Encyclopedia:Test}testlerine{/g} %20 başarı olasılığıyla tekrar girer. Bu olasılık, atılan zarın taban başarı olasılığından daha yüksek olamaz.\nAyrıca bir düşman, bir Uzay Piyadesine karşı başarılı bir kaçınma veya savuşturma yaparsa bu girişim %20 olasılıkla başarısıza dönüşür."
+    },
+    "dea7c0de-0086-4000-8000-000000000086": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesi, {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritik vuruş{/g} yaptığında bu vuruş %10 olasılıkla iki katı {g|Encyclopedia:DamageGlossary}hasar{/g} verir."
+    },
+    "dea7c0de-0087-4000-8000-000000000087": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, ölümcül {g|Encyclopedia:DamageGlossary}hasara{/g} maruz kalırsa %20 olasılıkla 1 {g|Encyclopedia:HitPoints}sağlık{/g} puanı ile hayatta kalır."
+    },
+    "dea7c0de-0088-4000-8000-000000000088": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesinin {g|Encyclopedia:HitPoints}sağlık{/g} puanı %50'nin üzerindeyse 3 hücrelik yarıçap içindeki tüm yaratıkların (düşmanlar dâhil) tüm olasılıkları %10 artar.\nUzay Piyadesinin sağlık puanı %50'den düşükse 3 hücrelik yarıçap içindeki tüm yaratıkların (düşmanlar dâhil) tüm olasılıkları %10 azalır."
+    },
+    "dea7c0de-0089-4000-8000-000000000089": {
+      "Offset": 0,
+      "Text": "Uzay Piyadelerinde, {g|Encyclopedia:WarhammerFellowship}Sosyallik{/g} bonusu kullanan bir {g|Encyclopedia:Ability}kabiliyet{/g} veya {g|Encyclopedia:Talent}becerinin{/g} etkisi hesaplanırken karakterin Zekâ bonusu daha yüksekse Sosyallik yerine {g|Encyclopedia:WarhammerIntelligence}Zekâ{/g} niteliği kullanılır.\nAyrıca Uzay Piyadeleri, {g|Encyclopedia:Career}arketipleri{/g} izin vermese bile Zekâ niteliklerini geliştirebilirler."
+    },
+    "dea7c0de-0090-4000-8000-000000000090": {
+      "Offset": 0,
+      "Text": "Kullanıldığında Uzay Piyadesi ve dost birimleri, dost birimlerin saldırılarından hasar almazlar ve kabiliyet etkinleştirildikten sonra saldırdıkları düşmanlara +%{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} daha fazla hasar verirler. Etkisi 1 {g|Encyclopedia:Round}raunt{/g} sürer. Çatışmada birden fazla Uzay Piyadesi varsa etki üst üste birikmez.\n! Her çatışmada sadece bir kez kullanılabilir."
+    },
+    "dea7c0de-0091-4000-8000-000000000091": {
+      "Offset": 0,
+      "Text": "{g|f:a15dd47c2d294b8b881604dd233b8e0f}Alay Taktikleri{/g} etkisi devam ettiği sürece Uzay Piyadesi ile dost birimlerinin silah saldırıları; o çatışmada önceden saldırıya uğramış olan düşmanlara karşı +%20 {g|Encyclopedia:DodgeReduction}kaçınma azaltımı{/g}, {g|Encyclopedia:ParryReduction}savuşturma azaltımı{/g}, bloklama azaltımı ve {g|Encyclopedia:DetailsOfTheCoverGlossary}siper{/g} delme kazanır."
+    },
+    "dea7c0de-0092-4000-8000-000000000092": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi {g|f:a15dd47c2d294b8b881604dd233b8e0f}Alay Taktikleri{/g} etkisi altındayken tüm dost birimleri, bu etkinin başlangıcından itibaren yaptıkları her saldırı için +%5 {g|Encyclopedia:RateOfFire}atış hızı{/g} kazanırlar."
+    },
+    "dea7c0de-0093-4000-8000-000000000093": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi veya dost birimi bir {g|Encyclopedia:HeroicAct}kahramanca eylem{/g} yaptığında Uzay Piyadesinin tüm {g|Encyclopedia:Characteristic}nitelikleri{/g} +7 kazanır. Bu etki, çatışma sonuna dek sürer."
+    },
+    "dea7c0de-0094-4000-8000-000000000094": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, 5 hücrelik yarıçap içinde bulunan tüm dost birimlere (kendisi de dâhil) {g|f:b9f9ef145708451f81283a73c16c527d}çarpışmaya hazır{/g} etkisi kazandırır. Etki 1 {g|Encyclopedia:Round}raunt{/g} sürer. Uzay Piyadesi; çatışmanın başında, {g|Encyclopedia:HitPoints}sağlık{/g} puanı çatışmada ilk kez %50'nin altına indiğinde ve çatışmada her bir dost birimi ilk kez baygın düştüğünde bu kabiliyetin +1 kullanım hakkını kazanır."
+    },
+    "dea7c0de-0095-4000-8000-000000000095": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, {g|f:b9f9ef145708451f81283a73c16c527d}Çarpışmaya hazır{/g} etkisi devam ettiği sürece her {g|Encyclopedia:Round}rauntta{/g} bir kez {g|f:282940ecb99948a28adc9cb60374223b}Bas git!{/g} kabiliyetini kullanabilir. Ayrıca, yaptığı {g|Encyclopedia:MeleeAttacksGlossary}yakın dövüş saldırılarının{/g} hedefleri −10 ceza puanına sahip bir {g|Encyclopedia:WarhammerAgility}Çeviklik{/g} {g|Encyclopedia:ResistanceTest}direnç testinden{/g} geçmelidir. Aksi takdirde {g|Encyclopedia:ProneEffect}yere devrilirler{/g}."
+    },
+    "dea7c0de-0096-4000-8000-000000000096": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, {g|f:f0d6fd0433624181a3a6c9bb6fd60ab5}Çarpışmaya Hazırlan!{/g} kabiliyetini kullandığında etrafındaki 5 hücrelik yarıçap içinde bulunan tüm düşmanlar, −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} {g|Encyclopedia:WarhammerWeaponSkill}Silah Yeteneği{/g} ve −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g} niteliğine maruz kalır."
+    },
+    "dea7c0de-0097-4000-8000-000000000097": {
+      "Offset": 0,
+      "Text": "{g|f:b9f9ef145708451f81283a73c16c527d}Çarpışmaya hazır{/g} etkisine sahip veya Uzay Piyadesi'nin saldırı dışı diğer arketip kabiliyetlerinden etkilenen dost birimler, +%{uip|dodge bonus|b79a772332e64e99921463bb28030674} {g|Encyclopedia:DodgeGlossary}kaçınma{/g} kazanır. Etkisi 1 {g|Encyclopedia:Round}raunt{/g} sürer. Etki üst üste birikmez.\nUzay Piyadesi ve {g|f:b9f9ef145708451f81283a73c16c527d}çarpışmaya hazır{/g} etkisine sahip dost birimleri, {g|Encyclopedia:AttackOfOpportunityFullGlossary}fırsat saldırılarını{/g} tetiklemez."
+    },
+    "dea7c0de-0098-4000-8000-000000000098": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri şu listeden bir ogmentasyon sistemi seçerler:\n-<indent=5%>Derialtı {g|Encyclopedia:WarhammerArmourGlossary}Zırhı{/g}: +%<u>(5 + 2 × DAY bonusu)</u> kazandırır.</indent>\n-<indent=5%>Lokomosyon Sistemi: +<u>(ÇEV bonusu / 2)</u> {g|Encyclopedia:MovementPoints}HP{/g} ve +%<u>(2 × ÇEV bonusu)</u> {g|Encyclopedia:DodgeGlossary}kaçınma{/g}.</indent>\n-<indent=5%>Analitik Sistem: +%<u>(10 + ZEK bonusu)</u> {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritik vuruş olasılığı{/g}.</indent>"
+    },
+    "dea7c0de-0099-4000-8000-000000000099": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri {g|Encyclopedia:BurningEffect}yanma{/g} etkisi ve alev silahlarına karşı +{unit_stat|WarhammerToughness|bonus} {g|Encyclopedia:Deflection}saptırma{/g} kazanır."
+    },
+    "dea7c0de-0100-4000-8000-000000000100": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri, tek hedefli saldırıyla vurdukları bir hedefe karşı vuruş olasılığına ve {g|Encyclopedia:DodgeReduction}kaçınma azaltımına{/g} +%10 {g|Encyclopedia:Bonus}bonus{/g} kazanırlar. Bu bonus, üst üste birikebilir.\nTek hedefli saldırılardan kaynaklı başarılı {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritik vuruşlar{/g}, vuruş olasılığını ve kaçınma azaltımını +%20 artırır."
+    },
+    "dea7c0de-0101-4000-8000-000000000101": {
+      "Offset": 0,
+      "Text": "Uzay Piyadelerinin {g|Encyclopedia:SkillPersuasion}İkna{/g}, {g|Encyclopedia:SkillCoercion}Gözdağı{/g} ve {g|Encyclopedia:SkillCommerce}Tecim{/g} yetenekleri; {g|Encyclopedia:WarhammerFellowship}Sosyallik{/g} yerine {g|Encyclopedia:WarhammerIntelligence}Zekâ{/g} niteliğini temel alabilir."
+    },
+    "dea7c0de-0102-4000-8000-000000000102": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, saldırdıktan veya {g|Encyclopedia:Ability}kabiliyet{/g} kullandıktan sonra {g|Encyclopedia:MovementPoints}HP{/g} kullanabilir."
+    },
+    "dea7c0de-0103-4000-8000-000000000103": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri herhangi bir {g|Encyclopedia:Characteristic}niteliği{/g} seçip ({g|Encyclopedia:WarhammerWeaponSkill}Silah Yeteneği{/g} veya {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g} hariç) ona +10 {g|Encyclopedia:Bonus}bonus{/g} ekleyebilir."
+    },
+    "dea7c0de-0104-4000-8000-000000000104": {
+      "Offset": 0,
+      "Text": "Bir Uzay Piyadesi, bir dost birimin hasar vermeyen {g|Encyclopedia:Ability}kabiliyetinden{/g} etkilenir veya bir dost birimi böyle bir kabiliyetle etkilerse {g|Encyclopedia:Resolve}kararlılık{/g} değeri {uip|Resolve|1a9f01d856144172863ef2ffecab6d4e} artar. Bu etki, 1 {g|Encyclopedia:Round}raunt{/g} sürer."
+    },
+    "dea7c0de-0105-4000-8000-000000000105": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, {g|Encyclopedia:HitPoints}sağlık{/g} puanı %40'ın altındayken tüm {g|Encyclopedia:Characteristic}niteliklerine{/g} +10 {g|Encyclopedia:Bonus}bonus{/g} alır ve +2 {g|Encyclopedia:Resolve}kararlılık{/g} kazanır."
+    },
+    "dea7c0de-0106-4000-8000-000000000106": {
+      "Offset": 0,
+      "Text": "Uzay Piyadeleri, zenolara veya iblis yaratıklara karşı +%10 {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritik vuruş olasılığı{/g} ve +%10 {g|Encyclopedia:WarhammerArmourGlossary}zırh{/g} kazanırlar. Dost birimleri ise Kâfirlik Tanımaz becerisi {g|Encyclopedia:Bonus}bonuslarının{/g} yarısını kazanır.\nAncak Uzay Piyadelerinin {g|Encyclopedia:SkillLoreXenos}Kültür (Zeno){/g} ve {g|Encyclopedia:SkillLoreWarp}Kültür (Öteboyut){/g} yetenekleri her zaman 0'dır."
+    },
+    "dea7c0de-0107-4000-8000-000000000107": {
+      "Offset": 0,
+      "Text": "Ruhsezer, hedefin {g|Encyclopedia:LineOfSight}görüş hattında{/g} değilken hedefin tüm {g|Encyclopedia:ResistanceTest}direnç testleri{/g}, −{uip|ResistancePenalty|2cab29e13d404ab986a2f825d0dc8914} {g|Encyclopedia:Penalty}ceza puanı{/g} alır."
+    },
+    "dea7c0de-0108-4000-8000-000000000108": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, {g|Encyclopedia:Turn}turuna{/g} başladığında hiç garanti plan birikimi yoksa +1 birikim kazanır."
+    },
+    "dea7c0de-0109-4000-8000-000000000109": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesinın en az 1 garanti plan birikimi varsa her çatışmada bir kez ölümcül {g|Encyclopedia:DamageGlossary}hasardan{/g} ölmez. Bunun yerine {g|Encyclopedia:MaxWounds}maksimum sağlık{/g} puanlarının %<u>(5 × garanti plan birikimi)</u> kadarı tazelenir, tüm garanti plan birikimlerini kaybeder ve artık birikim kazanamaz."
+    },
+    "dea7c0de-0110-4000-8000-000000000110": {
+      "Offset": 0,
+      "Text": "Uzay Piyadesi, +15 {g|Encyclopedia:WarhammerPerception}Algı{/g} ve +15 {g|Encyclopedia:WarhammerBallisticSkill}Balistik Yetenek{/g} kazanır.\nBu etki, Uzay Piyadesi hareket edene dek sürer. Etki üst üste birikmez."
+    },
+    "dea7c0de-0111-4000-8000-000000000111": {
+      "Offset": 0,
+      "Text": "Kullanıldığında Uzay Piyadesi ve dost birimleri, dost birimlerin saldırılarından hasar almazlar ve kabiliyet etkinleştirildikten sonra saldırdıkları düşmanlara +%{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} daha fazla hasar verirler. Etkisi 1 {g|Encyclopedia:Round}raunt{/g} sürer. Çatışmada birden fazla Uzay Piyadesi varsa etki üst üste birikmez.\n! Her çatışmada sadece bir kez kullanılabilir."
     }
   }
 }

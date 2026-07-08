@@ -1,0 +1,201 @@
+{
+  "AssetId": "2cab29e13d404ab986a2f825d0dc8914",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$bda4db32-e5aa-4b8d-9cab-71bd05b203f9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "ContextCaster",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "8b570f3f321a21e4ba220a9d20cb6190, PsyRatingGetter",
+              "name": "$PsyRatingGetter$ade6809b11c141eab452ebed65da5c0b",
+              "Settings": {
+                "Progression": "MultiplyByModifier",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": -4,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              }
+            },
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$6d08abb0724c4c42a278e074b09f86bc",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": -4,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$0a1cb966-4e5a-4d4b-b7a1-b0bb4e2f8f73",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "b058cbe2-58c9-4f7b-a30e-f29f0bda51df",
+              "m_OwnerString": "2cab29e13d404ab986a2f825d0dc8914#$UIPropertiesComponent$0a1cb966-4e5a-4d4b-b7a1-b0bb4e2f8f73",
+              "m_OwnerPropertyPath": "Properties.Array.data[0].Description",
+              "m_JsonPath": "Strings/Mechanics/Blueprints\\Classes\\Psyker\\PsykerFeatures\\CommonTalents\\PsykerUnseenThreatTalent_Properties.Array.data[0].Description.json",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_2cab29e13d404ab986a2f825d0dc8914",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Value1",
+            "m_PropertySource": "!bp_2cab29e13d404ab986a2f825d0dc8914",
+            "m_LinkKey": "ResistancePenalty",
+            "Main": false
+          }
+        ]
+      },
+      {
+        "$type": "bcb56aa89bbc4381a0f7b268b6fc878e, SavingThrowBonusAgainstOwner",
+        "name": "$SavingThrowBonusAgainstOwner$c910918b-3e12-4169-9a66-5961a5c6ce25",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "RuleInitiator",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "5122bc0b20863d749bd0fc23b8ac58d7, CoverGetter",
+                "name": "$CoverGetter$29e0b280-8c17-42d0-97f1-e2ba55ed3df9",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Target": "ContextCaster",
+                "UseBestShootingPosition": false,
+                "Covers": "Half, Full, Invisible"
+              }
+            ]
+          }
+        },
+        "ModifierDescriptor": "None",
+        "Value": 0,
+        "Bonus": {
+          "ValueType": "CasterNamedProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AlwaysSucceed": false,
+        "AlwaysFail": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "cf216b576eef06f4ea6229b79ce28264",
+        "stringkey": "3bec208d-f0e0-4f8a-b399-725d504d2adb"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0107-4000-8000-000000000107",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Warp"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "SaveCheck, Debuff, Psy",
+      "MainGroup": "Debuff"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

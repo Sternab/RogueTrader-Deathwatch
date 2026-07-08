@@ -1,0 +1,226 @@
+{
+  "AssetId": "13b68af39d9f4d6b8d3dac316b32a355",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "735b0f7df0d179c4485cd3c8e30ca6db, RerollD100",
+        "name": "$RerollD100$48cc0c3c-3f07-49c4-a1e1-f4b5262e43db",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Chance": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$1457a10a513740a4a4b92a409db11ac3",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": 20,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            }
+          ]
+        },
+        "m_CanBeGreaterThanBaseChance": false,
+        "m_ShouldStopAfterSuccessfulReroll": false,
+        "m_RerollSuccess": 0,
+        "m_RerollFail": "Dodge, Parry, Attack, Skill, Attribute",
+        "m_RerollOnlyAgainstSourceOwner": false,
+        "m_RerollConcreteAttribute": false,
+        "m_RerollConcreteSkill": false,
+        "m_AllowRerollMultipleTimes": false,
+        "m_RerollCount": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": []
+        },
+        "SkillType": "Athletics",
+        "AttributeType": "BallisticSkill",
+        "ModifyBaseChance": false,
+        "RemoveSelfAfterReroll": false,
+        "ActionsOnReroll": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "0cdbc172cfe945e3818c0d49fbd7d65f, TurnBasedModeEventsTrigger",
+        "name": "$TurnBasedModeEventsTrigger$80a8935c-057b-4799-808c-7a35ff5f8c1c",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "TriggerIfNotInCombat": false,
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "CombatStartActions": {
+          "Actions": []
+        },
+        "CombatEndActions": {
+          "Actions": []
+        },
+        "RoundStartActions": {
+          "Actions": [
+            {
+              "$type": "7b1d3a11c0f4426a8584738997ebc207, ContextActionOnAllUnitsInCombat",
+              "name": "$ContextActionOnAllUnitsInCombat$064aa81569d04822af5c49d9f4a6d9a0",
+              "OnlyEnemies": true,
+              "OnlyAllies": false,
+              "Actions": {
+                "Actions": [
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$76c0979359df49e88954250f31e68664",
+                    "m_Buff": "!bp_dce334533fd64c638017ab0420651759",
+                    "BuffEndCondition": "CombatEnd",
+                    "Permanent": true,
+                    "DurationValue": {
+                      "BonusValue": {
+                        "ValueType": "Simple",
+                        "Value": 0,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      },
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 0,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": false,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  }
+                ]
+              },
+              "OnlyParty": false,
+              "m_FilterNoFacts": [],
+              "m_FilterHaveAnyFact": [],
+              "ActionsOnRandomTarget": false,
+              "NotCaster": false,
+              "OnlyVisible": false,
+              "OnlyNotVisible": false,
+              "IncludeDead": false
+            }
+          ]
+        },
+        "RoundEndActions": {
+          "Actions": []
+        },
+        "AnyUnitTurns": false,
+        "OnlyEnemyTurns": false,
+        "ActionsOnTheTurnOwner": false,
+        "UnitTurnStartActions": {
+          "Actions": []
+        },
+        "UnitTurnEndActions": {
+          "Actions": []
+        },
+        "UnitInterruptTurnStartActions": {
+          "Actions": []
+        },
+        "UnitInterruptTurnEndActions": {
+          "Actions": []
+        },
+        "DoNotApplyOnInterrupts": false
+      }
+    ],
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "e5bebe50-5a6c-4e40-80e7-3f3076f0fdf3",
+      "m_OwnerString": "13b68af39d9f4d6b8d3dac316b32a355",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\VoidBorn\\VoidBorn_Innate_Talent_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0085-4000-8000-000000000085",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "SkillCheck, SaveCheck",
+      "MainGroup": "SkillCheck"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false,
+    "Author": "Unknown"
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

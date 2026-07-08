@@ -1,0 +1,184 @@
+{
+  "AssetId": "233f7d66b32243a192b6960e0058da54",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "dbb7058d31be12446942310a6ab86b83, CombatStateTrigger",
+        "name": "$CombatStateTrigger$f2fdab64-4fef-4900-976a-ab729cc209a9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "CombatStartActions": {
+          "Actions": [
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$b9210222-5e4f-45e8-88aa-8725a26f7d77",
+              "m_Buff": "!bp_693cf154a6e84877a05531d7787af578",
+              "BuffEndCondition": "CombatEnd",
+              "Permanent": true,
+              "DurationValue": {
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 0,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": true,
+              "AsChild": true,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            }
+          ]
+        },
+        "CombatEndActions": {
+          "Actions": []
+        },
+        "UnitMustBeConscious": false
+      },
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$f6dd3e15-9a03-4358-9868-dd0e581eed3b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "de94f056-8467-4300-8ff0-1ed4f0cc191a",
+              "m_OwnerString": "233f7d66b32243a192b6960e0058da54#$UIPropertiesComponent$f6dd3e15-9a03-4358-9868-dd0e581eed3b",
+              "m_OwnerPropertyPath": "Properties.Array.data[0].Description",
+              "m_JsonPath": "Strings/Mechanics/Blueprints\\Classes\\Adept\\AdeptTalents\\Adept_Sharpshooter_Talent_Properties.Array.data[0].Description.json",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_233f7d66b32243a192b6960e0058da54",
+            "m_LinkProperty": true,
+            "m_PropertyName": "StatBonus2",
+            "m_PropertySource": "!bp_233f7d66b32243a192b6960e0058da54",
+            "m_LinkKey": "DamageBonus",
+            "Main": false
+          }
+        ]
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$932a5a19-08c0-40c2-9632-21a3575bec1f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "StatBonus2",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Mul",
+          "TargetType": "CurrentEntity",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$6ea39db6-6c30-40d2-b1d7-5fa0386e951a",
+              "Settings": {
+                "Progression": "Div2",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "IntelligenceBonus"
+            }
+          ]
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "3489f28cff718bc4583ec43635fde916",
+        "stringkey": "d95c0728-6a26-47a3-a7dc-ff6e8e89126d"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0078-4000-8000-000000000078",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Archetype"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "CharacteristicBonus, Damage",
+      "MainGroup": "Damage"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

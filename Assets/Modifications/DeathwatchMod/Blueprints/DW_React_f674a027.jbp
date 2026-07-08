@@ -1,0 +1,130 @@
+{
+  "AssetId": "f674a027c9d740bea5296908b2c8c009",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "547decea8a90414eb6dedb6ac9053ec9, ReplaceBaseStatValue",
+        "name": "$ReplaceBaseStatValue$a2bdf8ae-d9e8-446d-827f-5bbee3b37cd8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_RestrictionCalculator": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "m_OriginalStat": "SkillPersuasion",
+        "m_NewAttribute": "WarhammerIntelligence",
+        "m_OnlyIfHigher": false,
+        "m_PreviousAttributeToCompare": "Unknown"
+      },
+      {
+        "$type": "547decea8a90414eb6dedb6ac9053ec9, ReplaceBaseStatValue",
+        "name": "$ReplaceBaseStatValue$248fd7e6-624b-46b4-bab1-cebb5139e37a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_RestrictionCalculator": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "m_OriginalStat": "SkillCoercion",
+        "m_NewAttribute": "WarhammerIntelligence",
+        "m_OnlyIfHigher": false,
+        "m_PreviousAttributeToCompare": "Unknown"
+      },
+      {
+        "$type": "547decea8a90414eb6dedb6ac9053ec9, ReplaceBaseStatValue",
+        "name": "$ReplaceBaseStatValue$37f31f0d-7894-4ac5-8252-3004ab0fa005",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_RestrictionCalculator": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "m_OriginalStat": "SkillCommerce",
+        "m_NewAttribute": "WarhammerIntelligence",
+        "m_OnlyIfHigher": false,
+        "m_PreviousAttributeToCompare": "Unknown"
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "5152020e931d37848944413aa3090887",
+        "stringkey": "24214ad5-b139-4541-8aed-404fd37839c1"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0101-4000-8000-000000000101",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "SkillCheck",
+      "MainGroup": "SkillCheck"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

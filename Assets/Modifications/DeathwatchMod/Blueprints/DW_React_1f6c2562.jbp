@@ -1,0 +1,75 @@
+{
+  "AssetId": "1f6c2562512b4b4ab24f4efee446a7c2",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$30649e69-f6aa-472e-8752-8ad09c0d9606",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "ChargenImperialWorld",
+        "m_Features": [
+          "!bp_c4d908b662184bc9b6d110ef5abba8ba",
+          "!bp_7fa71f4f1b954dfe8d76050b76b68b0c",
+          "!bp_8f94867f55864f80a496102bd582b195",
+          "!bp_8385693f20824317a76ef4f1331f87bd",
+          "!bp_0237442f0ba3426aa08a714c0b607497",
+          "!bp_b1b7502accb64befa0edd130641a38ff",
+          "!bp_00c996410c2842e88b2380e9982a047f"
+        ]
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "3832bc3c-7ce4-4397-b8f0-00b290d62e98",
+      "m_OwnerString": "1f6c2562512b4b4ab24f4efee446a7c2",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\ImperialWorld\\ImperialWorld_Innate_Feature_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0103-4000-8000-000000000103",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "CharacteristicBonus",
+      "MainGroup": "CharacteristicBonus"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

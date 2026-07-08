@@ -1,0 +1,317 @@
+{
+  "AssetId": "c05db22721574a98b2faaf57aaf01268",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "428580af48b84509b97be533f03c7759, WarhammerHitChanceModifierInitiator",
+        "name": "$WarhammerHitChanceModifierInitiator$6f12cf4b-a25a-4c84-a2b4-d42545058745",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "BoolAnd",
+            "TargetType": "RuleTarget",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": true,
+            "Getters": [
+              {
+                "$type": "632fcd2b80d228149945aceb30f308b7, ArmyTypeGetter",
+                "name": "$ArmyTypeGetter$ec3f98a59ae9592d908571c7ec53b1cb",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Human": false,
+                "Xenos": true,
+                "Daemon": true,
+                "SpecificArmyType": false,
+                "m_Armies": []
+              }
+            ]
+          }
+        },
+        "Properties": "RighteousFury",
+        "HitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "MaxHitChance": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "RighteousFuryChance": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverPenetrationPercent": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "CoverMagnitude": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "HitToCritPercentMultiplier": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "AutoHit": false,
+        "AutoCrit": false,
+        "NeverCrit": false,
+        "CoverHitAutoResult": "None"
+      },
+      {
+        "$type": "4eaba0ad9abe479eae3618b5e97d5c71, WarhammerArmorBonusConditional",
+        "name": "$WarhammerArmorBonusConditional$c9ca7d35-a0af-4d7b-ac9f-6f06d08b228e",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "RuleInitiator",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "632fcd2b80d228149945aceb30f308b7, ArmyTypeGetter",
+                "name": "$ArmyTypeGetter$247b7ed1-cb0e-4d1c-ab59-dd5dded346af",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "Human": false,
+                "Xenos": true,
+                "Daemon": true,
+                "SpecificArmyType": false,
+                "m_Armies": []
+              }
+            ]
+          }
+        },
+        "BonusDeflectionValue": {
+          "ValueType": "Simple",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "BonusAbsorptionValue": {
+          "ValueType": "Simple",
+          "Value": 10,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "SpecificRangeType": false,
+        "WeaponRangeType": "Melee",
+        "SpecificDamageType": false,
+        "Type": "Impact",
+        "AllDamageExceptThisType": false,
+        "OnlyFromAlliedAttacks": false,
+        "IgnoreArmour": false
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$5cd00d85-097f-426f-abd4-7ab009fdc8cc",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "SkillLoreXenos",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": -200,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "IsPercentModifier": false,
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$0f040311-63e0-467a-8d98-accbb0b35ab2",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "SkillLoreWarp",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "Simple",
+          "Value": -200,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "IsPercentModifier": false,
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "c0692276882a413b95b13da9c5ffdf23, AddFactsToParty",
+        "name": "$AddFactsToParty$62947f50-ed3e-4d78-81cd-65d580093607",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restriction": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "DoNotAddToSelf": true,
+        "AddIfOwnerNotInParty": false,
+        "AddToRemoteCompanions": false,
+        "m_Facts": [
+          "!bp_88a22671dc754a938ffe8e482d108b24"
+        ]
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "1095bb5f-09ab-40a3-8119-1ba60ee218a3",
+      "m_OwnerString": "c05db22721574a98b2faaf57aaf01268",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\ImperialWorld\\ImperialWorld_Talent04_Feature_m_DisplayName_1.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0106-4000-8000-000000000106",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Debuff, Armour, Crit",
+      "MainGroup": "Crit"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

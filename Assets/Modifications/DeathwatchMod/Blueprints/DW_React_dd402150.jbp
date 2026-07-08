@@ -1,0 +1,212 @@
+{
+  "AssetId": "dd40215088fa4090bce083a2f2978d45",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$010f6121-1956-4b4f-a696-c4a213ecb252",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Max",
+          "TargetType": "CurrentEntity",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$66097793e7054ea688cc79023be45df9",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            },
+            {
+              "$type": "88a988badcc84ea8847e21626bee82e5, PropertyCalculatorGetter",
+              "name": "$PropertyCalculatorGetter$4e6f34cbffba4683862113d103ac8f17",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "Operation": "Sub",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+                    "name": "$SimplePropertyGetter$5360f4e598f2420a80d75ffdf3df75a6",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Property": "Fellowship"
+                  },
+                  {
+                    "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+                    "name": "$SimplePropertyGetter$e48c33d0355841aaaaec45a7f4ba3b51",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Property": "Willpower"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$34729b70-771e-4d65-95a4-8b795e56f39a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "SaveWill",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "CasterNamedProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "IsPercentModifier": false,
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$9feb0270-3f4d-4513-a5e2-79853d514ab0",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Stat": "WarhammerWillpower",
+        "CheckCaster": false
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$e9fc7913-2434-4dc1-8429-5a3e143e3069",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Stat": "WarhammerFellowship",
+        "CheckCaster": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "a52f7a94-6a82-40d8-8b51-4221497cb2a4",
+      "m_OwnerString": "dd40215088fa4090bce083a2f2978d45",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\HiveWorld\\HiveWorld_Talent01_Feature_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0067-4000-8000-000000000067",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "SaveCheck",
+      "MainGroup": "SaveCheck"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

@@ -651,6 +651,190 @@
     "dea7c0de-0065-4000-8000-000000000065": {
       "Offset": 0,
       "Text": "Cada vez que el marine espacial use armas de plasma o de fusión, su {g|Encyclopedia:DamageGlossary}daño{/g} con estas armas aumenta en +{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3} %. Este efecto es acumulativo.\nSi el marine espacial pasa 1 {g|Encyclopedia:Round}asalto{/g} sin disparar, pierde todas las acumulaciones."
+    },
+    "dea7c0de-0066-4000-8000-000000000066": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan +{uip|Resolve|884ddece28ca4520b5b0d2a737fabfb5} de {g|Encyclopedia:Resolve}firmeza{/g} si hay 3 criaturas o más (sean aliados o enemigos) en un radio de 3 casillas.\nSin embargo, si no hay ninguna criatura cerca sufren una {g|Encyclopedia:Penalty}penalización{/g} de −2 a la firmeza."
+    },
+    "dea7c0de-0067-4000-8000-000000000067": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales pueden hacer las {g|Encyclopedia:ResistanceTest}pruebas de fortaleza{/g} de {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} usando su {g|Encyclopedia:WarhammerFellowship}Empatía{/g} si su puntuación de Empatía es más alta."
+    },
+    "dea7c0de-0068-4000-8000-000000000068": {
+      "Offset": 0,
+      "Text": "Si un Marine Espacial tiene {g|Encyclopedia:MeleeSuperiority}superioridad cuerpo a cuerpo{/g} contra el enemigo, el efecto aumenta en +10. Si un enemigo tiene superioridad {g|Encyclopedia:MeleeAttacksGlossary}cuerpo a cuerpo{/g} contra un Marine Espacial, el efecto se reduce en −10.\n"
+    },
+    "dea7c0de-0069-4000-8000-000000000069": {
+      "Offset": 0,
+      "Text": "Si un Marine Espacial empieza su {g|Encyclopedia:Turn}turno{/g} adyacente a un personaje aliado, el Marine Espacial gana +2 {g|Encyclopedia:MovementPoints}PM{/g}.\nSi un Marine Espacial termina su turno con aliados adyacentes, todos ganan +2 PM en su siguiente turno."
+    },
+    "dea7c0de-0070-4000-8000-000000000070": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan una {g|Encyclopedia:Bonus}bonificación{/g} de +50 % a la {g|Encyclopedia:DodgeGlossary}esquiva{/g} contra el primer {g|Encyclopedia:AttackOfOpportunityFullGlossary}ataque de oportunidad{/g} de cada {g|Encyclopedia:Round}asalto{/g}."
+    },
+    "dea7c0de-0071-4000-8000-000000000071": {
+      "Offset": 0,
+      "Text": "Una vez por combate, cuando las {g|Encyclopedia:HitPoints}heridas{/g} de un Marine Espacial bajan del 30 %, reciben un +20 % de sus {g|Encyclopedia:MaxWounds}heridas máximas{/g} como {g|Encyclopedia:TemporaryWounds}heridas temporales{/g}.\nLos Marines Espaciales también reciben una bonificación de +20 % a su {g|Encyclopedia:DodgeGlossary}esquiva{/g} y armadura mientras tengan al menos 1 herida temporal de cualquier origen."
+    },
+    "dea7c0de-0072-4000-8000-000000000072": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan un +15 % de {g|Encyclopedia:CritChancesAndCritDamageGlossary}probabilidad de impacto crítico{/g} contra objetivos afectados por efectos de {g|Encyclopedia:BleedingEffect}sangrado{/g} o cuyas heridas están a un 50 % o menos de sus {g|Encyclopedia:MaxWounds}heridas máximas{/g}."
+    },
+    "dea7c0de-0073-4000-8000-000000000073": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan +10 % a su {g|Encyclopedia:CritChancesAndCritDamageGlossary}probabilidad de impacto crítico{/g} con hachas, martillos y armas láser."
+    },
+    "dea7c0de-0074-4000-8000-000000000074": {
+      "Offset": 0,
+      "Text": "Cada {g|Encyclopedia:Injury}herida{/g} aumenta la {g|Encyclopedia:WarhammerAgility}Agilidad{/g} y la {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} del Marine Espacial en +5 (hasta un máximo de +60).\nCada {g|Encyclopedia:Traumas}aflicción{/g} cuenta como 3 lesiones."
+    },
+    "dea7c0de-0075-4000-8000-000000000075": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales sufren −{unit_stat|WarhammerToughness|bonus} menos de {g|Encyclopedia:DamageGlossary}daño{/g} por efectos de fuego, {g|Encyclopedia:ToxicDamage}daño tóxico{/g} y efectos de {g|Encyclopedia:BleedingEffect}sangrado{/g}."
+    },
+    "dea7c0de-0076-4000-8000-000000000076": {
+      "Offset": 0,
+      "Text": "El Marine Espacial gana +15 de {g|Encyclopedia:WarhammerPerception}Percepción{/g} y +15 de {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}.\nEste efecto dura hasta que el Marine Espacial se mueva. Este efecto no es acumulativo."
+    },
+    "dea7c0de-0077-4000-8000-000000000077": {
+      "Offset": 0,
+      "Text": "{g|f:7e75728ba44541b5985588702d0e08bb}Posición perfecta{/g} también proporciona al Marine Espacial +{uip|ArmourPenetration|07276669fcc04e2a9e7a5a3055c58b8c} % de {g|Encyclopedia:ArmourPenetration}penetración de armadura{/g} contra enemigos situados a 7 casillas o más."
+    },
+    "dea7c0de-0078-4000-8000-000000000078": {
+      "Offset": 0,
+      "Text": "Si el Marine Espacial no se ha movido este {g|Encyclopedia:Turn}turno{/g}, inflige +{uip|DamageBonus|233f7d66b32243a192b6960e0058da54} más de daño con ataques de {g|Encyclopedia:SingleRangedAttacksGlossary}un solo disparo{/g} por cada 5 casillas que haya entre él y su objetivo y aumenta en +{unit_stat|WarhammerPerception|bonus} su {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}. Estas bonificaciones no se acumulan y duran hasta que el Marine Espacial se mueve."
+    },
+    "dea7c0de-0079-4000-8000-000000000079": {
+      "Offset": 0,
+      "Text": "Cada vez que un Marine Espacial mata a un enemigo gana 10 acumulaciones de No dejes de disparar. Al principio de su {g|Encyclopedia:Turn}turno{/g}, hay un <u>(acumulaciones de No dejes de disparar)</u> % de probabilidad de que el primer ataque de este {g|Encyclopedia:Round}asalto{/g} cueste 0 {g|Encyclopedia:ActionPoints}PA{/g} y no cuente para el límite de ataques del asalto.\nSi el efecto se activa, se pierden todas las acumulaciones."
+    },
+    "dea7c0de-0080-4000-8000-000000000080": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan +7 a su {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}, {g|Encyclopedia:WarhammerPerception}Percepción{/g} y {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} durante el combate. Sin embargo, fuera del combate su {g|Encyclopedia:WarhammerIntelligence}Inteligencia{/g}, {g|Encyclopedia:WarhammerFellowship}Empatía{/g}, Percepción y Voluntad se reducen en −7."
+    },
+    "dea7c0de-0081-4000-8000-000000000081": {
+      "Offset": 0,
+      "Text": "Cada asalto, los Marines Espaciales ganan una {g|Encyclopedia:Bonus}bonificación{/g} acumulativa de +1 % a su {g|Encyclopedia:DodgeGlossary}esquiva{/g} contra {g|Encyclopedia:RangeAreaAttacksGlossary}ataques a distancia{/g} por cada disparo realizado durante ese asalto. Además, el ataque de {g|Encyclopedia:BurstAttacksGlossary}ráfaga{/g} a distancia concede 10 acumulaciones adicionales de No dejes de disparar."
+    },
+    "dea7c0de-0082-4000-8000-000000000082": {
+      "Offset": 0,
+      "Text": "Al final de su {g|Encyclopedia:Turn}turno{/g}, los Marines Espaciales ganan acumulaciones de No dejes de disparar iguales a <u>(la mitad del {g|Encyclopedia:DamageGlossary}daño{/g} mínimo del {g|Encyclopedia:RangeAreaAttacksGlossary}arma a distancia{/g} más poderosa que han usado este {g|Encyclopedia:Round}asalto{/g})</u>."
+    },
+    "dea7c0de-0083-4000-8000-000000000083": {
+      "Offset": 0,
+      "Text": "La primera {g|Encyclopedia:Reload}recarga{/g} de cada combate cuesta 0 {g|Encyclopedia:ActionPoints}PA{/g} para los Marines Espaciales. Recargar el arma concede 10 acumulaciones adicionales de No dejes de disparar."
+    },
+    "dea7c0de-0084-4000-8000-000000000084": {
+      "Offset": 0,
+      "Text": "Cuando todas las cargas de No dejes de disparar vayan a perderse, en vez de eso se reducen a {uip|Stacks|c75384d4cdae4d1aa1c3d94e7c100ae2} acumulaciones.\nAdemás, un Marine Espacial puede mejorar su {g|Encyclopedia:Characteristic}característica{/g} de {g|Encyclopedia:WarhammerWillpower}Voluntad{/g} aunque su arquetipo actual no lo permita."
+    },
+    "dea7c0de-0085-4000-8000-000000000085": {
+      "Offset": 0,
+      "Text": "Un Marine Espacial puede volver a tirar cualquier ataque, {g|Encyclopedia:DodgeGlossary}esquiva{/g}, {g|Encyclopedia:Parry}parada{/g} o {g|Encyclopedia:Test}prueba{/g} de {g|Encyclopedia:Characteristic}característica{/g} o de habilidad con una probabilidad de éxito del 20 %. Esta probabilidad no puede ser superior a la probabilidad de éxito básica de la tirada.\nAdemás, cualquier esquiva o parada del enemigo contra un Marine Espacial tiene un 20 % de probabilidad de fallar aunque la tirada tenga éxito."
+    },
+    "dea7c0de-0086-4000-8000-000000000086": {
+      "Offset": 0,
+      "Text": "Cada vez que un Marine Espacial asesta un {g|Encyclopedia:CritChancesAndCritDamageGlossary}impacto crítico{/g}, hay un 10 % de probabilidad de duplicar el {g|Encyclopedia:DamageGlossary}daño{/g}."
+    },
+    "dea7c0de-0087-4000-8000-000000000087": {
+      "Offset": 0,
+      "Text": "El Marine Espacial tiene una probabilidad del 20 % de sobrevivir al {g|Encyclopedia:DamageGlossary}daño{/g} letal con 1 {g|Encyclopedia:HitPoints}herida{/g}."
+    },
+    "dea7c0de-0088-4000-8000-000000000088": {
+      "Offset": 0,
+      "Text": "Cuando un Marine Espacial tiene más del 50 % de sus {g|Encyclopedia:HitPoints}heridas{/g}, todas las probabilidades de éxito de todas las criaturas en un radio de 3 casillas (incluyendo enemigos) aumentan un +10 %.\nCuando un Marine Espacial tiene menos del 50 % de sus heridas, todas las probabilidades de éxito de todas las criaturas en un radio de 3 casillas (incluyendo enemigos) se reducen un −10 %."
+    },
+    "dea7c0de-0089-4000-8000-000000000089": {
+      "Offset": 0,
+      "Text": "Cuando una {g|Encyclopedia:Ability}capacidad{/g} o un {g|Encyclopedia:Talent}talento{/g} usan la bonificación por {g|Encyclopedia:WarhammerFellowship}Empatía{/g}, un Marine Espacial puede usar su bonificación por {g|Encyclopedia:WarhammerIntelligence}Inteligencia{/g} si es mayor.\nAdemás, los Marines Espaciales siempre pueden mejorar su Inteligencia aunque su {g|Encyclopedia:Career}arquetipo{/g} no lo permita."
+    },
+    "dea7c0de-0090-4000-8000-000000000090": {
+      "Offset": 0,
+      "Text": "Cuando se usa, durante 1 {g|Encyclopedia:Round}asalto{/g} el Marine Espacial y sus aliados no sufren daño por los ataques de aliados e infligen un +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} % de daño adicional a los enemigos que hayan sido atacados por ellos desde el momento en que se activó la capacidad. Si hay varios Marines Espaciales participando en el combate, este efecto no se acumula.\n! Solo puede usarse una vez por combate."
+    },
+    "dea7c0de-0091-4000-8000-000000000091": {
+      "Offset": 0,
+      "Text": "Mientras dure el efecto de {g|f:a15dd47c2d294b8b881604dd233b8e0f}Tácticas de regimiento{/g}, los ataques con armas del Marine Espacial y de sus aliados ganan un +20 % de {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g}, {g|Encyclopedia:ParryReduction}reducción de parada{/g}, reducción de bloqueo y penetración de {g|Encyclopedia:DetailsOfTheCoverGlossary}cobertura{/g} contra enemigos que hayan sido atacados previamente por los aliados del Marine Espacial en el combate actual."
+    },
+    "dea7c0de-0092-4000-8000-000000000092": {
+      "Offset": 0,
+      "Text": "Cuando el Marine Espacial se beneficia de los efectos de {g|f:a15dd47c2d294b8b881604dd233b8e0f}Tácticas de regimiento{/g}, todos los aliados ganan un +5 % a la {g|Encyclopedia:RateOfFire}cadencia de disparo{/g} por cada ataque que han lanzado desde que ha empezado el efecto."
+    },
+    "dea7c0de-0093-4000-8000-000000000093": {
+      "Offset": 0,
+      "Text": "Cada vez que el Marine Espacial o su aliado realicen un {g|Encyclopedia:HeroicAct}acto heroico{/g}, todas las {g|Encyclopedia:Characteristic}características{/g} del Marine Espacial aumentan en +7 hasta el final del combate."
+    },
+    "dea7c0de-0094-4000-8000-000000000094": {
+      "Offset": 0,
+      "Text": "El Marine Espacial otorga el efecto {g|f:b9f9ef145708451f81283a73c16c527d}preparado{/g} a todos los aliados (incluido él mismo) en un radio de 5 casillas. El efecto dura 1 {g|Encyclopedia:Round}asalto{/g}. El Marine Espacial gana +1 carga de esta capacidad al inicio del combate, cuando sus {g|Encyclopedia:HitPoints}heridas{/g} se reducen por debajo del 50 % por primera vez en combate y la primera vez que cada aliado cae inconsciente en combate."
+    },
+    "dea7c0de-0095-4000-8000-000000000095": {
+      "Offset": 0,
+      "Text": "Mientras el efecto {g|f:b9f9ef145708451f81283a73c16c527d}preparado{/g} está activo, el Marine Espacial puede usar la capacidad {g|f:282940ecb99948a28adc9cb60374223b}¡Quítate de encima!{/g} una vez por {g|Encyclopedia:Round}asalto{/g} y los objetivos de sus {g|Encyclopedia:MeleeAttacksGlossary}ataques cuerpo a cuerpo{/g} deben superar una {g|Encyclopedia:ResistanceTest}prueba de fortaleza{/g} de {g|Encyclopedia:WarhammerAgility}Agilidad{/g} con una penalización de −10 o quedar {g|Encyclopedia:ProneEffect}derribados{/g}."
+    },
+    "dea7c0de-0096-4000-8000-000000000096": {
+      "Offset": 0,
+      "Text": "Cuando el Marine Espacial usa la capacidad {g|f:f0d6fd0433624181a3a6c9bb6fd60ab5}¡Preparados para impacto!{/g}, todos los enemigos en un radio de 5-casillas sufren −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} a su {g|Encyclopedia:WarhammerWeaponSkill}Habilidad de armas{/g} y −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} a su {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}."
+    },
+    "dea7c0de-0097-4000-8000-000000000097": {
+      "Offset": 0,
+      "Text": "Los aliados con el efecto {g|f:b9f9ef145708451f81283a73c16c527d}preparado{/g} o afectados por las otras capacidades de arquetipo no ofensivas del Marine Espacial ganan +{uip|dodge bonus|b79a772332e64e99921463bb28030674} % de {g|Encyclopedia:DodgeGlossary}esquiva{/g} durante 1 {g|Encyclopedia:Round}asalto{/g}. No se acumula.\nEl Marine Espacial y sus aliados con el efecto {g|f:b9f9ef145708451f81283a73c16c527d}preparado{/g} no provocan {g|Encyclopedia:AttackOfOpportunityFullGlossary}ataques de oportunidad{/g}."
+    },
+    "dea7c0de-0098-4000-8000-000000000098": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales eligen un sistema de aumentos de la siguiente lista:\n-<indent=5%>{g|Encyclopedia:WarhammerArmourGlossary}Armadura{/g} subdérmica: concede +<u>(5 + 2 × bonificación por RES)</u> % de armadura.</indent>\n-<indent=5%>Sistema locomotor: concede +<u>(bonificación por AGI / 2)</u> {g|Encyclopedia:MovementPoints}PM{/g} y +<u>(2 × bonificación por AGI)</u> % de {g|Encyclopedia:DodgeGlossary}esquiva{/g}.</indent>\n-<indent=5%>Sistema analítico: concede +<u>(10 + bonificación por INT)</u> % de {g|Encyclopedia:CritChancesAndCritDamageGlossary}probabilidad de impacto crítico{/g}.</indent>"
+    },
+    "dea7c0de-0099-4000-8000-000000000099": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan +{unit_stat|WarhammerToughness|bonus} de {g|Encyclopedia:Deflection}desvío{/g} contra el efecto {g|Encyclopedia:BurningEffect}quemadura{/g} y las armas de llamas."
+    },
+    "dea7c0de-0100-4000-8000-000000000100": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan una {g|Encyclopedia:Bonus}bonificación{/g} acumulativa del 10 % a su probabilidad de impacto y {g|Encyclopedia:DodgeReduction}reducción de esquiva{/g} contra cualquier enemigo al que impacten con un ataque de un solo objetivo.\nLos {g|Encyclopedia:CritChancesAndCritDamageGlossary}impactos críticos{/g} de ataques de un solo objetivo aumentan la probabilidad de impactar y la reducción de esquiva en un +20 %."
+    },
+    "dea7c0de-0101-4000-8000-000000000101": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales pueden usar {g|Encyclopedia:SkillPersuasion}Persuasión{/g}, {g|Encyclopedia:SkillCoercion}Coacción{/g} y {g|Encyclopedia:SkillCommerce}Comercio{/g} usando su {g|Encyclopedia:WarhammerIntelligence}Inteligencia{/g} en vez de su {g|Encyclopedia:WarhammerFellowship}Empatía{/g}."
+    },
+    "dea7c0de-0102-4000-8000-000000000102": {
+      "Offset": 0,
+      "Text": "Marine Espacial puede usar {g|Encyclopedia:MovementPoints}PM{/g} después de atacar o usar {g|Encyclopedia:Ability}capacidades{/g}."
+    },
+    "dea7c0de-0103-4000-8000-000000000103": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales pueden elegir cualquier {g|Encyclopedia:Characteristic}característica{/g} (excepto {g|Encyclopedia:WarhammerWeaponSkill}Habilidad de armas{/g} y {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}) y añadirle una {g|Encyclopedia:Bonus}bonificación{/g} de +10."
+    },
+    "dea7c0de-0104-4000-8000-000000000104": {
+      "Offset": 0,
+      "Text": "Cuando un Marine Espacial se ve afectado por una {g|Encyclopedia:Ability}capacidad{/g} no dañina de un aliado o afecta a un aliado con una capacidad no dañina, su {g|Encyclopedia:Resolve}firmeza{/g} aumenta en {uip|Resolve|1a9f01d856144172863ef2ffecab6d4e} durante 1 {g|Encyclopedia:Round}asalto{/g}."
+    },
+    "dea7c0de-0105-4000-8000-000000000105": {
+      "Offset": 0,
+      "Text": "Mientras tengan menos del 40 % de las {g|Encyclopedia:HitPoints}heridas{/g}, los Marines Espaciales ganan una {g|Encyclopedia:Bonus}bonificación{/g} +10 a todas las {g|Encyclopedia:Characteristic}características{/g} y +2 de {g|Encyclopedia:Resolve}firmeza{/g}."
+    },
+    "dea7c0de-0106-4000-8000-000000000106": {
+      "Offset": 0,
+      "Text": "Los Marines Espaciales ganan +10 % de {g|Encyclopedia:CritChancesAndCritDamageGlossary}probabilidad de impacto crítico{/g} y +10 % de {g|Encyclopedia:WarhammerArmourGlossary}armadura{/g} contra xenos y criaturas daemónicas. Sus aliados reciben la mitad de las {g|Encyclopedia:Bonus}bonificaciones{/g} de No conocerás la herejía.\nSin embargo, las habilidades {g|Encyclopedia:SkillLoreXenos}Conocimiento (xenos){/g} y {g|Encyclopedia:SkillLoreWarp}Conocimiento (disformidad){/g} de Marines Espaciales siempre son 0."
+    },
+    "dea7c0de-0107-4000-8000-000000000107": {
+      "Offset": 0,
+      "Text": "Mientras el psíquico no se encuentra en la {g|Encyclopedia:LineOfSight}línea de visión{/g} del objetivo, todas las {g|Encyclopedia:ResistanceTest}pruebas de fortaleza{/g} del objetivo sufren una {g|Encyclopedia:Penalty}penalización{/g} de −{uip|ResistancePenalty|2cab29e13d404ab986a2f825d0dc8914}."
+    },
+    "dea7c0de-0108-4000-8000-000000000108": {
+      "Offset": 0,
+      "Text": "Si al principio de su {g|Encyclopedia:Turn}turno{/g} el Marine Espacial no tiene acumulaciones de Plan garantizado, gana +1."
+    },
+    "dea7c0de-0109-4000-8000-000000000109": {
+      "Offset": 0,
+      "Text": "Una vez por combate, si el Marine Espacial tiene al menos una acumulación de Plan garantizado, no muere al sufrir {g|Encyclopedia:DamageGlossary}daño{/g} letal. En vez de ello, recupera <u>(5 × acumulaciones de Plan garantizado)</u> % de sus {g|Encyclopedia:MaxWounds}heridas máximas{/g}, pierde todas las acumulaciones y no puede ganar más hasta terminar el combate."
+    },
+    "dea7c0de-0110-4000-8000-000000000110": {
+      "Offset": 0,
+      "Text": "El Marine Espacial gana +15 de {g|Encyclopedia:WarhammerPerception}Percepción{/g} y +15 de {g|Encyclopedia:WarhammerBallisticSkill}Habilidad de proyectiles{/g}.\nEste efecto dura hasta que el Marine Espacial se mueva. Este efecto no es acumulativo."
+    },
+    "dea7c0de-0111-4000-8000-000000000111": {
+      "Offset": 0,
+      "Text": "Cuando se usa, durante 1 {g|Encyclopedia:Round}asalto{/g} el Marine Espacial y sus aliados no sufren daño por los ataques de aliados e infligen un +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} % de daño adicional a los enemigos que hayan sido atacados por ellos desde el momento en que se activó la capacidad. Si hay varios Marines Espaciales participando en el combate, este efecto no se acumula.\n! Solo puede usarse una vez por combate."
     }
   }
 }

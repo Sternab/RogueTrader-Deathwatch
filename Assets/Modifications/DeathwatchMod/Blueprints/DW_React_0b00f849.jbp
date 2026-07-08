@@ -1,0 +1,161 @@
+{
+  "AssetId": "0b00f849c16a45dba17647e624c90b01",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "d79ad4ed064aa4f43ace0e9c238fb9b9, AddFacts",
+        "name": "$AddFacts$2c1186b5-f0b4-488c-a800-39963af66b5d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "m_Facts": [
+          "!bp_1f6c2562512b4b4ab24f4efee446a7c2"
+        ],
+        "Dummy": null,
+        "DoNotRestoreMissingFacts": false,
+        "HasDifficultyRequirements": false,
+        "InvertDifficultyRequirements": false,
+        "MinDifficulty": "Story"
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$d4cdbe41-2f4f-4132-adbb-576a154b1ddc",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$68d69dbf-ec40-49f4-b75d-7cf768703487",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$53b41e4c-8d38-437b-bab8-ac08a3e793e3",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$33e9445d-e20c-4a73-8faf-b67fee296c8d",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$456ef975-bb14-4dc1-8e8f-a98e16c66308",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "ebd7310b-08fc-448a-834f-34b755b9b4fc",
+      "m_OwnerString": "0b00f849c16a45dba17647e624c90b01",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\ImperialWorld\\ImperialWorld_Homeworld_m_DisplayName_1.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "70e848f1-8049-4474-8245-033f8d11cace",
+      "m_OwnerString": "0b00f849c16a45dba17647e624c90b01",
+      "m_OwnerPropertyPath": "m_Description",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\ImperialWorld\\ImperialWorld_Homeworld_m_Description.json",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [],
+    "TalentIconInfo": {
+      "AllGroups": "Homeworld",
+      "MainGroup": "Homeworld"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

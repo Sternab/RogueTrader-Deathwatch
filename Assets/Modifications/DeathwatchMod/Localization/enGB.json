@@ -651,6 +651,190 @@
     "dea7c0de-0065-4000-8000-000000000065": {
       "Offset": 0,
       "Text": "Every time the Battle-Brother uses plasma or melta weapons, his {g|Encyclopedia:DamageGlossary}damage{/g} with these weapons increases by +{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3}%. Stacks.\nIf the Battle-Brother does not shoot for 1 {g|Encyclopedia:Round}round{/g}, he loses all stacks."
+    },
+    "dea7c0de-0066-4000-8000-000000000066": {
+      "Offset": 0,
+      "Text": "Space Marines gain +{uip|Resolve|884ddece28ca4520b5b0d2a737fabfb5} {g|Encyclopedia:Resolve}resolve{/g} if there are 3 or more creatures (allies or enemies) in a 3-cell radius.\nYet they suffer a −2 {g|Encyclopedia:Penalty}penalty{/g} to resolve with no creatures around."
+    },
+    "dea7c0de-0067-4000-8000-000000000067": {
+      "Offset": 0,
+      "Text": "Space Marines can pass {g|Encyclopedia:WarhammerWillpower}Willpower{/g} {g|Encyclopedia:ResistanceTest}resistance tests{/g} using their {g|Encyclopedia:WarhammerFellowship}Fellowship{/g} value instead, if the character's Fellowship is higher."
+    },
+    "dea7c0de-0068-4000-8000-000000000068": {
+      "Offset": 0,
+      "Text": "If a Space Marine has {g|Encyclopedia:MeleeSuperiority}melee superiority{/g} against the enemy, the effect is increased by +10. If an enemy has {g|Encyclopedia:MeleeAttacksGlossary}melee{/g} superiority against a Space Marine, the effect is decreased by −10."
+    },
+    "dea7c0de-0069-4000-8000-000000000069": {
+      "Offset": 0,
+      "Text": "If a Space Marine starts their {g|Encyclopedia:Turn}turn{/g} adjacent to an ally character, that Space Marine gains +2 {g|Encyclopedia:MovementPoints}MP{/g}.\nIf a Space Marine ends their turn adjacent to allies, they all gain +2 MP on their next turn."
+    },
+    "dea7c0de-0070-4000-8000-000000000070": {
+      "Offset": 0,
+      "Text": "Space Marines gain a +50% {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:DodgeGlossary}dodge{/g} against the first {g|Encyclopedia:AttackOfOpportunityFullGlossary}attack of opportunity{/g} every {g|Encyclopedia:Round}round{/g}."
+    },
+    "dea7c0de-0071-4000-8000-000000000071": {
+      "Offset": 0,
+      "Text": "Once per combat, when the {g|Encyclopedia:HitPoints}wounds{/g} of a Space Marine drop below 30%, they gain +20% of their {g|Encyclopedia:MaxWounds}maximum wounds{/g} as {g|Encyclopedia:TemporaryWounds}temporary wounds{/g}.\nSpace Marines also gain a +20% bonus to {g|Encyclopedia:DodgeGlossary}dodge{/g} and armour while they have at least 1 temporary wound from any source."
+    },
+    "dea7c0de-0072-4000-8000-000000000072": {
+      "Offset": 0,
+      "Text": "Space Marines gain +15% {g|Encyclopedia:CritChancesAndCritDamageGlossary}critical hit chance{/g} against targets with the {g|Encyclopedia:BleedingEffect}bleeding{/g} effect or with 50% or less of their {g|Encyclopedia:MaxWounds}maximum wounds{/g}."
+    },
+    "dea7c0de-0073-4000-8000-000000000073": {
+      "Offset": 0,
+      "Text": "Space Marines gain +10% to {g|Encyclopedia:CritChancesAndCritDamageGlossary}critical hit chance{/g} for axes, hammers, and las weapons."
+    },
+    "dea7c0de-0074-4000-8000-000000000074": {
+      "Offset": 0,
+      "Text": "Every {g|Encyclopedia:Injury}injury{/g} increases the Space Marine's {g|Encyclopedia:WarhammerAgility}Agility{/g} and {g|Encyclopedia:WarhammerWillpower}Willpower{/g} by +5 (up to a maximum of +60).\nEvery {g|Encyclopedia:Traumas}trauma{/g} counts as 3 injuries."
+    },
+    "dea7c0de-0075-4000-8000-000000000075": {
+      "Offset": 0,
+      "Text": "Space Marines suffer −{unit_stat|WarhammerToughness|bonus} less {g|Encyclopedia:DamageGlossary}damage{/g} from fire, {g|Encyclopedia:ToxicDamage}toxic damage{/g}, and {g|Encyclopedia:BleedingEffect}bleeding{/g} effects."
+    },
+    "dea7c0de-0076-4000-8000-000000000076": {
+      "Offset": 0,
+      "Text": "The Space Marine gains +15 {g|Encyclopedia:WarhammerPerception}Perception{/g} and +15 {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g}.\nThis effect lasts until the Space Marine moves. Does not stack."
+    },
+    "dea7c0de-0077-4000-8000-000000000077": {
+      "Offset": 0,
+      "Text": "{g|f:7e75728ba44541b5985588702d0e08bb}Perfect Spot{/g} additionally grants the Space Marine +{uip|ArmourPenetration|07276669fcc04e2a9e7a5a3055c58b8c}% {g|Encyclopedia:ArmourPenetration}armour penetration{/g} against enemies that are 7 cells away or farther."
+    },
+    "dea7c0de-0078-4000-8000-000000000078": {
+      "Offset": 0,
+      "Text": "If the Space Marine has not moved this {g|Encyclopedia:Turn}turn{/g}, they deal +{uip|DamageBonus|233f7d66b32243a192b6960e0058da54} more damage with {g|Encyclopedia:SingleRangedAttacksGlossary}single-shot{/g} attacks for every 5 cells between them and the target and gain +{unit_stat|WarhammerPerception|bonus} {g|Encyclopedia:WarhammerBallisticSkill} Ballistic Skill{/g}. These bonuses do not stack and last until the Space Marine moves."
+    },
+    "dea7c0de-0079-4000-8000-000000000079": {
+      "Offset": 0,
+      "Text": "Each time a Space Marine kills an enemy, they gain +10 stacks of never stop shooting. At the start of their {g|Encyclopedia:Turn}turn{/g}, there is a <u>(stacks of never stop shooting)</u>% chance that the first attack this {g|Encyclopedia:Round}round{/g} will cost 0 {g|Encyclopedia:ActionPoints}AP{/g} and will not count toward the attack limit per turn.\nIf this effect triggers, all the stacks are lost."
+    },
+    "dea7c0de-0080-4000-8000-000000000080": {
+      "Offset": 0,
+      "Text": "Space Marines gain +7 to {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g}, {g|Encyclopedia:WarhammerPerception}Perception{/g}, and {g|Encyclopedia:WarhammerWillpower}Willpower{/g} while in combat. Yet while out of combat, their {g|Encyclopedia:WarhammerIntelligence}Intelligence{/g}, {g|Encyclopedia:WarhammerFellowship}Fellowship{/g}, Perception, and Willpower are decreased by −7."
+    },
+    "dea7c0de-0081-4000-8000-000000000081": {
+      "Offset": 0,
+      "Text": "Each round Space Marines gain a stacking +1% {g|Encyclopedia:Bonus}bonus{/g} to {g|Encyclopedia:DodgeGlossary}dodge{/g} against {g|Encyclopedia:RangeAreaAttacksGlossary}ranged attacks{/g} for each shot they made during this round. Also, the ranged {g|Encyclopedia:BurstAttacksGlossary}burst{/g} attack grants an additional +10 stacks of never stop shooting."
+    },
+    "dea7c0de-0082-4000-8000-000000000082": {
+      "Offset": 0,
+      "Text": "At the end of their {g|Encyclopedia:Turn}turn{/g}, Space Marines gain stacks of never stop shooting equal to <u>(half the minimal {g|Encyclopedia:DamageGlossary}damage{/g} of the most damaging {g|Encyclopedia:RangeAreaAttacksGlossary}ranged weapon{/g} they used this {g|Encyclopedia:Round}round{/g})</u>."
+    },
+    "dea7c0de-0083-4000-8000-000000000083": {
+      "Offset": 0,
+      "Text": "Space Marines' first {g|Encyclopedia:Reload}reload{/g} in combat costs 0 {g|Encyclopedia:ActionPoints}AP{/g}. Reloading a weapon grants an additional +10 stacks of never stop shooting."
+    },
+    "dea7c0de-0084-4000-8000-000000000084": {
+      "Offset": 0,
+      "Text": "When all stacks of never stop shooting should be lost, they become {uip|Stacks|c75384d4cdae4d1aa1c3d94e7c100ae2} stacks instead.\nAdditionally, a Space Marine may upgrade their {g|Encyclopedia:WarhammerWillpower}Willpower{/g} {g|Encyclopedia:Characteristic}characteristic{/g} even if their current archetypes do not allow it."
+    },
+    "dea7c0de-0085-4000-8000-000000000085": {
+      "Offset": 0,
+      "Text": "A Space Marine can re-roll any failed attack, {g|Encyclopedia:DodgeGlossary}dodge{/g}, {g|Encyclopedia:Parry}parry{/g}, {g|Encyclopedia:Characteristic}characteristic{/g}, or skill {g|Encyclopedia:Test}test{/g} with a 20% chance of success. This chance cannot be greater than the base success chance of the roll.\nAdditionally, any enemy dodge or parry against a Space Marine has a 20% chance to fail after a successful roll."
+    },
+    "dea7c0de-0086-4000-8000-000000000086": {
+      "Offset": 0,
+      "Text": "Any time a Space Marine scores a {g|Encyclopedia:CritChancesAndCritDamageGlossary}critical hit{/g}, there is a 10% chance to double the {g|Encyclopedia:DamageGlossary}damage{/g}."
+    },
+    "dea7c0de-0087-4000-8000-000000000087": {
+      "Offset": 0,
+      "Text": "The Space Marine has a 20% chance to survive after suffering lethal {g|Encyclopedia:DamageGlossary}damage{/g}, surviving with 1 {g|Encyclopedia:HitPoints}wound{/g}."
+    },
+    "dea7c0de-0088-4000-8000-000000000088": {
+      "Offset": 0,
+      "Text": "While a Space Marine has more than 50% {g|Encyclopedia:HitPoints}wounds{/g}, all chances of all creatures (including enemies) in a 3-cell radius are increased by +10%.\nWhile a Space Marine has less than 50% wounds, all chances of all creatures (including enemies) in a 3-cell radius are decreased by −10%."
+    },
+    "dea7c0de-0089-4000-8000-000000000089": {
+      "Offset": 0,
+      "Text": "Any time an {g|Encyclopedia:Ability}ability{/g} or {g|Encyclopedia:Talent}talent{/g} uses the {g|Encyclopedia:WarhammerFellowship}Fellowship{/g} bonus, a Space Marine can instead use the {g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} bonus, if it is higher.\nAdditionally, Space Marines can always upgrade Intelligence even if their {g|Encyclopedia:Career}archetype{/g} does not allow it."
+    },
+    "dea7c0de-0090-4000-8000-000000000090": {
+      "Offset": 0,
+      "Text": "When used, for 1 {g|Encyclopedia:Round}round{/g} the Space Marine and their allies do not suffer damage from allied attacks and deal +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f}% more damage to enemies that were attacked by them since ability activation. If multiple Space Marines are in combat, the effect does not stack.\n! Can only be used once per combat."
+    },
+    "dea7c0de-0091-4000-8000-000000000091": {
+      "Offset": 0,
+      "Text": "While the effect of {g|f:a15dd47c2d294b8b881604dd233b8e0f}Regimental Tactics{/g} lasts, the Space Marine's and their allies' weapon attacks gain +20% {g|Encyclopedia:DodgeReduction}dodge reduction{/g}, {g|Encyclopedia:ParryReduction}parry reduction{/g}, block reduction, and {g|Encyclopedia:DetailsOfTheCoverGlossary}cover{/g} penetration against enemies that have already been attacked by the Space Marine's allies this combat."
+    },
+    "dea7c0de-0092-4000-8000-000000000092": {
+      "Offset": 0,
+      "Text": "While the Space Marine is under the {g|f:a15dd47c2d294b8b881604dd233b8e0f}Regimental Tactics{/g} effect, all their allies gain +5% to {g|Encyclopedia:RateOfFire}rate of fire{/g} for every attack they have made since the start of this effect."
+    },
+    "dea7c0de-0093-4000-8000-000000000093": {
+      "Offset": 0,
+      "Text": "Whenever the Space Marine or their ally performs a {g|Encyclopedia:HeroicAct}heroic act{/g}, all the Space Marine's {g|Encyclopedia:Characteristic}characteristics{/g} are increased by +7 until the end of combat."
+    },
+    "dea7c0de-0094-4000-8000-000000000094": {
+      "Offset": 0,
+      "Text": "The Space Marine grants the {g|f:b9f9ef145708451f81283a73c16c527d}braced{/g} effect to each ally (including themselves) in a 5-cell radius. The effect lasts for 1 {g|Encyclopedia:Round}round{/g}. The Space Marine gains +1 charge of this ability at the start of combat, when their {g|Encyclopedia:HitPoints}wounds{/g} drop below 50% for the first time in combat, and each time an ally falls unconscious for the first time in combat."
+    },
+    "dea7c0de-0095-4000-8000-000000000095": {
+      "Offset": 0,
+      "Text": "While the {g|f:b9f9ef145708451f81283a73c16c527d}braced{/g} effect lasts, the Space Marine can use the {g|f:282940ecb99948a28adc9cb60374223b}Get off me!{/g} ability once per {g|Encyclopedia:Round}round{/g}, and the targets of their {g|Encyclopedia:MeleeAttacksGlossary}melee attacks{/g} must pass an {g|Encyclopedia:WarhammerAgility}Agility{/g} {g|Encyclopedia:ResistanceTest}resistance test{/g} with a −10 penalty or fall {g|Encyclopedia:ProneEffect}prone{/g}."
+    },
+    "dea7c0de-0096-4000-8000-000000000096": {
+      "Offset": 0,
+      "Text": "Whenever the Space Marine uses the {g|f:f0d6fd0433624181a3a6c9bb6fd60ab5}Brace for Impact!{/g} ability, all enemies in a 5-cell radius around them suffer −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} {g|Encyclopedia:WarhammerWeaponSkill}Weapon Skill{/g} and −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g}."
+    },
+    "dea7c0de-0097-4000-8000-000000000097": {
+      "Offset": 0,
+      "Text": "Allies with the {g|f:b9f9ef145708451f81283a73c16c527d}braced{/g} effect or affected by the Space Marine's other non-attacking archetype abilities gain +{uip|dodge bonus|b79a772332e64e99921463bb28030674}% {g|Encyclopedia:DodgeGlossary}dodge{/g} for 1 {g|Encyclopedia:Round}round{/g}. Does not stack.\nThe Space Marine and their allies with the {g|f:b9f9ef145708451f81283a73c16c527d}braced{/g} effect do not provoke {g|Encyclopedia:AttackOfOpportunityFullGlossary}attacks of opportunity{/g}."
+    },
+    "dea7c0de-0098-4000-8000-000000000098": {
+      "Offset": 0,
+      "Text": "Space Marines choose one augmentation system from the following list:\n-<indent=5%>Subskin {g|Encyclopedia:WarhammerArmourGlossary}Armour{/g}: grants +<u>(5 + 2 × TGH bonus)</u>% armour.</indent>\n-<indent=5%>Locomotion System: grants +<u>(AGI bonus / 2)</u> {g|Encyclopedia:MovementPoints}MP{/g} and +<u>(2 × AGI bonus)</u>% {g|Encyclopedia:DodgeGlossary}dodge{/g}.</indent>\n-<indent=5%>Analytics System: grants +<u>(10 + INT bonus)</u>% {g|Encyclopedia:CritChancesAndCritDamageGlossary}critical hit chance{/g}.</indent>"
+    },
+    "dea7c0de-0099-4000-8000-000000000099": {
+      "Offset": 0,
+      "Text": "Space Marines gain +{unit_stat|WarhammerToughness|bonus} {g|Encyclopedia:Deflection}deflection{/g} against the {g|Encyclopedia:BurningEffect}burning{/g} effect and flame weapons."
+    },
+    "dea7c0de-0100-4000-8000-000000000100": {
+      "Offset": 0,
+      "Text": "Space Marines gain a stacking +10% {g|Encyclopedia:Bonus}bonus{/g} to hit chance and {g|Encyclopedia:DodgeReduction}dodge reduction{/g} against any target they hit with a single-target attack.\nSuccessful {g|Encyclopedia:CritChancesAndCritDamageGlossary}critical hits{/g} from single-target attacks increase the hit chance and dodge reduction by +20%."
+    },
+    "dea7c0de-0101-4000-8000-000000000101": {
+      "Offset": 0,
+      "Text": "Space Marines can use {g|Encyclopedia:SkillPersuasion}Persuasion{/g}, {g|Encyclopedia:SkillCoercion}Coercion{/g}, and {g|Encyclopedia:SkillCommerce}Commerce{/g} based on {g|Encyclopedia:WarhammerIntelligence}Intelligence{/g} instead of {g|Encyclopedia:WarhammerFellowship}Fellowship{/g}."
+    },
+    "dea7c0de-0102-4000-8000-000000000102": {
+      "Offset": 0,
+      "Text": "Space Marine may use {g|Encyclopedia:MovementPoints}MP{/g} after attacking or using {g|Encyclopedia:Ability}abilities{/g}."
+    },
+    "dea7c0de-0103-4000-8000-000000000103": {
+      "Offset": 0,
+      "Text": "Space Marines can select any {g|Encyclopedia:Characteristic}characteristic{/g} (except for {g|Encyclopedia:WarhammerWeaponSkill}Weapon Skill{/g} or {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g}) and add a +10 {g|Encyclopedia:Bonus}bonus{/g}."
+    },
+    "dea7c0de-0104-4000-8000-000000000104": {
+      "Offset": 0,
+      "Text": "When a Space Marine is affected by an ally's non-damaging {g|Encyclopedia:Ability}ability{/g} or affects an ally with such an ability, their {g|Encyclopedia:Resolve}resolve{/g} is increased by {uip|Resolve|1a9f01d856144172863ef2ffecab6d4e} for 1 {g|Encyclopedia:Round}round{/g}."
+    },
+    "dea7c0de-0105-4000-8000-000000000105": {
+      "Offset": 0,
+      "Text": "While under 40% {g|Encyclopedia:HitPoints}wounds{/g}, Space Marines gain a +10 {g|Encyclopedia:Bonus}bonus{/g} to all {g|Encyclopedia:Characteristic}characteristics{/g} and +2 to {g|Encyclopedia:Resolve}resolve{/g}."
+    },
+    "dea7c0de-0106-4000-8000-000000000106": {
+      "Offset": 0,
+      "Text": "Space Marines gain +10% {g|Encyclopedia:CritChancesAndCritDamageGlossary}critical hit chance{/g} and +10% {g|Encyclopedia:WarhammerArmourGlossary}armour{/g} against xenos or daemonic creatures. Their allies gain half the {g|Encyclopedia:Bonus}bonuses{/g} of Know No Heresy.\nHowever, Space Marines' {g|Encyclopedia:SkillLoreXenos}Lore (Xenos){/g} and {g|Encyclopedia:SkillLoreWarp}Lore (Warp){/g} are always 0."
+    },
+    "dea7c0de-0107-4000-8000-000000000107": {
+      "Offset": 0,
+      "Text": "While the psyker is not in the target's {g|Encyclopedia:LineOfSight}line of sight{/g}, all {g|Encyclopedia:ResistanceTest}resistance tests{/g} of the target suffer a −{uip|ResistancePenalty|2cab29e13d404ab986a2f825d0dc8914} {g|Encyclopedia:Penalty}penalty{/g}."
+    },
+    "dea7c0de-0108-4000-8000-000000000108": {
+      "Offset": 0,
+      "Text": "At the start of their {g|Encyclopedia:Turn}turn{/g}, if the Space Marine has no stacks of sure-fire plan, they gain +1 stack."
+    },
+    "dea7c0de-0109-4000-8000-000000000109": {
+      "Offset": 0,
+      "Text": "Once per combat, if the Space Marine has at least 1 stack of sure-fire plan, they do not die from lethal {g|Encyclopedia:DamageGlossary}damage{/g}. Instead, they heal <u>(5 × sure-fire plan stacks)</u>% of {g|Encyclopedia:MaxWounds}maximum wounds{/g}, lose all stacks, and can no longer gain sure-fire plan stacks."
+    },
+    "dea7c0de-0110-4000-8000-000000000110": {
+      "Offset": 0,
+      "Text": "The Space Marine gains +15 {g|Encyclopedia:WarhammerPerception}Perception{/g} and +15 {g|Encyclopedia:WarhammerBallisticSkill}Ballistic Skill{/g}.\nThis effect lasts until the Space Marine moves. Does not stack."
+    },
+    "dea7c0de-0111-4000-8000-000000000111": {
+      "Offset": 0,
+      "Text": "When used, for 1 {g|Encyclopedia:Round}round{/g} the Space Marine and their allies do not suffer damage from allied attacks and deal +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f}% more damage to enemies that were attacked by them since ability activation. If multiple Space Marines are in combat, the effect does not stack.\n! Can only be used once per combat."
     }
   }
 }

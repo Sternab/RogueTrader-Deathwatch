@@ -1,0 +1,270 @@
+{
+  "AssetId": "2c8574f795b34a8c97cb45ae490d5052",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "9cb8cadd214341dbbc558d4097cdf57c, AbilityRuleTriggerInitiator",
+        "name": "$AbilityRuleTriggerInitiator$62ff5d33-e410-4d32-ba36-eb9a893cb9e2",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "53ddc60b996d4bd2aa81e66b49d5f97d, CheckAbilityWeaponRangeTypeGetter",
+                "name": "$CheckAbilityWeaponRangeTypeGetter$672ff0e958c04ee6a45e7c39212a4745",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "m_RangeType": "Ranged"
+              }
+            ]
+          }
+        },
+        "Action": {
+          "Actions": [
+            {
+              "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+              "name": "$ContextActionApplyBuff$23c3db46a116449184a122f173c89995",
+              "m_Buff": "!bp_dd74dfbba9b148b8a33b62c37fe16a10",
+              "BuffEndCondition": "CombatEnd",
+              "Permanent": false,
+              "DurationValue": {
+                "RoundsValue": {
+                  "ValueType": "Simple",
+                  "Value": 1,
+                  "ValueRank": "Default",
+                  "ValueShared": "Damage",
+                  "Property": "None",
+                  "m_CustomProperty": null,
+                  "PropertyName": "Value1"
+                }
+              },
+              "ToCaster": false,
+              "AsChild": false,
+              "SameDuration": false,
+              "Ranks": {
+                "ValueType": "CasterNamedProperty",
+                "Value": 0,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              },
+              "ActionsOnApply": {
+                "Actions": []
+              },
+              "ActionsOnImmune": {
+                "Actions": []
+              },
+              "AddFactSource": false
+            }
+          ]
+        },
+        "ForOneAbility": false,
+        "m_Ability": null,
+        "ForMultipleAbilities": false,
+        "Abilities": [],
+        "ForAbilityGroup": false,
+        "m_AbilityGroup": null,
+        "m_OtherAbilityGroupList": [],
+        "ForUltimateAbilities": false,
+        "AssignOwnerAsTarget": true,
+        "AssignContextFromAbility": false
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$1cd0a5ef-1d51-489d-a428-301ea73c5483",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "2b7102ebfff042409c7f1493b16125a9, ConditionalGetter",
+              "name": "$ConditionalGetter$4989f9f20dd754d6ad084fc0ccf554ef",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Condition": {
+                "Operation": "BoolOr",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "76fa6ff8c9162f9489df4de07a55750c, CheckAbilityAttackTypeGetter",
+                    "name": "$CheckAbilityAttackTypeGetter$245cb9180d005578a9e30d3f30d42714",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Type": "SingleShot"
+                  },
+                  {
+                    "$type": "76fa6ff8c9162f9489df4de07a55750c, CheckAbilityAttackTypeGetter",
+                    "name": "$CheckAbilityAttackTypeGetter$c08a7e1a4ded5f449d2128767eeb31d9",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Type": "Pattern"
+                  }
+                ]
+              },
+              "True": {
+                "Operation": "Sum",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                    "name": "$ContextValueGetter$3a859967ca8e51549239864345f6353e",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "Value": {
+                      "ValueType": "Simple",
+                      "Value": 1,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    }
+                  }
+                ]
+              },
+              "False": {
+                "Operation": "Sum",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "1637d939b9b84f66bc941445aa7454db, CheckRateOfFireGetter",
+                    "name": "$CheckRateOfFireGetter$b883868b-d5de-4ef7-99e8-aa262c079844",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "MinMax",
+                      "Min": 1,
+                      "Max": 100
+                    },
+                    "m_MinValue": 0,
+                    "m_MaxValue": 0,
+                    "ReturnRateOfFire": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "4d7aa5a2-1d8e-45c1-9e1a-99cb13afa363",
+      "m_OwnerString": "2c8574f795b34a8c97cb45ae490d5052",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\FortressWorld\\FortressWorld_Talent02_Feature_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0081-4000-8000-000000000081",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Buff, Dodge",
+      "MainGroup": "Dodge"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

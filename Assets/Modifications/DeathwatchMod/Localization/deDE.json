@@ -651,6 +651,190 @@
     "dea7c0de-0065-4000-8000-000000000065": {
       "Offset": 0,
       "Text": "Jedes Mal, wenn der Space Marine Plasma- oder Melterwaffen benutzt, erhöht sich sein {g|Encyclopedia:DamageGlossary}Schaden{/g} mit diesen Waffen um +{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3} %. Wird gestapelt.\nWenn der Space Marine 1 {g|Encyclopedia:Round}Runde{/g} lang nicht schießt, verliert er alle Stapel."
+    },
+    "dea7c0de-0066-4000-8000-000000000066": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten +{uip|Resolve|884ddece28ca4520b5b0d2a737fabfb5} {g|Encyclopedia:Resolve}Entschlossenheit{/g}, wenn sich 3 oder mehr Kreaturen (Verbündete oder Gegner) in einem Radius von 3 Feldern befinden.\nAllerdings erleiden sie einen {g|Encyclopedia:Penalty}Abzug{/g} von −2 auf die Entschlossenheit, wenn keine Kreaturen in der Nähe sind."
+    },
+    "dea7c0de-0067-4000-8000-000000000067": {
+      "Offset": 0,
+      "Text": "Space Marines können {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g}-{g|Encyclopedia:ResistanceTest}Widerstandsproben{/g} mit ihrem {g|Encyclopedia:WarhammerFellowship}Gefolgschaftswert{/g} bestehen, falls die Gefolgschaft des Charakters höher ist."
+    },
+    "dea7c0de-0068-4000-8000-000000000068": {
+      "Offset": 0,
+      "Text": "Wenn ein Space Marine {g|Encyclopedia:MeleeSuperiority}Nahkampfüberlegenheit{/g} gegen den Feind hat, wird der Effekt um +10 erhöht. Wenn ein Feind {g|Encyclopedia:MeleeAttacksGlossary}Nahkampf{/g}-Überlegenheit gegen einen Space Marine hat, wird der Effekt um −10 verringert.\n"
+    },
+    "dea7c0de-0069-4000-8000-000000000069": {
+      "Offset": 0,
+      "Text": "Wenn ein Space Marine seinen {g|Encyclopedia:Turn}Zug{/g} neben einem verbündeten Charakter beginnt, erhält dieser Space Marine +2 {g|Encyclopedia:MovementPoints}BP{/g}.\nWenn ein Space Marine seinen Zug angrenzend an Verbündete beendet, erhalten alle in ihrem nächsten Zug +2 BP."
+    },
+    "dea7c0de-0070-4000-8000-000000000070": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten jede {g|Encyclopedia:Round}Runde{/g} einen +50 %igen {g|Encyclopedia:Bonus}Bonus{/g} auf {g|Encyclopedia:DodgeGlossary}Ausweichen{/g} gegen den ersten {g|Encyclopedia:AttackOfOpportunityFullGlossary}Gelegenheitsangriff{/g}."
+    },
+    "dea7c0de-0071-4000-8000-000000000071": {
+      "Offset": 0,
+      "Text": "Einmal pro Kampf, wenn die {g|Encyclopedia:HitPoints}Wunden{/g} eines Space Marines unter 30 % fallen, erhält er +20 % seiner {g|Encyclopedia:MaxWounds}maximalen Wunden{/g} als {g|Encyclopedia:TemporaryWounds}temporäre Wunden{/g}.\nSpace Marines erhalten außerdem einen Bonus von +20 % auf {g|Encyclopedia:DodgeGlossary}Ausweichen{/g} und Rüstung, solange sie mindestens 1 temporäre Wunde von irgendeiner Quelle haben."
+    },
+    "dea7c0de-0072-4000-8000-000000000072": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten +15 % {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritische Trefferchance{/g} gegen Ziele mit dem Effekt {g|Encyclopedia:BleedingEffect}Blutung{/g} oder mit 50 % oder weniger ihrer {g|Encyclopedia:MaxWounds}maximalen Wunden{/g}."
+    },
+    "dea7c0de-0073-4000-8000-000000000073": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten +10 % auf die {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritische Trefferchance{/g} für Äxte, Hämmer und Laser-Waffen."
+    },
+    "dea7c0de-0074-4000-8000-000000000074": {
+      "Offset": 0,
+      "Text": "Jede {g|Encyclopedia:Injury}Verletzung{/g} erhöht die {g|Encyclopedia:WarhammerAgility}Beweglichkeit{/g} und {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g} des Space Marines um +5 (max. +60).\nJedes {g|Encyclopedia:Traumas}Traum{/g} zählt als 3 Verletzungen."
+    },
+    "dea7c0de-0075-4000-8000-000000000075": {
+      "Offset": 0,
+      "Text": "Space Marines erleiden −{unit_stat|WarhammerToughness|bonus} weniger {g|Encyclopedia:DamageGlossary}Schaden{/g} bei Effekten durch Feuer, {g|Encyclopedia:ToxicDamage}Giftschaden{/g} und {g|Encyclopedia:BleedingEffect}Blutung{/g}."
+    },
+    "dea7c0de-0076-4000-8000-000000000076": {
+      "Offset": 0,
+      "Text": "Der Space Marine erhält +15 {g|Encyclopedia:WarhammerPerception}Wahrnehmung{/g} und +15 {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g} . Dieser Effekt dauert an, bis sich der Space Marine bewegt. Nicht stapelbar."
+    },
+    "dea7c0de-0077-4000-8000-000000000077": {
+      "Offset": 0,
+      "Text": "{g|f:7e75728ba44541b5985588702d0e08bb}Perfekte Position{/g} gewährt dem Space Marine +{uip|ArmourPenetration|07276669fcc04e2a9e7a5a3055c58b8c} % {g|Encyclopedia:ArmourPenetration}Rüstungsdurchdringung{/g} gegen Feinde, die 7 Felder oder weiter von ihm entfernt sind."
+    },
+    "dea7c0de-0078-4000-8000-000000000078": {
+      "Offset": 0,
+      "Text": "Hat sich der Space Marine in diesem {g|Encyclopedia:Turn}Zug{/g} nicht bewegt, verursacht er +{uip|DamageBonus|233f7d66b32243a192b6960e0058da54} mehr Schaden mit {g|Encyclopedia:SingleRangedAttacksGlossary}Einzelschuss{/g}-Angriffen für jeweils 5 Zellen zwischen sich und dem Ziel. Außerdem erhält er +{unit_stat|WarhammerPerception|bonus} auf seine {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g}. Diese Boni sind nicht kumulativ und dauern an, bis sich der Space Marine bewegt."
+    },
+    "dea7c0de-0079-4000-8000-000000000079": {
+      "Offset": 0,
+      "Text": "Jedes Mal, wenn ein Space Marine einen Feind tötet, erhält er +10 Stapel \"Nie das Schießen einstellen\". Zu Beginn seines {g|Encyclopedia:Turn}Zugs{/g} besteht eine Chance von <u>(Stapel von \"Nie das Schießen einstellen\")</u> %, dass der erste Angriff dieser {g|Encyclopedia:Round}Runde{/g} 0 {g|Encyclopedia:ActionPoints}AP{/g} kostet und nicht für das Angriffslimit pro Zug gezählt wird.\nLöst dieser Effekt aus, gehen alle Stapel verloren."
+    },
+    "dea7c0de-0080-4000-8000-000000000080": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten +7 {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g}, {g|Encyclopedia:WarhammerPerception}Wahrnehmung{/g} und {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g}, wenn sie sich im Kampf befinden. Außerhalb des Kampfes verringern sich ihre {g|Encyclopedia:WarhammerIntelligence}Intelligenz{/g}, {g|Encyclopedia:WarhammerFellowship}Gefolgschaft{/g}, Wahrnehmung und Willenskraft jedoch um −7."
+    },
+    "dea7c0de-0081-4000-8000-000000000081": {
+      "Offset": 0,
+      "Text": "Jede Runde erhalten Space Marines für jeden von ihnen während dieser Runde ausgeführten Schuss einen stapelbaren {g|Encyclopedia:Bonus}Bonus{/g} von +1 % auf {g|Encyclopedia:DodgeGlossary}Ausweichen{/g} gegen {g|Encyclopedia:RangeAreaAttacksGlossary}Fernkampfangriffe{/g}. Außerdem gewährt der {g|Encyclopedia:BurstAttacksGlossary}Salvenangriff{/g} zusätzlich +10 Stapel von \"Nie das Schießen einstellen\"."
+    },
+    "dea7c0de-0082-4000-8000-000000000082": {
+      "Offset": 0,
+      "Text": "Am Ende ihres {g|Encyclopedia:Turn}Zuges{/g} erhalten Space Marines Stapel von Nie das Schießen einstellen entsprechend <u>(Hälfte des {g|Encyclopedia:DamageGlossary}Minimalschadens{/g} der von ihnen in dieser {g|Encyclopedia:Round}Runde{/g} genutzten {g|Encyclopedia:RangeAreaAttacksGlossary}Fernkampfwaffe{/g}, die am meisten Schaden verursacht)</u>."
+    },
+    "dea7c0de-0083-4000-8000-000000000083": {
+      "Offset": 0,
+      "Text": "Das erste {g|Encyclopedia:Reload}Nachladen{/g} im Kampf kostet Space Marines 0 {g|Encyclopedia:ActionPoints}AP{/g}. Das Nachladen einer Waffe gewährt zusätzlich +10 Stapel von Nie das Schießen einstellen."
+    },
+    "dea7c0de-0084-4000-8000-000000000084": {
+      "Offset": 0,
+      "Text": "Wenn alle Stapel von Nie das Schießen einstellen verloren gehen sollten, werden sie stattdessen zu {uip|Stacks|c75384d4cdae4d1aa1c3d94e7c100ae2} Stapeln.\nAußerdem kann ein Space Marine seine {g|Encyclopedia:WarhammerWillpower}Willenskraft{/g}-{g|Encyclopedia:Characteristic}Eigenschaft{/g} upgraden, auch wenn seine aktuellen Archetypen dies nicht zulassen."
+    },
+    "dea7c0de-0085-4000-8000-000000000085": {
+      "Offset": 0,
+      "Text": "Ein Space Marine kann jede misslungene Angriffs-, {g|Encyclopedia:DodgeGlossary}Ausweich{/g}-, {g|Encyclopedia:Parry}Parade{/g}-, {g|Encyclopedia:Characteristic}Eigenschafts{/g}- oder {g|Encyclopedia:Test}Fertigkeitsprobe{/g} mit einer 20 %igen Erfolgschance wiederholen. Diese Chance kann nicht größer sein als die Basiserfolgschance des Wurfs.\nAußerdem besteht eine 20 %ige Chance, dass ein gegnerisches Ausweichen oder eine Parade gegen einen Space Marine nach einem erfolgreichen Wurf fehlschlägt."
+    },
+    "dea7c0de-0086-4000-8000-000000000086": {
+      "Offset": 0,
+      "Text": "Jedes Mal, wenn ein Space Marine einen {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritischen Treffer{/g} erzielt, besteht eine Chance von 10 %, den {g|Encyclopedia:DamageGlossary}Schaden{/g} zu verdoppeln."
+    },
+    "dea7c0de-0087-4000-8000-000000000087": {
+      "Offset": 0,
+      "Text": "Der Space Marine hat eine 20 %ige Chance zu überleben, nachdem er tödlichen {g|Encyclopedia:DamageGlossary}Schaden{/g} erlitten hat. Er überlebt mit 1 {g|Encyclopedia:HitPoints}Wunde{/g}."
+    },
+    "dea7c0de-0088-4000-8000-000000000088": {
+      "Offset": 0,
+      "Text": "Solange ein Space Marine mehr als 50 % {g|Encyclopedia:HitPoints}Wunden{/g} hat, werden alle Chancen aller Kreaturen (einschließlich Gegner) in einem Radius von 3 Feldern um +10 % erhöht.\nWenn ein Space Marine weniger als 50 % Wunden hat, werden alle Chancen aller Kreaturen (einschließlich Gegner) in einem Radius von 3 Feldern um −10 % verringert."
+    },
+    "dea7c0de-0089-4000-8000-000000000089": {
+      "Offset": 0,
+      "Text": "Immer wenn eine {g|Encyclopedia:Ability}Fähigkeit{/g} oder ein {g|Encyclopedia:Talent}Talent{/g} den {g|Encyclopedia:WarhammerFellowship}Gefolgschafts{/g}-Bonus nutzt, kann ein Space Marine stattdessen den {g|Encyclopedia:WarhammerIntelligence}Intelligenz{/g}-Bonus anwenden, wenn dieser höher ist. Außerdem können Space Marines immer ihre Intelligenz verbessern, auch wenn ihr {g|Encyclopedia:Career}Archetyp{/g} dies nicht erlaubt."
+    },
+    "dea7c0de-0090-4000-8000-000000000090": {
+      "Offset": 0,
+      "Text": "Der Space Marine und seine Verbündeten erleiden 1 {g|Encyclopedia:Round}Runde{/g} lang keinen Schaden durch Angriffe von Verbündeten. Außerdem fügen sie Gegnern, die von ihnen seit der Aktivierung der Fähigkeit attackiert wurden, +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} % mehr Schaden zu. Sind mehrere Space Marines im Kampf, wird der Effekt nicht gestapelt.\n! Kann nur einmal pro Kampf eingesetzt werden."
+    },
+    "dea7c0de-0091-4000-8000-000000000091": {
+      "Offset": 0,
+      "Text": "Solange der Effekt von {g|f:a15dd47c2d294b8b881604dd233b8e0f}Regimentstaktiken{/g} anhält, erhalten die Waffenangriffe des Space Marines und seiner Verbündeten +20 % {g|Encyclopedia:DodgeReduction}Ausweichen-Reduktion{/g}, {g|Encyclopedia:ParryReduction}Parieren-Reduktion{/g}, Blocken-Reduktion und {g|Encyclopedia:DetailsOfTheCoverGlossary}Deckungsdurchdringung{/g} gegen Feinde, die in diesem Kampf bereits von den Verbündeten des Space Marines attackiert wurden."
+    },
+    "dea7c0de-0092-4000-8000-000000000092": {
+      "Offset": 0,
+      "Text": "Solange der Space Marine unter dem Effekt {g|f:a15dd47c2d294b8b881604dd233b8e0f}Regimentstaktiken{/g} steht, erhalten alle seine Verbündeten +5 % auf {g|Encyclopedia:RateOfFire}Feuergeschwindigkeit{/g} für jeden Angriff, den sie seit Beginn dieses Effekts ausgeführt haben."
+    },
+    "dea7c0de-0093-4000-8000-000000000093": {
+      "Offset": 0,
+      "Text": "Wenn der Space Marine oder ein Verbündeter eine {g|Encyclopedia:HeroicAct}Heldentat{/g} vollbringt, erhöhen sich alle {g|Encyclopedia:Characteristic}Eigenschaften{/g} des Space Marines bis zum Ende des Kampfes um +7."
+    },
+    "dea7c0de-0094-4000-8000-000000000094": {
+      "Offset": 0,
+      "Text": "Der Space Marine gewährt jedem Verbündeten (und sich selbst) in einem Radius von 5 Feldern den {g|f:b9f9ef145708451f81283a73c16c527d}Gestützt{/g}-Effekt. Der Effekt dauert 1 {g|Encyclopedia:Round}Runde{/g} lang an. Der Space Marine erhält zu Beginn des Kampfes +1 Ladung dieser Fähigkeit, wenn seine {g|Encyclopedia:HitPoints}Wunden{/g} im Kampf erstmals unter 50 % sinken und jedes Mal, wenn ein Verbündeter im Kampf erstmals das Bewusstsein verliert."
+    },
+    "dea7c0de-0095-4000-8000-000000000095": {
+      "Offset": 0,
+      "Text": "Solange der {g|f:b9f9ef145708451f81283a73c16c527d}Gestützt{/g}-Effekt andauert, kann der Space Marine einmal pro {g|Encyclopedia:Round}Runde{/g} die Fähigkeit {g|f:282940ecb99948a28adc9cb60374223b}Weg von mir!{/g} einsetzen und die Ziele seiner {g|Encyclopedia:MeleeAttacksGlossary}Nahkampfangriffe{/g} müssen eine {g|Encyclopedia:ResistanceTest}Widerstandsprobe{/g} auf {g|Encyclopedia:WarhammerAgility}Beweglichkeit{/g} mit einem Abzug von −10 bestehen, um nicht {g|Encyclopedia:ProneEffect}hingestreckt{/g} zu werden."
+    },
+    "dea7c0de-0096-4000-8000-000000000096": {
+      "Offset": 0,
+      "Text": "Setzt der Space Marine die Fähigkeit {g|f:f0d6fd0433624181a3a6c9bb6fd60ab5}Festhalten!{/g} ein, haben alle Gegner in einem Radius von 5 Feldern −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} {g|Encyclopedia:WarhammerWeaponSkill}Waffenfähigkeit{/g} und −{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703} {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g}."
+    },
+    "dea7c0de-0097-4000-8000-000000000097": {
+      "Offset": 0,
+      "Text": "Mit dem {g|f:b9f9ef145708451f81283a73c16c527d}Gestützt{/g}-Effekt oder anderen nicht-offensiven Archetyp-Fähigkeiten des Space Marines belegte Verbündete erhalten {g|Encyclopedia:Round}Runde{/g} lang +{uip|dodge bonus|b79a772332e64e99921463bb28030674} % {g|Encyclopedia:DodgeGlossary}Ausweichen{/g}. Nicht stapelbar.\nDer Space Marine und seine mit dem {g|f:b9f9ef145708451f81283a73c16c527d}Gestützt{/g}-Effekt belegten Verbündeten provozieren keine {g|Encyclopedia:AttackOfOpportunityFullGlossary}Gelegenheitsangriffe{/g}."
+    },
+    "dea7c0de-0098-4000-8000-000000000098": {
+      "Offset": 0,
+      "Text": "Space Marines wählen ein Augmentationssystem aus der folgenden Liste:\n-<indent=5%>Subdermale {g|Encyclopedia:WarhammerArmourGlossary}Rüstung{/g}: Gewährt +<u>(5 + 2 × ZÄH-Bonus)</u> % Rüstung.</indent>\n-<indent=5%>Fortbewegungssystem: Gewährt +<u>(BEW-Bonus / 2)</u> {g|Encyclopedia:MovementPoints}BP{/g} und +<u>(2 × BEW-Bonus)</u> % {g|Encyclopedia:DodgeGlossary}Ausweichen{/g}.</indent>\n-<indent=5%>Analytisches System: Gewährt +<u>(10 + INT-Bonus)</u> % {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritische Trefferchance{/g}.</indent>"
+    },
+    "dea7c0de-0099-4000-8000-000000000099": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten +{unit_stat|WarhammerToughness|bonus} {g|Encyclopedia:Deflection}Ablenkung{/g} gegen den Effekt {g|Encyclopedia:BurningEffect}Verbrennung{/g} und Flammenwaffen."
+    },
+    "dea7c0de-0100-4000-8000-000000000100": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten einen aufaddierbaren +10 %igen {g|Encyclopedia:Bonus}Bonus{/g} auf die Trefferchance und {g|Encyclopedia:DodgeReduction}Ausweichreduzierung{/g} gegen jedes Ziel, das sie mit einem Einzelzielangriff treffen.\nErfolgreiche {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritische Treffer{/g} von Einzelzielangriffen erhöhen die Trefferchance und Ausweichreduzierung um +20 %."
+    },
+    "dea7c0de-0101-4000-8000-000000000101": {
+      "Offset": 0,
+      "Text": "Space Marines können {g|Encyclopedia:SkillPersuasion}Überredung{/g}, {g|Encyclopedia:SkillCoercion}Zwang{/g} und {g|Encyclopedia:SkillCommerce}Handel{/g} basierend auf {g|Encyclopedia:WarhammerIntelligence}Intelligenz{/g} statt {g|Encyclopedia:WarhammerFellowship}Gefolgschaft{/g} einsetzen."
+    },
+    "dea7c0de-0102-4000-8000-000000000102": {
+      "Offset": 0,
+      "Text": "Space Marine darf {g|Encyclopedia:MovementPoints}BP{/g} auch nach dem Angreifen oder dem Einsatz von {g|Encyclopedia:Ability}Fähigkeiten{/g} einsetzen."
+    },
+    "dea7c0de-0103-4000-8000-000000000103": {
+      "Offset": 0,
+      "Text": "Space Marines können eine beliebige {g|Encyclopedia:Characteristic}Eigenschaft{/g} wählen (außer {g|Encyclopedia:WarhammerWeaponSkill}Waffenfähigkeit{/g} oder {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g}) und einen +10 {g|Encyclopedia:Bonus}Bonus{/g} hinzufügen."
+    },
+    "dea7c0de-0104-4000-8000-000000000104": {
+      "Offset": 0,
+      "Text": "Wenn ein Space Marine von einer nicht schädigenden {g|Encyclopedia:Ability}Fähigkeit{/g} eines Verbündeten betroffen ist oder einen Verbündeten mit einer solchen Fähigkeit beeinflusst, wird seine {g|Encyclopedia:Resolve}Entschlossenheit{/g} um {uip|Resolve|1a9f01d856144172863ef2ffecab6d4e} für 1 {g|Encyclopedia:Round}Runde{/g} erhöht."
+    },
+    "dea7c0de-0105-4000-8000-000000000105": {
+      "Offset": 0,
+      "Text": "Solange sie weniger als 40 % {g|Encyclopedia:HitPoints}Wunden{/g} haben, erhalten Space Marines einen +10 {g|Encyclopedia:Bonus}Bonus{/g} auf alle {g|Encyclopedia:Characteristic}Eigenschaften{/g} und +2 auf {g|Encyclopedia:Resolve}Entschlossenheit{/g}."
+    },
+    "dea7c0de-0106-4000-8000-000000000106": {
+      "Offset": 0,
+      "Text": "Space Marines erhalten +10 % {g|Encyclopedia:CritChancesAndCritDamageGlossary}kritische Trefferchance{/g} und +10 % {g|Encyclopedia:WarhammerArmourGlossary}Rüstung{/g} gegen Xenos oder dämonische Kreaturen. Ihre Verbündeten erhalten die Hälfte der {g|Encyclopedia:Bonus}Boni{/g} von Keine Häresie kennen.\n{g|Encyclopedia:SkillLoreXenos}Wissen (Xenos){/g} und {g|Encyclopedia:SkillLoreWarp}Wissen (Warp){/g} von Space Marines ist jedoch immer 0."
+    },
+    "dea7c0de-0107-4000-8000-000000000107": {
+      "Offset": 0,
+      "Text": "Während sich der Psioniker nicht in der {g|Encyclopedia:LineOfSight}Sichtlinie{/g} des Ziels befindet, erleiden alle {g|Encyclopedia:ResistanceTest}Widerstandsproben{/g} des Ziels einen −{uip|ResistancePenalty|2cab29e13d404ab986a2f825d0dc8914}-{g|Encyclopedia:Penalty}Abzug{/g}."
+    },
+    "dea7c0de-0108-4000-8000-000000000108": {
+      "Offset": 0,
+      "Text": "Wenn der Space Marine zu Beginn seines {g|Encyclopedia:Turn}Zugs{/g} keinen Stapel \"Todsicherer Plan\" hat, erhält er +1 Stapel."
+    },
+    "dea7c0de-0109-4000-8000-000000000109": {
+      "Offset": 0,
+      "Text": "Wenn der Space Marine mindestens 1 Stapel Todsicherer Plan hat, stirbt er einmal pro Kampf nicht an tödlichem {g|Encyclopedia:DamageGlossary}Schaden{/g}. Stattdessen heilt er <u>(5 × Stapel Todsicherer Plan)</u> % der {g|Encyclopedia:MaxWounds}maximalen Wunden{/g}, verliert alle Stapel und kann keine Stapel von Todsicherer Plan mehr erhalten."
+    },
+    "dea7c0de-0110-4000-8000-000000000110": {
+      "Offset": 0,
+      "Text": "Der Space Marine erhält +15 {g|Encyclopedia:WarhammerPerception}Wahrnehmung{/g} und +15 {g|Encyclopedia:WarhammerBallisticSkill}Ballistik-Fähigkeit{/g} . Dieser Effekt dauert an, bis sich der Space Marine bewegt. Nicht stapelbar."
+    },
+    "dea7c0de-0111-4000-8000-000000000111": {
+      "Offset": 0,
+      "Text": "Der Space Marine und seine Verbündeten erleiden 1 {g|Encyclopedia:Round}Runde{/g} lang keinen Schaden durch Angriffe von Verbündeten. Außerdem fügen sie Gegnern, die von ihnen seit der Aktivierung der Fähigkeit attackiert wurden, +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} % mehr Schaden zu. Sind mehrere Space Marines im Kampf, wird der Effekt nicht gestapelt.\n! Kann nur einmal pro Kampf eingesetzt werden."
     }
   }
 }

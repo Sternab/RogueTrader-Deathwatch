@@ -1,0 +1,122 @@
+{
+  "AssetId": "5b465d470c05444e9dc5179445f69eea",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$b5c85ab2-a810-4731-8858-93dfa52e2ed8",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Attribute",
+        "m_Features": [
+          "!bp_db160826d8da4423b3f54ebe3da90741"
+        ]
+      },
+      {
+        "$type": "abc6ff48520749c0b4d161484dd6486f, ReplaceStatAttribute",
+        "name": "$ReplaceStatAttribute$f7e554dc-e0e6-4c35-b309-c74a40b29786",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_RestrictionCalculator": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "m_OriginalStat": "WarhammerFellowship",
+        "m_NewAttribute": "WarhammerIntelligence",
+        "m_OnlyIfHigher": true,
+        "m_PreviousAttributeToCompare": "WarhammerFellowship"
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$af28fe94-8dc3-4496-8fbf-9cd3cb186704",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Stat": "WarhammerIntelligence",
+        "CheckCaster": false
+      },
+      {
+        "$type": "018ffdf3c815bfa4189c0fc4cf1c9b19, RecalculateOnStatChange",
+        "name": "$RecalculateOnStatChange$5d55b354-a40a-4312-8e5a-2b77b6991260",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Stat": "WarhammerFellowship",
+        "CheckCaster": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "b20b63d9dbe666c4da8ca2ed5410477d",
+        "stringkey": "cd34f97f-cbbd-4555-8640-a897f114956f"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0089-4000-8000-000000000089",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "SkillCheck, SaveCheck",
+      "MainGroup": "SkillCheck"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

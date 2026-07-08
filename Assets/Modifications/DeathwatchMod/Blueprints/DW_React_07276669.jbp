@@ -1,0 +1,101 @@
+{
+  "AssetId": "07276669fcc04e2a9e7a5a3055c58b8c",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "95e248f24866439681c312b1bff0693c, UIPropertiesComponent",
+        "name": "$UIPropertiesComponent$a339f322-5056-471b-8391-b69667525b5b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Properties": [
+          {
+            "NameType": "Damage",
+            "m_Name": {
+              "m_Key": "",
+              "m_OwnerString": "",
+              "m_OwnerPropertyPath": "",
+              "m_JsonPath": "",
+              "Shared": null
+            },
+            "Description": {
+              "m_Key": "ded1ac41-a8c2-4941-8d8b-dbecc5643ad8",
+              "m_OwnerString": "07276669fcc04e2a9e7a5a3055c58b8c#$UIPropertiesComponent$a339f322-5056-471b-8391-b69667525b5b",
+              "m_OwnerPropertyPath": "Properties.Array.data[0].Description",
+              "m_JsonPath": "Strings/Mechanics/Blueprints\\Classes\\Adept\\AdeptTalents\\Adept_TakeMaximumOnSpot_Talent_Properties.Array.data[0].Description.json",
+              "Shared": null
+            },
+            "m_DescriptionFact": "!bp_07276669fcc04e2a9e7a5a3055c58b8c",
+            "m_LinkProperty": true,
+            "m_PropertyName": "Bonus2",
+            "m_PropertySource": "!bp_009e6fdce5394ab89aab23744062e40c",
+            "m_LinkKey": "ArmourPenetration",
+            "Main": false
+          }
+        ]
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "6e93916ce91411943b0783c91c612dbf",
+        "stringkey": "70cd26d7-6eba-4e14-b599-2ded9625e779"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0077-4000-8000-000000000077",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": [
+        {
+          "$type": "40a1bdb738834fb69a296a2677235b35, PrerequisiteFact",
+          "name": "$PrerequisiteFact$b3b3ae0aaf254a5f83881e088cfe8609",
+          "Not": false,
+          "m_Fact": "!bp_97daa6ccb5894aeab87c7ba5675cded7",
+          "MinRank": 0
+        }
+      ]
+    },
+    "FeatureTypes": [
+      "Archetype"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Damage",
+      "MainGroup": "Damage"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

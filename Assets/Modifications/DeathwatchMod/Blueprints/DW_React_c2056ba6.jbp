@@ -1,0 +1,264 @@
+{
+  "AssetId": "c2056ba6a6d84a3d8e98cc93dd1ac63b",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "0cdbc172cfe945e3818c0d49fbd7d65f, TurnBasedModeEventsTrigger",
+        "name": "$TurnBasedModeEventsTrigger$68a0914b-9956-4b1b-8333-57516f9d7a55",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "TriggerIfNotInCombat": false,
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "CombatStartActions": {
+          "Actions": []
+        },
+        "CombatEndActions": {
+          "Actions": []
+        },
+        "RoundStartActions": {
+          "Actions": []
+        },
+        "RoundEndActions": {
+          "Actions": []
+        },
+        "AnyUnitTurns": false,
+        "OnlyEnemyTurns": false,
+        "ActionsOnTheTurnOwner": false,
+        "UnitTurnStartActions": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$3541dfbb40a848659e1028f5965a13c3",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "d271cb15605a459ca6188e939a2d5d72, ContextConditionProperty",
+                    "name": "$ContextConditionProperty$a2ebc4e1f2904a469a9bb52815df88f1",
+                    "Not": false,
+                    "Property": {
+                      "Operation": "GE",
+                      "TargetType": "CurrentEntity",
+                      "TargetEvaluator": null,
+                      "FailSilentlyIfNoTarget": false,
+                      "Getters": [
+                        {
+                          "$type": "e5ea156d7248471887237e2c871de79a, UnitsInRangeGetter",
+                          "name": "$UnitsInRangeGetter$1ac9958b5ed040f9b7406430287985d0",
+                          "Settings": {
+                            "Progression": "AsIs",
+                            "m_CustomProgression": [],
+                            "m_StartLevel": 0,
+                            "m_StepLevel": 0,
+                            "Negate": false,
+                            "Limit": "None",
+                            "Min": 0,
+                            "Max": 0
+                          },
+                          "m_Value": {
+                            "Operation": "Sum",
+                            "TargetType": "CurrentEntity",
+                            "TargetEvaluator": null,
+                            "FailSilentlyIfNoTarget": false,
+                            "Getters": []
+                          },
+                          "m_CombatGroup": "Ally",
+                          "m_RangeInCells": 1
+                        },
+                        {
+                          "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+                          "name": "$ContextValueGetter$a4f5c3820fa8496ab14ec2df0a31f654",
+                          "Settings": {
+                            "Progression": "AsIs",
+                            "m_CustomProgression": [],
+                            "m_StartLevel": 0,
+                            "m_StepLevel": 0,
+                            "Negate": false,
+                            "Limit": "None",
+                            "Min": 0,
+                            "Max": 0
+                          },
+                          "Value": {
+                            "ValueType": "Simple",
+                            "Value": 2,
+                            "ValueRank": "Default",
+                            "ValueShared": "Damage",
+                            "Property": "None",
+                            "m_CustomProperty": null,
+                            "PropertyName": "Value1"
+                          }
+                        }
+                      ]
+                    },
+                    "NegativeDoesNotCount": false
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": [
+                  {
+                    "$type": "d1933e412cc64482ae7990aaacdf44a8, WarhammerContextActionRestoreActionPoints",
+                    "name": "$WarhammerContextActionRestoreActionPoints$0b3e07ca9a064dffad478838d066f54a",
+                    "ActionPoints": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "MovePoints": {
+                      "ValueType": "Simple",
+                      "Value": 2,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionPointsToMax": false,
+                    "MovePointsToMax": false,
+                    "IgnoreMovePointsMaximum": true,
+                    "IgnoreActionPointsMaximum": false
+                  }
+                ]
+              },
+              "IfFalse": {
+                "Actions": []
+              }
+            }
+          ]
+        },
+        "UnitTurnEndActions": {
+          "Actions": [
+            {
+              "$type": "2dcc60a5b076f0047b982e9d4c04b226, ContextActionOnRandomTargetsAround",
+              "name": "$ContextActionOnRandomTargetsAround$b03057cd13de4562b97821fb7effa8dd",
+              "OnEnemies": false,
+              "OnlyAllies": true,
+              "Actions": {
+                "Actions": [
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$ce23c3968a9f40fba6010cc6041263f4",
+                    "m_Buff": "!bp_3767b5a17b4a42e98e336d61f0edfc26",
+                    "BuffEndCondition": "CombatEnd",
+                    "Permanent": false,
+                    "DurationValue": {
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 1,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": false,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  }
+                ]
+              },
+              "NumberOfTargets": 10,
+              "TilesRadius": 1,
+              "LowestWounds": false,
+              "HighestWounds": false,
+              "AffectDead": false,
+              "AffectUnconscious": false,
+              "m_FilterNoFact": null,
+              "m_FilterHasFact": null
+            }
+          ]
+        },
+        "UnitInterruptTurnStartActions": {
+          "Actions": []
+        },
+        "UnitInterruptTurnEndActions": {
+          "Actions": []
+        },
+        "DoNotApplyOnInterrupts": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "d4f36217-477a-4612-a0e7-24adfd21c6f5",
+      "m_OwnerString": "c2056ba6a6d84a3d8e98cc93dd1ac63b",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\HiveWorld\\HiveWorld_Talent04_Feature_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0069-4000-8000-000000000069",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "MP",
+      "MainGroup": "MP"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

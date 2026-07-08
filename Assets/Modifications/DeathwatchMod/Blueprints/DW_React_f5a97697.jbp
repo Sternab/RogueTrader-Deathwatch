@@ -1,0 +1,227 @@
+{
+  "AssetId": "f5a97697a4ea4efba6dd263079440f26",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$c29729ab-69eb-461a-ae02-76c1e01d1770",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value2",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "90e37f9c2bb670b4bb0adf1e9eadccde, CurrentWeaponBlueprintDamageGetter",
+              "name": "$CurrentWeaponBlueprintDamageGetter$cacd4f81e41243c09454c49a95d3ee0b",
+              "Settings": {
+                "Progression": "Div2",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 10,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Type": "Min"
+            }
+          ]
+        }
+      },
+      {
+        "$type": "9cb8cadd214341dbbc558d4097cdf57c, AbilityRuleTriggerInitiator",
+        "name": "$AbilityRuleTriggerInitiator$b74dd8f4-8322-441a-a929-004cfd9392c7",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": [
+              {
+                "$type": "53ddc60b996d4bd2aa81e66b49d5f97d, CheckAbilityWeaponRangeTypeGetter",
+                "name": "$CheckAbilityWeaponRangeTypeGetter$f36b21c1-254d-4061-8d6d-8927708ec1ed",
+                "Settings": {
+                  "Progression": "AsIs",
+                  "m_CustomProgression": [],
+                  "m_StartLevel": 0,
+                  "m_StepLevel": 0,
+                  "Negate": false,
+                  "Limit": "None",
+                  "Min": 0,
+                  "Max": 0
+                },
+                "m_RangeType": "Ranged"
+              }
+            ]
+          }
+        },
+        "Action": {
+          "Actions": [
+            {
+              "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+              "name": "$Conditional$28a0e3df-0777-45f6-9fce-f71bf8b1cbc1",
+              "Comment": "",
+              "ConditionsChecker": {
+                "Operation": "And",
+                "Conditions": [
+                  {
+                    "$type": "8509fb4e9245fa04ea730c4b5c6ffa98, ContextConditionCasterBuffRank",
+                    "name": "$ContextConditionCasterBuffRank$c9b0ec92-2287-475f-81e3-23cd753bed08",
+                    "Not": false,
+                    "Buff": "!bp_2dd7d17234024ed09433776ef90697fa",
+                    "RankValue": {
+                      "ValueType": "Simple",
+                      "Value": 10,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    }
+                  }
+                ]
+              },
+              "IfTrue": {
+                "Actions": []
+              },
+              "IfFalse": {
+                "Actions": [
+                  {
+                    "$type": "23ddfb172c2d3c144ab007dec380d712, ContextActionRemoveBuff",
+                    "name": "$ContextActionRemoveBuff$b6ec9398-0e4f-40e9-a933-6de9c945286d",
+                    "m_Buff": "!bp_2dd7d17234024ed09433776ef90697fa",
+                    "RemoveRank": false,
+                    "RemoveSeveralRanks": false,
+                    "RankNumber": {
+                      "ValueType": "Simple",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value1"
+                    },
+                    "m_CasterRanksRemovalPolicy": "Default",
+                    "ToCaster": false
+                  },
+                  {
+                    "$type": "5d13a597de91e4746b804f8233518523, ContextActionApplyBuff",
+                    "name": "$ContextActionApplyBuff$2851266a-4b6a-41b2-891f-c4c1c177a770",
+                    "m_Buff": "!bp_2dd7d17234024ed09433776ef90697fa",
+                    "BuffEndCondition": "CombatEnd",
+                    "Permanent": false,
+                    "DurationValue": {
+                      "RoundsValue": {
+                        "ValueType": "Simple",
+                        "Value": 1,
+                        "ValueRank": "Default",
+                        "ValueShared": "Damage",
+                        "Property": "None",
+                        "m_CustomProperty": null,
+                        "PropertyName": "Value1"
+                      }
+                    },
+                    "ToCaster": true,
+                    "AsChild": false,
+                    "SameDuration": false,
+                    "Ranks": {
+                      "ValueType": "CasterNamedProperty",
+                      "Value": 0,
+                      "ValueRank": "Default",
+                      "ValueShared": "Damage",
+                      "Property": "None",
+                      "m_CustomProperty": null,
+                      "PropertyName": "Value2"
+                    },
+                    "ActionsOnApply": {
+                      "Actions": []
+                    },
+                    "ActionsOnImmune": {
+                      "Actions": []
+                    },
+                    "AddFactSource": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "ForOneAbility": false,
+        "m_Ability": null,
+        "ForMultipleAbilities": false,
+        "Abilities": [],
+        "ForAbilityGroup": false,
+        "m_AbilityGroup": null,
+        "m_OtherAbilityGroupList": [],
+        "ForUltimateAbilities": false,
+        "AssignOwnerAsTarget": true,
+        "AssignContextFromAbility": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "57cce06f-8541-4669-b61a-ec9f7bfe45b5",
+      "m_OwnerString": "f5a97697a4ea4efba6dd263079440f26",
+      "m_OwnerPropertyPath": "m_DisplayName",
+      "m_JsonPath": "Strings/Mechanics/Blueprints\\Backgrounds\\Homeworlds\\FortressWorld\\FortressWorld_Talent03_Feature_m_DisplayName.json",
+      "Shared": null
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0082-4000-8000-000000000082",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "Buff, Damage",
+      "MainGroup": "Damage"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

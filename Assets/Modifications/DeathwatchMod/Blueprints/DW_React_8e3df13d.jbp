@@ -1,0 +1,321 @@
+{
+  "AssetId": "8e3df13dfe2a487f97a9a824c14744e8",
+  "Data": {
+    "$type": "cb208b98ceacca84baee15dba53b1979, BlueprintFeature",
+    "PrototypeLink": "",
+    "m_Overrides": [],
+    "Components": [
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$c322a08f-51ed-443f-ae7c-de8d40762969",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Mul",
+          "TargetType": "CurrentEntity",
+          "TargetEvaluator": null,
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "88a988badcc84ea8847e21626bee82e5, PropertyCalculatorGetter",
+              "name": "$PropertyCalculatorGetter$ea4df4fa16c341f79159aa4cda26aec2",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "Operation": "Sum",
+                "TargetType": "CurrentEntity",
+                "TargetEvaluator": null,
+                "FailSilentlyIfNoTarget": false,
+                "Getters": [
+                  {
+                    "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
+                    "name": "$FactRankGetter$3cd188a975a94d749f2d1d64628d0637",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "m_Fact": "!bp_5fbfaeaa8e554363b702bbc69e987ad2",
+                    "CheckTarget": "CurrentEntity",
+                    "Aggregation": "Max",
+                    "BuffWithCasterFromTargetType": false,
+                    "BuffCaster": "CurrentEntity"
+                  },
+                  {
+                    "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
+                    "name": "$FactRankGetter$ced50bde4d7742469179a3f1e99cbc4d",
+                    "Settings": {
+                      "Progression": "AsIs",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 0,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "m_Fact": "!bp_04e21e46abd9433db93b7483df272df8",
+                    "CheckTarget": "CurrentEntity",
+                    "Aggregation": "Max",
+                    "BuffWithCasterFromTargetType": false,
+                    "BuffCaster": "CurrentEntity"
+                  },
+                  {
+                    "$type": "af573f5008f24a98b3444959084f87f5, FactRankGetter",
+                    "name": "$FactRankGetter$b89de4f1d71d45efbe81bd78da0a317e",
+                    "Settings": {
+                      "Progression": "MultiplyByModifier",
+                      "m_CustomProgression": [],
+                      "m_StartLevel": 0,
+                      "m_StepLevel": 3,
+                      "Negate": false,
+                      "Limit": "None",
+                      "Min": 0,
+                      "Max": 0
+                    },
+                    "m_Fact": "!bp_8c776f738cb2482ba003f93b3af9f506",
+                    "CheckTarget": "CurrentEntity",
+                    "Aggregation": "Max",
+                    "BuffWithCasterFromTargetType": false,
+                    "BuffCaster": "CurrentEntity"
+                  }
+                ]
+              }
+            },
+            {
+              "$type": "71959818449d4891939b89c19a6d9a91, ContextValueGetter",
+              "name": "$ContextValueGetter$dfae5436f13842a88b626e7357cd9c77",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Value": {
+                "ValueType": "Simple",
+                "Value": 5,
+                "ValueRank": "Default",
+                "ValueShared": "Damage",
+                "Property": "None",
+                "m_CustomProperty": null,
+                "PropertyName": "Value1"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$61b1f6d3-c3df-4997-8f0f-71b0da4bd37a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "WarhammerAgility",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "CasterNamedProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "IsPercentModifier": false,
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "f08844ce14d498a45a9fc64582489a2a, AddContextStatBonus",
+        "name": "$AddContextStatBonus$7fc04a2d-a975-4e04-9ed6-e3a05a598b88",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "Restrictions": {
+          "Property": {
+            "Operation": "Sum",
+            "TargetType": "CurrentEntity",
+            "TargetEvaluator": null,
+            "FailSilentlyIfNoTarget": false,
+            "Getters": []
+          }
+        },
+        "Descriptor": "None",
+        "Stat": "WarhammerWillpower",
+        "Multiplier": 1,
+        "Value": {
+          "ValueType": "CasterNamedProperty",
+          "Value": 0,
+          "ValueRank": "Default",
+          "ValueShared": "Damage",
+          "Property": "None",
+          "m_CustomProperty": null,
+          "PropertyName": "Value1"
+        },
+        "IsPercentModifier": false,
+        "m_ActionsOnAdd": {
+          "Actions": []
+        }
+      },
+      {
+        "$type": "4cc225b5566d5c34583ecba62d752412, RecalculateOnFactsChange",
+        "name": "$RecalculateOnFactsChange$2e34b18d-3998-407b-9b6b-ba04d8e65c67",
+        "m_Flags": "Disabled",
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "m_CheckedFacts": [
+          "!bp_5fbfaeaa8e554363b702bbc69e987ad2",
+          "!bp_04e21e46abd9433db93b7483df272df8",
+          "!bp_8c776f738cb2482ba003f93b3af9f506"
+        ]
+      },
+      {
+        "$type": "b69ed1bb15454c68886db5c9cee93703, BuffApplyTrigger",
+        "name": "$BuffApplyTrigger$d318ecf9-027d-4cd4-9a4d-09429955ab05",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Comment": "",
+        "ActionForApply": {
+          "Actions": [
+            {
+              "$type": "20eef6901e3c38a48b2e988dc13635a7, ContextActionRecalculateSelf",
+              "name": "$ContextActionRecalculateSelf$7333eee2f7534fb2b1f4e91e2e6ec6f6"
+            }
+          ]
+        },
+        "ActionForRankAdd": {
+          "Actions": [
+            {
+              "$type": "20eef6901e3c38a48b2e988dc13635a7, ContextActionRecalculateSelf",
+              "name": "$ContextActionRecalculateSelf$da8a6f21-a9fa-4fc4-9635-c52e44ef9d18"
+            }
+          ]
+        },
+        "ActionForRankReduce": {
+          "Actions": []
+        },
+        "ActionForBuffRemove": {
+          "Actions": [
+            {
+              "$type": "20eef6901e3c38a48b2e988dc13635a7, ContextActionRecalculateSelf",
+              "name": "$ContextActionRecalculateSelf$91c6f858-9113-4a14-adb8-474e1dbcba26"
+            }
+          ]
+        },
+        "m_ApplyChildBuff": null,
+        "ForOneBuff": false,
+        "m_Buff": null,
+        "ForMultipleBuffs": true,
+        "m_Buffs": [
+          "!bp_5fbfaeaa8e554363b702bbc69e987ad2",
+          "!bp_04e21e46abd9433db93b7483df272df8",
+          "!bp_8c776f738cb2482ba003f93b3af9f506"
+        ],
+        "ForAbilityGroup": false,
+        "m_AbilityGroup": null,
+        "AnyTarget": false,
+        "OnlyIfOwnerIsCaster": false,
+        "OnlyPsychicPowerBuffs": false,
+        "OnlyIfBuffFromCaster": false
+      }
+    ],
+    "Author": "Unknown",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "m_DisplayName": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": {
+        "assetguid": "d3d6f8860b82c524b9c67288e71a3903",
+        "stringkey": "ed9dbbe2-aaf5-4754-9c89-b9683d8b70c4"
+      }
+    },
+    "m_Description": {
+      "m_Key": "dea7c0de-0074-4000-8000-000000000074",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "m_Icon": null,
+    "m_AllowNonContextActions": false,
+    "HideInUI": false,
+    "HideInCharacterSheetAndLevelUp": false,
+    "HideNotAvailibleInUI": false,
+    "Ranks": 1,
+    "Prerequisites": {
+      "Composition": "And",
+      "List": []
+    },
+    "FeatureTypes": [
+      "Origin"
+    ],
+    "TalentIconInfo": {
+      "AllGroups": "CharacteristicBonus",
+      "MainGroup": "CharacteristicBonus"
+    },
+    "m_Acronym": {
+      "m_Key": "",
+      "m_OwnerString": "",
+      "m_OwnerPropertyPath": "",
+      "m_JsonPath": "",
+      "Shared": null
+    },
+    "ShowInDialogue": false,
+    "IsStarshipFeature": false
+  },
+  "Meta": {
+    "ShadowDeleted": false
+  }
+}

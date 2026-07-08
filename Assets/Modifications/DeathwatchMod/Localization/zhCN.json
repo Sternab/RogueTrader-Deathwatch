@@ -651,6 +651,190 @@
     "dea7c0de-0065-4000-8000-000000000065": {
       "Offset": 0,
       "Text": "当星际战士使用等离子武器或热熔武器时，武器造成的{g|Encyclopedia:DamageGlossary}伤害{/g}提高{uip|DamageBonus|2d333d024504422e99f524cb5fcf9db3}%。此效果可叠加。\n如果星际战士在某{g|Encyclopedia:Round}轮{/g}中没有进行射击，则会失去所有层数。"
+    },
+    "dea7c0de-0066-4000-8000-000000000066": {
+      "Offset": 0,
+      "Text": "如果星际战士3格距离内有3名或更多生物（无论敌我），则会获得额外{g|Encyclopedia:Resolve}决心{/g}，等同于{uip|Resolve|884ddece28ca4520b5b0d2a737fabfb5}\n不过，如果周围没有任何生物，则星际战士会受到-2决心{g|Encyclopedia:Penalty}减值{/g}。"
+    },
+    "dea7c0de-0067-4000-8000-000000000067": {
+      "Offset": 0,
+      "Text": "星际战士在进行{g|Encyclopedia:WarhammerWillpower}意志{/g}{g|Encyclopedia:ResistanceTest}抗性检定{/g}时，如果该角色的{g|Encyclopedia:WarhammerFellowship}社交{/g}较高，可以使用社交进行检定。"
+    },
+    "dea7c0de-0068-4000-8000-000000000068": {
+      "Offset": 0,
+      "Text": "当星际战士对敌人拥有{g|Encyclopedia:MeleeSuperiority}近战优势{/g}时，此优势效果提高10点。当敌人对星际战士拥有{g|Encyclopedia:MeleeAttacksGlossary}近战{/g}优势时，此优势效果降低10点。\n"
+    },
+    "dea7c0de-0069-4000-8000-000000000069": {
+      "Offset": 0,
+      "Text": "如果星际战士在{g|Encyclopedia:Turn}回合{/g}开始时周围有盟友，则此角色获得+2{g|Encyclopedia:MovementPoints}移动点数{/g}。\n如果星际战士在回合结束时与盟友相邻，则所有相邻盟友下回合都会获得+2移动点数。"
+    },
+    "dea7c0de-0070-4000-8000-000000000070": {
+      "Offset": 0,
+      "Text": "星际战士每{g|Encyclopedia:Round}轮{/g}首次承受{g|Encyclopedia:AttackOfOpportunityFullGlossary}借机攻击{/g}时，针对此次攻击会获得+50%的{g|Encyclopedia:DodgeGlossary}闪避{/g}{g|Encyclopedia:Bonus}加值{/g}。"
+    },
+    "dea7c0de-0071-4000-8000-000000000071": {
+      "Offset": 0,
+      "Text": "每场战斗中，当星际战士的{g|Encyclopedia:HitPoints}生命值{/g}首次低于30%时，该角色会获得{g|Encyclopedia:TemporaryWounds}临时生命值{/g}，等同于{g|Encyclopedia:MaxWounds}最大生命值{/g}的20%。\n只要星际战士至少有1点临时生命值（任何来源均可），该角色的{g|Encyclopedia:DodgeGlossary}闪避{/g}和护甲就会获得20%加值。"
+    },
+    "dea7c0de-0072-4000-8000-000000000072": {
+      "Offset": 0,
+      "Text": "星际战士在攻击{g|Encyclopedia:BleedingEffect}流血{/g}目标或{g|Encyclopedia:MaxWounds}生命值{/g}不高于50%的目标时，会获得+15%{g|Encyclopedia:CritChancesAndCritDamageGlossary}暴击率{/g}。"
+    },
+    "dea7c0de-0073-4000-8000-000000000073": {
+      "Offset": 0,
+      "Text": "星际战士使用斧头、战锤与激光枪时，{g|Encyclopedia:CritChancesAndCritDamageGlossary}暴击率{/g}提高10%。"
+    },
+    "dea7c0de-0074-4000-8000-000000000074": {
+      "Offset": 0,
+      "Text": "星际战士每有一处{g|Encyclopedia:Injury}伤势{/g}，{g|Encyclopedia:WarhammerAgility}敏捷{/g}与{g|Encyclopedia:WarhammerWillpower}意志{/g}就提高5点（最多提高60点）。\n每处{g|Encyclopedia:Traumas}创伤{/g}视为3处伤势。"
+    },
+    "dea7c0de-0075-4000-8000-000000000075": {
+      "Offset": 0,
+      "Text": "星际战士承受的火焰{g|Encyclopedia:DamageGlossary}伤害{/g}、{g|Encyclopedia:ToxicDamage}毒素伤害{/g}与{g|Encyclopedia:BleedingEffect}流血{/g}伤害降低{unit_stat|WarhammerToughness|bonus}点。"
+    },
+    "dea7c0de-0076-4000-8000-000000000076": {
+      "Offset": 0,
+      "Text": "星际战士获得+15{g|Encyclopedia:WarhammerPerception}感知{/g}，+15{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}。\n此效果持续至星际战士移动为止，不可叠加。"
+    },
+    "dea7c0de-0077-4000-8000-000000000077": {
+      "Offset": 0,
+      "Text": "{g|f:7e75728ba44541b5985588702d0e08bb}狙击位置{/g}还可以提高星际战士的{g|Encyclopedia:ArmourPenetration}护甲穿透{/g}。当星际战士攻击7格或更远距离的敌人时，护甲穿透提高{uip|ArmourPenetration|07276669fcc04e2a9e7a5a3055c58b8c}%。"
+    },
+    "dea7c0de-0078-4000-8000-000000000078": {
+      "Offset": 0,
+      "Text": "如果星际战士本{g|Encyclopedia:Turn}回合{/g}未移动过，则{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}提高{unit_stat|WarhammerPerception|bonus}点。当星际战士使用{g|Encyclopedia:SingleRangedAttacksGlossary}单发射击{/g}攻击敌人时，与敌人之间每相距5格，此次攻击造成的伤害都会提高{uip|DamageBonus|233f7d66b32243a192b6960e0058da54}点。上述加成效果不叠加，当星际战士移动时失效。"
+    },
+    "dea7c0de-0079-4000-8000-000000000079": {
+      "Offset": 0,
+      "Text": "每当星际战士杀死敌人时，都会获得10层“全力开火”效果。当星际战士{g|Encyclopedia:Turn}回合{/g}开始时，本{g|Encyclopedia:Round}轮{/g}的首次攻击有一定几率不消耗任何{g|Encyclopedia:ActionPoints}行动点数{/g}，且不计入每回合的攻击次数限制。触发几率等同于<u>（“全力开火”层数）</u>%。\n此效果触发之后，所有“全力开火”层数都会耗尽。"
+    },
+    "dea7c0de-0080-4000-8000-000000000080": {
+      "Offset": 0,
+      "Text": "星际战士在战斗时，{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}、{g|Encyclopedia:WarhammerPerception}感知{/g}与{g|Encyclopedia:WarhammerWillpower}意志{/g}提高7点。但不处于战斗状态时，{g|Encyclopedia:WarhammerIntelligence}智力{/g}、{g|Encyclopedia:WarhammerFellowship}社交{/g}、感知与意志会降低7点。"
+    },
+    "dea7c0de-0081-4000-8000-000000000081": {
+      "Offset": 0,
+      "Text": "星际战士每轮中每使用{g|Encyclopedia:RangeAreaAttacksGlossary}远程{/g}武器开火一次，都会获得1层{g|Encyclopedia:DodgeGlossary}闪避{/g}加成效果，对抗远程攻击时获得1%的闪避{g|Encyclopedia:Bonus}加值{/g}。此外，每次{g|Encyclopedia:BurstAttacksGlossary}连发{/g}射击都会额外叠加10层“全力开火”效果。"
+    },
+    "dea7c0de-0082-4000-8000-000000000082": {
+      "Offset": 0,
+      "Text": "星际战士{g|Encyclopedia:Turn}回合{/g}结束时，会额外获得“全力开火”效果层数，等同于<u>（该角色本{g|Encyclopedia:Round}轮{/g}内使用过的威力最大的{g|Encyclopedia:RangeAreaAttacksGlossary}远程武器{/g}，其最小{g|Encyclopedia:DamageGlossary}伤害{/g}的一半）</u>。"
+    },
+    "dea7c0de-0083-4000-8000-000000000083": {
+      "Offset": 0,
+      "Text": "星际战士在战斗中首次{g|Encyclopedia:Reload}重新装填{/g}时，不会消耗任何{g|Encyclopedia:ActionPoints}行动点数{/g}。此外，重新装填武器会额外叠加10层“全力开火”效果。"
+    },
+    "dea7c0de-0084-4000-8000-000000000084": {
+      "Offset": 0,
+      "Text": "当星际战士失去所有“全力开火”层数时，该层数并不会重置为0，而是会变为{uip|Stacks|c75384d4cdae4d1aa1c3d94e7c100ae2}层。\n此外，星际战士升级时始终可以提高{g|Encyclopedia:WarhammerWillpower}意志{/g}{g|Encyclopedia:Characteristic}属性{/g}，不受当前职业限制。"
+    },
+    "dea7c0de-0085-4000-8000-000000000085": {
+      "Offset": 0,
+      "Text": "当星际战士攻击、{g|Encyclopedia:DodgeGlossary}闪避{/g}、{g|Encyclopedia:Parry}招架{/g}、{g|Encyclopedia:Characteristic}属性{/g}{g|Encyclopedia:Test}检定{/g}或技能检定失败时，可以重新进行检定，重骰的成功率为20%。此成功率不会高于掷骰的基本成功率。\n此外，敌人对星际战士的闪避与招架动作，即便是掷骰成功之后，也仍然有20%的几率失败。"
+    },
+    "dea7c0de-0086-4000-8000-000000000086": {
+      "Offset": 0,
+      "Text": "每当星际战士造成{g|Encyclopedia:CritChancesAndCritDamageGlossary}暴击{/g}时，都有10%的几率使暴击{g|Encyclopedia:DamageGlossary}伤害{/g}翻倍。"
+    },
+    "dea7c0de-0087-4000-8000-000000000087": {
+      "Offset": 0,
+      "Text": "星际战士在遭受致命{g|Encyclopedia:DamageGlossary}伤害{/g}后，有20%的几率不会倒下，而会残存1点{g|Encyclopedia:HitPoints}生命值{/g}。"
+    },
+    "dea7c0de-0088-4000-8000-000000000088": {
+      "Offset": 0,
+      "Text": "当星际战士的{g|Encyclopedia:HitPoints}生命值{/g}高于50%时，3格内所有生物（包括敌人）的所有掷骰成功率都会提高10%。\n当星际战士的生命值低于50%时，3格内所有生物（包括敌人）的所有掷骰成功率都会降低10%。"
+    },
+    "dea7c0de-0089-4000-8000-000000000089": {
+      "Offset": 0,
+      "Text": "无论什么时候，如果星际战士的{g|Encyclopedia:Ability}能力{/g}或{g|Encyclopedia:Talent}天赋{/g}需要计算{g|Encyclopedia:WarhammerFellowship}社交{/g}加值时，如果星际战士的智力更高，则可以改用{g|Encyclopedia:WarhammerIntelligence}智力{/g}加值。\n另外，即便是在{g|Encyclopedia:Career}职业{/g}不允许的情况下，星际战士在升级时也可以无视限制，提高智力。"
+    },
+    "dea7c0de-0090-4000-8000-000000000090": {
+      "Offset": 0,
+      "Text": "使用此能力后，星际战士与其盟友在一{g|Encyclopedia:Round}轮{/g}内不会受到友军伤害。星际战士与其盟友攻击敌人时，如果该名敌人在此能力发动之后已经被攻击过，则此次攻击造成的伤害提高{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f}%。如果战场上存在多名星际战士，此能力效果不会叠加。\n！此能力每场战斗只能使用一次。"
+    },
+    "dea7c0de-0091-4000-8000-000000000091": {
+      "Offset": 0,
+      "Text": "{g|f:a15dd47c2d294b8b881604dd233b8e0f}军团战术{/g}效果持续期间，星际战士与其盟友使用武器攻击敌人时，如果该名敌人在本场战斗中已经被星际战士的盟友攻击过，则此次武器攻击的{g|Encyclopedia:DodgeReduction}闪避减免{/g}、{g|Encyclopedia:ParryReduction}招架减免{/g}、格挡减免、{g|Encyclopedia:DetailsOfTheCoverGlossary}掩体{/g}穿透提高20%。"
+    },
+    "dea7c0de-0092-4000-8000-000000000092": {
+      "Offset": 0,
+      "Text": "当星际战士受{g|f:a15dd47c2d294b8b881604dd233b8e0f}军团战术{/g}效果影响时，星际战士的所有盟友每次攻击之后，都会额外获得+5%{g|Encyclopedia:RateOfFire}射速{/g}加成。"
+    },
+    "dea7c0de-0093-4000-8000-000000000093": {
+      "Offset": 0,
+      "Text": "每当星际战士或其盟友发动{g|Encyclopedia:HeroicAct}英雄壮举{/g}时，星际战士的所有{g|Encyclopedia:Characteristic}属性{/g}提高7点，效果持续至战斗结束。"
+    },
+    "dea7c0de-0094-4000-8000-000000000094": {
+      "Offset": 0,
+      "Text": "星际战士给予距离5格内所有盟友（包括星际战士本人）{g|f:b9f9ef145708451f81283a73c16c527d}准备就绪{/g}效果，持续一{g|Encyclopedia:Round}轮{/g}。战斗开始时，星际战士拥有1次此能力使用次数。当星际战士的{g|Encyclopedia:HitPoints}生命值{/g}在战斗中首次降至50%以下时，以及每当有盟友陷入昏迷状态时，都会额外获得1次使用次数。"
+    },
+    "dea7c0de-0095-4000-8000-000000000095": {
+      "Offset": 0,
+      "Text": "{g|f:b9f9ef145708451f81283a73c16c527d}准备就绪{/g}效果持续期间，星际战士每{g|Encyclopedia:Round}轮{/g}中可以使用一次{g|f:282940ecb99948a28adc9cb60374223b}离我远点！{/g}这个能力。此外，被星际战士{g|Encyclopedia:MeleeAttacksGlossary}近战攻击{/g}的目标需要进行{g|Encyclopedia:WarhammerAgility}敏捷{/g}{g|Encyclopedia:ResistanceTest}抗性检定{/g}，且在此次检定中承受-10减值。若未能通过检定，则会陷入{g|Encyclopedia:ProneEffect}倒地{/g}状态。"
+    },
+    "dea7c0de-0096-4000-8000-000000000096": {
+      "Offset": 0,
+      "Text": "每当星际战士使用{g|f:f0d6fd0433624181a3a6c9bb6fd60ab5}迎接冲击！{/g}能力时，距离星际战士5格内的所有敌人{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}降低{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703}点，{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}降低{uip|Debuff|df8bff986a62440fa9f01e04c3bf5703}点。"
+    },
+    "dea7c0de-0097-4000-8000-000000000097": {
+      "Offset": 0,
+      "Text": "拥有{g|f:b9f9ef145708451f81283a73c16c527d}准备就绪{/g}效果的盟友，以及被星际战士其他非攻击性职业能力影响的盟友，{g|Encyclopedia:DodgeGlossary}闪避{/g}提高{uip|dodge bonus|b79a772332e64e99921463bb28030674}%，持续一{g|Encyclopedia:Round}轮{/g}。此效果不可叠加。\n星际战士与拥有{g|f:b9f9ef145708451f81283a73c16c527d}准备就绪{/g}效果的盟友不会触发{g|Encyclopedia:AttackOfOpportunityFullGlossary}借机攻击{/g}。"
+    },
+    "dea7c0de-0098-4000-8000-000000000098": {
+      "Offset": 0,
+      "Text": "星际战士可从以下几项植入物系统中选择一项：\n- <indent=5%>皮下{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}：获得+<u>（5+2×坚韧加值）</u>%护甲加成。</indent>\n- <indent=5%>移动系统：获得+<u>（敏捷加值/2）</u>点{g|Encyclopedia:MovementPoints}移动点数{/g}加成与+<u>（2×敏捷加值）</u>%{g|Encyclopedia:DodgeGlossary}闪避{/g}加成。</indent>\n- <indent=5%>分析系统：获得+<u>（10+智力加值）</u>%{g|Encyclopedia:CritChancesAndCritDamageGlossary}暴击率{/g}加成。</indent>"
+    },
+    "dea7c0de-0099-4000-8000-000000000099": {
+      "Offset": 0,
+      "Text": "当星际战士受到{g|Encyclopedia:BurningEffect}燃烧{/g}效果与火焰武器攻击时，针对此次攻击会获得额外{g|Encyclopedia:Deflection}偏转{/g}，等同于{unit_stat|WarhammerToughness|bonus}。"
+    },
+    "dea7c0de-0100-4000-8000-000000000100": {
+      "Offset": 0,
+      "Text": "星际战士使用单体攻击{g|Encyclopedia:Bonus}{/g}命中任何目标时，接下来针对该目标的攻击会获得+10%命中率与{g|Encyclopedia:DodgeReduction}闪避减免{/g}加成效果，此效果可叠加。\n若是单体攻击造成{g|Encyclopedia:CritChancesAndCritDamageGlossary}暴击{/g}，则命中率与闪避减免加成效果提高为20%。"
+    },
+    "dea7c0de-0101-4000-8000-000000000101": {
+      "Offset": 0,
+      "Text": "星际战士使用{g|Encyclopedia:SkillPersuasion}劝说{/g}、{g|Encyclopedia:SkillCoercion}胁迫{/g}与{g|Encyclopedia:SkillCommerce}商业{/g}技能时，可以通过{g|Encyclopedia:WarhammerIntelligence}智力{/g}属性进行检定，而非{g|Encyclopedia:WarhammerFellowship}社交{/g}属性。"
+    },
+    "dea7c0de-0102-4000-8000-000000000102": {
+      "Offset": 0,
+      "Text": "星际战士在攻击或使用{g|Encyclopedia:Ability}能力{/g}之后，依然可以使用{g|Encyclopedia:MovementPoints}移动点数{/g}进行移动。"
+    },
+    "dea7c0de-0103-4000-8000-000000000103": {
+      "Offset": 0,
+      "Text": "星际战士可以选择任意{g|Encyclopedia:Characteristic}属性{/g}（除了{g|Encyclopedia:WarhammerWeaponSkill}武器技能{/g}与{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}），使此项属性获得+10效果。{g|Encyclopedia:Bonus}{/g}"
+    },
+    "dea7c0de-0104-4000-8000-000000000104": {
+      "Offset": 0,
+      "Text": "当星际战士受到盟友非伤害性{g|Encyclopedia:Ability}能力{/g}影响，或是使用非伤害性能力影响盟友时，此角色的{g|Encyclopedia:Resolve}决心{/g}会获得加成，等同于{uip|Resolve|1a9f01d856144172863ef2ffecab6d4e}，持续一{g|Encyclopedia:Round}轮{/g}。"
+    },
+    "dea7c0de-0105-4000-8000-000000000105": {
+      "Offset": 0,
+      "Text": "当星际战士{g|Encyclopedia:HitPoints}生命值{/g}低于40%时，该角色所有{g|Encyclopedia:Characteristic}属性{/g}提高10点，{g|Encyclopedia:Resolve}决心{/g}提高2点。{g|Encyclopedia:Bonus}{/g}"
+    },
+    "dea7c0de-0106-4000-8000-000000000106": {
+      "Offset": 0,
+      "Text": "星际战士在对抗异形与恶魔时，{g|Encyclopedia:CritChancesAndCritDamageGlossary}暴击率{/g}与{g|Encyclopedia:WarhammerArmourGlossary}护甲{/g}提高10%。此角色的所有盟友获得“不识异形”效果{g|Encyclopedia:Bonus}加成{/g}的一半。\n然而，星际战士的{g|Encyclopedia:SkillLoreXenos}异形知识{/g}与{g|Encyclopedia:SkillLoreWarp}亚空间知识{/g}始终为0。"
+    },
+    "dea7c0de-0107-4000-8000-000000000107": {
+      "Offset": 0,
+      "Text": "当灵能者不在目标的{g|Encyclopedia:LineOfSight}视线{/g}范围内时，目标所有的抗性{g|Encyclopedia:ResistanceTest}检定{/g}都会额外承受-{uip|ResistancePenalty|2cab29e13d404ab986a2f825d0dc8914}{g|Encyclopedia:Penalty}减值{/g}。"
+    },
+    "dea7c0de-0108-4000-8000-000000000108": {
+      "Offset": 0,
+      "Text": "如果{g|Encyclopedia:Turn}回合{/g}开始时，星际战士没有任何“万全计划”层数，则获得1层层数。"
+    },
+    "dea7c0de-0109-4000-8000-000000000109": {
+      "Offset": 0,
+      "Text": "当星际战士在每场战斗中首次承受致命{g|Encyclopedia:DamageGlossary}伤害{/g}时，如果星际战士拥有至少1层“万全计划”层数，则不会被致命伤害击杀。相反，星际战士会恢复生命值，等同于{g|Encyclopedia:MaxWounds}最大生命值{/g}的<u>（5×“万全计划”层数）</u>%。在这之后，失去所有“万全计划”层数，后续也无法再次获得“万全计划”层数。"
+    },
+    "dea7c0de-0110-4000-8000-000000000110": {
+      "Offset": 0,
+      "Text": "星际战士获得+15{g|Encyclopedia:WarhammerPerception}感知{/g}，+15{g|Encyclopedia:WarhammerBallisticSkill}弹道技能{/g}。\n此效果持续至星际战士移动为止，不可叠加。"
+    },
+    "dea7c0de-0111-4000-8000-000000000111": {
+      "Offset": 0,
+      "Text": "使用此能力后，星际战士与其盟友在一{g|Encyclopedia:Round}轮{/g}内不会受到友军伤害。星际战士与其盟友攻击敌人时，如果该名敌人在此能力发动之后已经被攻击过，则此次攻击造成的伤害提高{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f}%。如果战场上存在多名星际战士，此能力效果不会叠加。\n！此能力每场战斗只能使用一次。"
     }
   }
 }
