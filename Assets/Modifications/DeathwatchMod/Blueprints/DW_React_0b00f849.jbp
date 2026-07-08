@@ -22,100 +22,10 @@
         "HasDifficultyRequirements": false,
         "InvertDifficultyRequirements": false,
         "MinDifficulty": "Story"
-      },
-      {
-        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
-        "name": "$AddFeaturesToLevelUp$d4cdbe41-2f4f-4132-adbb-576a154b1ddc",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "Group": "Talent",
-        "m_Features": [
-          "!bp_1a9f01d856144172863ef2ffecab6d4e",
-          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
-          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
-          "!bp_c05db22721574a98b2faaf57aaf01268",
-          "!bp_aa11720621c44a7d84a973de4faf5a68"
-        ]
-      },
-      {
-        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
-        "name": "$AddFeaturesToLevelUp$68d69dbf-ec40-49f4-b75d-7cf768703487",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "Group": "CommonTalent",
-        "m_Features": [
-          "!bp_1a9f01d856144172863ef2ffecab6d4e",
-          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
-          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
-          "!bp_c05db22721574a98b2faaf57aaf01268",
-          "!bp_aa11720621c44a7d84a973de4faf5a68"
-        ]
-      },
-      {
-        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
-        "name": "$AddFeaturesToLevelUp$53b41e4c-8d38-437b-bab8-ac08a3e793e3",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "Group": "SecondCareerTalent",
-        "m_Features": [
-          "!bp_1a9f01d856144172863ef2ffecab6d4e",
-          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
-          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
-          "!bp_c05db22721574a98b2faaf57aaf01268",
-          "!bp_aa11720621c44a7d84a973de4faf5a68"
-        ]
-      },
-      {
-        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
-        "name": "$AddFeaturesToLevelUp$33e9445d-e20c-4a73-8faf-b67fee296c8d",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "Group": "FirstCareerTalent",
-        "m_Features": [
-          "!bp_1a9f01d856144172863ef2ffecab6d4e",
-          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
-          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
-          "!bp_c05db22721574a98b2faaf57aaf01268",
-          "!bp_aa11720621c44a7d84a973de4faf5a68"
-        ]
-      },
-      {
-        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
-        "name": "$AddFeaturesToLevelUp$456ef975-bb14-4dc1-8e8f-a98e16c66308",
-        "m_Flags": 0,
-        "PrototypeLink": {
-          "guid": "",
-          "name": ""
-        },
-        "m_Overrides": [],
-        "Group": "FirstOrSecondCareerTalent",
-        "m_Features": [
-          "!bp_1a9f01d856144172863ef2ffecab6d4e",
-          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
-          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
-          "!bp_c05db22721574a98b2faaf57aaf01268",
-          "!bp_aa11720621c44a7d84a973de4faf5a68"
-        ]
       }
     ],
     "Author": "Unknown",
-    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit.",
+    "Comment": " DW text-clone (2026-07-08 re-actor sweep): identical mechanics; description re-actored to the Space Marine (dead cover clauses trimmed where present). See PATCHES/commit. Talent groups stripped 2026-07-08: they never surfaced (AddFacts-granted) and the talents now live on the Ultra/WS chapter features directly; this clone now only grants the Imperial World innate advancement.",
     "m_DisplayName": {
       "m_Key": "ebd7310b-08fc-448a-834f-34b755b9b4fc",
       "m_OwnerString": "0b00f849c16a45dba17647e624c90b01",

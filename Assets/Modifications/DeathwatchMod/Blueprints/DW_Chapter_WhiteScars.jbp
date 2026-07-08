@@ -152,10 +152,100 @@
         "m_ActionsOnAdd": {
           "Actions": []
         }
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$839d7cc3f8b3494ebbe52f8b7c4a21b5",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$8a143841c1c845ef84027467113efc9b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$55b1afc548fe4d4fbd102dc7b8e87182",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$fed40d2603bc4e3eb90cb16b9f8c5bb0",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$503266f8e25a41519377e0c86557d31b",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
       }
     ],
     "Author": "Unknown",
-    "Comment": "Chapter: White Scars (ChargenHomeworld). No prerequisites.",
+    "Comment": "Chapter: White Scars (ChargenHomeworld). No prerequisites. Imperial World homeworld talents added to the 5 level-up groups 2026-07-08 (Ultra/WS previously delegated talents to the AddFacts-granted homeworld container, whose level-up groups do not surface -- unlike the other chapters, which carry talents on their own feature).",
     "m_DisplayName": {
       "m_Key": "91199928-5ef0-4f9d-975a-ea099a9f2bbe",
       "m_OwnerString": "",

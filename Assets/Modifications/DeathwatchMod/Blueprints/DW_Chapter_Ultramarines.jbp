@@ -152,10 +152,100 @@
         "m_ActionsOnAdd": {
           "Actions": []
         }
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$96bac257792c4ab08242c7743e316823",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "Talent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$601494d34ffd4ff4aeb419822992159a",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "CommonTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$34ab25f099cb47069dd694ecf06fa987",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "SecondCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$2557cb8441cb4264bd6197666a13c6b9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
+      },
+      {
+        "$type": "00cc9fe0a3f84bc1811764509b4282aa, AddFeaturesToLevelUp",
+        "name": "$AddFeaturesToLevelUp$276f394318dc4d429215d1e4686c131f",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Group": "FirstOrSecondCareerTalent",
+        "m_Features": [
+          "!bp_1a9f01d856144172863ef2ffecab6d4e",
+          "!bp_5d4c2c638ece42b996f8d3ffa69ff86c",
+          "!bp_d3afe49b44794ddd9a9e7f05df00902d",
+          "!bp_c05db22721574a98b2faaf57aaf01268",
+          "!bp_aa11720621c44a7d84a973de4faf5a68"
+        ]
       }
     ],
     "Author": "Unknown",
-    "Comment": "Deathwatch Chapter: Ultramarines (Codex Discipline). ChargenHomeworld-group option.",
+    "Comment": "Deathwatch Chapter: Ultramarines (Codex Discipline). ChargenHomeworld-group option. Imperial World homeworld talents added to the 5 level-up groups 2026-07-08 (Ultra/WS previously delegated talents to the AddFacts-granted homeworld container, whose level-up groups do not surface -- unlike the other chapters, which carry talents on their own feature).",
     "m_DisplayName": {
       "m_Key": "5d599268-87fb-4b3c-8087-d1c5e9032ac0",
       "m_OwnerString": "",
