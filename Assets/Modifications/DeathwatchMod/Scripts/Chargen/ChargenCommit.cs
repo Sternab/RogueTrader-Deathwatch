@@ -65,6 +65,22 @@ namespace DeathwatchMod
                 if (cv == null) return;
                 var chap = cv.Value;
 
+                // SURE-FIRE SOURCE DIAGNOSTIC (tester, 1.1.1): a fresh Assault marine's first combat granted
+                // INT-many sure-fire stacks (the VANILLA crime-lord scaling) and self-corrected to AGI after a
+                // save/load -- yet the shipped data only ever grants the AGI clone. Log which source the
+                // committed unit actually carries so the next report is decisive (stale-install vs stale-fact
+                // vs commit-context quirk). Detection only; no behavior change until the evidence lands.
+                bool vanillaSF = false, dwSF = false;
+                foreach (var f in resultUnit.Progression.Features)
+                {
+                    if (f == null || f.Blueprint == null) continue;
+                    if (f.Blueprint.AssetGuid == "881def61ed1e41d183e4d2788059c43a") vanillaSF = true;       // vanilla Criminal innate
+                    else if (f.Blueprint.AssetGuid == "d744dcde81fb47c39807bc08b980a041") dwSF = true;       // DW AGI clone
+                }
+                if (vanillaSF || dwSF)
+                    DeathwatchModMain.Log("[MarineArmour] sure-fire source at commit: vanilla=" + vanillaSF + " dwClone=" + dwSF
+                        + (vanillaSF ? "  <-- UNEXPECTED, report this line" : ""));
+
                 // Speciality voice: only when the player chose the mixed "Space Marine" voice.
                 var asks = resultUnit.Asks;
                 if (asks != null && asks.CustomAsks != null && asks.CustomAsks.AssetGuid == SpaceMarineVoice_Guid)
