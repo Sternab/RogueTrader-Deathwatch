@@ -38,11 +38,11 @@
               "AsChild": false,
               "SameDuration": false,
               "Ranks": {
-                "ValueType": "CasterProperty",
+                "ValueType": "CasterNamedProperty",
                 "Value": 0,
                 "ValueRank": "Default",
                 "ValueShared": "Damage",
-                "Property": "AgilityBonus",
+                "Property": "None",
                 "m_CustomProperty": null,
                 "PropertyName": "Value1"
               },
@@ -79,10 +79,44 @@
         "HasDifficultyRequirements": false,
         "InvertDifficultyRequirements": false,
         "MinDifficulty": "Story"
+      },
+      {
+        "$type": "f9bf4ae9ccd847689d5cdf2e86bc51ca, PropertyCalculatorComponent",
+        "name": "$PropertyCalculatorComponent$4a0aa9e944894938a43ec95d6d2544b9",
+        "m_Flags": 0,
+        "PrototypeLink": {
+          "guid": "",
+          "name": ""
+        },
+        "m_Overrides": [],
+        "Name": "Value1",
+        "SaveToContext": "No",
+        "Value": {
+          "Operation": "Sum",
+          "TargetType": "CurrentEntity",
+          "FailSilentlyIfNoTarget": false,
+          "Getters": [
+            {
+              "$type": "fd03f97ef3d1416d9a95f874454886d9, SimplePropertyGetter",
+              "name": "$SimplePropertyGetter$396bb7f1c8a648619fee72de37f1d16b",
+              "Settings": {
+                "Progression": "AsIs",
+                "m_CustomProgression": [],
+                "m_StartLevel": 0,
+                "m_StepLevel": 0,
+                "Negate": false,
+                "Limit": "None",
+                "Min": 0,
+                "Max": 0
+              },
+              "Property": "AgilityBonus"
+            }
+          ]
+        }
       }
     ],
     "Author": "Unknown",
-    "Comment": "DW clone of Criminal_InnateAbility_Feature (Sure-Fire Plan, 881def61) for the Assault Marine (tester design 2026-07-05): starting stacks = AGILITY bonus instead of Intelligence (the Crime Lord stat has no synergy with Assault's AGI/WS). ONLY the CombatStateTrigger's Ranks property changes; the vanilla ability f8fbdb66 + buff fc8852a3 cascade is referenced unchanged, so the five Plan talents keep functioning. DisplayName reuses the vanilla Shared key; description = mod key (stat + actor adapted).",
+    "Comment": "DW clone of Criminal_InnateAbility_Feature (Sure-Fire Plan, 881def61) for the Assault Marine (tester design 2026-07-05): starting stacks = AGILITY bonus instead of Intelligence (the Crime Lord stat has no synergy with Assault's AGI/WS). ONLY the CombatStateTrigger's Ranks property changes; the vanilla ability f8fbdb66 + buff fc8852a3 cascade is referenced unchanged, so the five Plan talents keep functioning. DisplayName reuses the vanilla Shared key; description = mod key (stat + actor adapted). RANKS RE-ANCHORED 2026-07-07 (tester: first combat pre-save/load granted stacks from a stale stat snapshot; save/load fixed it): Ranks now = CasterNamedProperty Value1 fed by this feature's own PropertyCalculatorComponent (TargetType CurrentEntity -> the fact owner's LIVE Agility bonus at apply time) -- vanilla pattern from Augment_Leg_Eogann_T1_Feature; identical result in the healthy case, immune to a stale context caster at chargen commit.",
     "m_DisplayName": {
       "m_Key": "",
       "m_OwnerString": "",
