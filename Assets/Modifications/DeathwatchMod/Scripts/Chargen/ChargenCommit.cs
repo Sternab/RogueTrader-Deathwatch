@@ -94,21 +94,15 @@ namespace DeathwatchMod
                     }
                 }
 
-                // SURE-FIRE SOURCE DIAGNOSTIC (tester, 1.1.1): a fresh Assault marine's first combat granted
-                // INT-many sure-fire stacks (the VANILLA crime-lord scaling) and self-corrected to AGI after a
-                // save/load -- yet the shipped data only ever grants the AGI clone. Log which source the
-                // committed unit actually carries so the next report is decisive (stale-install vs stale-fact
-                // vs commit-context quirk). Detection only; no behavior change until the evidence lands.
-                bool vanillaSF = false, dwSF = false;
+                // SURE-FIRE SOURCE REGRESSION GUARD (was a 1.1.1 tester diagnostic): a fresh Assault marine once
+                // carried the VANILLA crime-lord sure-fire scaling instead of the AGI clone. That's shipped + verified
+                // fixed (the committed unit always carries the AGI clone), so the normal case is SILENT now -- log
+                // ONLY the UNEXPECTED vanilla source, so a future regression report stays decisive. Detection only.
+                bool vanillaSF = false;
                 foreach (var f in resultUnit.Progression.Features)
-                {
-                    if (f == null || f.Blueprint == null) continue;
-                    if (f.Blueprint.AssetGuid == "881def61ed1e41d183e4d2788059c43a") vanillaSF = true;       // vanilla Criminal innate
-                    else if (f.Blueprint.AssetGuid == "d744dcde81fb47c39807bc08b980a041") dwSF = true;       // DW AGI clone
-                }
-                if (vanillaSF || dwSF)
-                    DeathwatchModMain.Log("[MarineArmour] sure-fire source at commit: vanilla=" + vanillaSF + " dwClone=" + dwSF
-                        + (vanillaSF ? "  <-- UNEXPECTED, report this line" : ""));
+                    if (f != null && f.Blueprint != null && f.Blueprint.AssetGuid == "881def61ed1e41d183e4d2788059c43a") { vanillaSF = true; break; }   // vanilla Criminal innate
+                if (vanillaSF)
+                    DeathwatchModMain.Log("[MarineArmour] sure-fire source at commit is the VANILLA crime-lord innate -- UNEXPECTED regression, please report this line.");
 
                 // Speciality voice: only when the player chose the mixed "Space Marine" voice.
                 var asks = resultUnit.Asks;
