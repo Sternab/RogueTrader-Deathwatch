@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2086151842, guid: dc02cf7d53edc6949bc969aa0a28f014, type: 3}
+  m_Name: EE_DeathwatchBackpack
+  m_EditorClassIdentifier: 
+  IsExportEnabled: 0
+  CantBeHiddenByDollRoom: 0
+  ShowAboveAllIgnoreLayer: 0
+  m_RequiresDlc:
+    guid: 
+  Layer: 220
+  m_HideBodyParts: 0
+  ShowLowerMaterials: 1
+  isOnlyRightBP: 0
+  IsAugmentation: 0
+  AugmentationArmSide: 0
+  SkeletonModifiers: []
+  PrimaryColorsProfile: {fileID: 0}
+  SecondaryColorsProfile: {fileID: 0}
+  BakedTextures: {fileID: 0}
+  PreviewTexture: {fileID: 0}
+  ColorPresets: {fileID: 0}
+  m_PrimaryRamps: []
+  m_SecondaryRamps: []
+  BodyParts: []
+  OutfitParts:
+  - m_Prefab: {fileID: 7180001, guid: 3e83240b55c34f0ea8e39480b13c57c0, type: 3}
+    m_Material: {fileID: 2100000, guid: 0f2fce9ea3f1419e92892d603dc99c44, type: 2}
+    tempMaterial: {fileID: 0}
+    m_Position: {x: -0.00800000037997961, y: 0, z: -0.20000000298023224}
+    m_Rotation: {x: -85.88999938964844, y: -10.958999633789062, z: 12.326000213623047}
+    m_Scale: {x: 1.0264999866485596, y: 1.0264999866485596, z: 1.0264999866485596}
+    ColorMask: {fileID: 0}
+    m_BoneName: C_back_weapon_slot_08_ADJ
+    m_StaysInPeacefulMode: 0
+    m_OnlyInDollRoom: 0
+    m_Special: 1
+    OutfitBodyPart: 0
+  ForcedPrimaryIndex: -1
+  ForcedSecondaryIndex: -1

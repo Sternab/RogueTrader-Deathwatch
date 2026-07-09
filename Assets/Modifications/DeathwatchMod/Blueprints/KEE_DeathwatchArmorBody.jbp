@@ -6,14 +6,14 @@
     "m_Overrides": [],
     "Components": [],
     "Author": "Unknown",
-    "Comment": "Deathwatch armour BODY only: power armour EE_ArmorSpaceMarine4 (a6b3fde3) + backpack EE_BackpackSpaceMarine4 (28df2710). NO helmet (29f3a430). Used by the worn DeathwatchArmor_Item so equipping the armour does NOT bring a helmet -- the helmet is the head-slot item only (fixes the ghost-helmet-on-armour-re-equip bug). The full armour+helmet+backpack KEE_DeathwatchArmor (07cfd043) is still the always-on feature-EE for the chargen doll.",
+    "Comment": "Deathwatch armour BODY only: power armour EE_ArmorSpaceMarine4 (a6b3fde3) + toned backpack EE_DeathwatchBackpack (224926ca; mod copy of EE_BackpackSpaceMarine4 with reflectivity lowered so it no longer mirrors bright scenes to white). NO helmet (29f3a430). Used by the worn DeathwatchArmor_Item so equipping the armour does NOT bring a helmet -- the helmet is the head-slot item only (fixes the ghost-helmet-on-armour-re-equip bug). The full armour+helmet+backpack KEE_DeathwatchArmor (07cfd043) is still the always-on feature-EE for the chargen doll.",
     "m_MaleArray": [
       { "AssetId": "a6b3fde39450d1045896d92fe76fc489" },
-      { "AssetId": "28df2710412911b4fbc25637560b9053" }
+      { "AssetId": "224926ca83664ef5ad329be9302f0c43" }
     ],
     "m_FemaleArray": [
       { "AssetId": "a6b3fde39450d1045896d92fe76fc489" },
-      { "AssetId": "28df2710412911b4fbc25637560b9053" }
+      { "AssetId": "224926ca83664ef5ad329be9302f0c43" }
     ],
     "m_RaceDependent": false,
     "m_RaceDependentArrays": []
