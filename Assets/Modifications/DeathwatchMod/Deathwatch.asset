@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Manifest:
     UniqueName: Deathwatch
-    Version: 1.1.1
+    Version: 1.1.3
     DisplayName: Deathwatch - Play as a Space Marine
     Description: Create and play a Deathwatch Space Marine in the base campaign.
       A fully converted character creator (Chapter, Speciality, Deed of Renown, Burden
