@@ -3,6 +3,7 @@ using HarmonyLib;
 using Kingmaker.Blueprints;                       // ResourcesLibrary
 using Kingmaker.EntitySystem.Entities;            // BaseUnitEntity
 using Kingmaker.UI.MVVM.VM.CharGen;               // CharGenContextVM
+using Kingmaker.UnitLogic.Progression.Features;   // BlueprintRace (mercenary race correction, G3-B)
 
 namespace DeathwatchMod
 {
@@ -64,6 +65,34 @@ namespace DeathwatchMod
                 var cv = DeathwatchModMain.DetectChapter(resultUnit);
                 if (cv == null) return;
                 var chap = cv.Value;
+
+                // MERCENARY MARINE = REAL MARINE (G3-B, 2026-07-08). A hired marine commits on the pre-created
+                // CustomCompanion entity: Player.CreateCustomCompanion builds it from the HARDCODED
+                // BlueprintRoot.CustomCompanion (Human race) and levels it BEFORE chargen opens -- before the marine
+                // tile even exists -- so the NewGame config-unit swap (MarineUnitRouter) cannot give the committed
+                // merc the Astartes race, and he commits Human. Everything else that makes a marine (statline + the
+                // TwoHandedWeaponsInOneHand anims + immunities + the equipment markers) already rides in via the
+                // chapter's DW_AstartesBaseline; the ONLY gap is Progression.Race -- which is what IsMarineUnit keys
+                // on -- so without this, none of the per-unit marine patches (equip unlocks, dynamic size, weapon
+                // scale) fire for a merc. Correct the race so a merc is mechanically identical to a NewGame marine.
+                // SetRace is a plain race-FEATURE swap (drop the Human race feature, add DW_AstartesRace); that race
+                // also grants AstartesPhysiology, which the marine already carries from the baseline -- the exact
+                // two-source setup every NewGame marine has (race + baseline), so it is deduped/handled. No-op for a
+                // NewGame player: he already has DW_AstartesRace, so the guid guard skips it (SetRace early-returns).
+                var curRace = resultUnit.Progression != null ? resultUnit.Progression.Race : null;
+                if (curRace == null || curRace.AssetGuid != DeathwatchModMain.AstartesRace_Guid)
+                {
+                    var dwRace = ResourcesLibrary.BlueprintsCache.Load(DeathwatchModMain.AstartesRace_Guid) as BlueprintRace;
+                    if (dwRace == null)
+                        DeathwatchModMain.LogError("[MarineUnit][ERR] CompleteCharGen: DW_AstartesRace unresolved -- merc keeps "
+                            + (curRace != null ? curRace.name : "null") + " race; IsMarineUnit will stay false for him.");
+                    else
+                    {
+                        resultUnit.Progression.SetRace(dwRace);
+                        DeathwatchModMain.Log("[MarineUnit] mercenary marine race corrected: "
+                            + (curRace != null ? curRace.name : "null") + " -> Astartes (IsMarineUnit now true; per-unit marine patches will fire).");
+                    }
+                }
 
                 // SURE-FIRE SOURCE DIAGNOSTIC (tester, 1.1.1): a fresh Assault marine's first combat granted
                 // INT-many sure-fire stacks (the VANILLA crime-lord scaling) and self-corrected to AGI after a

@@ -95,12 +95,14 @@ namespace DeathwatchMod
             return null;
         }
 
-        // Marine identity tests, centralised so detection has ONE edit point (e.g. the hireable-merc
-        // m_Race-stays-Human caveat would change these, not seven call sites). IsMarineUnit matches by the
+        // Marine identity tests, centralised so detection has ONE edit point. IsMarineUnit matches by the
         // MOD-OWNED race blueprint (DW_AstartesRace), NOT by RaceId: vanilla Ulfar, DLC Uralon and enemy Chaos
         // Marines all carry RaceId Spacemarine via the GAME's SpaceMarineStandardRace, so a RaceId test captured
         // them too (leaking the dynamic-size buff into pure-vanilla saves). Only units created by this mod carry
-        // DW_AstartesRace. IsMarinePreset = a chargen doll / DollData, by the marine visual preset.
+        // DW_AstartesRace -- INCLUDING mercenaries: the old "hireable-merc m_Race-stays-Human" caveat is resolved at
+        // commit (ChargenCommit SetRace-corrects the merc to DW_AstartesRace, since the game pre-creates the
+        // companion from a hardcoded Human blueprint before the marine tile is picked), so this stays a pure race
+        // check for BOTH NewGame and mercenary marines. IsMarinePreset = a chargen doll / DollData, by the marine visual preset.
         internal static bool IsMarineUnit(BaseUnitEntity u)
         {
             return u != null && u.Progression != null && u.Progression.Race != null
