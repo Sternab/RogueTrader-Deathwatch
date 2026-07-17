@@ -57,7 +57,9 @@ Rogue Trader mod pages point you at, and it handles installation and updates for
    You should end up with:
    `...\Modifications\Deathwatch\OwlcatModificationManifest.json`
    (If you see `Modifications\Deathwatch\Deathwatch\...` you extracted one level too deep.)
-3. Continue from step 2 above (MicroPatches, enable in the Mods menu, restart, new game).
+3. Open `%USERPROFILE%\AppData\LocalLow\Owlcat Games\Warhammer 40000 Rogue Trader\OwlcatModificationManagerSettings.json` and add `"Deathwatch"` to EnabledModifications and ActiveModifications, using a comma to separate any existing mods.
+   IE: `"EnabledModifications":["jhArcPlasma","Deathwatch"],"ActiveModifications":["jhArcPlasma","Deathwatch"]`
+4. Continue from step 2 above (MicroPatches, enable in the Mods menu, restart, new game).
 
 ## Known issues and things that are BY DESIGN
 
