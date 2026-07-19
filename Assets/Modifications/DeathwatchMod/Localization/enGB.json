@@ -835,6 +835,138 @@
     "dea7c0de-0111-4000-8000-000000000111": {
       "Offset": 0,
       "Text": "When used, for 1 {g|Encyclopedia:Round}round{/g} the Space Marine and their allies do not suffer damage from allied attacks and deal +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f}% more damage to enemies that were attacked by them since ability activation. If multiple Space Marines are in combat, the effect does not stack.\n! Can only be used once per combat."
+    },
+    "1095bb5f-09ab-40a3-8119-1ba60ee218a3": {
+      "Offset": 0,
+      "Text": "Know No Heresy"
+    },
+    "10e157f8-f7c1-4f87-98fc-81f0a36b7677": {
+      "Offset": 0,
+      "Text": "Bloody Mess"
+    },
+    "20e1a66d-588c-4a68-aad8-42e72fcbe14a": {
+      "Offset": 0,
+      "Text": "<u>(({g|Encyclopedia:SkillLogic}Logic{/g} + {g|Encyclopedia:SkillTechUse}Tech-Use{/g}) / 10)</u>"
+    },
+    "222bfc91-d3a9-4cc6-93f9-36176f5c5d6c": {
+      "Offset": 0,
+      "Text": "Outnumber"
+    },
+    "3832bc3c-7ce4-4397-b8f0-00b290d62e98": {
+      "Offset": 0,
+      "Text": "Humanity's Finest"
+    },
+    "4d7aa5a2-1d8e-45c1-9e1a-99cb13afa363": {
+      "Offset": 0,
+      "Text": "Hail of Steel"
+    },
+    "50eba2be-e5f4-44c7-931e-cc8c7c3ac41a": {
+      "Offset": 0,
+      "Text": "Just a Flesh Wound"
+    },
+    "520da3c6-60cd-417c-86e0-77addec95293": {
+      "Offset": 0,
+      "Text": ""
+    },
+    "57cce06f-8541-4669-b61a-ec9f7bfe45b5": {
+      "Offset": 0,
+      "Text": "Familiar Kickback"
+    },
+    "589b9a8a-af1a-4c7f-9426-e44f1d63e5d9": {
+      "Offset": 0,
+      "Text": "The Last Plan"
+    },
+    "5e0ec6f9-91e1-45fa-84e3-3b76fb1dfa66": {
+      "Offset": 0,
+      "Text": "Contingency Plan"
+    },
+    "638f93a0-ca1c-4b3b-b711-e0f83ef84a12": {
+      "Offset": 0,
+      "Text": "Never Stop Shooting"
+    },
+    "70e4666d-e780-4418-a00c-c679beb450c6": {
+      "Offset": 0,
+      "Text": "<u>({g|Encyclopedia:WarhammerFellowship}FEL{/g} bonus / 2)</u>"
+    },
+    "70e848f1-8049-4474-8245-033f8d11cace": {
+      "Offset": 0,
+      "Text": "An Imperial world is one of a million planets united by the belief in the immortal God-Emperor. Hailing from hyper-technological societies to grimy feudal populations, the inhabitants of countless worlds offer fealty and devotion to the Master of Humanity and the Imperial Creed espoused by His servants. The designation \"Imperial world\" encompasses a vast array of wholly dissimilar worlds that are, nevertheless, part of the Imperium."
+    },
+    "7cdeb057-d3d7-470d-9e24-36cdf4b40490": {
+      "Offset": 0,
+      "Text": "Never Stop Believing"
+    },
+    "88159ef9-0f20-4078-8f39-cc7f8f1393b9": {
+      "Offset": 0,
+      "Text": "<u>(10 + {g|Encyclopedia:WarhammerIntelligence}INT{/g} bonus)</u>"
+    },
+    "9616cc5a-9d48-4a5f-ba90-d9363eebc791": {
+      "Offset": 0,
+      "Text": "Better to Die for the Emperor"
+    },
+    "9aabf42d-12b2-43da-ab11-2c20af973de0": {
+      "Offset": 0,
+      "Text": "<u>((1 + {g|Encyclopedia:WarhammerFellowship}FEL{/g} bonus) / 2)</u>"
+    },
+    "a082fa40-e568-4750-ae9a-78c55b3331ca": {
+      "Offset": 0,
+      "Text": "Ready to Serve"
+    },
+    "a52f7a94-6a82-40d8-8b51-4221497cb2a4": {
+      "Offset": 0,
+      "Text": "Comradery"
+    },
+    "b0095113-27f5-4aeb-9a57-1fcedd79b194": {
+      "Offset": 0,
+      "Text": "<u>(10 + {g|Encyclopedia:WarhammerPerception}PER{/g} bonus)</u>"
+    },
+    "b058cbe2-58c9-4f7b-a30e-f29f0bda51df": {
+      "Offset": 0,
+      "Text": "<u>(4 + 4 × {g|Encyclopedia:PsyRating}psy rating{/g})</u>"
+    },
+    "b70a51b6-83a1-48fb-8901-a820d08ce132": {
+      "Offset": 0,
+      "Text": "<u>(10 + {g|Encyclopedia:WarhammerPerception}PER{/g} bonus)</u>"
+    },
+    "b7db88cd-d4db-432d-8a6a-43b4808d3dd1": {
+      "Offset": 0,
+      "Text": "Survival Instinct"
+    },
+    "d4f36217-477a-4612-a0e7-24adfd21c6f5": {
+      "Offset": 0,
+      "Text": "Helping Hand"
+    },
+    "de94f056-8467-4300-8ff0-1ed4f0cc191a": {
+      "Offset": 0,
+      "Text": "<u>({g|Encyclopedia:WarhammerIntelligence}INT{/g} bonus / 2)</u>"
+    },
+    "ded1ac41-a8c2-4941-8d8b-dbecc5643ad8": {
+      "Offset": 0,
+      "Text": "<u>(5 + {g|Encyclopedia:WarhammerPerception}PER{/g} bonus)</u>"
+    },
+    "dfbd4e5e-e6f0-4a6a-b9ee-d73d1b27ade2": {
+      "Offset": 0,
+      "Text": "Fresh Start"
+    },
+    "e17c1919-3a73-417d-9cd6-dc2cda3f5f95": {
+      "Offset": 0,
+      "Text": "Combat Addict"
+    },
+    "e5bebe50-5a6c-4e40-80e7-3f3076f0fdf3": {
+      "Offset": 0,
+      "Text": "Fortune"
+    },
+    "ebd7310b-08fc-448a-834f-34b755b9b4fc": {
+      "Offset": 0,
+      "Text": "Imperial World"
+    },
+    "fd3b31e4-6c3e-4621-bb2d-9d5c75f9c989": {
+      "Offset": 0,
+      "Text": "Spare Magazine"
+    },
+    "fe4a59d5-c26b-4a22-97e4-a2f46d919f06": {
+      "Offset": 0,
+      "Text": "Jinx"
     }
   }
 }

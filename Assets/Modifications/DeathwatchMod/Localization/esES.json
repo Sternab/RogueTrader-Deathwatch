@@ -835,6 +835,138 @@
     "dea7c0de-0111-4000-8000-000000000111": {
       "Offset": 0,
       "Text": "Cuando se usa, durante 1 {g|Encyclopedia:Round}asalto{/g} el Marine Espacial y sus aliados no sufren daño por los ataques de aliados e infligen un +{uip|DamageBonus|6383ebaf92e443eaaeb3fe937032f33f} % de daño adicional a los enemigos que hayan sido atacados por ellos desde el momento en que se activó la capacidad. Si hay varios Marines Espaciales participando en el combate, este efecto no se acumula.\n! Solo puede usarse una vez por combate."
+    },
+    "1095bb5f-09ab-40a3-8119-1ba60ee218a3": {
+      "Offset": 0,
+      "Text": "No conocerás la herejía"
+    },
+    "10e157f8-f7c1-4f87-98fc-81f0a36b7677": {
+      "Offset": 0,
+      "Text": "Destrozo sangriento"
+    },
+    "20e1a66d-588c-4a68-aad8-42e72fcbe14a": {
+      "Offset": 0,
+      "Text": "<u>(({g|Encyclopedia:SkillLogic}Lógica{/g} + {g|Encyclopedia:SkillTechUse}Uso de tecnología{/g}) / 10)</u>"
+    },
+    "222bfc91-d3a9-4cc6-93f9-36176f5c5d6c": {
+      "Offset": 0,
+      "Text": "Superioridad numérica"
+    },
+    "3832bc3c-7ce4-4397-b8f0-00b290d62e98": {
+      "Offset": 0,
+      "Text": "Lo mejor de la Humanidad"
+    },
+    "4d7aa5a2-1d8e-45c1-9e1a-99cb13afa363": {
+      "Offset": 0,
+      "Text": "Tromba de plomo"
+    },
+    "50eba2be-e5f4-44c7-931e-cc8c7c3ac41a": {
+      "Offset": 0,
+      "Text": "Solo un rasguño"
+    },
+    "520da3c6-60cd-417c-86e0-77addec95293": {
+      "Offset": 0,
+      "Text": ""
+    },
+    "57cce06f-8541-4669-b61a-ec9f7bfe45b5": {
+      "Offset": 0,
+      "Text": "Retroceso familiar"
+    },
+    "589b9a8a-af1a-4c7f-9426-e44f1d63e5d9": {
+      "Offset": 0,
+      "Text": "Plan final"
+    },
+    "5e0ec6f9-91e1-45fa-84e3-3b76fb1dfa66": {
+      "Offset": 0,
+      "Text": "Plan de contingencia"
+    },
+    "638f93a0-ca1c-4b3b-b711-e0f83ef84a12": {
+      "Offset": 0,
+      "Text": "No dejes de disparar"
+    },
+    "70e4666d-e780-4418-a00c-c679beb450c6": {
+      "Offset": 0,
+      "Text": "<u>(Bonificación por {g|Encyclopedia:WarhammerFellowship}EMP{/g} / 2)</u>"
+    },
+    "70e848f1-8049-4474-8245-033f8d11cace": {
+      "Offset": 0,
+      "Text": "Un mundo Imperial es uno del millón de planetas unidos por la fe en el Dios Emperador inmortal. Estos planetas van desde sociedades hipertecnológicas hasta mugrientas poblaciones feudales, y los habitantes de estos incontables mundos deben lealtad al señor de la Humanidad y al Credo imperial que promulgan sus sirvientes. La designación de «mundo Imperial» engloba una amplísima gama de mundos completamente dispares que no por ello dejan de ser parte del Imperium."
+    },
+    "7cdeb057-d3d7-470d-9e24-36cdf4b40490": {
+      "Offset": 0,
+      "Text": "No dejes de creer"
+    },
+    "88159ef9-0f20-4078-8f39-cc7f8f1393b9": {
+      "Offset": 0,
+      "Text": "<u>(10 + bonificación por {g|Encyclopedia:WarhammerIntelligence}INT{/g})</u>"
+    },
+    "9616cc5a-9d48-4a5f-ba90-d9363eebc791": {
+      "Offset": 0,
+      "Text": "Mejor morir por el Emperador"
+    },
+    "9aabf42d-12b2-43da-ab11-2c20af973de0": {
+      "Offset": 0,
+      "Text": "<u>((1 + bonificación por {g|Encyclopedia:WarhammerFellowship}EMP{/g}) / 2)</u>"
+    },
+    "a082fa40-e568-4750-ae9a-78c55b3331ca": {
+      "Offset": 0,
+      "Text": "Listo para servir"
+    },
+    "a52f7a94-6a82-40d8-8b51-4221497cb2a4": {
+      "Offset": 0,
+      "Text": "Camaradería"
+    },
+    "b0095113-27f5-4aeb-9a57-1fcedd79b194": {
+      "Offset": 0,
+      "Text": "<u>(10 + bonificación por {g|Encyclopedia:WarhammerPerception}PER{/g})</u>"
+    },
+    "b058cbe2-58c9-4f7b-a30e-f29f0bda51df": {
+      "Offset": 0,
+      "Text": "<u>(4 + 4 × {g|Encyclopedia:PsyRating}factor psíquico{/g})</u>"
+    },
+    "b70a51b6-83a1-48fb-8901-a820d08ce132": {
+      "Offset": 0,
+      "Text": "<u>(10 + bonificación por {g|Encyclopedia:WarhammerPerception}PER{/g})</u>"
+    },
+    "b7db88cd-d4db-432d-8a6a-43b4808d3dd1": {
+      "Offset": 0,
+      "Text": "Instinto de supervivencia"
+    },
+    "d4f36217-477a-4612-a0e7-24adfd21c6f5": {
+      "Offset": 0,
+      "Text": "Mano amiga"
+    },
+    "de94f056-8467-4300-8ff0-1ed4f0cc191a": {
+      "Offset": 0,
+      "Text": "<u>(Bonificación por {g|Encyclopedia:WarhammerIntelligence}INT{/g} / 2)</u>"
+    },
+    "ded1ac41-a8c2-4941-8d8b-dbecc5643ad8": {
+      "Offset": 0,
+      "Text": "<u>(5 + bonificación por {g|Encyclopedia:WarhammerPerception}PER{/g})</u>"
+    },
+    "dfbd4e5e-e6f0-4a6a-b9ee-d73d1b27ade2": {
+      "Offset": 0,
+      "Text": "Nuevo comienzo"
+    },
+    "e17c1919-3a73-417d-9cd6-dc2cda3f5f95": {
+      "Offset": 0,
+      "Text": "Adicción al combate"
+    },
+    "e5bebe50-5a6c-4e40-80e7-3f3076f0fdf3": {
+      "Offset": 0,
+      "Text": "Fortuna"
+    },
+    "ebd7310b-08fc-448a-834f-34b755b9b4fc": {
+      "Offset": 0,
+      "Text": "Mundo Imperial"
+    },
+    "fd3b31e4-6c3e-4621-bb2d-9d5c75f9c989": {
+      "Offset": 0,
+      "Text": "Cargador de repuesto"
+    },
+    "fe4a59d5-c26b-4a22-97e4-a2f46d919f06": {
+      "Offset": 0,
+      "Text": "Azar"
     }
   }
 }
